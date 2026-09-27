@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "dependencies": [
+    {
+      "id": "marketer",
+      "local_entry": "${SKILL_ROOT}/marketer/SKILL.md",
+      "entry_sha256": "cbc82c42a872e3a61a7e1bbe5e090f62791e33cc362181c8edcc83edfe9504a8",
+      "version_kind": "local-entry-content-hash",
+      "completeness": "entry-inspected; required full references must be loaded before execution",
+      "vendored": false,
+      "redistribution": "not granted by this bridge",
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/c6a1b904cd7b8ff890b89d0b93985ed9b0d22322/MARKETER.md",
+      "content_commit": "c6a1b904cd7b8ff890b89d0b93985ed9b0d22322",
+      "full_file_sha256": "7aa46a1e70d092079c9ec74f0c31f98645643d0842dc5ab43041d0ec7829922f",
+      "bytes": 377462,
+      "full_method_read_in_build": false
+    },
+    {
+      "id": "marketer-pfm",
+      "local_entry": "${SKILL_ROOT}/marketer-pfm/SKILL.md",
+      "entry_sha256": "e138526dc523a1b61e1951be978bafd6b256c6a286eb88b8b61ce91839ffc662",
+      "version_kind": "local-entry-content-hash",
+      "completeness": "entry-inspected; required full references must be loaded before execution",
+      "vendored": false,
+      "redistribution": "not granted by this bridge"
+    },
+    {
+      "id": "brand-identity-director",
+      "local_entry": "${SKILL_ROOT}/brand-identity-director/SKILL.md",
+      "entry_sha256": "356525176da9b8e55de4d86608ec1233a2504b5a7ee3e545ff8620f56dd65e3e",
+      "version_kind": "local-entry-content-hash",
+      "completeness": "entry-inspected; required full references must be loaded before execution",
+      "vendored": false,
+      "redistribution": "not granted by this bridge"
+    },
+    {
+      "id": "perception-flow",
+      "local_entry": "${SKILL_ROOT}/perception-flow/SKILL.md",
+      "entry_sha256": "6c3c9a0e250968d87c83fa4cce3f713d620b8d8a8131d9006ec55242b970e209",
+      "version_kind": "local-entry-content-hash",
+      "completeness": "entry-inspected; required full references must be loaded before execution",
+      "vendored": false,
+      "redistribution": "not granted by this bridge"
+    },
+    {
+      "id": "creative-direction",
+      "local_entry": "${SKILL_ROOT}/creative-direction/SKILL.md",
+      "entry_sha256": "b2af8f2575ee84bc38d30acfe5bba7306fbf64174e8cfd38778826e2dd328abd",
+      "version_kind": "local-entry-content-hash",
+      "completeness": "entry-inspected; required full references must be loaded before execution",
+      "vendored": false,
+      "redistribution": "not granted by this bridge"
+    },
+    {
+      "id": "art-direction",
+      "local_entry": "${SKILL_ROOT}/art-direction/SKILL.md",
+      "entry_sha256": "73012622dfc41c9da13e797f0194f90bdbdeb7c7166f8ac7a3e482c077bacae8",
+      "version_kind": "local-entry-content-hash",
+      "completeness": "entry-inspected; required full references must be loaded before execution",
+      "vendored": false,
+      "redistribution": "not granted by this bridge"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Private executor and action adapter
+
+Two execution routes are supported: a scheduled host turn with computer use, or a trusted command executor. For the host route, read [the browser host procedure](../../runtime/reference/BROWSER_HOST.md). Codex itself performs the workflow and uses its browser tools; the bookkeeping bridge never launches UI scripting. An API integration is optional.
+
+A command executor is an owner-installed trusted command, given a JSON request on standard input: schema version, publication, locked release, job/workflow, occurrence identity/fence and private workspace. It must load the corresponding complete workflow, perform research/writing/production/review or conversation decisions, and return JSON with matching publication_id; state completed/no-op/blocked; actual artifacts and evidence; optional observation batches; and proposed actions. It must not make external effects itself. Sandbox or restrict its credentials at the host boundary; this runner is not an OS security sandbox.
+
+The built-in executor in evaluations is explicitly a deterministic synthetic protocol fixture, not an LLM or benchmark of editorial quality. The command route needs a real host/model executor for recurring editorial work; the scheduled Codex route already supplies that executor when its tools are available. No API subscription or model is implicitly selected by this library.
+
+Each action binds publication, account, operation, target/source event, content_hash, current review, visual file hashes, authorization_ref, context/before-state and a bounded reserved_cost. A separately trusted adapter refreshes actual context, reconciles unknown action IDs, and sends with the same stable ID when remotely supported. It returns actual confirmed status, remote_id, optional URL, confirmation_source and media mappings. A live adapter must enforce provider budgets, current policy and fencing immediately before its effect. Do not fabricate a live URL in the synthetic adapter.
+
+Action cost reservations remain consumed after unknown results. Retrying a read can be safe under capped backoff; retrying an unknown write must first reconcile. Adapter refresh, submit and reconcile need their own API/time limits in a live implementation. The reference runner is single-action sequential and does not claim distributed exactly-once guarantees.

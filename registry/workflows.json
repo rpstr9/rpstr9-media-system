@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "workflows": [
+    {
+      "id": "setup-and-strategy",
+      "required_skills": [
+        "media-master",
+        "media-audience-insight",
+        "media-brand-strategy"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/setup-and-strategy.md"
+    },
+    {
+      "id": "create-and-launch-publication",
+      "required_skills": [
+        "media-master",
+        "media-audience-insight",
+        "media-brand-strategy",
+        "media-brand-identity",
+        "media-editorial-selection",
+        "media-editorial",
+        "media-source-research",
+        "media-creative-director",
+        "media-art-director",
+        "media-asset-production",
+        "media-publishing",
+        "media-growth"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/create-and-launch-publication.md"
+    },
+    {
+      "id": "research-to-editorial",
+      "required_skills": [
+        "media-master",
+        "media-source-research",
+        "media-editorial-selection",
+        "media-editorial"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/research-to-editorial.md"
+    },
+    {
+      "id": "creative-production",
+      "required_skills": [
+        "media-master",
+        "media-creative-director",
+        "media-art-director",
+        "media-asset-production"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/creative-production.md"
+    },
+    {
+      "id": "prepare-publication-assets",
+      "required_skills": [
+        "media-master",
+        "media-brand-identity",
+        "media-creative-director",
+        "media-art-director",
+        "media-asset-production"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/prepare-publication-assets.md"
+    },
+    {
+      "id": "configure-existing-accounts",
+      "required_skills": [
+        "media-master",
+        "media-publishing",
+        "media-asset-production"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/configure-existing-accounts.md"
+    },
+    {
+      "id": "produce-illustrated-article",
+      "required_skills": [
+        "media-master",
+        "media-source-research",
+        "media-editorial-selection",
+        "media-editorial",
+        "media-creative-director",
+        "media-art-director",
+        "media-asset-production"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/produce-illustrated-article.md"
+    },
+    {
+      "id": "publication-delivery",
+      "required_skills": [
+        "media-master",
+        "media-publishing",
+        "media-distribution"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/publication-delivery.md"
+    },
+    {
+      "id": "publish-and-distribute",
+      "required_skills": [
+        "media-master",
+        "media-publishing",
+        "media-distribution"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/publish-and-distribute.md"
+    },
+    {
+      "id": "listen-and-respond",
+      "required_skills": [
+        "media-master",
+        "media-relationships",
+        "media-publishing"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/listen-and-respond.md"
+    },
+    {
+      "id": "community-participation",
+      "required_skills": [
+        "media-master",
+        "media-distribution",
+        "media-relationships",
+        "media-publishing"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/community-participation.md"
+    },
+    {
+      "id": "resume-channel-operations",
+      "required_skills": [
+        "media-master",
+        "media-publishing",
+        "media-relationships"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/resume-channel-operations.md"
+    },
+    {
+      "id": "audience-development",
+      "required_skills": [
+        "media-master",
+        "media-growth",
+        "media-audience-insight",
+        "media-source-research",
+        "media-distribution",
+        "media-relationships",
+        "media-measurement"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/audience-development.md"
+    },
+    {
+      "id": "learning-and-review",
+      "required_skills": [
+        "media-master",
+        "media-measurement",
+        "media-learning",
+        "media-meta"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/learning-and-review.md"
+    },
+    {
+      "id": "configure-recurring-operations",
+      "required_skills": [
+        "media-master"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/configure-recurring-operations.md"
+    },
+    {
+      "id": "produce-and-publish",
+      "required_skills": [
+        "media-master",
+        "media-source-research",
+        "media-editorial-selection",
+        "media-editorial",
+        "media-asset-production",
+        "media-publishing"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/produce-and-publish.md"
+    },
+    {
+      "id": "monitor-and-reply",
+      "required_skills": [
+        "media-master",
+        "media-relationships",
+        "media-publishing"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/monitor-and-reply.md"
+    },
+    {
+      "id": "scheduled-participation",
+      "required_skills": [
+        "media-master",
+        "media-distribution",
+        "media-relationships",
+        "media-publishing"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/scheduled-participation.md"
+    },
+    {
+      "id": "operations-review",
+      "required_skills": [
+        "media-master",
+        "media-measurement",
+        "media-learning",
+        "media-meta"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/operations-review.md"
+    }
+  ]
+}

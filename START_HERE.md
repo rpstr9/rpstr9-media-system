@@ -1,0 +1,9 @@
+# Start here
+
+Read the release inventory and resolve its actual content version before beginning. Retain the workspace's existing release unless its owner-approved update policy permits a change. For public use, read [releases/latest.json](https://raw.githubusercontent.com/rpstr9/rpstr9-media-system/main/releases/latest.json) and use its immutable content_commit for every file in that run. Resolve paths as https://raw.githubusercontent.com/rpstr9/rpstr9-media-system/<content_commit>/<path>. Verify files against [releases/manifest.json](releases/manifest.json). A local installation uses its computed manifest.
+
+Read [dist/MASTER.md](dist/MASTER.md) completely, identify the requested result, then load the required workflow from [registry/workflows.json](registry/workflows.json). Read every required method/reference at the same release. Keep a required/retrieved/missing inventory. A truncated retrieval is incomplete; chunk the source or use an authorized complete copy. Missing mandatory sources block only dependent work.
+
+Begin from the owner's plain-language request and available artifacts. Reuse settled decisions, ask only essential unresolved choices, and perform authorized independent work while waiting. Choose only needed capabilities. Use create-and-launch-publication for a new publication, or the appropriate run/learning workflow for existing work. Keep brand, platform, cadence, engagement and automation choices in the private publication workspace.
+
+Manual use requires an assistant able to read the full method and perform the requested work. Periodic use can run as a scheduled local Codex turn using computer use, or through the command runner with a configured executor and action adapters. The host route uses its existing model and browser tools; no separate API integration is compulsory. Readable instructions do not start background work. Report actual prepared, connected, approved, published and running states separately.

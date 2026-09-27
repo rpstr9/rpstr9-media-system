@@ -1,0 +1,410 @@
+{
+  "schema_version": "1.0",
+  "release": "0.1.4",
+  "constitution": "policies/CONSTITUTION.md",
+  "skills": [
+    {
+      "function_id": "F02",
+      "skill_id": "media-master",
+      "path": "skills/media-master/SKILL.md",
+      "kind": "controller",
+      "version": "0.1.4",
+      "inputs": [
+        "PublicationProfile or an explicit provisional brief",
+        "Current task and available state",
+        "LibraryLock and CapabilityReport",
+        "OperatingPlan and RecurringJob for recurring mode",
+        "Durable JobOccurrence and RuntimeStatus",
+        "BrandIdentityContext",
+        "Existing-account inventory and AccountSurfacePlan"
+      ],
+      "outputs": [
+        "WorkOrder",
+        "Ordered or branching RunPlan",
+        "HandoffEnvelope for each invoked specialist",
+        "RunRecord and updated StateExport",
+        "Resumable channel-operation and conversation work orders",
+        "Validated recurring WorkOrders",
+        "Updated JobOccurrence and RuntimeStatus",
+        "AssetPlan and account-deployment work orders",
+        "Verified or explicitly blocked asset-to-account and illustrated-article states",
+        "PublicationBlueprint",
+        "LaunchPackage with evidence for independent execution states"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F03",
+      "skill_id": "media-audience-insight",
+      "path": "skills/media-audience-insight/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "PublicationProfile",
+        "Audience questions",
+        "Authorized research and audience observations"
+      ],
+      "outputs": [
+        "AudienceInsight record",
+        "EvidenceBundle",
+        "Unresolved hypotheses and next research questions"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F04",
+      "skill_id": "media-brand-strategy",
+      "path": "skills/media-brand-strategy/SKILL.md",
+      "kind": "method-bridge",
+      "version": "0.1.4",
+      "inputs": [
+        "PublicationProfile",
+        "Supplied strategy documents and their status",
+        "MethodDependencyLock for Marketer / Marketer PFM when invoked"
+      ],
+      "outputs": [
+        "StrategyContext with source provenance",
+        "Approved or provisional strategy status",
+        "Change proposal for owner review when applicable"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F05",
+      "skill_id": "media-audience-journey",
+      "path": "skills/media-audience-journey/SKILL.md",
+      "kind": "method-bridge",
+      "version": "0.1.4",
+      "inputs": [
+        "StrategyContext",
+        "AudienceInsight",
+        "Publication-defined intended response",
+        "Authorized PFM dependency when a PFM is requested"
+      ],
+      "outputs": [
+        "JourneyContext",
+        "Full original method output if generated",
+        "Evidence and measurement gaps"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F06",
+      "skill_id": "media-source-research",
+      "path": "skills/media-source-research/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "Research WorkOrder",
+        "PublicationProfile and relevant audience context",
+        "Supplied sources and existing coverage"
+      ],
+      "outputs": [
+        "CandidateSet",
+        "EvidenceBundle with claim-source links",
+        "Coverage and uncertainty report"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F07",
+      "skill_id": "media-editorial-selection",
+      "path": "skills/media-editorial-selection/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "CandidateSet",
+        "EvidenceBundle",
+        "Publication goals, audience context and content history"
+      ],
+      "outputs": [
+        "SelectionDecision including hold/reject options",
+        "EditorialBrief",
+        "Open verification requirements",
+        "EditorialProgram when creating or revising the publication"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F08",
+      "skill_id": "media-editorial",
+      "path": "skills/media-editorial/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "EditorialBrief",
+        "EvidenceBundle where factual work is involved",
+        "StrategyContext, format and voice requirements",
+        "BrandIdentityContext",
+        "Format-specific visual recipe and EvidenceBundle"
+      ],
+      "outputs": [
+        "ContentPackage draft",
+        "Claim references and fact/interpretation/fiction labels as relevant",
+        "ReviewRecord and correction requests",
+        "Article AssetPlan with exact insertion anchors, captions, credits and accessibility text"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F09",
+      "skill_id": "media-creative-director",
+      "path": "skills/media-creative-director/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "EditorialBrief",
+        "StrategyContext",
+        "Audience context",
+        "Format, production constraints and references",
+        "BrandIdentityContext",
+        "AssetPlan",
+        "AccountSurfacePlan when producing account assets"
+      ],
+      "outputs": [
+        "CreativeBrief",
+        "Concept options and selected rationale",
+        "Observable creative success criteria"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F10",
+      "skill_id": "media-art-director",
+      "path": "skills/media-art-director/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "CreativeBrief",
+        "Approved reference assets and permitted use",
+        "Format and production constraints",
+        "BrandIdentityContext",
+        "Target-surface requirements and crop/preview behavior"
+      ],
+      "outputs": [
+        "ProductionBrief",
+        "AssetSpec entries",
+        "Continuity and review checklist"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F11",
+      "skill_id": "media-asset-production",
+      "path": "skills/media-asset-production/SKILL.md",
+      "kind": "adapter-backed specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "ProductionBrief and AssetSpec",
+        "CapabilityReport",
+        "Approved providers, budget and usable source assets",
+        "AssetPlan",
+        "BrandIdentityContext",
+        "AccountSurfacePlan where relevant"
+      ],
+      "outputs": [
+        "AssetManifest",
+        "Actual assets or an explicitly unexecuted production handoff",
+        "Technical and creative ReviewRecord",
+        "Actual master files and channel variants with hashes, rights/source records and inspection results",
+        "Asset-to-slot placement map"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F12",
+      "skill_id": "media-resource-library",
+      "path": "skills/media-resource-library/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "Audience or editorial need",
+        "Existing resource inventory",
+        "Evidence, accessibility and maintenance requirements"
+      ],
+      "outputs": [
+        "ResourceRecord",
+        "Versioned resource artifact or update",
+        "Links to dependent content"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F13",
+      "skill_id": "media-publishing",
+      "path": "skills/media-publishing/SKILL.md",
+      "kind": "adapter-backed specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "Reviewed ContentPackage and AssetManifest",
+        "Channel capabilities",
+        "ActionAuthorization",
+        "Publication history",
+        "ChannelCapability records",
+        "EngagementDecision for conversational writes",
+        "OperationQueueItem",
+        "AccountSurfacePlan",
+        "AssetPlan with approved AssetManifest versions",
+        "Existing-account before-state and scoped configuration authority"
+      ],
+      "outputs": [
+        "ChannelPackage",
+        "PublicationReceipt or explicit prepared-only status",
+        "Derivative and correction links",
+        "Target-bound comment/reply PublicationReceipt",
+        "Per-channel partial-success report",
+        "AccountDeploymentReceipt per changed surface",
+        "Published body-to-media placement verification"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F14",
+      "skill_id": "media-distribution",
+      "path": "skills/media-distribution/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "ContentPackage",
+        "Audience context",
+        "Channel capabilities, norms and permissions",
+        "Observed prior distribution results"
+      ],
+      "outputs": [
+        "DistributionPlan",
+        "Channel-specific drafts",
+        "Measurement requests and stop conditions",
+        "Conversation candidates and context references",
+        "Action-specific listening/discovery limitations"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F15",
+      "skill_id": "media-relationships",
+      "path": "skills/media-relationships/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "Publication intent and relevant GrowthPlan / RankedTargetSet",
+        "Authorized contact or community information",
+        "Interaction history and permission state",
+        "ConversationState",
+        "ChannelCapability records",
+        "OperationQueueItem",
+        "Relevant root/ancestor content"
+      ],
+      "outputs": [
+        "RelationshipPlan",
+        "Reviewed interaction drafts",
+        "Contact-state and interaction records",
+        "EngagementDecision",
+        "Updated ConversationState",
+        "Follow-up and escalation work orders"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F16",
+      "skill_id": "media-growth",
+      "path": "skills/media-growth/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "Publication objectives, approved StrategyContext and relevant JourneyContext",
+        "CreativeBrief and existing strategic handoff when supplied",
+        "Available resources, capabilities, assets, constraints and authorized interaction history",
+        "MeasurementSpec, observed outcomes and private GrowthState",
+        "ConversationState and EngagementDecision evidence",
+        "Platform-specific reply and listening limitations"
+      ],
+      "outputs": [
+        "GrowthResourceMap",
+        "GrowthOpportunitySet",
+        "RankedTargetSet",
+        "GrowthPlan and bounded ExperimentPlan",
+        "Engagement briefs for Distribution and Relationships",
+        "GrowthDiagnosis, upstream revisit requests and updated private GrowthState"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F17",
+      "skill_id": "media-measurement",
+      "path": "skills/media-measurement/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "Publication goals",
+        "Data capabilities and authorized observations",
+        "RunRecords and content versions",
+        "Conversation and operation receipts",
+        "Listening coverage and checkpoints"
+      ],
+      "outputs": [
+        "MeasurementSpec",
+        "OutcomeRecord set",
+        "Missingness and uncertainty report"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F18",
+      "skill_id": "media-learning",
+      "path": "skills/media-learning/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "RunRecords, reviews and outcomes",
+        "Current method and approved local adaptations",
+        "EvaluationPlan and authority policy"
+      ],
+      "outputs": [
+        "Diagnosis",
+        "ChangeProposal",
+        "EvaluationRecord",
+        "AdaptationRecord or rejection",
+        "Shared-candidate packet only with permission"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F19",
+      "skill_id": "media-meta",
+      "path": "skills/media-meta/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.4",
+      "inputs": [
+        "Cross-run and cross-skill evidence",
+        "Experiment and release history",
+        "Budget, objectives and protected evaluation policy"
+      ],
+      "outputs": [
+        "MetaReview",
+        "System-level ChangeProposal",
+        "Prioritized experiment backlog"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F20",
+      "skill_id": "media-brand-identity",
+      "path": "skills/media-brand-identity/SKILL.md",
+      "kind": "method-bridge",
+      "version": "0.1.4",
+      "inputs": [
+        "StrategyContext and full approved source strategy",
+        "Existing approved brand identity and assets when supplied",
+        "PublicationProfile",
+        "Locked complete Brand Identity Director instructions and required references when invoked",
+        "Actual target-account surface requirements"
+      ],
+      "outputs": [
+        "BrandIdentityContext with preserved full upstream output",
+        "Approved or provisional identity, templates and asset requirements",
+        "Explicit unresolved identity dependencies or decisions"
+      ],
+      "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    }
+  ]
+}
