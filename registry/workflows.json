@@ -6,7 +6,8 @@
       "required_skills": [
         "media-master",
         "media-audience-insight",
-        "media-brand-strategy"
+        "media-brand-strategy",
+        "concept-review"
       ],
       "references": [
         "policies/CONSTITUTION.md",
@@ -28,7 +29,8 @@
         "media-art-director",
         "media-asset-production",
         "media-publishing",
-        "media-growth"
+        "media-growth",
+        "concept-review"
       ],
       "references": [
         "policies/CONSTITUTION.md",
@@ -42,7 +44,8 @@
         "media-master",
         "media-source-research",
         "media-editorial-selection",
-        "media-editorial"
+        "media-editorial",
+        "concept-review"
       ],
       "references": [
         "policies/CONSTITUTION.md",
@@ -56,7 +59,8 @@
         "media-master",
         "media-creative-director",
         "media-art-director",
-        "media-asset-production"
+        "media-asset-production",
+        "concept-review"
       ],
       "references": [
         "policies/CONSTITUTION.md",
@@ -71,7 +75,8 @@
         "media-brand-identity",
         "media-creative-director",
         "media-art-director",
-        "media-asset-production"
+        "media-asset-production",
+        "concept-review"
       ],
       "references": [
         "policies/CONSTITUTION.md",
@@ -101,7 +106,8 @@
         "media-editorial",
         "media-creative-director",
         "media-art-director",
-        "media-asset-production"
+        "media-asset-production",
+        "concept-review"
       ],
       "references": [
         "policies/CONSTITUTION.md",
@@ -225,7 +231,8 @@
         "media-editorial-selection",
         "media-editorial",
         "media-asset-production",
-        "media-publishing"
+        "media-publishing",
+        "concept-review"
       ],
       "references": [
         "policies/CONSTITUTION.md",
@@ -273,6 +280,17 @@
         "contracts/HANDOFF.md"
       ],
       "bundle": "dist/workflows/operations-review.md"
+    },
+    {
+      "id": "concept-review",
+      "required_skills": [
+        "concept-review"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md"
+      ],
+      "bundle": "dist/workflows/concept-review.md"
     }
   ]
 }

@@ -11,3 +11,7 @@ Quality review checks the requested value, fidelity to current strategy/identity
 Failure handling: identify the missing source, tool, account action or authority; preserve completed artifacts; mark dependent work blocked; continue independent work. Retry transient failures within the configured budget. Reconcile uncertain writes before retrying. Do not replace an unavailable source method with an invented equivalent.
 
 Local adaptation surfaces are task-derived research selection, editorial format, creative execution, production recipes, channel packaging, conversation handling and scheduling within owner-approved bounds. Record diagnosis, competing explanation, falsification check, comparison, decision, scope, compatibility, expiry and rollback. Protected fields are defined in the Constitution. Shared proposals contain only synthetic or explicitly authorized evidence.
+
+## Concept-to-idea boundary
+
+Use the shared Concept Review when a new or materially changed concept is ready to develop into concrete ideas. The master schedules it; direct specialists must also apply it. The originating capability revises the concept and the receiver checks the review's scope, input versions, protected strengths and unresolved conditions. Retain a private ConceptReview record. Reuse the review when the premise and material inputs are unchanged; reopen only affected findings when they change. Conceptual simulation is judgment, not audience evidence or a validated reusable lesson. Later review of produced work remains required.

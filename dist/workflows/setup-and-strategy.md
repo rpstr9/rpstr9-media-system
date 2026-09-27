@@ -46,6 +46,10 @@ Failure handling: identify the missing source, tool, account action or authority
 
 Local adaptation surfaces are task-derived research selection, editorial format, creative execution, production recipes, channel packaging, conversation handling and scheduling within owner-approved bounds. Record diagnosis, competing explanation, falsification check, comparison, decision, scope, compatibility, expiry and rollback. Protected fields are defined in the Constitution. Shared proposals contain only synthetic or explicitly authorized evidence.
 
+## Concept-to-idea boundary
+
+Use the shared Concept Review when a new or materially changed concept is ready to develop into concrete ideas. The master schedules it; direct specialists must also apply it. The originating capability revises the concept and the receiver checks the review's scope, input versions, protected strengths and unresolved conditions. Retain a private ConceptReview record. Reuse the review when the premise and material inputs are unchanged; reopen only affected findings when they change. Conceptual simulation is judgment, not audience evidence or a validated reusable lesson. Later review of produced work remains required.
+
 <a id="source-registry-method-dependencies-json"></a>
 
 ---
@@ -64,10 +68,10 @@ Source: `registry/method-dependencies.json`
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
       "redistribution": "not granted by this bridge",
-      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/c6a1b904cd7b8ff890b89d0b93985ed9b0d22322/MARKETER.md",
-      "content_commit": "c6a1b904cd7b8ff890b89d0b93985ed9b0d22322",
-      "full_file_sha256": "7aa46a1e70d092079c9ec74f0c31f98645643d0842dc5ab43041d0ec7829922f",
-      "bytes": 377462,
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/a18d958125af4a88756c0dd565d0865c9e795725/MARKETER.md",
+      "content_commit": "a18d958125af4a88756c0dd565d0865c9e795725",
+      "full_file_sha256": "b2cb72b16584f94837aa9ad191ab60f8e1537d23d6fb54c48f5c53e6eb0d556b",
+      "bytes": 392459,
       "full_method_read_in_build": false
     },
     {
@@ -82,7 +86,7 @@ Source: `registry/method-dependencies.json`
     {
       "id": "brand-identity-director",
       "local_entry": "${SKILL_ROOT}/brand-identity-director/SKILL.md",
-      "entry_sha256": "356525176da9b8e55de4d86608ec1233a2504b5a7ee3e545ff8620f56dd65e3e",
+      "entry_sha256": "ab0f22ba95e310e1060a6fdab4e7e7863c7090bb8a962688c8fe8d4e265b48de",
       "version_kind": "local-entry-content-hash",
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
@@ -100,7 +104,7 @@ Source: `registry/method-dependencies.json`
     {
       "id": "creative-direction",
       "local_entry": "${SKILL_ROOT}/creative-direction/SKILL.md",
-      "entry_sha256": "b2af8f2575ee84bc38d30acfe5bba7306fbf64174e8cfd38778826e2dd328abd",
+      "entry_sha256": "ed434f2ef344c6bba902ee9ebb89810cd4378070b12b2c5b2343579628500494",
       "version_kind": "local-entry-content-hash",
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
@@ -117,6 +121,7 @@ Source: `registry/method-dependencies.json`
     }
   ]
 }
+
 ```
 <a id="source-skills-media-master-skill-md"></a>
 
@@ -136,7 +141,7 @@ Read [operating boundaries](#source-policies-constitution-md) and [handoff rules
 ## Resolve and route
 Read the task, current publication records and the release inventory. Reuse complete, current strategy and identity. Check required source availability, capability and authorization by action; do not load every specialist for a narrow request. Build a dependency plan with concrete outputs and only unresolved inputs. Call specialists as capabilities; do not create a permanent committee or spawn agents without host/user authorization.
 
-For new publication creation, turn the owner's interests, resources and constraints into candidate publication concepts. Compare the audience need, distinctive promise, evidence access, recurring material, sustainability and strongest reason each may fail. Research the material uncertainties. Recommend a concept and label assumptions; ask only for consequential choices that cannot be inferred. Save a PublicationBlueprint.
+For new publication creation, turn the owner's interests, resources and constraints into candidate publication concepts. Compare the audience need, distinctive promise, evidence access, recurring material, sustainability and strongest reason each may fail. Research the material uncertainties. Apply the shared Concept Review to candidate concepts, revise through the originating capability and recheck before recommending the concept for concrete development. Label assumptions; ask only for consequential choices that cannot be inferred. Save the reviewed PublicationBlueprint and ConceptReview record.
 
 Import approved strategy or use the complete Marketer/Marketer PFM through media-brand-strategy. From that shared strategy, branch independently to media-brand-identity and media-audience-journey where needed. Never force the journey to wait for identity. An existing identity can be imported.
 
@@ -165,6 +170,10 @@ Outputs: PublicationBlueprint; EditorialProgram via selection; LaunchPackage wit
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+## Concept-to-idea review
+
+For a new or materially changed organizing concept, load the complete [Concept Review](#source-skills-concept-review-skill-md) after developing comparable candidate premises and before committing to concrete creative ideas. Rough sketches can make a premise inspectable. Apply its researched perspectives, substantive challenge, revision through the originating capability and focused recheck; carry the resulting concept, protected strengths, unresolved conditions and review version into the handoff. Reuse a valid review for the same unchanged premise, and preserve locked strategy and narrow revision scope. Direct invocation follows this rule without requiring the master. Keep later review of the actual output; conceptual judgment is not audience evidence. This adds no approval pause for already-authorized work.
 
 <a id="source-skills-media-audience-insight-skill-md"></a>
 
@@ -238,6 +247,77 @@ Outputs: StrategyContext with source provenance; Approved or provisional strateg
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
 
+## Concept-to-idea review
+
+For a new or materially changed organizing concept, load the complete [Concept Review](#source-skills-concept-review-skill-md) after developing comparable candidate premises and before committing to concrete creative ideas. Rough sketches can make a premise inspectable. Apply its researched perspectives, substantive challenge, revision through the originating capability and focused recheck; carry the resulting concept, protected strengths, unresolved conditions and review version into the handoff. Reuse a valid review for the same unchanged premise, and preserve locked strategy and narrow revision scope. Direct invocation follows this rule without requiring the master. Keep later review of the actual output; conceptual judgment is not audience evidence. This adds no approval pause for already-authorized work.
+
+<a id="source-skills-concept-review-skill-md"></a>
+
+---
+
+Source: `skills/concept-review/SKILL.md`
+
+---
+name: concept-review
+description: Critique and revise candidate concepts using researched expert perspectives before developing concrete ideas. Use at a new or materially changed concept-to-idea handoff, or for a requested concept audit; reuse a valid review for routine execution within an unchanged concept.
+---
+
+# Concept Review
+
+Improve the organizing proposition or creative premise before committing to its concrete expressions. A concept states the value or experience and the principle that holds the work together; an idea is a particular way to realize it. Allow rough sketches and exploratory examples that make a concept inspectable. Do not require finished execution before reviewing the premise, or prohibit exploration that exposes a useful alternative.
+
+This is one shared method for marketing, publication development, strategy, identity, editorial programs and creative direction. The coordinating skill controls when it runs. The skill that originated the concept owns substantive revisions; the receiving skill inherits the reviewed concept and its conditions. Direct specialist use follows the same boundary. This method grants no additional publication, spending or contact authority and creates no additional user approval pause for already-authorized work.
+
+## Establish the assignment and review basis
+
+Read the actual objective, intended audience and desired experience or benefit, evidence, resources, constraints, candidate concepts and their originating artifacts. Preserve approved strategy and explicitly locked decisions. Recover missing context where possible; distinguish a provisional premise from an established fact. A title or a claim that the strategy exists is insufficient input.
+
+Before favoring a candidate, record the decision to make and task-derived criteria. Define what would count as audience value, strategic fit, originality that matters, credible delivery and a material failure for this assignment. Do not impose a fixed criterion weighting, panel size, creative style or commercial objective. Consider retaining the current approach or rejecting every candidate where relevant.
+
+Give candidates stable identities and comparable descriptions. Retain the input versions and the original appeal of each, so revision can be assessed against what it was meant to preserve. Do not weaken alternatives, retrofit criteria or selectively research support to vindicate a preferred conclusion. If new evidence warrants changing a criterion, state the reason and reassess every affected candidate consistently.
+
+## Research perspectives that can change the decision
+
+Select practitioners, researchers or documented bodies of work because their expertise addresses this assignment's material uncertainties and competing interpretations. No permanent roster, celebrity hierarchy or prior example becomes the default panel. Seek relevant dissent and evidence that could overturn the apparent favorite.
+
+Inspect substantive primary sources: authored work, documented methods, interviews or inspectable creative work. Keep author/speaker, source URL or supplied-file reference, relevant date, the supported principle, its limits and why it matters to this concept. Distinguish a person's documented statement from an interpretation of their work, an interviewer’s account, a promotional claim or your own inference. A search snippet, reputation or imagined quotation is not source evidence. Supplement unsupported premises with research or mark them unresolved; do not invent missing expertise or claim complete source access.
+
+Apply these perspectives as a source-grounded simulation. Identify that status once in the review: the named people did not participate or endorse the work. Do not write invented statements in their voices or present role simulation as independent expert judgment. With one assistant, use distinct critique and synthesis passes and state that this is self-review. Additional agents or human reviewers are optional only when available and authorized; their presence does not establish audience validity or require a permanent committee.
+
+## Challenge before synthesizing
+
+Examine each serious candidate under the relevant perspectives before choosing a winner. For every material finding, identify the exact premise or decision being challenged, the strongest support and objection, the source-grounded principle, the causal reason it matters to the audience, and what observation would weaken or reverse the finding. Compare a credible alternative rather than demanding improvement in the abstract.
+
+Test the premise as well as execution feasibility. Distinguish lack of audience value, lack of evidence, a delivery constraint, a disagreement about taste and a fixable expression problem. Do not make every concept conform to the same narrative or utility formula. Scale the examination to the stakes and uncertainty; a long debate transcript or many named reviewers does not establish depth.
+
+Compare conflicting findings explicitly: do they concern different objectives, assumptions, evidence, audiences or tradeoffs? Retain the strongest unresolved disagreement. Do not resolve conflicts by majority vote, fabricated scores or forced consensus. A strong objection may justify retaining the concept with a discriminating test rather than making it safer, more conventional or more complicated.
+
+## Revise through the originating skill, then recheck
+
+Return actionable requirements to the originating capability: what to preserve, change, reject or investigate, and why. Use its complete method to revise the actual concept within the authorized scope. When called alone without that capability, provide an explicit concept revision or revision brief and identify its scope; do not claim to have executed an unavailable full strategy or identity method.
+
+Accept, reject or defer each material critique with reasons. Valid outcomes are retain, revise, reject and unresolved. Criticism alone does not warrant change. A critique that requires altering an approved strategy becomes an explicit upstream proposal; it must not silently overwrite that strategy. Preserve the original artifact and version the revision.
+
+Recheck the changed premise against the original criteria, relevant objections and strongest alternative. Check whether the revision actually addresses the issue, retains the distinctive appeal and protected strengths, introduces unsupported promises or creates new contradictions. Include meaningful before/after differences and remaining conditions. If the answer depends on a prototype or audience observation, specify what comparison would resolve it instead of simulating a successful result.
+
+Complete a substantive critique, a revision where warranted and a focused recheck. Continue only while new evidence or a material unresolved issue can change the decision within the task's resources; stop on repeated objections without new information, diminishing material changes or an external evidence dependency. Preserve unresolved status and continue independent authorized work. Do not manufacture certainty, a mandatory pilot, an endless review loop or another permission ritual.
+
+## Deliver and reuse
+
+Return the reviewed concept or candidate set, an actionable recommendation and a concise decision record. Include:
+
+- Assignment, original concept/input versions, review criteria and source-grounded perspectives.
+- Material strengths, objections, alternatives, evidence and unresolved disagreements.
+- Accepted, rejected and deferred critiques with reasons; actual revised concepts and originating capability.
+- Protected strengths, remaining conditions, recheck findings and the questions requiring prototypes or audience evidence.
+- Review identity/version, concept scope, upstream versions and criteria for reopening it.
+
+Deliver useful conclusions and evidence, not private reasoning or a theatrical debate transcript. Keep the full source artifacts available in the handoff; a brief summary cannot replace required strategic context. In Media System, retain this as a private ConceptReview record and link it from the downstream handoff. Elsewhere, the same fields may be a normal working document; no particular storage tool is required.
+
+Reuse the record when the concept, objective, audience, strategy, material constraints and decision-relevant evidence are unchanged. A local wording, crop or routine execution change does not require a fresh panel. Reopen only affected findings when the underlying premise changes or new evidence challenges it. A new concept created downstream needs its own review before concrete development; a caller may not bypass this by omitting the master.
+
+Keep later critique of the actual produced work: a sound concept does not prove a strong execution. Store simulated conceptual judgments as judgments, not observed audience outcomes or validated lessons. Changes to reusable methods require the separate learning/evaluation process; one persuasive critique cannot automatically rewrite a shared skill.
+
 <a id="source-runtime-reference-browser-host-md"></a>
 
 ---
@@ -287,18 +367,18 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "contracts/HANDOFF.md",
-    "bytes": 2053,
-    "sha256": "891fc2bd24702bf48f0a00ec7510b921ccdfb29ef5fbeecca16604bd7b359415"
+    "bytes": 2706,
+    "sha256": "9795c3396e9461ca718c71a766d8bdc94e5d498a1d74b987571689bfaf8f4154"
   },
   {
     "path": "registry/method-dependencies.json",
-    "bytes": 2976,
-    "sha256": "77f26809896b2f706d383e4919785132f68a9958b7fd8c439de6af0b971b31f0"
+    "bytes": 2977,
+    "sha256": "d6fc0753056a2ff5a300460fc10779e0fafd06303663bf58fe9f0384df4e5135"
   },
   {
     "path": "skills/media-master/SKILL.md",
-    "bytes": 5434,
-    "sha256": "df558143a890f6154143823253e7139d18d568ea765fdd432ca77e71941cfb10"
+    "bytes": 6450,
+    "sha256": "c1b0db7af05b3e2e8e6fa1ff71bf81d388f4e599f0ecb30edd960db42e1b19dc"
   },
   {
     "path": "skills/media-audience-insight/SKILL.md",
@@ -307,8 +387,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-brand-strategy/SKILL.md",
-    "bytes": 2820,
-    "sha256": "deebdc086978603e881c78a2919ba749b6259412ef418318f5994a091d8747c5"
+    "bytes": 3657,
+    "sha256": "b9e09b318303187f5830a5d45b4b85a599ee7b06d13fe1a4a857892a7a2e2d86"
+  },
+  {
+    "path": "skills/concept-review/SKILL.md",
+    "bytes": 9041,
+    "sha256": "3b2cb836dd88415146ce43b21ad4cce787f59b8ec1e4c04d5415c0ed1d647c9a"
   },
   {
     "path": "runtime/reference/BROWSER_HOST.md",

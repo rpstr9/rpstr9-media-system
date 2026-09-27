@@ -10,7 +10,7 @@ Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](
 ## Resolve and route
 Read the task, current publication records and the release inventory. Reuse complete, current strategy and identity. Check required source availability, capability and authorization by action; do not load every specialist for a narrow request. Build a dependency plan with concrete outputs and only unresolved inputs. Call specialists as capabilities; do not create a permanent committee or spawn agents without host/user authorization.
 
-For new publication creation, turn the owner's interests, resources and constraints into candidate publication concepts. Compare the audience need, distinctive promise, evidence access, recurring material, sustainability and strongest reason each may fail. Research the material uncertainties. Recommend a concept and label assumptions; ask only for consequential choices that cannot be inferred. Save a PublicationBlueprint.
+For new publication creation, turn the owner's interests, resources and constraints into candidate publication concepts. Compare the audience need, distinctive promise, evidence access, recurring material, sustainability and strongest reason each may fail. Research the material uncertainties. Apply the shared Concept Review to candidate concepts, revise through the originating capability and recheck before recommending the concept for concrete development. Label assumptions; ask only for consequential choices that cannot be inferred. Save the reviewed PublicationBlueprint and ConceptReview record.
 
 Import approved strategy or use the complete Marketer/Marketer PFM through media-brand-strategy. From that shared strategy, branch independently to media-brand-identity and media-audience-journey where needed. Never force the journey to wait for identity. An existing identity can be imported.
 
@@ -39,3 +39,7 @@ Outputs: PublicationBlueprint; EditorialProgram via selection; LaunchPackage wit
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+## Concept-to-idea review
+
+For a new or materially changed organizing concept, load the complete [Concept Review](../concept-review/SKILL.md) after developing comparable candidate premises and before committing to concrete creative ideas. Rough sketches can make a premise inspectable. Apply its researched perspectives, substantive challenge, revision through the originating capability and focused recheck; carry the resulting concept, protected strengths, unresolved conditions and review version into the handoff. Reuse a valid review for the same unchanged premise, and preserve locked strategy and narrow revision scope. Direct invocation follows this rule without requiring the master. Keep later review of the actual output; conceptual judgment is not audience evidence. This adds no approval pause for already-authorized work.

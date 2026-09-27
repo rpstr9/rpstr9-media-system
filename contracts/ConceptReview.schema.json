@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConceptReview",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ConceptReview"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "concept_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "concept_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "originating_capability": {
+          "type": "string",
+          "minLength": 1
+        },
+        "upstream_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "review_basis": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_perspectives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_ref": {
+                "type": "string",
+                "minLength": 1
+              },
+              "attribution": {
+                "type": "string"
+              },
+              "supported_principle": {
+                "type": "string"
+              },
+              "application_and_limits": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "source_ref",
+              "attribution",
+              "supported_principle",
+              "application_and_limits"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "review_mode": {
+          "enum": [
+            "source-grounded-simulation",
+            "human-review",
+            "mixed"
+          ]
+        },
+        "reviewer_independence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "decision": {
+          "enum": [
+            "retain",
+            "revise",
+            "reject",
+            "unresolved"
+          ]
+        },
+        "revised_concept_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "critique_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "protected_strengths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unresolved_disagreements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recheck": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reopen_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "concept_ref",
+        "concept_version",
+        "originating_capability",
+        "upstream_refs",
+        "review_basis",
+        "source_perspectives",
+        "review_mode",
+        "reviewer_independence",
+        "findings",
+        "decision",
+        "revised_concept_ref",
+        "critique_dispositions",
+        "protected_strengths",
+        "unresolved_disagreements",
+        "recheck",
+        "evidence_questions",
+        "reopen_conditions"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

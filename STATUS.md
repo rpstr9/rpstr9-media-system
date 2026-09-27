@@ -6,7 +6,7 @@ Revision 0.1.3 preserves established article formats and reader-facing activatio
 
 Revision 0.1.2 makes established article-header consistency an explicit requirement throughout editorial, creative direction, art direction and asset production. A new topic does not authorize a redesign; approved references must be inspected and the finished header compared before delivery.
 
-Implemented: 19 reusable skills, 19 workflow reading bundles, 57 record schemas, three first-class creation/launch records, a private SQLite reference timer, synthetic action reconciliation, scoped local learning and staged local release adoption. No model is pinned. Examples are isolated in exposed evaluation fixtures rather than embedded into reusable methods.
+Implemented: 20 reusable skills, 20 workflow reading bundles, 58 record schemas, three first-class creation/launch records, a private SQLite reference timer, synthetic action reconciliation, scoped local learning and staged local release adoption. No model is pinned. Examples are isolated in exposed evaluation fixtures rather than embedded into reusable methods.
 
 Executed on 2026-09-28: 35 runtime checks passed. A finite real-timer exercise used two separate private synthetic publication workspaces, processed 70 occurrences, stopped/restarted the processes and produced five simulated external effects per workspace. This proves a bounded local execution path, not creative quality, real audience benefit, actual social delivery or a deployed background service. Package/schema/source-integrity checks are supplied in evaluations/test_package.py; the build's accompanying validation report records their executed results.
 

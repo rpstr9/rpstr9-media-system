@@ -43,3 +43,7 @@ Outputs: ContentPackage draft; Claim references and fact/interpretation/fiction 
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+## Inherit the reviewed concept
+
+Before concrete development of a new or materially changed premise, obtain the applicable [Concept Review](../concept-review/SKILL.md) result and complete originating artifacts. Reuse the review for routine work within an unchanged concept; do not reopen it for a local execution change. If this direct request introduces a new organizing premise, apply that same method before developing it. Preserve protected strengths and unresolved questions, and still critique the actual produced work separately.

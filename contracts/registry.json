@@ -506,6 +506,18 @@
       "semantic_rules": [
         "Each true launch state has independent evidence. Simulation is never evidence of a real account launch. Prepared, connected, approved, published and recurring-running are independent."
       ]
+    },
+    {
+      "record_type": "ConceptReview",
+      "schema": "ConceptReview.schema.json",
+      "semantic_rules": [
+        "Complete originating strategy is retained beside this review.",
+        "A source-grounded simulation is model judgment; cited experts did not participate or endorse it.",
+        "Inspect relevant sources; unresolved source access cannot become a verified perspective.",
+        "Revised concepts receive a focused recheck, preserving strengths and rejected critiques.",
+        "Reuse requires matching concept scope and material input versions.",
+        "Conceptual judgments are not audience outcomes or validated reusable learning."
+      ]
     }
   ],
   "scope": "Typed envelopes and payload fields; nested domain content and semantic relationships also require the validator and method review."

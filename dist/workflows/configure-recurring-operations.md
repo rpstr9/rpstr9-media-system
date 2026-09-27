@@ -46,6 +46,10 @@ Failure handling: identify the missing source, tool, account action or authority
 
 Local adaptation surfaces are task-derived research selection, editorial format, creative execution, production recipes, channel packaging, conversation handling and scheduling within owner-approved bounds. Record diagnosis, competing explanation, falsification check, comparison, decision, scope, compatibility, expiry and rollback. Protected fields are defined in the Constitution. Shared proposals contain only synthetic or explicitly authorized evidence.
 
+## Concept-to-idea boundary
+
+Use the shared Concept Review when a new or materially changed concept is ready to develop into concrete ideas. The master schedules it; direct specialists must also apply it. The originating capability revises the concept and the receiver checks the review's scope, input versions, protected strengths and unresolved conditions. Retain a private ConceptReview record. Reuse the review when the premise and material inputs are unchanged; reopen only affected findings when they change. Conceptual simulation is judgment, not audience evidence or a validated reusable lesson. Later review of produced work remains required.
+
 <a id="source-registry-method-dependencies-json"></a>
 
 ---
@@ -64,10 +68,10 @@ Source: `registry/method-dependencies.json`
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
       "redistribution": "not granted by this bridge",
-      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/c6a1b904cd7b8ff890b89d0b93985ed9b0d22322/MARKETER.md",
-      "content_commit": "c6a1b904cd7b8ff890b89d0b93985ed9b0d22322",
-      "full_file_sha256": "7aa46a1e70d092079c9ec74f0c31f98645643d0842dc5ab43041d0ec7829922f",
-      "bytes": 377462,
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/a18d958125af4a88756c0dd565d0865c9e795725/MARKETER.md",
+      "content_commit": "a18d958125af4a88756c0dd565d0865c9e795725",
+      "full_file_sha256": "b2cb72b16584f94837aa9ad191ab60f8e1537d23d6fb54c48f5c53e6eb0d556b",
+      "bytes": 392459,
       "full_method_read_in_build": false
     },
     {
@@ -82,7 +86,7 @@ Source: `registry/method-dependencies.json`
     {
       "id": "brand-identity-director",
       "local_entry": "${SKILL_ROOT}/brand-identity-director/SKILL.md",
-      "entry_sha256": "356525176da9b8e55de4d86608ec1233a2504b5a7ee3e545ff8620f56dd65e3e",
+      "entry_sha256": "ab0f22ba95e310e1060a6fdab4e7e7863c7090bb8a962688c8fe8d4e265b48de",
       "version_kind": "local-entry-content-hash",
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
@@ -100,7 +104,7 @@ Source: `registry/method-dependencies.json`
     {
       "id": "creative-direction",
       "local_entry": "${SKILL_ROOT}/creative-direction/SKILL.md",
-      "entry_sha256": "b2af8f2575ee84bc38d30acfe5bba7306fbf64174e8cfd38778826e2dd328abd",
+      "entry_sha256": "ed434f2ef344c6bba902ee9ebb89810cd4378070b12b2c5b2343579628500494",
       "version_kind": "local-entry-content-hash",
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
@@ -117,6 +121,7 @@ Source: `registry/method-dependencies.json`
     }
   ]
 }
+
 ```
 <a id="source-skills-media-master-skill-md"></a>
 
@@ -136,7 +141,7 @@ Read [operating boundaries](#source-policies-constitution-md) and [handoff rules
 ## Resolve and route
 Read the task, current publication records and the release inventory. Reuse complete, current strategy and identity. Check required source availability, capability and authorization by action; do not load every specialist for a narrow request. Build a dependency plan with concrete outputs and only unresolved inputs. Call specialists as capabilities; do not create a permanent committee or spawn agents without host/user authorization.
 
-For new publication creation, turn the owner's interests, resources and constraints into candidate publication concepts. Compare the audience need, distinctive promise, evidence access, recurring material, sustainability and strongest reason each may fail. Research the material uncertainties. Recommend a concept and label assumptions; ask only for consequential choices that cannot be inferred. Save a PublicationBlueprint.
+For new publication creation, turn the owner's interests, resources and constraints into candidate publication concepts. Compare the audience need, distinctive promise, evidence access, recurring material, sustainability and strongest reason each may fail. Research the material uncertainties. Apply the shared Concept Review to candidate concepts, revise through the originating capability and recheck before recommending the concept for concrete development. Label assumptions; ask only for consequential choices that cannot be inferred. Save the reviewed PublicationBlueprint and ConceptReview record.
 
 Import approved strategy or use the complete Marketer/Marketer PFM through media-brand-strategy. From that shared strategy, branch independently to media-brand-identity and media-audience-journey where needed. Never force the journey to wait for identity. An existing identity can be imported.
 
@@ -165,6 +170,10 @@ Outputs: PublicationBlueprint; EditorialProgram via selection; LaunchPackage wit
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+## Concept-to-idea review
+
+For a new or materially changed organizing concept, load the complete [Concept Review](../../skills/concept-review/SKILL.md) after developing comparable candidate premises and before committing to concrete creative ideas. Rough sketches can make a premise inspectable. Apply its researched perspectives, substantive challenge, revision through the originating capability and focused recheck; carry the resulting concept, protected strengths, unresolved conditions and review version into the handoff. Reuse a valid review for the same unchanged premise, and preserve locked strategy and narrow revision scope. Direct invocation follows this rule without requiring the master. Keep later review of the actual output; conceptual judgment is not audience evidence. This adds no approval pause for already-authorized work.
 
 <a id="source-runtime-reference-browser-host-md"></a>
 
@@ -248,18 +257,18 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
   },
   {
     "path": "contracts/HANDOFF.md",
-    "bytes": 2053,
-    "sha256": "891fc2bd24702bf48f0a00ec7510b921ccdfb29ef5fbeecca16604bd7b359415"
+    "bytes": 2706,
+    "sha256": "9795c3396e9461ca718c71a766d8bdc94e5d498a1d74b987571689bfaf8f4154"
   },
   {
     "path": "registry/method-dependencies.json",
-    "bytes": 2976,
-    "sha256": "77f26809896b2f706d383e4919785132f68a9958b7fd8c439de6af0b971b31f0"
+    "bytes": 2977,
+    "sha256": "d6fc0753056a2ff5a300460fc10779e0fafd06303663bf58fe9f0384df4e5135"
   },
   {
     "path": "skills/media-master/SKILL.md",
-    "bytes": 5434,
-    "sha256": "df558143a890f6154143823253e7139d18d568ea765fdd432ca77e71941cfb10"
+    "bytes": 6450,
+    "sha256": "c1b0db7af05b3e2e8e6fa1ff71bf81d388f4e599f0ecb30edd960db42e1b19dc"
   },
   {
     "path": "runtime/reference/BROWSER_HOST.md",

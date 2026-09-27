@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.5",
+  "release": "0.1.6",
   "constitution": "policies/CONSTITUTION.md",
   "skills": [
     {
@@ -8,7 +8,7 @@
       "skill_id": "media-master",
       "path": "skills/media-master/SKILL.md",
       "kind": "controller",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "inputs": [
         "PublicationProfile or an explicit provisional brief",
         "Current task and available state",
@@ -56,7 +56,7 @@
       "skill_id": "media-brand-strategy",
       "path": "skills/media-brand-strategy/SKILL.md",
       "kind": "method-bridge",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "inputs": [
         "PublicationProfile",
         "Supplied strategy documents and their status",
@@ -111,7 +111,7 @@
       "skill_id": "media-editorial-selection",
       "path": "skills/media-editorial-selection/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "inputs": [
         "CandidateSet",
         "EvidenceBundle",
@@ -130,7 +130,7 @@
       "skill_id": "media-editorial",
       "path": "skills/media-editorial/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "inputs": [
         "EditorialBrief",
         "EvidenceBundle where factual work is involved",
@@ -151,7 +151,7 @@
       "skill_id": "media-creative-director",
       "path": "skills/media-creative-director/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "inputs": [
         "EditorialBrief",
         "StrategyContext",
@@ -173,7 +173,7 @@
       "skill_id": "media-art-director",
       "path": "skills/media-art-director/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "inputs": [
         "CreativeBrief",
         "Approved reference assets and permitted use",
@@ -193,7 +193,7 @@
       "skill_id": "media-asset-production",
       "path": "skills/media-asset-production/SKILL.md",
       "kind": "adapter-backed specialist",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "inputs": [
         "ProductionBrief and AssetSpec",
         "CapabilityReport",
@@ -391,7 +391,7 @@
       "skill_id": "media-brand-identity",
       "path": "skills/media-brand-identity/SKILL.md",
       "kind": "method-bridge",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "inputs": [
         "StrategyContext and full approved source strategy",
         "Existing approved brand identity and assets when supplied",
@@ -405,6 +405,23 @@
         "Explicit unresolved identity dependencies or decisions"
       ],
       "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
+    },
+    {
+      "function_id": "F21",
+      "skill_id": "concept-review",
+      "path": "skills/concept-review/SKILL.md",
+      "kind": "shared-specialist",
+      "version": "0.1.0",
+      "inputs": [
+        "Objective, audience, evidence, resources and constraints",
+        "Candidate concepts and complete originating artifacts",
+        "Prior review and current input versions when available"
+      ],
+      "outputs": [
+        "Reviewed concept and actionable revision handoff",
+        "ConceptReview with source-grounded findings, decisions and recheck"
+      ],
+      "status": "implemented; source-grounded simulated judgment remains distinct from observed audience evidence"
     }
   ]
 }
