@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StateExport",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "StateExport"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "publication_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "schema_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "profile_ref_or_inline": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "library_lock": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "approved_adaptations": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pending_work": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "record_inventory": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "asset_inventory": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "omitted_items": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "completeness": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "exported_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "secret_scan_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "channel_operations_state_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "operating_plan_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "recurring_job_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "job_occurrence_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "content_slot_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "runtime_status_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "publication_id",
+        "schema_version",
+        "profile_ref_or_inline",
+        "library_lock",
+        "approved_adaptations",
+        "pending_work",
+        "record_inventory",
+        "asset_inventory",
+        "omitted_items",
+        "completeness",
+        "exported_at",
+        "secret_scan_status",
+        "channel_operations_state_refs",
+        "operating_plan_refs",
+        "recurring_job_refs",
+        "job_occurrence_refs",
+        "content_slot_refs",
+        "runtime_status_ref"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

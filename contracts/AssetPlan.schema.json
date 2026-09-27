@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AssetPlan",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "AssetPlan"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "scope": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "content_or_account_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "identity_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "slots": {
+          "type": "array",
+          "items": {}
+        },
+        "source_and_representation_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "production_budget": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "readiness_rules": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "review_requirements": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "scope",
+        "content_or_account_refs",
+        "identity_version",
+        "slots",
+        "source_and_representation_policy",
+        "production_budget",
+        "readiness_rules",
+        "review_requirements"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

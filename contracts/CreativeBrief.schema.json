@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CreativeBrief",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "CreativeBrief"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "editorial_brief_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "intended_effect": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "creative_thesis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hierarchy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "narrative_or_sequence": {
+          "type": "array",
+          "items": {}
+        },
+        "reference_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "constraints": {
+          "type": "array",
+          "items": {}
+        },
+        "success_checks": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "editorial_brief_ref",
+        "intended_effect",
+        "creative_thesis",
+        "hierarchy",
+        "narrative_or_sequence",
+        "reference_refs",
+        "constraints",
+        "success_checks"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

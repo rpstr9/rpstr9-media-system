@@ -1,4 +1,6 @@
-# Experimental edition 0.1.4
+# Experimental edition 0.1.5
+
+Revision 0.1.5 requires reader comprehension and useful value in editorial selection, headings, structure and final review.
 
 Revision 0.1.3 preserves established article formats and reader-facing activation prompts, and keeps authoring corrections and internal validation history out of ordinary articles. Header consistency from 0.1.2 remains in force.
 

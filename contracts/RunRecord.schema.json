@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RunRecord",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "RunRecord"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "run_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "task_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "library_lock_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "skill_versions": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "input_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "adaptation_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "actions": {
+          "type": "array",
+          "items": {}
+        },
+        "output_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "decision_summaries": {
+          "type": "array",
+          "items": {}
+        },
+        "status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "errors": {
+          "type": "array",
+          "items": {}
+        },
+        "observed_cost": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "cost_unknowns": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "started_at": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ]
+        },
+        "ended_at": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ]
+        },
+        "job_occurrence_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "run_id",
+        "task_ref",
+        "publication_id",
+        "library_lock_ref",
+        "skill_versions",
+        "input_refs",
+        "adaptation_refs",
+        "actions",
+        "output_refs",
+        "decision_summaries",
+        "status",
+        "errors",
+        "observed_cost",
+        "cost_unknowns",
+        "started_at",
+        "ended_at",
+        "job_occurrence_ref"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

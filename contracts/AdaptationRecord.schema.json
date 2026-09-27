@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AdaptationRecord",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "AdaptationRecord"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "adaptation_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "target_skill": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "base_compatibility": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "observation",
+            "hypothesis",
+            "experiment",
+            "approved",
+            "superseded",
+            "expired",
+            "rolled-back",
+            "rejected",
+            "inconclusive"
+          ]
+        },
+        "rule_or_patch": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "evaluation_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "approval_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "supersedes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_or_expiry": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rollback_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "adaptation_id",
+        "target_skill",
+        "scope",
+        "base_compatibility",
+        "status",
+        "rule_or_patch",
+        "evidence_refs",
+        "evaluation_refs",
+        "approval_ref",
+        "supersedes",
+        "review_or_expiry",
+        "rollback_ref"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

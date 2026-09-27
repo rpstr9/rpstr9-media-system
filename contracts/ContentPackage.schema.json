@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ContentPackage",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ContentPackage"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "content_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "format": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "body_or_asset_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "asset_manifest_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "review_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "derivative_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "in-review",
+            "ready",
+            "held",
+            "published",
+            "retired"
+          ]
+        },
+        "asset_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "image_slot_map": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "channel_media_mappings": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "visual_readiness": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "content_id",
+        "content_version",
+        "format",
+        "body_or_asset_refs",
+        "evidence_refs",
+        "asset_manifest_refs",
+        "review_refs",
+        "derivative_refs",
+        "status",
+        "asset_plan_ref",
+        "image_slot_map",
+        "channel_media_mappings",
+        "visual_readiness"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

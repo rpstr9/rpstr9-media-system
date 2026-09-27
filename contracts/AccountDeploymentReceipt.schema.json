@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AccountDeploymentReceipt",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "AccountDeploymentReceipt"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "account_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "surface_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "action_and_idempotency_key": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "authorization_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "asset_versions": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "before_and_after_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "per_surface_results": {
+          "type": "array",
+          "items": {}
+        },
+        "remote_asset_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "confirmation_source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "render_inspection_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "result_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reconciliation_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "restore_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "account_ref",
+        "surface_plan_ref",
+        "action_and_idempotency_key",
+        "authorization_ref",
+        "asset_versions",
+        "before_and_after_refs",
+        "per_surface_results",
+        "remote_asset_refs",
+        "confirmation_source",
+        "render_inspection_ref",
+        "result_state",
+        "reconciliation_state",
+        "restore_state"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.4",
+  "release": "0.1.5",
   "inventory": [
     {
       "path": ".gitignore",
@@ -29,8 +29,8 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "e89d261472c5017ba08009bcd4d22b640d65a219f1b7e151e3d28532e03050da",
-      "bytes": 3557
+      "sha256": "c2b496cae342274b68bd8e96453691064e58683a28c54c16f1c5aa6a48e2f37d",
+      "bytes": 3682
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -349,7 +349,7 @@
     },
     {
       "path": "dist/source-inventories.json",
-      "sha256": "ef2fd9791370953dfbec13ac2cd43e408f961138ce06ec143d5c3200f75d1c53",
+      "sha256": "2e816dc38619d3937be914cc097281ea399bf7210bdd10a32f1559748ee501fa",
       "bytes": 31950
     },
     {
@@ -374,8 +374,8 @@
     },
     {
       "path": "dist/workflows/create-and-launch-publication.md",
-      "sha256": "2525a98b3dddfaf3d01f6315e2f76f20cf6a253947ad74103e48be1751188b72",
-      "bytes": 73889
+      "sha256": "dce407f2a7b5bdcf5f32028d3e0e50320431a6c8c92c85b3d2bed558e3a95aa1",
+      "bytes": 75491
     },
     {
       "path": "dist/workflows/creative-production.md",
@@ -409,13 +409,13 @@
     },
     {
       "path": "dist/workflows/produce-and-publish.md",
-      "sha256": "2d08c3e4cd769bae39a6924449bc91763db3f8e3d11ed098c40d73aeaa1815ee",
-      "bytes": 49112
+      "sha256": "43b199012b05d3f11681344074a85db3c3005129e5512e13f2148756004cd889",
+      "bytes": 50714
     },
     {
       "path": "dist/workflows/produce-illustrated-article.md",
-      "sha256": "9d75afcafd632d8c7a34e0cdd738fa36f01b3969dc1f4b0316c63b51bfe95fda",
-      "bytes": 45270
+      "sha256": "fab32f23510ee95d0a1abd06115b8299779c9ed600ebbe70d8cce6671bd01662",
+      "bytes": 46872
     },
     {
       "path": "dist/workflows/publication-delivery.md",
@@ -429,8 +429,8 @@
     },
     {
       "path": "dist/workflows/research-to-editorial.md",
-      "sha256": "b1eb986b1d1348fe8ab78bb651516fbcd9922abb00c52b862ed48d46c8dfe610",
-      "bytes": 34121
+      "sha256": "d1ac2d42dc9f13136d6e02fbe82d05a272191918da5b2f8c63ace7a79af5f406",
+      "bytes": 35723
     },
     {
       "path": "dist/workflows/resume-channel-operations.md",
@@ -459,7 +459,7 @@
     },
     {
       "path": "evaluations/test_package.py",
-      "sha256": "9526c69db3b86a8faf736cdbefd54dbbecd818187be061b68f49b9d112b8c6b6",
+      "sha256": "b919ff2ed2cf51d1ef09cb0b6df6accefe42627135d0b95ac66fdc5b37f213e9",
       "bytes": 5126
     },
     {
@@ -479,7 +479,7 @@
     },
     {
       "path": "registry/skills.json",
-      "sha256": "11be4e02ffcf0f43547b3bc297d0da27fae5783dbc7aa07389c2fbdf79ed199a",
+      "sha256": "4339bf8e82149222259847cbc07ae9d59e29e89259210557d94a6569456e2089",
       "bytes": 15344
     },
     {
@@ -524,7 +524,7 @@
     },
     {
       "path": "scripts/build_bundles.py",
-      "sha256": "a7144ab31a2e5a1878ee8a8495edc9560aea03ecc20d22760f0ad813fc12794c",
+      "sha256": "f4bfe4064c25c8d2b5f7107d43a22fe0e672970770dc045afd71862551df1624",
       "bytes": 3315
     },
     {
@@ -589,13 +589,13 @@
     },
     {
       "path": "skills/media-editorial/SKILL.md",
-      "sha256": "80f7eec1a1b851d61aae2f7dd6b0a9766916df643184d53dd3d163155273285e",
-      "bytes": 6160
+      "sha256": "442cd826ac1cd7a9810c23786e120b15814344bfbdf33e8470cf0154c45c4f94",
+      "bytes": 7392
     },
     {
       "path": "skills/media-editorial-selection/SKILL.md",
-      "sha256": "38dd481f4dc5f7474bce0582e5291ed44866c1858cb94a7087e1cd564c120f7a",
-      "bytes": 2802
+      "sha256": "f26eb3ec78d7d02d084ff9b59b1327f5009ad2f37541663a501c16546fd3d7b0",
+      "bytes": 3172
     },
     {
       "path": "skills/media-growth/SKILL.md",

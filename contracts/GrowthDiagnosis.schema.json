@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrowthDiagnosis",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "GrowthDiagnosis"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "outcome_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "resource_hypotheses": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "opportunity_findings": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "target_findings": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "relationship_findings": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "bottleneck_hypotheses": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "contrary_evidence": {
+          "type": "array",
+          "items": {}
+        },
+        "attribution_limits": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "upstream_revisit_requests": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "outcome_refs",
+        "resource_hypotheses",
+        "opportunity_findings",
+        "target_findings",
+        "relationship_findings",
+        "bottleneck_hypotheses",
+        "contrary_evidence",
+        "attribution_limits",
+        "upstream_revisit_requests"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

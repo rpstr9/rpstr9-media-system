@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CapabilityReport",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "CapabilityReport"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "host_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checked_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "network_access": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "file_read": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "file_write": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "code_execution": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "persistent_storage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "available_adapters": {
+          "type": "array",
+          "items": {}
+        },
+        "authorization_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "data_destinations": {
+          "type": "array",
+          "items": {}
+        },
+        "limitations": {
+          "type": "array",
+          "items": {}
+        },
+        "channel_capability_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "recurring_runtime_capabilities": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "host_description",
+        "checked_at",
+        "network_access",
+        "file_read",
+        "file_write",
+        "code_execution",
+        "persistent_storage",
+        "available_adapters",
+        "authorization_refs",
+        "data_destinations",
+        "limitations",
+        "channel_capability_refs",
+        "recurring_runtime_capabilities"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

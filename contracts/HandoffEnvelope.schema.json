@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HandoffEnvelope",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "HandoffEnvelope"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "task_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "run_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "skill_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "skill_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "library_lock_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "profile_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "input_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "required_outputs": {
+          "type": "array",
+          "items": {}
+        },
+        "constraints": {
+          "type": "array",
+          "items": {}
+        },
+        "authorization_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "applicable_adaptation_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "method_load_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "task_id",
+        "run_id",
+        "skill_id",
+        "skill_version",
+        "publication_id",
+        "library_lock_ref",
+        "profile_ref",
+        "input_refs",
+        "required_outputs",
+        "constraints",
+        "authorization_refs",
+        "applicable_adaptation_refs",
+        "method_load_status"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

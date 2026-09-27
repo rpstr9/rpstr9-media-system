@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ActionAuthorization",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ActionAuthorization"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "actor_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "granted_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "action_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "target_scope": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "artifact_version_or_policy_scope": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "budget_limit": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "validity": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "revocation_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "execution_mode": {
+          "enum": [
+            "draft-only",
+            "review-before-send",
+            "bounded-auto"
+          ]
+        },
+        "recurrence_scope": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "actor_ref",
+        "granted_by",
+        "action_type",
+        "target_scope",
+        "artifact_version_or_policy_scope",
+        "budget_limit",
+        "validity",
+        "revocation_state",
+        "evidence_ref",
+        "execution_mode",
+        "recurrence_scope"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

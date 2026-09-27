@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JourneyContext",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "JourneyContext"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "source_model_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "model_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "intended_response": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "stages_or_dimensions": {
+          "type": "array",
+          "items": {}
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "hypotheses": {
+          "type": "array",
+          "items": {}
+        },
+        "approval_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "source_model_refs",
+        "model_type",
+        "intended_response",
+        "stages_or_dimensions",
+        "evidence_refs",
+        "hypotheses",
+        "approval_status"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RuntimeStatus",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "RuntimeStatus"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "runtime_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "deployment_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "capability_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "pause_scopes": {
+          "type": "array",
+          "items": {}
+        },
+        "last_observed_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "last_heartbeat_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "last_successful_tick_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "health_observer_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "job_state_counts": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "oldest_pending_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "blocked_reasons": {
+          "type": "array",
+          "items": {}
+        },
+        "unknown_action_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "next_due_summary": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "notification_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "limitations": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "runtime_id",
+        "publication_scope",
+        "deployment_state",
+        "capability_refs",
+        "pause_scopes",
+        "last_observed_at",
+        "last_heartbeat_at",
+        "last_successful_tick_at",
+        "health_observer_ref",
+        "job_state_counts",
+        "oldest_pending_at",
+        "blocked_reasons",
+        "unknown_action_refs",
+        "next_due_summary",
+        "notification_refs",
+        "limitations"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

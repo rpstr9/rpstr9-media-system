@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReleaseRecord",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ReleaseRecord"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "release_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_commit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "manifest_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "change_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "source_audit_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "evaluation_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "compatibility": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "migration_notes": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "approval_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rollback_target": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "release_id",
+        "content_commit",
+        "manifest_ref",
+        "change_refs",
+        "source_audit_refs",
+        "evaluation_refs",
+        "compatibility",
+        "migration_notes",
+        "approval_ref",
+        "publication_status",
+        "rollback_target"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

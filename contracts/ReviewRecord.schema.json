@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReviewRecord",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ReviewRecord"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "target_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "target_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewer_role": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "criteria_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checks": {
+          "type": "array",
+          "items": {}
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "findings": {
+          "type": "array",
+          "items": {}
+        },
+        "decision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "unresolved_concerns": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "target_ref",
+        "target_version",
+        "reviewer_role",
+        "criteria_version",
+        "checks",
+        "evidence_refs",
+        "findings",
+        "decision",
+        "unresolved_concerns"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

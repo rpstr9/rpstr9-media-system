@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AssetManifest",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "AssetManifest"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "asset_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "file_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "generation_or_source_receipt": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "technical_properties": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "source_assets": {
+          "type": "array",
+          "items": {}
+        },
+        "rights_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "inspection_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "known_defects": {
+          "type": "array",
+          "items": {}
+        },
+        "asset_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "role": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "representation_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_version_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "master_and_variant_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "content_hashes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "captions_alt_and_credit": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "usage_conditions": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "review_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "asset_id",
+        "version",
+        "file_refs",
+        "generation_or_source_receipt",
+        "technical_properties",
+        "source_assets",
+        "rights_status",
+        "inspection_status",
+        "known_defects",
+        "asset_plan_ref",
+        "role",
+        "representation_type",
+        "identity_version_ref",
+        "master_and_variant_refs",
+        "content_hashes",
+        "captions_alt_and_credit",
+        "usage_conditions",
+        "review_version"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

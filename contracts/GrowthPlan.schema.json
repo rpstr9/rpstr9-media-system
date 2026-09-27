@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrowthPlan",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "GrowthPlan"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "objective_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "resource_map_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "opportunity_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "ranked_targets_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_exchange_briefs": {
+          "type": "array",
+          "items": {}
+        },
+        "distribution_requests": {
+          "type": "array",
+          "items": {}
+        },
+        "relationship_requests": {
+          "type": "array",
+          "items": {}
+        },
+        "creative_requests": {
+          "type": "array",
+          "items": {}
+        },
+        "experiment_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "budgets": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "stop_conditions": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "objective_refs",
+        "resource_map_ref",
+        "opportunity_refs",
+        "ranked_targets_ref",
+        "value_exchange_briefs",
+        "distribution_requests",
+        "relationship_requests",
+        "creative_requests",
+        "experiment_refs",
+        "budgets",
+        "stop_conditions"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConversationState",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ConversationState"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "publication_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "platform": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "account_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "root_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "parent_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "message_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "source_context_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "context_checked_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "participant_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "prior_response_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "human_agent_ownership": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "permission_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "opt_out_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pending_actions": {
+          "type": "array",
+          "items": {}
+        },
+        "follow_up_commitments": {
+          "type": "array",
+          "items": {}
+        },
+        "last_observed_checkpoint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "retention_policy_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "publication_id",
+        "platform",
+        "account_ref",
+        "root_id",
+        "parent_id",
+        "message_refs",
+        "source_context_refs",
+        "context_checked_at",
+        "participant_refs",
+        "prior_response_refs",
+        "human_agent_ownership",
+        "permission_state",
+        "opt_out_state",
+        "pending_actions",
+        "follow_up_commitments",
+        "last_observed_checkpoint",
+        "retention_policy_ref"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

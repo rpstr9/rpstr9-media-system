@@ -13,6 +13,8 @@ Read approved purpose, audience, strategy, resources and existing coverage. Defi
 For each format, specify its promise, suitable material, evidence standards, narrative shape, useful visual roles, production dependencies, review criteria and refresh conditions. Check that enough material and resources exist to sustain it. Balance novelty and continuity, timely work and durable work, discovery and return experience according to the publication. Produce an EditorialProgram with backlog rules and capacity constraints before calendar slots.
 
 ## Choose an item
+Define the reader's actual question or interest, assumed knowledge and intended gain before choosing the angle. Comprehension and useful value are required: hold an item whose relevance or payoff cannot be explained from the reader's viewpoint. Do not make an internal production concern into the angle unless it is itself relevant and understandable to this audience.
+
 Set decision criteria from that program before ranking candidates. Compare audience relevance, distinctive insight or premise, evidential readiness, freshness versus prior coverage, artistic/editorial value, resource cost and portfolio gaps. Explain tradeoffs; subjective scores are not calibrated probabilities.
 
 Identify what the reader will understand, experience or be able to do, and what in the actual material makes that possible. A catchy headline cannot repair a missing idea or unsupported claim. Select, hold, reject or request specific information, recording why and what would change the decision.

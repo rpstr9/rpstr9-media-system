@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrowthOpportunitySet",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "GrowthOpportunitySet"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "resource_map_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "opportunities": {
+          "type": "array",
+          "items": {}
+        },
+        "validation_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "prioritization_criteria": {
+          "type": "array",
+          "items": {}
+        },
+        "selected_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "rejected_or_held_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "strategic_conflicts": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "resource_map_ref",
+        "opportunities",
+        "validation_refs",
+        "prioritization_criteria",
+        "selected_refs",
+        "rejected_or_held_refs",
+        "strategic_conflicts"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

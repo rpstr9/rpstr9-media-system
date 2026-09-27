@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AccountSurfacePlan",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "AccountSurfacePlan"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "account_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified_account_identity": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "before_state_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "capability_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "target_surface_changes": {
+          "type": "array",
+          "items": {}
+        },
+        "asset_version_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "authorization_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "protected_unchanged_fields": {
+          "type": "array",
+          "items": {}
+        },
+        "preconditions": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "verification_plan": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "restore_plan": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "account_ref",
+        "verified_account_identity",
+        "before_state_ref",
+        "capability_refs",
+        "target_surface_changes",
+        "asset_version_refs",
+        "authorization_ref",
+        "protected_unchanged_fields",
+        "preconditions",
+        "verification_plan",
+        "restore_plan"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

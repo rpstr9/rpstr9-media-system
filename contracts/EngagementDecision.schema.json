@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EngagementDecision",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "EngagementDecision"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "conversation_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "interaction_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "intent_classification": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_to_other_party": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "decision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "draft_content_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "parent_target": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "risk_flags": {
+          "type": "array",
+          "items": {}
+        },
+        "capability_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "authorization_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "stop_conditions": {
+          "type": "array",
+          "items": {}
+        },
+        "follow_up_condition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "conversation_ref",
+        "interaction_type",
+        "intent_classification",
+        "value_to_other_party",
+        "evidence_refs",
+        "decision",
+        "draft_content_ref",
+        "content_version",
+        "parent_target",
+        "risk_flags",
+        "capability_ref",
+        "authorization_ref",
+        "stop_conditions",
+        "follow_up_condition"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

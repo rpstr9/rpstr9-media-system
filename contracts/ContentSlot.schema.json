@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ContentSlot",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ContentSlot"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "slot_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "channel_account_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_kind": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "due_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "timezone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "production_deadline": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_brief_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_package_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "canonical_version_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "derivative_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "review_gate_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "authorization_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dependency_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "freshness_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "missed_slot_policy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "occurrence_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "receipt_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "asset_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "required_visual_ready_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "asset_dependency_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "slot_id",
+        "publication_id",
+        "channel_account_ref",
+        "content_kind",
+        "due_at",
+        "timezone",
+        "production_deadline",
+        "source_brief_ref",
+        "content_package_ref",
+        "canonical_version_ref",
+        "derivative_refs",
+        "review_gate_refs",
+        "authorization_ref",
+        "dependency_refs",
+        "freshness_policy",
+        "missed_slot_policy",
+        "state",
+        "occurrence_refs",
+        "receipt_refs",
+        "reason",
+        "asset_plan_ref",
+        "required_visual_ready_by",
+        "asset_dependency_state"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

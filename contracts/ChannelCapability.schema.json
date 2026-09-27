@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChannelCapability",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ChannelCapability"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "account_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "operation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "route": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "documentation_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "checked_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "required_scopes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "granted_scopes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "platform_approval_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "policy_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "availability_status": {
+          "enum": [
+            "documented-not-tested",
+            "verified-available",
+            "permission-blocked",
+            "policy-blocked",
+            "unsupported",
+            "unknown",
+            "manual-only"
+          ]
+        },
+        "test_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "limits": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "authorization_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "fallback": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {}
+        },
+        "account_surface_capabilities": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "media_upload_and_embed_capabilities": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "media_spec_sources_and_checked_at": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "platform",
+        "account_ref",
+        "operation",
+        "route",
+        "documentation_refs",
+        "checked_at",
+        "required_scopes",
+        "granted_scopes",
+        "platform_approval_refs",
+        "policy_status",
+        "availability_status",
+        "test_status",
+        "limits",
+        "authorization_refs",
+        "fallback",
+        "limitations",
+        "account_surface_capabilities",
+        "media_upload_and_embed_capabilities",
+        "media_spec_sources_and_checked_at"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChannelOperationsState",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ChannelOperationsState"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "publication_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "account_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "capability_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "intake_checkpoints": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "coverage_gaps": {
+          "type": "array",
+          "items": {}
+        },
+        "conversation_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "operation_queue_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "pause_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "worker_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "last_successful_run": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_review_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "operating_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "runtime_status_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scheduled_operation_refs": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "publication_id",
+        "account_refs",
+        "capability_refs",
+        "intake_checkpoints",
+        "coverage_gaps",
+        "conversation_refs",
+        "operation_queue_refs",
+        "pause_state",
+        "worker_status",
+        "last_successful_run",
+        "next_review_refs",
+        "operating_plan_ref",
+        "runtime_status_ref",
+        "scheduled_operation_refs"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

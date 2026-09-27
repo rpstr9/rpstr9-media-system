@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResourceRecord",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ResourceRecord"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "resource_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "resource_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "purpose": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "artifact_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "usability_test_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "owner_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_conditions": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dependent_content_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "lifecycle_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "resource_id",
+        "resource_version",
+        "purpose",
+        "artifact_refs",
+        "evidence_refs",
+        "usability_test_status",
+        "owner_ref",
+        "review_conditions",
+        "dependent_content_refs",
+        "lifecycle_status"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EditorialBrief",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "EditorialBrief"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "selection_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "audience_context": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "intended_value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "angle_or_premise": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "format": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_requirements": {
+          "type": "array",
+          "items": {}
+        },
+        "voice": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "constraints": {
+          "type": "array",
+          "items": {}
+        },
+        "success_checks": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "selection_ref",
+        "audience_context",
+        "intended_value",
+        "angle_or_premise",
+        "format",
+        "evidence_requirements",
+        "voice",
+        "constraints",
+        "success_checks"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BrandIdentityContext",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "BrandIdentityContext"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "strategy_source_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "full_identity_source_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "method_dependency_lock": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "approval_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verbal_and_visual_rules": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "template_and_asset_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "usage_constraints": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "unresolved_fields": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "strategy_source_refs",
+        "full_identity_source_refs",
+        "method_dependency_lock",
+        "approval_status",
+        "identity_version",
+        "verbal_and_visual_rules",
+        "template_and_asset_refs",
+        "usage_constraints",
+        "unresolved_fields"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

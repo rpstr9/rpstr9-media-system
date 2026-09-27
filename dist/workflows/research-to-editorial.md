@@ -226,6 +226,8 @@ Read approved purpose, audience, strategy, resources and existing coverage. Defi
 For each format, specify its promise, suitable material, evidence standards, narrative shape, useful visual roles, production dependencies, review criteria and refresh conditions. Check that enough material and resources exist to sustain it. Balance novelty and continuity, timely work and durable work, discovery and return experience according to the publication. Produce an EditorialProgram with backlog rules and capacity constraints before calendar slots.
 
 ## Choose an item
+Define the reader's actual question or interest, assumed knowledge and intended gain before choosing the angle. Comprehension and useful value are required: hold an item whose relevance or payoff cannot be explained from the reader's viewpoint. Do not make an internal production concern into the angle unless it is itself relevant and understandable to this audience.
+
 Set decision criteria from that program before ranking candidates. Compare audience relevance, distinctive insight or premise, evidential readiness, freshness versus prior coverage, artistic/editorial value, resource cost and portfolio gaps. Explain tradeoffs; subjective scores are not calibrated probabilities.
 
 Identify what the reader will understand, experience or be able to do, and what in the actual material makes that possible. A catchy headline cannot repair a missing idea or unsupported claim. Select, hold, reject or request specific information, recording why and what would change the decision.
@@ -258,6 +260,10 @@ description: Write, revise and review publication content with traceable evidenc
 Read [operating boundaries](#source-policies-constitution-md) and [handoff rules](#source-contracts-handoff-md). Use only the current task’s required inputs and references.
 
 ## Develop the piece
+Start from the reader's situation, question, prior knowledge and reason to spend time on the piece. Define the useful understanding, decision, action or experience the reader should gain. Organize the article around that gain rather than the author's urge to explain the system or a production concern. Make every heading intelligible in the reader's context and make its section deliver the promised value. Explain unfamiliar terms and causal connections at the point of need; remove context-dependent shorthand, clever but unclear wording and details that do no useful work for the reader. Preserve relevant complexity and evidence rather than replacing substance with promotional claims.
+
+Comprehension and reader value are mandatory acceptance criteria. Review the title, headings and body from the stated audience's viewpoint without access to the authoring conversation. Confirm that a reader can tell what each section means, why it matters and what they gain from reading it. Revise or remove sections that fail either criterion before delivery. Record this review privately; do not print the author's checklist or corrections in the article. Derive wording and examples from the current brief, never from a fixed example.
+
 Read the EditorialBrief, actual evidence, current voice, identity and destination. Resolve whether the work is reporting, analysis, opinion, fiction or another creative form. Define the opening promise and a structure that delivers it. Draft with the relevant level of depth; no universal length, SEO pattern or call to action applies.
 
 For an established publication, inspect its current approved published format and preserve the article structure, heading hierarchy, handover/call-to-action treatment, prompt presentation and access-link conventions. Record these as editorial constraints, and change them only on explicit user request. Derive content and task-specific input fields from the present brief; do not turn an example's wording or subject into a permanent template. When presenting an externally maintained skill, use a concise activation prompt that loads the verified guide and complete relevant instructions, identifies the requested capability and gathers the needed inputs. Link the usable source rather than inserting internal source files into the article unless explicitly requested.
@@ -359,13 +365,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-editorial-selection/SKILL.md",
-    "bytes": 2802,
-    "sha256": "38dd481f4dc5f7474bce0582e5291ed44866c1858cb94a7087e1cd564c120f7a"
+    "bytes": 3172,
+    "sha256": "f26eb3ec78d7d02d084ff9b59b1327f5009ad2f37541663a501c16546fd3d7b0"
   },
   {
     "path": "skills/media-editorial/SKILL.md",
-    "bytes": 6160,
-    "sha256": "80f7eec1a1b851d61aae2f7dd6b0a9766916df643184d53dd3d163155273285e"
+    "bytes": 7392,
+    "sha256": "442cd826ac1cd7a9810c23786e120b15814344bfbdf33e8470cf0154c45c4f94"
   },
   {
     "path": "runtime/reference/BROWSER_HOST.md",

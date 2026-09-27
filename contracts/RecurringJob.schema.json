@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RecurringJob",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "RecurringJob"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "job_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "job_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "operating_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "workflow_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "enabled": {
+          "type": "boolean"
+        },
+        "trigger": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "timezone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "active_windows": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "start_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "end_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dependency_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "library_lock_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "private_state_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "execution_mode": {
+          "enum": [
+            "draft-only",
+            "review-before-send",
+            "bounded-auto"
+          ]
+        },
+        "authorization_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "budget_limits": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "timeout_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "overlap_policy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "missed_run_policy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "retry_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "freshness_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "escalation_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "last_attempt_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "last_success_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_due_at": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "job_id",
+        "job_version",
+        "operating_plan_ref",
+        "workflow_id",
+        "enabled",
+        "trigger",
+        "timezone",
+        "active_windows",
+        "start_at",
+        "end_at",
+        "dependency_policy",
+        "library_lock_ref",
+        "private_state_refs",
+        "execution_mode",
+        "authorization_refs",
+        "budget_limits",
+        "timeout_policy",
+        "overlap_policy",
+        "missed_run_policy",
+        "retry_policy",
+        "freshness_policy",
+        "escalation_policy",
+        "last_attempt_at",
+        "last_success_at",
+        "next_due_at"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

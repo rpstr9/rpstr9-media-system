@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LaunchPackage",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "LaunchPackage"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "blueprint_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "strategy_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identity_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "editorial_program_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "asset_manifest_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "content_package_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "account_receipt_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "publication_receipt_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "growth_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "operating_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "prepared": {
+          "type": "boolean"
+        },
+        "connected": {
+          "type": "boolean"
+        },
+        "approved": {
+          "type": "boolean"
+        },
+        "published": {
+          "type": "boolean"
+        },
+        "recurring_running": {
+          "type": "boolean"
+        },
+        "state_evidence": {
+          "type": "object"
+        },
+        "remaining_blockers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "simulation": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "blueprint_ref",
+        "strategy_ref",
+        "identity_ref",
+        "editorial_program_ref",
+        "asset_manifest_refs",
+        "content_package_refs",
+        "account_receipt_refs",
+        "publication_receipt_refs",
+        "growth_plan_ref",
+        "operating_plan_ref",
+        "prepared",
+        "connected",
+        "approved",
+        "published",
+        "recurring_running",
+        "state_evidence",
+        "remaining_blockers",
+        "simulation"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}

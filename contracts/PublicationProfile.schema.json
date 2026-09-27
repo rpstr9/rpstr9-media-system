@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PublicationProfile",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "PublicationProfile"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private",
+        "approved-for-public"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "publication_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "display_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "purpose": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "audience_context": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "languages": {
+          "type": "array",
+          "items": {}
+        },
+        "formats": {
+          "type": "array",
+          "items": {}
+        },
+        "editorial_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "objectives": {
+          "type": "array",
+          "items": {}
+        },
+        "guardrails": {
+          "type": "array",
+          "items": {}
+        },
+        "strategy_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "approval_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "data_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "budget_policy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "profile_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "operating_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_refs": {
+          "type": "array",
+          "items": {}
+        },
+        "account_inventory_refs": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "publication_id",
+        "display_name",
+        "purpose",
+        "audience_context",
+        "languages",
+        "formats",
+        "editorial_policy",
+        "objectives",
+        "guardrails",
+        "strategy_refs",
+        "approval_policy",
+        "data_policy",
+        "budget_policy",
+        "profile_version",
+        "operating_plan_ref",
+        "identity_refs",
+        "account_inventory_refs"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}
