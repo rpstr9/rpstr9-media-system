@@ -9,10 +9,10 @@
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
       "redistribution": "not granted by this bridge",
-      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/a18d958125af4a88756c0dd565d0865c9e795725/MARKETER.md",
-      "content_commit": "a18d958125af4a88756c0dd565d0865c9e795725",
-      "full_file_sha256": "b2cb72b16584f94837aa9ad191ab60f8e1537d23d6fb54c48f5c53e6eb0d556b",
-      "bytes": 392459,
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/9acf6304932ce5e70bd7ad63c61178f0fca3fc00/MARKETER.md",
+      "content_commit": "9acf6304932ce5e70bd7ad63c61178f0fca3fc00",
+      "full_file_sha256": "beee947d0fc994a3bd97a8650db7b235f1e84af8ab6f3bd8136a7a0289eb3f48",
+      "bytes": 395790,
       "full_method_read_in_build": false
     },
     {
@@ -27,7 +27,7 @@
     {
       "id": "brand-identity-director",
       "local_entry": "${SKILL_ROOT}/brand-identity-director/SKILL.md",
-      "entry_sha256": "ab0f22ba95e310e1060a6fdab4e7e7863c7090bb8a962688c8fe8d4e265b48de",
+      "entry_sha256": "9ec68b28a8393dfc5db8a420c67498619aed28670d7570f8143652b0df7a2def",
       "version_kind": "local-entry-content-hash",
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,

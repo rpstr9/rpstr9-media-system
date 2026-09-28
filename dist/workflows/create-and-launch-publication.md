@@ -68,10 +68,10 @@ Source: `registry/method-dependencies.json`
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
       "redistribution": "not granted by this bridge",
-      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/a18d958125af4a88756c0dd565d0865c9e795725/MARKETER.md",
-      "content_commit": "a18d958125af4a88756c0dd565d0865c9e795725",
-      "full_file_sha256": "b2cb72b16584f94837aa9ad191ab60f8e1537d23d6fb54c48f5c53e6eb0d556b",
-      "bytes": 392459,
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/9acf6304932ce5e70bd7ad63c61178f0fca3fc00/MARKETER.md",
+      "content_commit": "9acf6304932ce5e70bd7ad63c61178f0fca3fc00",
+      "full_file_sha256": "beee947d0fc994a3bd97a8650db7b235f1e84af8ab6f3bd8136a7a0289eb3f48",
+      "bytes": 395790,
       "full_method_read_in_build": false
     },
     {
@@ -86,7 +86,7 @@ Source: `registry/method-dependencies.json`
     {
       "id": "brand-identity-director",
       "local_entry": "${SKILL_ROOT}/brand-identity-director/SKILL.md",
-      "entry_sha256": "ab0f22ba95e310e1060a6fdab4e7e7863c7090bb8a962688c8fe8d4e265b48de",
+      "entry_sha256": "9ec68b28a8393dfc5db8a420c67498619aed28670d7570f8143652b0df7a2def",
       "version_kind": "local-entry-content-hash",
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
@@ -269,7 +269,7 @@ Read [operating boundaries](#source-policies-constitution-md) and [handoff rules
 ## Method bridge
 Determine whether the task imports, applies, narrowly revises or develops identity. Inspect the full current strategy and approved identity artifacts, source chronology, rights and explicit choices. Preserve an existing coherent identity for account application or article production; a new asset does not demand rebranding.
 
-When development is requested, load the complete locked Brand Identity Director entry and all required references from [method dependency register](#source-registry-method-dependencies-json). Preserve its actual stage behavior, rendered drafts, selection rules and complete outputs. The bridge does not replace that method with a brand board checklist. Missing complete access is dependency-blocked.
+When development is requested, load the complete locked Brand Identity Director entry and all required references from [method dependency register](#source-registry-method-dependencies-json). Preserve its actual stage behavior, rendered drafts, selection rules and complete outputs. For new candidate identities, preserve its independent generation requirement: one candidate per generation call and per standalone image, with sibling briefs and drafts excluded from that call’s inputs. Retain the separate images and their actual generation provenance. The bridge does not replace that method with a brand board checklist. Missing complete access is dependency-blocked.
 
 Use approved strategy as the upstream source. Identity and Perception Flow are parallel branches. Preserve the distinction between strategic approval, identity approval and authority to change account fields. Return a BrandIdentityContext retaining the full source output, version, verbal/visual rules, templates, usage limits and unresolved conditions.
 
@@ -842,7 +842,7 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
   {
     "path": "registry/method-dependencies.json",
     "bytes": 2977,
-    "sha256": "d6fc0753056a2ff5a300460fc10779e0fafd06303663bf58fe9f0384df4e5135"
+    "sha256": "01997391662a3ab4f517b3291458106251756795c63072502ac75874d7975c37"
   },
   {
     "path": "skills/media-master/SKILL.md",
@@ -861,8 +861,8 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
   },
   {
     "path": "skills/media-brand-identity/SKILL.md",
-    "bytes": 3849,
-    "sha256": "b4a558116630a8648ee0641b318552b927a307757398ba09640a18c669ed4cd8"
+    "bytes": 4122,
+    "sha256": "c6987c381adb9a6bc4734306be4caf37d43875b25a05dcf5100563117668a72c"
   },
   {
     "path": "skills/media-editorial-selection/SKILL.md",

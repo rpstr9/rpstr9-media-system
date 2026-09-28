@@ -41,6 +41,6 @@ def main():
   if p.is_file() and '__pycache__' not in rel and '.git' not in p.relative_to(ROOT).parts and rel not in ('releases/manifest.json','releases/latest.json'):
    if rel not in allow:raise ValueError('Unreviewed file outside public allowlist: '+rel)
    files.append({'path':rel,'sha256':sha(p),'bytes':p.stat().st_size})
- (ROOT/'releases/manifest.json').write_text(json.dumps({'schema_version':'1.0','release':'0.1.6','inventory':files,'excludes':['releases/manifest.json','releases/latest.json']},indent=2))
+ (ROOT/'releases/manifest.json').write_text(json.dumps({'schema_version':'1.0','release':'0.1.7','inventory':files,'excludes':['releases/manifest.json','releases/latest.json']},indent=2))
  print(json.dumps({'workflows':len(reg['workflows']),'files':len(files),'inventory_digest':sha(ROOT/'releases/manifest.json')}))
 if __name__=='__main__':main()
