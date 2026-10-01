@@ -38,3 +38,6 @@ Check the delivered result against the current brief and the relevant evidence, 
 ## Inherit the reviewed concept
 
 Before concrete development of a new or materially changed premise, obtain the applicable [Concept Review](../concept-review/SKILL.md) result and complete originating artifacts. Reuse the review for routine work within an unchanged concept; do not reopen it for a local execution change. If this direct request introduces a new organizing premise, apply that same method before developing it. Preserve protected strengths and unresolved questions, and still critique the actual produced work separately.
+
+## Existing-media continuity
+Read the before-state media inventory and preserve useful originals, source pixels and accessibility information. Verify each asset's exact role, readable detail, placement and caption in the finished piece. A generated illustration quota is not a production requirement. Respect current owner exclusions across the source format and any rasterized derivative. Do not infer deletion authority or lack of value from the existence of a textual description.
