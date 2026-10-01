@@ -29,3 +29,6 @@ Outputs: AudienceInsight record; EvidenceBundle; Unresolved hypotheses and next 
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+## Preserve the status of audience assumptions
+Keep a proposed audience segment distinct from the publication's validated audience. Do not infer all readers from one commercial use case, a search query or an owner's diagnosis. Treat readers as intelligent peers who may lack the relevant knowledge. Usefulness can include creative capability, access, understanding and enjoyment; investigate which gain matters in this publication rather than imposing a single action-oriented model.
