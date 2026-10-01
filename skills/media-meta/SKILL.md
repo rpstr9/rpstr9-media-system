@@ -27,3 +27,6 @@ Outputs: MetaReview; System-level ChangeProposal; Prioritized experiment backlog
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+## Inspect the right layer
+Distinguish a weak editorial selection from missing infrastructure, a factual error, a media-block corruption and an evaluator failure. Diagnose the framing and the existing sufficient alternative before adding another instruction or tool. Preserve identity and the owner relationship while repairing the affected layer. Use structural verification to detect execution defects; assess usefulness and editorial interest separately. Do not present a passed checklist, exposed calibration case or cleaner format as audience validation.
