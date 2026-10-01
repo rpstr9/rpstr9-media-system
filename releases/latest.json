@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.7",
+  "release": "0.1.8",
   "repository": "https://github.com/rpstr9/rpstr9-media-system",
-  "content_commit": "31e8e1d0cc6d72dcb4b32bf40340d32b8b28d6b4",
+  "content_commit": "e8b3f75435c6957f267b4866285010430d4ec97c",
   "manifest_path": "releases/manifest.json",
-  "manifest_sha256": "08a898a131a29bc6f15cb3d701b48fd60c8544c7f1f22fdfa1f241663efeba1c",
+  "manifest_sha256": "f1a0db9cbe99e3cd0e9dadda5c6be6e8af6e9def25b7ed273ce99fe6210c5209",
   "entry_path": "START_HERE.md"
 }
