@@ -1,4 +1,6 @@
-# Experimental edition 0.1.8
+# Experimental edition 0.1.9
+
+This edition strengthens editorial selection before drafting, distinguishes persistent identity from item-specific structure, and requires before/after media preservation and saved-block verification. Reader value includes capability, access, understanding and enjoyment; existing sufficient resources take precedence over unnecessary infrastructure. These are methods and editorial criteria, not measured audience results.
 
 This edition carries approved strategy into editorial selection, research, writing and production through explicit editorial foundation records. Discovery articles must deliver a supported change in understanding within the article; reference articles must help readers complete their task accurately. Examples, experiments and visuals are optional and must make a concrete reader contribution. The no-padding rule applies across workflows. Publication subjects, examples, visual styles and owner exclusions stay in private context. No model is pinned.
 
