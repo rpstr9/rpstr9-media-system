@@ -25,3 +25,6 @@ Outputs: ResourceRecord; Versioned resource artifact or update; Links to depende
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+## Use an existing answer before creating infrastructure
+Inspect ordinary resources and the reader's remaining work before building a new tool, guide or returning-reader feature. Create only what contributes a worthwhile capability or removes a material obstacle, with a feasible maintenance cost. Keep the core article's value on the page. An optional resource is not a reason to invent an exercise, worksheet or repeated article architecture.
