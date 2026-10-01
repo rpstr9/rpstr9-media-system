@@ -33,6 +33,13 @@ Do not require an example, comparison, experiment, narrative turn or illustratio
 
 Review the actual output against this rule before delivery or publication. A filled checklist, rendered asset, test count or longer text is not evidence of content quality. Honor the owner's excluded visual modes and derive each creative choice from the current brief; do not turn any current example into a reusable default.
 
+## Editorial judgment and repair
+Apply three layers in order: factual standards and permissions; the publication's approved identity and reader relationship; then the editor's selection and judgment about this assignment. These layers guide decisions and do not prescribe a universal article template. Treat an intelligent reader's missing subject knowledge as a need for explanation, not as a reason to diminish their intelligence.
+
+Before adding infrastructure, examples or experiments, inspect the framing of the problem and the existing resources. Useful work can provide capability, access, understanding or enjoyment. Record the consequential editorial choice and its reasons privately; make its contribution evident in the actual material. Search behavior informs selection but does not replace editorial judgment. Separate confirmed owner choices from interpretations of taste and from observed audience outcomes.
+
+When revising an existing publication, inventory its current cover, body media, embeds, order, captions, source credits, accessibility text and links. Prefer scoped text edits. A complete body replacement requires a complete block reconstruction and verified preservation inventory. Existing authentic images are not padding merely because the prose can describe them. Verify the actual saved structure, media and readable layout; matching text alone cannot prove that the text belongs to the correct block.
+
 <a id="source-contracts-handoff-md"></a>
 
 ---
@@ -157,7 +164,7 @@ Make writing decisions observable. Personality adjectives alone are insufficient
 
 For each active format, specify the reader promise, appropriate material, evidence threshold, narrative shape and reason for its order, heading/paragraph conventions, visual roles, useful ending and review criteria. Distinguish required elements from conditional ones. Structure may support understanding, a decision, action, experience or another declared editorial purpose; do not impose a universal tutorial, word count, SEO formula or call to action.
 
-Preserve established approved prose, headers and formats. When importing examples, extract the publication-specific principles; do not turn their subject, wording or solution into reusable skill defaults. Use short task-derived probes privately when they help test a new voice, but do not make those probes mandatory templates.
+Preserve approved identity constraints and functional formatting; distinguish these from a past article’s optional structure. When importing examples, extract the publication-specific principles; do not turn their subject, wording or solution into reusable skill defaults. Use short task-derived probes privately when they help test a new voice, but do not make those probes mandatory templates.
 
 ## Retained handoff and readiness
 
@@ -168,6 +175,9 @@ Mark the foundation ready only when a writer can produce and a reviewer can asse
 Missing writing conventions normally call for completing the foundation within the authorized task, not a new approval pause. Preserve strategic hypotheses as hypotheses while doing useful editorial work. If a missing strategic choice or conflict materially changes whom the publication serves or what it promises, resolve that affected decision through the strategy route. Continue unrelated work. Changes to relevant strategy, owner instructions or established format invalidate only affected downstream choices.
 
 Older records remain readable. When resuming them, inspect their substantive guide and migrate the missing handoff fields before new full article production; do not treat absent metadata as evidence that earlier writing must be discarded.
+
+## Apply the foundation without flattening the work
+Use factual standards and permissions first, the approved identity and reader relationship second, and selection and judgment about the present item third. Keep each layer explicit. Stable identity and functional formatting do not make every existing section or narrative pattern compulsory. Let the current thought determine structure and the useful ending. Store actual owner decisions and reasons privately with confirmation status and contrary evidence; examples remain evidence for the current publication, outside reusable instructions.
 
 <a id="source-skills-media-master-skill-md"></a>
 
@@ -233,6 +243,9 @@ Check the delivered result against the current brief and the relevant evidence, 
 ## Concept-to-idea review
 
 For a new or materially changed organizing concept, load the complete [Concept Review](#source-skills-concept-review-skill-md) after developing comparable candidate premises and before committing to concrete creative ideas. Rough sketches can make a premise inspectable. Apply its researched perspectives, substantive challenge, revision through the originating capability and focused recheck; carry the resulting concept, protected strengths, unresolved conditions and review version into the handoff. Reuse a valid review for the same unchanged premise, and preserve locked strategy and narrow revision scope. Direct invocation follows this rule without requiring the master. Keep later review of the actual output; conceptual judgment is not audience evidence. This adds no approval pause for already-authorized work.
+
+## Coordinate judgment, not a universal template
+Establish the owner's consequential selection choices before commissioning. Use facts and permissions as boundaries, approved identity and reader relationship as context, and item-specific judgment to choose material and form. Do not turn a diagnosis into biography or audience evidence. Reassess open commissions when controlling criteria change, retaining dated owner requests and distinguishing decisions already approved from hypotheses. Carry the correction through private guides, reading bundles, active work orders and affected derivatives, with separate prepared and live records.
 
 <a id="source-skills-concept-review-skill-md"></a>
 
@@ -732,8 +745,8 @@ The same route can save native articles or inspect other selected sites where au
 [
   {
     "path": "policies/CONSTITUTION.md",
-    "bytes": 4159,
-    "sha256": "cbb9f2218eb0c86874498f26533d7075668e508d4f8e83f193e63972e58bbd9e"
+    "bytes": 5591,
+    "sha256": "04e455ba1e070c11b00ce94e4be63e0901a00d2222ff9cafd145fb49b73ef322"
   },
   {
     "path": "contracts/HANDOFF.md",
@@ -747,13 +760,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "contracts/EDITORIAL_FOUNDATION.md",
-    "bytes": 6079,
-    "sha256": "9f3c280e586df5c05ed9146f0c653ff7e0f1365f1d6a76228314e5645037c883"
+    "bytes": 6745,
+    "sha256": "1bc678f3646a17faa380d783c52a014e6c81703220e575835f758fa854b0a276"
   },
   {
     "path": "skills/media-master/SKILL.md",
-    "bytes": 9739,
-    "sha256": "a76f20e19990db7b61e22caadf9bd6e8126b1341312f4dec440edfcd1fe44157"
+    "bytes": 10379,
+    "sha256": "ea9ba7bcc648f7a831337cd39275a24f844ac9ffd20c5ffdcaa19c42a57d4434"
   },
   {
     "path": "skills/concept-review/SKILL.md",
