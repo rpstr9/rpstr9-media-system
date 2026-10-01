@@ -33,6 +33,13 @@ Do not require an example, comparison, experiment, narrative turn or illustratio
 
 Review the actual output against this rule before delivery or publication. A filled checklist, rendered asset, test count or longer text is not evidence of content quality. Honor the owner's excluded visual modes and derive each creative choice from the current brief; do not turn any current example into a reusable default.
 
+## Editorial judgment and repair
+Apply three layers in order: factual standards and permissions; the publication's approved identity and reader relationship; then the editor's selection and judgment about this assignment. These layers guide decisions and do not prescribe a universal article template. Treat an intelligent reader's missing subject knowledge as a need for explanation, not as a reason to diminish their intelligence.
+
+Before adding infrastructure, examples or experiments, inspect the framing of the problem and the existing resources. Useful work can provide capability, access, understanding or enjoyment. Record the consequential editorial choice and its reasons privately; make its contribution evident in the actual material. Search behavior informs selection but does not replace editorial judgment. Separate confirmed owner choices from interpretations of taste and from observed audience outcomes.
+
+When revising an existing publication, inventory its current cover, body media, embeds, order, captions, source credits, accessibility text and links. Prefer scoped text edits. A complete body replacement requires a complete block reconstruction and verified preservation inventory. Existing authentic images are not padding merely because the prose can describe them. Verify the actual saved structure, media and readable layout; matching text alone cannot prove that the text belongs to the correct block.
+
 <a id="source-contracts-handoff-md"></a>
 
 ---
@@ -195,6 +202,9 @@ Check the delivered result against the current brief and the relevant evidence, 
 
 For a new or materially changed organizing concept, load the complete [Concept Review](#source-skills-concept-review-skill-md) after developing comparable candidate premises and before committing to concrete creative ideas. Rough sketches can make a premise inspectable. Apply its researched perspectives, substantive challenge, revision through the originating capability and focused recheck; carry the resulting concept, protected strengths, unresolved conditions and review version into the handoff. Reuse a valid review for the same unchanged premise, and preserve locked strategy and narrow revision scope. Direct invocation follows this rule without requiring the master. Keep later review of the actual output; conceptual judgment is not audience evidence. This adds no approval pause for already-authorized work.
 
+## Coordinate judgment, not a universal template
+Establish the owner's consequential selection choices before commissioning. Use facts and permissions as boundaries, approved identity and reader relationship as context, and item-specific judgment to choose material and form. Do not turn a diagnosis into biography or audience evidence. Reassess open commissions when controlling criteria change, retaining dated owner requests and distinguishing decisions already approved from hypotheses. Carry the correction through private guides, reading bundles, active work orders and affected derivatives, with separate prepared and live records.
+
 <a id="source-skills-media-brand-identity-skill-md"></a>
 
 ---
@@ -282,6 +292,9 @@ Check the delivered result against the current brief and the relevant evidence, 
 
 For a new or materially changed organizing concept, load the complete [Concept Review](#source-skills-concept-review-skill-md) after developing comparable candidate premises and before committing to concrete creative ideas. Rough sketches can make a premise inspectable. Apply its researched perspectives, substantive challenge, revision through the originating capability and focused recheck; carry the resulting concept, protected strengths, unresolved conditions and review version into the handoff. Reuse a valid review for the same unchanged premise, and preserve locked strategy and narrow revision scope. Direct invocation follows this rule without requiring the master. Keep later review of the actual output; conceptual judgment is not audience evidence. This adds no approval pause for already-authorized work.
 
+## Derive expression from the material
+Keep the publication's approved identity and reader relationship persistent while varying subject treatment. Choose emotional range, intensity, structure and visual roles from the current evidence and purpose. Do not force a reassuring moral, prestige association, generated-image quota or generic aesthetic. Review actual language and images together for the intended consequential choice and reader experience, not merely for surface polish.
+
 <a id="source-skills-media-art-director-skill-md"></a>
 
 ---
@@ -329,6 +342,9 @@ Check the delivered result against the current brief and the relevant evidence, 
 
 Before concrete development of a new or materially changed premise, obtain the applicable [Concept Review](#source-skills-concept-review-skill-md) result and complete originating artifacts. Reuse the review for routine work within an unchanged concept; do not reopen it for a local execution change. If this direct request introduces a new organizing premise, apply that same method before developing it. Preserve protected strengths and unresolved questions, and still critique the actual produced work separately.
 
+## Preserve inspectable evidence
+Choose a visual for what the reader can inspect, understand or experience at the actual reading size. Keep important source detail readable and make captions point to the relevant detail. Retain useful existing media when revising; record a content-specific reason for removal or replacement. A documentary image cannot be replaced by invented technical decoration. Approved identity constrains account and header assets; it does not require every subject to receive identical treatment or a new illustration.
+
 <a id="source-skills-media-asset-production-skill-md"></a>
 
 ---
@@ -375,6 +391,9 @@ Check the delivered result against the current brief and the relevant evidence, 
 ## Inherit the reviewed concept
 
 Before concrete development of a new or materially changed premise, obtain the applicable [Concept Review](#source-skills-concept-review-skill-md) result and complete originating artifacts. Reuse the review for routine work within an unchanged concept; do not reopen it for a local execution change. If this direct request introduces a new organizing premise, apply that same method before developing it. Preserve protected strengths and unresolved questions, and still critique the actual produced work separately.
+
+## Existing-media continuity
+Read the before-state media inventory and preserve useful originals, source pixels and accessibility information. Verify each asset's exact role, readable detail, placement and caption in the finished piece. A generated illustration quota is not a production requirement. Respect current owner exclusions across the source format and any rasterized derivative. Do not infer deletion authority or lack of value from the existence of a textual description.
 
 <a id="source-skills-concept-review-skill-md"></a>
 
@@ -489,8 +508,8 @@ The same route can save native articles or inspect other selected sites where au
 [
   {
     "path": "policies/CONSTITUTION.md",
-    "bytes": 4159,
-    "sha256": "cbb9f2218eb0c86874498f26533d7075668e508d4f8e83f193e63972e58bbd9e"
+    "bytes": 5591,
+    "sha256": "04e455ba1e070c11b00ce94e4be63e0901a00d2222ff9cafd145fb49b73ef322"
   },
   {
     "path": "contracts/HANDOFF.md",
@@ -504,8 +523,8 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-master/SKILL.md",
-    "bytes": 9739,
-    "sha256": "a76f20e19990db7b61e22caadf9bd6e8126b1341312f4dec440edfcd1fe44157"
+    "bytes": 10379,
+    "sha256": "ea9ba7bcc648f7a831337cd39275a24f844ac9ffd20c5ffdcaa19c42a57d4434"
   },
   {
     "path": "skills/media-brand-identity/SKILL.md",
@@ -514,18 +533,18 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-creative-director/SKILL.md",
-    "bytes": 5616,
-    "sha256": "303907ca6429b6d8a96fdb76f1fedd26e2969be7a671141553bd6457eac2be5e"
+    "bytes": 6100,
+    "sha256": "1e02e05d876337dd9931edcdd938e62439eb653456905179efaeed6502365446"
   },
   {
     "path": "skills/media-art-director/SKILL.md",
-    "bytes": 4517,
-    "sha256": "5757516ddaaa6bd1179c1815823a6d9f78f337e9224e0dc20e0eef5755b4cade"
+    "bytes": 5061,
+    "sha256": "f1b2aaa97e269fe53d18f8480cde6107a20c02381e619673af6c4e0cd0839559"
   },
   {
     "path": "skills/media-asset-production/SKILL.md",
-    "bytes": 4886,
-    "sha256": "fb57a6769310fe638fc7b9034c83ff242f05f445959ae618d60911c5092e8bb1"
+    "bytes": 5371,
+    "sha256": "a6faad1bcef47a1b41db85715d0272f57204762f9ed6b0390a6f00fa71d93feb"
   },
   {
     "path": "skills/concept-review/SKILL.md",

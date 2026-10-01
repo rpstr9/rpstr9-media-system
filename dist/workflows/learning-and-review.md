@@ -33,6 +33,13 @@ Do not require an example, comparison, experiment, narrative turn or illustratio
 
 Review the actual output against this rule before delivery or publication. A filled checklist, rendered asset, test count or longer text is not evidence of content quality. Honor the owner's excluded visual modes and derive each creative choice from the current brief; do not turn any current example into a reusable default.
 
+## Editorial judgment and repair
+Apply three layers in order: factual standards and permissions; the publication's approved identity and reader relationship; then the editor's selection and judgment about this assignment. These layers guide decisions and do not prescribe a universal article template. Treat an intelligent reader's missing subject knowledge as a need for explanation, not as a reason to diminish their intelligence.
+
+Before adding infrastructure, examples or experiments, inspect the framing of the problem and the existing resources. Useful work can provide capability, access, understanding or enjoyment. Record the consequential editorial choice and its reasons privately; make its contribution evident in the actual material. Search behavior informs selection but does not replace editorial judgment. Separate confirmed owner choices from interpretations of taste and from observed audience outcomes.
+
+When revising an existing publication, inventory its current cover, body media, embeds, order, captions, source credits, accessibility text and links. Prefer scoped text edits. A complete body replacement requires a complete block reconstruction and verified preservation inventory. Existing authentic images are not padding merely because the prose can describe them. Verify the actual saved structure, media and readable layout; matching text alone cannot prove that the text belongs to the correct block.
+
 <a id="source-contracts-handoff-md"></a>
 
 ---
@@ -195,6 +202,9 @@ Check the delivered result against the current brief and the relevant evidence, 
 
 For a new or materially changed organizing concept, load the complete [Concept Review](../../skills/concept-review/SKILL.md) after developing comparable candidate premises and before committing to concrete creative ideas. Rough sketches can make a premise inspectable. Apply its researched perspectives, substantive challenge, revision through the originating capability and focused recheck; carry the resulting concept, protected strengths, unresolved conditions and review version into the handoff. Reuse a valid review for the same unchanged premise, and preserve locked strategy and narrow revision scope. Direct invocation follows this rule without requiring the master. Keep later review of the actual output; conceptual judgment is not audience evidence. This adds no approval pause for already-authorized work.
 
+## Coordinate judgment, not a universal template
+Establish the owner's consequential selection choices before commissioning. Use facts and permissions as boundaries, approved identity and reader relationship as context, and item-specific judgment to choose material and form. Do not turn a diagnosis into biography or audience evidence. Reassess open commissions when controlling criteria change, retaining dated owner requests and distinguishing decisions already approved from hypotheses. Carry the correction through private guides, reading bundles, active work orders and affected derivatives, with separate prepared and live records.
+
 <a id="source-skills-media-measurement-skill-md"></a>
 
 ---
@@ -278,6 +288,9 @@ Outputs: Diagnosis; ChangeProposal; EvaluationRecord; AdaptationRecord or reject
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
 
+## Keep taste evidence private and scoped
+Record actual owner decisions, reasons, scope and contrary evidence, distinguishing confirmed preferences from inferred taste. One accepted subject, image, sentence or structure does not establish a general default. Representative revisions and rejected alternatives can calibrate private editorial judgment but do not prove audience outcomes or transfer. Owner opinions can inform questions; they are not automatically facts. Do not mine private anecdotes to manufacture authorial experience. Promote only process, decision criteria and quality standards to shared methods under the applicable release authority.
+
 <a id="source-skills-media-meta-skill-md"></a>
 
 ---
@@ -313,6 +326,9 @@ Outputs: MetaReview; System-level ChangeProposal; Prioritized experiment backlog
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+## Inspect the right layer
+Distinguish a weak editorial selection from missing infrastructure, a factual error, a media-block corruption and an evaluator failure. Diagnose the framing and the existing sufficient alternative before adding another instruction or tool. Preserve identity and the owner relationship while repairing the affected layer. Use structural verification to detect execution defects; assess usefulness and editorial interest separately. Do not present a passed checklist, exposed calibration case or cleaner format as audience validation.
 
 <a id="source-runtime-reference-browser-host-md"></a>
 
@@ -358,8 +374,8 @@ The same route can save native articles or inspect other selected sites where au
 [
   {
     "path": "policies/CONSTITUTION.md",
-    "bytes": 4159,
-    "sha256": "cbb9f2218eb0c86874498f26533d7075668e508d4f8e83f193e63972e58bbd9e"
+    "bytes": 5591,
+    "sha256": "04e455ba1e070c11b00ce94e4be63e0901a00d2222ff9cafd145fb49b73ef322"
   },
   {
     "path": "contracts/HANDOFF.md",
@@ -373,8 +389,8 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-master/SKILL.md",
-    "bytes": 9739,
-    "sha256": "a76f20e19990db7b61e22caadf9bd6e8126b1341312f4dec440edfcd1fe44157"
+    "bytes": 10379,
+    "sha256": "ea9ba7bcc648f7a831337cd39275a24f844ac9ffd20c5ffdcaa19c42a57d4434"
   },
   {
     "path": "skills/media-measurement/SKILL.md",
@@ -383,13 +399,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-learning/SKILL.md",
-    "bytes": 3761,
-    "sha256": "fb0b89590f0712a54a4830ed08ee824fc15640a5fe8ef04359df46e53f798fad"
+    "bytes": 4418,
+    "sha256": "ce9a05de1cccf716587399b1ef533c5590b24f735fc1ec788fa382467ebfac8c"
   },
   {
     "path": "skills/media-meta/SKILL.md",
-    "bytes": 2559,
-    "sha256": "84c4cbd6ece1ce673313138f283ef1355e3c161960033bc12f5b1740196ed84e"
+    "bytes": 3120,
+    "sha256": "818fadf3cdc65c0149a29b3be849f07ab933d37ebb6c62bd6301866d938ee4f6"
   },
   {
     "path": "runtime/reference/BROWSER_HOST.md",
