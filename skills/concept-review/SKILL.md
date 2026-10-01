@@ -17,6 +17,8 @@ Before favoring a candidate, record the decision to make and task-derived criter
 
 Give candidates stable identities and comparable descriptions. Retain the input versions and the original appeal of each, so revision can be assessed against what it was meant to preserve. Do not weaken alternatives, retrofit criteria or selectively research support to vindicate a preferred conclusion. If new evidence warrants changing a criterion, state the reason and reassess every affected candidate consistently.
 
+For editorial concepts, distinguish the subject from the supported relationship and change in understanding it offers this audience. Judge reference material by its task purpose, without requiring a feature arc. Challenge whether the proposed execution lets readers inspect the central connection before any external continuation, while protecting distinctive ambiguity or appeal. Derive criteria and perspectives from the assignment; never install a fixed expert roster, story form or example.
+
 ## Research perspectives that can change the decision
 
 Select practitioners, researchers or documented bodies of work because their expertise addresses this assignment's material uncertainties and competing interpretations. No permanent roster, celebrity hierarchy or prior example becomes the default panel. Seek relevant dissent and evidence that could overturn the apparent favorite.

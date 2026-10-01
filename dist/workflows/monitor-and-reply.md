@@ -26,6 +26,13 @@ Persist intent before external action. Unknown outcomes require reconciliation; 
 
 Learning may change only its approved local surface. It cannot alter permission, identity, objectives, evidence definitions, evaluation answers or shared files to improve a score. Shared changes require a separately reviewed release; workspace adoption remains a distinct decision. Preserve a baseline, rejection evidence and rollback.
 
+## No padding
+Every passage, section, example, experiment and visual must contribute necessary understanding, relevant evidence, a usable decision or a required action. Identify the concrete contribution in the current assignment. If removing material leaves the reader's understanding and ability to use the work intact, remove it. Preserve material qualifications, provenance and complete usable instructions; concision must not erase what makes a claim accurate or a resource usable.
+
+Do not require an example, comparison, experiment, narrative turn or illustration merely to satisfy a format or signal effort. Prefer the shortest form that delivers the actual value. Research or testing belongs in an article only to the extent its supported finding changes the explanation or use; detailed protocols and production logs normally belong in the supporting record. Remove repetitions, decorative demonstrations, generic benefit claims and process narration that do no additional work. A reference can be complete without a feature section. A documented case can stand without a new graphic.
+
+Review the actual output against this rule before delivery or publication. A filled checklist, rendered asset, test count or longer text is not evidence of content quality. Honor the owner's excluded visual modes and derive each creative choice from the current brief; do not turn any current example into a reusable default.
+
 <a id="source-contracts-handoff-md"></a>
 
 ---
@@ -147,19 +154,32 @@ Import approved strategy or use the complete Marketer/Marketer PFM through media
 
 Use media-editorial-selection to build the EditorialProgram: recurring reader promise, series, formats, sourcing, mix, backlog, standards, visual requirements, realistic production capacity and refresh conditions. Do not confuse an article calendar with an editorial product.
 
+Before new full article production, resolve the [editorial foundation handoff](../../contracts/EDITORIAL_FOUNDATION.md). Selection owns the saved voice, tone and format guide; creative direction contributes where needed, and editorial checks whether the guide is usable. Reuse current publication rules or complete missing ones from sufficient strategy within the task. Pass the guide version into article briefs. Strategy availability, identity delivery, editorial readiness, article evidence and publication permission are separate states. Record the foundation's reference and actual readiness in LaunchPackage.state_evidence; do not report the editorial setup complete merely because accounts or brand assets are ready.
+
+Carry the strategy's approved opportunity and capability advantage through research, selection and editorial review. Require each dependent brief to state the promised reader gain and how the proposed material delivers it. For a publication built on research or translation access, complete the audience-language coverage comparison before approving the angle. Reuse a saved check only while its material and scope remain applicable.
+
 ## Set up and launch
 Initialize an authorized private workspace outside the library. Import source documents with provenance and preserve unknowns. Discover actual existing account identities and per-action capabilities. Prepare account-specific real assets through creative and production work; apply only authorized fields with before-state conflict checks. A website, newsletter, membership or new account is optional, never required by this system.
 
 Produce initial illustrated content from actual research, review it, then save or publish through media-publishing within the request. Prepare the first resource/opportunity/relationship GrowthPlan. Configure disabled recurring jobs from the owner's cadence, timezone, budgets and authorization. Activate only authorized jobs and verify actual runtime and account state. Resolve authentication through a precise handoff; retain progress for resume.
 
+For a growth-oriented launch, explicitly load Distribution, Relationships and Measurement alongside Growth. Connect the editorial promise and initial pieces to a first-reader plan, measurement setup, authorized publication/distribution, response handling and review of subsequent pieces. Resolve dependencies without making independent preparation wait; unavailable audience results do not block operational completion. Keep narrow non-launch requests on their existing routes.
+
+Reference EditorialProgram, GrowthPlan, DistributionPlan and MeasurementSpec in LaunchPackage. Use null for unavailable or inapplicable optional references and explain status and reason in state_evidence. Record distribution, response_handling and audience_results separately there, each with status, evidence references and remaining work; distinguish prepared, attempted, confirmed, pending, unavailable and not-applicable as appropriate. Publication alone does not confirm distribution, handled responses or validated readership.
+
 Return the LaunchPackage with independent states for prepared, connected, approved, published and recurring-running. Include actual assets, content, receipts and remaining blockers. A local simulation must remain labeled simulation.
 
 ## Run and resume
+For a request to run the growth engine, route to media-growth, media-relationships and media-publishing. Prioritize potential-reader research, suitable outside conversations, likes, brief contextual comments, replies and listening for follow-up. Complete the authorized interactions and return exact sent text and verified receipts. Supporting resource work, article links or a growth plan alone do not complete an engagement request. Keep a one-time run separate from recurring execution.
+
 Choose a periodic executor from available host capabilities. A scheduled Codex turn can run these methods and operate the selected browser through computer use, including Chrome for X when configured. Use the [scheduled browser host procedure](#source-runtime-reference-browser-host-md); an API connector or separate model service is not a prerequisite. Keep the selected route, account and supervision settings private.
 
 Route article production, article publication, native social posts, inbox checks, reply processing, outside participation, follow-up, measurement, learning and health independently. At each occurrence revalidate release, inputs, ownership, freshness, pause and authority. A comment check with no new work is a valid no-op. An unavailable image holds its article, not unrelated listening.
 
 Resume from persisted state: validate identities and hashes, reconcile unknown writes/uploads, recheck recent human activity, invalidate stale approvals and continue uncompleted work. Close with usable deliverables and a state checkpoint. Queue learning only where evidence warrants it. Use the [private runner instructions](../../runtime/reference/README.md) for actual periodic execution; reading skills alone starts no service.
+
+## Carry editorial value through the operation
+Pass the feature's private concept record, evidence decision and protected appeal from selection through research, writing, visuals and execution review. Keep reference usefulness and feature interest distinct. Ensure the article delivers its main understanding on the page before optional tools or experiences. A quality repair must reach active guides, reading bundles, private work orders and affected article derivatives; retain separate prepared and live receipts. Do not turn individual examples into shared defaults or claim audience validation from editorial judgment.
 
 ## Inputs and outputs
 
@@ -183,7 +203,7 @@ Source: `skills/media-relationships/SKILL.md`
 
 ---
 name: media-relationships
-description: Read and manage publication conversations, contextual replies, useful outside contributions and follow-up commitments.
+description: Read and manage publication conversations with brief, warm, context-specific comments, likes and replies. Use for inbox checks, outside engagement and continuing conversations.
 ---
 
 # Relationships, Community and Conversations
@@ -193,16 +213,27 @@ Read [operating boundaries](#source-policies-constitution-md) and [handoff rules
 ## Understand the exchange
 For inbound work retrieve the actual root content, relevant ancestors, newest messages and prior responses. Persist received events before advancing checkpoints; deduplicate webhook/poll copies by their actual source identifiers. Mark missing context or listening gaps. Do not infer that nobody commented because retrieval failed.
 
-Classify the message's purpose: question, correction, feedback, appreciation, complaint, invitation or another supported intent. Decide answer, investigate, clarify, acknowledge, escalate or no response according to usefulness and the owner's policy. Research factual questions; route a credible correction to Editorial and Publishing. Never fabricate personal experience or familiarity.
+Classify the message's purpose: question, correction, feedback, appreciation, complaint, invitation or another supported intent. Decide answer, investigate, clarify, acknowledge, escalate or no response according to the person's intent, conversational fit and the owner's policy. Warmth and shared enjoyment can justify an initial comment; they do not, by themselves, justify another reply after the publication has already spoken. Research factual questions; route a credible correction to Editorial and Publishing. Never fabricate personal experience or familiarity.
 
-For outside participation, read the actual work and identify a concrete contribution valuable to its author/readers. Check relevance, receptivity, applicable permission, history and opt-outs independently. No compulsory link back, generic praise campaign, reciprocal-comment pact or contact quota. Unknown contact permission permits preparation, not assumed sending.
+For outside participation, read the actual work and existing conversation. Identify something specific the person said, showed or expressed that warrants a natural response. Check relevance, receptivity, applicable permission, history and opt-outs independently. No compulsory link back, generic praise campaign, reciprocal-comment pact or contact quota. Unknown contact permission permits preparation, not assumed sending.
+
+## Keep the exchange brief and human
+Default casual comments and replies to one short sentence, or two when needed for clarity. React to one actual detail, thought or feeling so the response shows understanding. Keep it kind, modest and natural in the publication's voice and the conversation's language. Derive the wording from this exchange rather than reusing canned praise.
+
+Let genuine appreciation be a complete interaction. Do not force advice, corrections, source links, an explanation of usefulness, self-promotion or a question merely to prolong the exchange. Use more detail only when the person's question or situation needs it. Avoid excessive praise, overfamiliarity, intrusive observations and claims about the author's character or private feelings. Do not invent shared experience or say something was tried when it was only read.
+
+Like the posts or comments receiving a positive response from the publication. Read people's replies and, when appropriate, like them as the final acknowledgment. Default to one publication comment or reply per conversational exchange, across runs rather than per day. Let the other person have the last word. Do not send a further closing reply, thank-you-for-the-thanks, renewed compliment or question merely to maintain contact. Send another reply only when the newest message contains a direct question, a concrete request, a material correction or other substantive unresolved point that needs an answer. Before drafting, identify that exact point and check that it has not already been answered. A like does not replace a warranted answer; appreciation or conversational warmth alone is not such a reason. Check the existing like state before acting so a retry cannot remove it. Use judgment if a like would misrepresent agreement, and do not like the publication's own replies or manufacture a back-and-forth.
+
+Before sending, check that the response is grounded in the actual content, easy to understand, brief for its purpose and comfortable to receive from a stranger. Remove anything that makes ordinary friendliness sound like a pitch, a performance or unwanted familiarity.
 
 ## Dispatch and continue
-Draft to the correct parent with the context needed to make the response meaningful. Use bounded standing authorization when applicable. Immediately before sending, refresh conversation and human/agent ownership, verify the target still exists, enforce per-person and bot-loop stopping limits and revalidate platform policy. A recent human answer may make a queued response unnecessary. Use Publishing for writes and actual confirmation.
+Draft to the correct parent with the context needed to make the response meaningful. Apply current task or bounded standing authorization; an explicitly requested engagement run is not automatically draft-only. Immediately before sending, refresh conversation and human/agent ownership, verify the target still exists, enforce per-person and bot-loop stopping limits and revalidate platform policy. A recent human answer may make a queued response unnecessary. Use Publishing for writes and actual confirmation, including likes; report exact sent text and destination separately from unsent drafts.
 
-Retain minimal private ConversationState: account/root/parent/message identifiers, source context, permission and opt-out, actual responses, ownership, pending actions, commitments and checkpoint. Do not merge people across platforms from names alone. Apply the configured retention policy.
+Retain minimal private ConversationState: account/root/parent/message identifiers, source context, permission and opt-out, actual responses, ownership, publication response count for the exchange, exact unresolved point (if any), closure status, pending actions, commitments and checkpoint. Do not merge people across platforms from names alone. Apply the configured retention policy.
 
-Check later replies and commitments independently of new article publication. Continue only when there is useful work, stop on refusal, and avoid repeated nudges. Return EngagementDecision, actual or prepared response state and follow-up conditions. Feed recurring confusion, missed responses and useful exchanges into research/editorial/growth; message count is not relationship quality.
+When research or an audit discovers a new reply, persist its source identifiers, context and disposition even if sending is outside the current task. Do not automatically create pending textual follow-up for every incoming message. Keep observed/read, acknowledged and replied states separate; viewing alone is not acknowledgment, but an appropriate like or deliberate no-response decision can close the exchange. Record the close reason and no pending reply; do not reopen it on a later run unless a new substantive point arrives. Before the next authorized response, reconcile the saved item against the current conversation, prior receipts and human activity, then reply, acknowledge or close it according to the exchange. Deduplicate discoveries across listening and research so the same reply cannot produce duplicate actions.
+
+Check notifications, mentions, comments on the publication's work, replies to its outside comments and outstanding commitments on each authorized listening run, independently of new article publication. Prioritize unanswered conversation, including friendly replies that invite acknowledgment. Apply the one-response default and substantive-answer exception above; apparent friendliness is not permission for repeated replies. Daily reply allowances are ceilings, never reasons to continue a closed exchange. Stop on refusal or natural closure, and avoid repeated nudges. Save the checkpoint and follow-up conditions without starting an unrequested recurring job. Return EngagementDecision and actual or prepared response state. Feed recurring confusion, missed responses and meaningful exchanges into research/editorial/growth; message count is not relationship quality.
 
 ## Inputs and outputs
 
@@ -344,8 +375,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
 [
   {
     "path": "policies/CONSTITUTION.md",
-    "bytes": 2737,
-    "sha256": "564818328563bd6d164855fc74704e8ac9279e66ff87fc4b312f190a437430d4"
+    "bytes": 4159,
+    "sha256": "cbb9f2218eb0c86874498f26533d7075668e508d4f8e83f193e63972e58bbd9e"
   },
   {
     "path": "contracts/HANDOFF.md",
@@ -359,13 +390,13 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-master/SKILL.md",
-    "bytes": 6450,
-    "sha256": "c1b0db7af05b3e2e8e6fa1ff71bf81d388f4e599f0ecb30edd960db42e1b19dc"
+    "bytes": 9739,
+    "sha256": "a76f20e19990db7b61e22caadf9bd6e8126b1341312f4dec440edfcd1fe44157"
   },
   {
     "path": "skills/media-relationships/SKILL.md",
-    "bytes": 3472,
-    "sha256": "0d153ac20becc063660249038f79df644bee067f3825ca83bc67a9a9ee56bc96"
+    "bytes": 7476,
+    "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
   },
   {
     "path": "skills/media-publishing/SKILL.md",

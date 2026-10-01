@@ -20,6 +20,11 @@ Inspect actual destination requirements and crop behavior. Define master/variant
 
 Return ProductionBrief and AssetSpecs with purpose, placement, source/representation, technical constraints, continuity and inspection plan. Adapter-specific parameters may translate this brief but must not redefine its identity or meaning. If the requested production tool is absent, retain a complete portable handoff and label production unexecuted.
 
+## Specify the visual argument and provenance
+Choose one dominant relationship or result for each feature asset; do not substitute a collection of category symbols for an idea. Give subject identity, editorial message and publisher identity distinct hierarchical jobs. Select real outputs, comparisons, details or sequences according to the evidence. Do not impose a universal composition or palette.
+
+Keep documentary interfaces intact. Place explanatory annotations outside the interface or make alterations explicit, retain relevant context, and label source-reported cases, actual trials and original explanations by their true provenance. Specify what the reader should inspect and what the caption adds beyond naming the image. Check thumbnail category recognition, legibility and meaningful variation across a series alongside identity continuity.
+
 ## Inputs and outputs
 
 Inputs: CreativeBrief; Approved reference assets and permitted use; Format and production constraints; BrandIdentityContext; Target-surface requirements and crop/preview behavior.

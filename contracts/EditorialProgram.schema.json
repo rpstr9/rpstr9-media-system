@@ -101,6 +101,191 @@
             "held",
             "retired"
           ]
+        },
+        "editorial_foundation": {
+          "type": "object",
+          "properties": {
+            "version": {
+              "type": "string",
+              "minLength": 1
+            },
+            "strategy_context_ref": {
+              "type": "string",
+              "minLength": 1
+            },
+            "guide_ref": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source_versions": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "ref": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sha256": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "status": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "ref",
+                  "sha256",
+                  "status"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "voice_and_tone": {
+              "type": "object",
+              "properties": {
+                "narrator_role": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "audience_relationship": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "trait_behaviors": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "trait": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "writing_behavior": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "strategy_basis": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "trait",
+                      "writing_behavior",
+                      "strategy_basis"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "tone_by_situation": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "situation": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "reader_need": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "tone_behavior": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "situation",
+                      "reader_need",
+                      "tone_behavior"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "language_rules": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 1
+                },
+                "boundaries": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              "required": [
+                "narrator_role",
+                "audience_relationship",
+                "trait_behaviors",
+                "tone_by_situation",
+                "language_rules",
+                "boundaries"
+              ],
+              "additionalProperties": false
+            },
+            "review_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "readiness": {
+              "enum": [
+                "ready",
+                "provisional",
+                "held"
+              ]
+            },
+            "unresolved_conditions": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "version",
+            "strategy_context_ref",
+            "guide_ref",
+            "source_versions",
+            "voice_and_tone",
+            "review_ref",
+            "readiness",
+            "unresolved_conditions"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "readiness": {
+                    "const": "ready"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "review_ref": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
         }
       },
       "required": [

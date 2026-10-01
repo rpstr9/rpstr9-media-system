@@ -26,6 +26,13 @@ Persist intent before external action. Unknown outcomes require reconciliation; 
 
 Learning may change only its approved local surface. It cannot alter permission, identity, objectives, evidence definitions, evaluation answers or shared files to improve a score. Shared changes require a separately reviewed release; workspace adoption remains a distinct decision. Preserve a baseline, rejection evidence and rollback.
 
+## No padding
+Every passage, section, example, experiment and visual must contribute necessary understanding, relevant evidence, a usable decision or a required action. Identify the concrete contribution in the current assignment. If removing material leaves the reader's understanding and ability to use the work intact, remove it. Preserve material qualifications, provenance and complete usable instructions; concision must not erase what makes a claim accurate or a resource usable.
+
+Do not require an example, comparison, experiment, narrative turn or illustration merely to satisfy a format or signal effort. Prefer the shortest form that delivers the actual value. Research or testing belongs in an article only to the extent its supported finding changes the explanation or use; detailed protocols and production logs normally belong in the supporting record. Remove repetitions, decorative demonstrations, generic benefit claims and process narration that do no additional work. A reference can be complete without a feature section. A documented case can stand without a new graphic.
+
+Review the actual output against this rule before delivery or publication. A filled checklist, rendered asset, test count or longer text is not evidence of content quality. Honor the owner's excluded visual modes and derive each creative choice from the current brief; do not turn any current example into a reusable default.
+
 <a id="source-contracts-handoff-md"></a>
 
 ---
@@ -148,6 +155,8 @@ Before favoring a candidate, record the decision to make and task-derived criter
 
 Give candidates stable identities and comparable descriptions. Retain the input versions and the original appeal of each, so revision can be assessed against what it was meant to preserve. Do not weaken alternatives, retrofit criteria or selectively research support to vindicate a preferred conclusion. If new evidence warrants changing a criterion, state the reason and reassess every affected candidate consistently.
 
+For editorial concepts, distinguish the subject from the supported relationship and change in understanding it offers this audience. Judge reference material by its task purpose, without requiring a feature arc. Challenge whether the proposed execution lets readers inspect the central connection before any external continuation, while protecting distinctive ambiguity or appeal. Derive criteria and perspectives from the assignment; never install a fixed expert roster, story form or example.
+
 ## Research perspectives that can change the decision
 
 Select practitioners, researchers or documented bodies of work because their expertise addresses this assignment's material uncertainties and competing interpretations. No permanent roster, celebrity hierarchy or prior example becomes the default panel. Seek relevant dissent and evidence that could overturn the apparent favorite.
@@ -196,8 +205,8 @@ Keep later critique of the actual produced work: a sound concept does not prove 
 [
   {
     "path": "policies/CONSTITUTION.md",
-    "bytes": 2737,
-    "sha256": "564818328563bd6d164855fc74704e8ac9279e66ff87fc4b312f190a437430d4"
+    "bytes": 4159,
+    "sha256": "cbb9f2218eb0c86874498f26533d7075668e508d4f8e83f193e63972e58bbd9e"
   },
   {
     "path": "contracts/HANDOFF.md",
@@ -211,8 +220,8 @@ Keep later critique of the actual produced work: a sound concept does not prove 
   },
   {
     "path": "skills/concept-review/SKILL.md",
-    "bytes": 9041,
-    "sha256": "3b2cb836dd88415146ce43b21ad4cce787f59b8ec1e4c04d5415c0ed1d647c9a"
+    "bytes": 9537,
+    "sha256": "30450c8168276b8024a2cc3239bbfde95f8b2917671d22dc3c6478c249b661c7"
   }
 ]
 ```

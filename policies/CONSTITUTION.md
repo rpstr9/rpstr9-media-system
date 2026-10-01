@@ -15,3 +15,10 @@ Keep secrets in the host's secret store. Keep publication workspaces outside the
 Persist intent before external action. Unknown outcomes require reconciliation; retries must not assume nothing happened. A local pause cannot unsend a message. Retain actual receipts and distinguish prepared, scheduled, submitted, confirmed, unknown, blocked, user-reported and simulated outcomes.
 
 Learning may change only its approved local surface. It cannot alter permission, identity, objectives, evidence definitions, evaluation answers or shared files to improve a score. Shared changes require a separately reviewed release; workspace adoption remains a distinct decision. Preserve a baseline, rejection evidence and rollback.
+
+## No padding
+Every passage, section, example, experiment and visual must contribute necessary understanding, relevant evidence, a usable decision or a required action. Identify the concrete contribution in the current assignment. If removing material leaves the reader's understanding and ability to use the work intact, remove it. Preserve material qualifications, provenance and complete usable instructions; concision must not erase what makes a claim accurate or a resource usable.
+
+Do not require an example, comparison, experiment, narrative turn or illustration merely to satisfy a format or signal effort. Prefer the shortest form that delivers the actual value. Research or testing belongs in an article only to the extent its supported finding changes the explanation or use; detailed protocols and production logs normally belong in the supporting record. Remove repetitions, decorative demonstrations, generic benefit claims and process narration that do no additional work. A reference can be complete without a feature section. A documented case can stand without a new graphic.
+
+Review the actual output against this rule before delivery or publication. A filled checklist, rendered asset, test count or longer text is not evidence of content quality. Honor the owner's excluded visual modes and derive each creative choice from the current brief; do not turn any current example into a reusable default.

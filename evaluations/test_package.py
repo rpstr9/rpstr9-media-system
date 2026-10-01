@@ -23,7 +23,7 @@ class PackageTests(unittest.TestCase):
    h=yaml.safe_load(f.read_text().split('---',2)[1]);self.assertEqual(h['name'],f.parent.name);self.assertTrue(h['description']);self.assertNotIn('model',h)
    for t in re.findall(r'\]\(([^)]+)\)',f.read_text()):
     if '://' not in t:self.assertTrue((f.parent/t.split('#')[0]).exists(),t)
- def test_manifest_integrity(self):self.assertEqual(verify(ROOT)['release'],'0.1.7')
+ def test_manifest_integrity(self):self.assertEqual(verify(ROOT)['release'],'0.1.8')
  def test_workflow_inventory_exact(self):
   inv=json.loads((ROOT/'dist/source-inventories.json').read_text())
   for w in json.loads((ROOT/'registry/workflows.json').read_text())['workflows']:
@@ -50,10 +50,21 @@ class PackageTests(unittest.TestCase):
   a=record('EditorialProgram');b=record('PublicationBlueprint','synthetic-b');a['payload']['blueprint_ref']='record:'+b['record_id'];self.assertIn('Cross-publication record reference',validate([a,b]))
  def test_launch_state_requires_evidence(self):
   r=record('LaunchPackage');r['payload']['published']=True;self.assertTrue(validate([r]));r['payload']['state_evidence']['published']=['record:remote-receipt'];r['payload']['simulation']=True;self.assertTrue(validate([r]))
+ def test_launch_optional_plan_compatibility(self):
+  r=record('LaunchPackage');r['payload'].pop('distribution_plan_ref',None);r['payload'].pop('measurement_spec_ref',None)
+  self.assertEqual(validate([r]),[])
+  r['payload'].update(distribution_plan_ref=None,measurement_spec_ref=None)
+  self.assertEqual(validate([r]),[])
+  other=record('DistributionPlan','other-publication');r['payload']['distribution_plan_ref']='record:'+other['record_id']
+  self.assertIn('Cross-publication record reference',validate([r,other]))
+ def test_launch_bundle_closure(self):
+  bundle=(ROOT/'dist/workflows/create-and-launch-publication.md').read_text()
+  for name in ('media-distribution','media-relationships','media-measurement'):
+   self.assertIn('Source: `skills/'+name+'/SKILL.md`',bundle)
  def test_release_adoption_and_rollback(self):
   with tempfile.TemporaryDirectory() as d:
    s=Store(d,'synthetic-a');s.put('plan',{'library_release':'prior'});s.put('private_note','retained')
-   with self.assertRaises(ValueError):stage_adoption(s,'0.1.7',True,False,ROOT)
-   with self.assertRaises(ValueError):stage_adoption(s,'0.1.7',False,True,ROOT)
-   stage_adoption(s,'0.1.7',True,True,ROOT);self.assertEqual(s.get('plan')['library_release'],'0.1.7');rollback_adoption(s);self.assertEqual(s.get('plan')['library_release'],'prior');self.assertEqual(s.get('private_note'),'retained');s.close()
+   with self.assertRaises(ValueError):stage_adoption(s,'0.1.8',True,False,ROOT)
+   with self.assertRaises(ValueError):stage_adoption(s,'0.1.8',False,True,ROOT)
+   stage_adoption(s,'0.1.8',True,True,ROOT);self.assertEqual(s.get('plan')['library_release'],'0.1.8');rollback_adoption(s);self.assertEqual(s.get('plan')['library_release'],'prior');self.assertEqual(s.get('private_note'),'retained');s.close()
 if __name__=='__main__':unittest.main(verbosity=2)

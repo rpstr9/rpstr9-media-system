@@ -16,19 +16,32 @@ Import approved strategy or use the complete Marketer/Marketer PFM through media
 
 Use media-editorial-selection to build the EditorialProgram: recurring reader promise, series, formats, sourcing, mix, backlog, standards, visual requirements, realistic production capacity and refresh conditions. Do not confuse an article calendar with an editorial product.
 
+Before new full article production, resolve the [editorial foundation handoff](../../contracts/EDITORIAL_FOUNDATION.md). Selection owns the saved voice, tone and format guide; creative direction contributes where needed, and editorial checks whether the guide is usable. Reuse current publication rules or complete missing ones from sufficient strategy within the task. Pass the guide version into article briefs. Strategy availability, identity delivery, editorial readiness, article evidence and publication permission are separate states. Record the foundation's reference and actual readiness in LaunchPackage.state_evidence; do not report the editorial setup complete merely because accounts or brand assets are ready.
+
+Carry the strategy's approved opportunity and capability advantage through research, selection and editorial review. Require each dependent brief to state the promised reader gain and how the proposed material delivers it. For a publication built on research or translation access, complete the audience-language coverage comparison before approving the angle. Reuse a saved check only while its material and scope remain applicable.
+
 ## Set up and launch
 Initialize an authorized private workspace outside the library. Import source documents with provenance and preserve unknowns. Discover actual existing account identities and per-action capabilities. Prepare account-specific real assets through creative and production work; apply only authorized fields with before-state conflict checks. A website, newsletter, membership or new account is optional, never required by this system.
 
 Produce initial illustrated content from actual research, review it, then save or publish through media-publishing within the request. Prepare the first resource/opportunity/relationship GrowthPlan. Configure disabled recurring jobs from the owner's cadence, timezone, budgets and authorization. Activate only authorized jobs and verify actual runtime and account state. Resolve authentication through a precise handoff; retain progress for resume.
 
+For a growth-oriented launch, explicitly load Distribution, Relationships and Measurement alongside Growth. Connect the editorial promise and initial pieces to a first-reader plan, measurement setup, authorized publication/distribution, response handling and review of subsequent pieces. Resolve dependencies without making independent preparation wait; unavailable audience results do not block operational completion. Keep narrow non-launch requests on their existing routes.
+
+Reference EditorialProgram, GrowthPlan, DistributionPlan and MeasurementSpec in LaunchPackage. Use null for unavailable or inapplicable optional references and explain status and reason in state_evidence. Record distribution, response_handling and audience_results separately there, each with status, evidence references and remaining work; distinguish prepared, attempted, confirmed, pending, unavailable and not-applicable as appropriate. Publication alone does not confirm distribution, handled responses or validated readership.
+
 Return the LaunchPackage with independent states for prepared, connected, approved, published and recurring-running. Include actual assets, content, receipts and remaining blockers. A local simulation must remain labeled simulation.
 
 ## Run and resume
+For a request to run the growth engine, route to media-growth, media-relationships and media-publishing. Prioritize potential-reader research, suitable outside conversations, likes, brief contextual comments, replies and listening for follow-up. Complete the authorized interactions and return exact sent text and verified receipts. Supporting resource work, article links or a growth plan alone do not complete an engagement request. Keep a one-time run separate from recurring execution.
+
 Choose a periodic executor from available host capabilities. A scheduled Codex turn can run these methods and operate the selected browser through computer use, including Chrome for X when configured. Use the [scheduled browser host procedure](../../runtime/reference/BROWSER_HOST.md); an API connector or separate model service is not a prerequisite. Keep the selected route, account and supervision settings private.
 
 Route article production, article publication, native social posts, inbox checks, reply processing, outside participation, follow-up, measurement, learning and health independently. At each occurrence revalidate release, inputs, ownership, freshness, pause and authority. A comment check with no new work is a valid no-op. An unavailable image holds its article, not unrelated listening.
 
 Resume from persisted state: validate identities and hashes, reconcile unknown writes/uploads, recheck recent human activity, invalidate stale approvals and continue uncompleted work. Close with usable deliverables and a state checkpoint. Queue learning only where evidence warrants it. Use the [private runner instructions](../../runtime/reference/README.md) for actual periodic execution; reading skills alone starts no service.
+
+## Carry editorial value through the operation
+Pass the feature's private concept record, evidence decision and protected appeal from selection through research, writing, visuals and execution review. Keep reference usefulness and feature interest distinct. Ensure the article delivers its main understanding on the page before optional tools or experiences. A quality repair must reach active guides, reading bundles, private work orders and affected article derivatives; retain separate prepared and live receipts. Do not turn individual examples into shared defaults or claim audience validation from editorial judgment.
 
 ## Inputs and outputs
 

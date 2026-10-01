@@ -7,12 +7,20 @@ description: Write, revise and review publication content with traceable evidenc
 
 Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](../../contracts/HANDOFF.md). Use only the current task’s required inputs and references.
 
+## Resolve the editorial foundation
+
+Before full drafting, follow the [editorial foundation handoff](../../contracts/EDITORIAL_FOUNDATION.md). Read the current publication guide, EditorialProgram, selected format and source versions, not only the brief's voice label. If missing or materially stale, route the affected choices through selection and, where needed, creative direction; execute that preparation within the authorized task and resume writing. Preserve sufficient established rules, and keep narrow edits narrow. Do not improvise a new house voice separately for each article.
+
+When reviewing a new foundation, check that its decisions can guide an actual opening, explanation, transition, ending and relevant non-article channel treatment. Inspect task-derived copy alongside the selected identity's actual applications: look, feel, voice, tone and manner must express the same brand character and reader relationship. Tone may vary with the situation without switching personality. Check structure against the reader's intended gain and language against the strategy; record substantive gaps rather than approving adjective lists. Return a ReviewRecord to selection. This review and the later review of a finished article are distinct, and neither proves audience demand.
+
 ## Develop the piece
 Start from the reader's situation, question, prior knowledge and reason to spend time on the piece. Define the useful understanding, decision, action or experience the reader should gain. Organize the article around that gain rather than the author's urge to explain the system or a production concern. Make every heading intelligible in the reader's context and make its section deliver the promised value. Explain unfamiliar terms and causal connections at the point of need; remove context-dependent shorthand, clever but unclear wording and details that do no useful work for the reader. Preserve relevant complexity and evidence rather than replacing substance with promotional claims.
 
 Comprehension and reader value are mandatory acceptance criteria. Review the title, headings and body from the stated audience's viewpoint without access to the authoring conversation. Confirm that a reader can tell what each section means, why it matters and what they gain from reading it. Revise or remove sections that fail either criterion before delivery. Record this review privately; do not print the author's checklist or corrections in the article. Derive wording and examples from the current brief, never from a fixed example.
 
 Read the EditorialBrief, actual evidence, current voice, identity and destination. Resolve whether the work is reporting, analysis, opinion, fiction or another creative form. Define the opening promise and a structure that delivers it. Draft with the relevant level of depth; no universal length, SEO pattern or call to action applies.
+
+For research-led discovery work, carry the brief's specific source finding and access benefit into the actual article. Make the material understandable in the reader's language while preserving its meaning and provenance. In the private review, compare the reader's gain with the readily available coverage identified during research. Hold or rework a piece that has lost its distinctive discovery and become a generic retelling. Keep the source-selection rationale, capability analysis and internal quality checks out of ordinary reader-facing prose; demonstrate the benefit through the material itself.
 
 For an established publication, inspect its current approved published format and preserve the article structure, heading hierarchy, handover/call-to-action treatment, prompt presentation and access-link conventions. Record these as editorial constraints, and change them only on explicit user request. Derive content and task-specific input fields from the present brief; do not turn an example's wording or subject into a permanent template. When presenting an externally maintained skill, use a concise activation prompt that loads the verified guide and complete relevant instructions, identifies the requested capability and gathers the needed inputs. Link the usable source rather than inserting internal source files into the article unless explicitly requested.
 
@@ -27,12 +35,23 @@ For an established publication, inspect its current approved published headers a
 
 Compare each completed header visually with the approved published references at full size and in the destination crop. Correct unintended style drift before marking the ContentPackage ready. Preserve the publication's existing body-heading hierarchy and formatting when revising or extending its article format. Keep these rules publication-specific: do not promote one publication's colors, fonts, subjects or examples into universal skill defaults.
 
+For opening pieces, carry Selection's launch check into review of the actual draft: the piece delivers an immediate reader gain, makes its distinctive contribution apparent, and supports a credible reason to return through feasible follow-up material. Describing the publication alone does not demonstrate its value. Do not force a founder narrative or invent firsthand experience; judge the form against the approved publication premise.
+
 ## Review and maintain
-Review separately for intended value, coherence, voice, useful originality, factual fidelity, source placement and completeness. Verify material claims against sources independently of how convincing the draft sounds. Check actual visuals at readable size and destination crops. Address the highest-impact defects while retaining the organizing idea.
+Review separately for intended value, coherence, voice, useful originality, factual fidelity, source placement and completeness. Verify material claims against sources independently of how convincing the draft sounds. Check actual visuals at readable size and destination crops, then review the visual/copy combination for the shared identity from the current foundation. Functional clarity and visual polish cannot compensate for conflicting brand character. Address the highest-impact defects while retaining the organizing idea.
 
 Return the complete ContentPackage, evidence map, AssetPlan and review record. Readiness requires actual required images and resolved rights, not filenames or insertion placeholders. The article may remain draft or held even if its text is complete. An explicitly image-free format can pass without invented visual requirements.
 
 For recurring production, research and write from the current backlog early enough for visual production and review. For updates, trace changed claims/headlines/identity to affected derivatives and approvals. Periodically inspect evergreen content and broken sources under the owner's plan; correct or retire only the affected material. Preserve substantive revision history and disclose remaining concerns.
+
+## Deliver the discovery within the article
+For a feature, inherit the private concept record and make its supported connection perceptible on the page. Establish a concrete object or specific question early; arrange evidence where it can change understanding. Let each section advance a distinct part of the experience. Replace abstract benefit announcements with visible consequences, introduce terminology at the point of need, and make the headline promise the actual supported discovery. Keep material qualifications beside the relevant claims and move routine setup into a practical layer when that improves reading.
+
+Deliver the central understanding before an external link, prompt, viewer or exercise. These may extend the experience; they must not supply an absent payoff. Preserve ambiguity where the material warrants it. End according to the piece's purpose, without compulsory morals, reaction announcements or calls to action. A reference instead earns its place through clear, short, accurate instructions; do not stretch it into a feature.
+
+Apply the no-padding rule to the actual title, body, visuals and handover. Remove an added example or experiment when the existing explanation already delivers its contribution. Preserve necessary evidence and usable instructions.
+
+Review execution separately from concept quality: identify the passage or visual that lets the reader experience the connection, check what each section adds, and remove repetitions or claims of excitement that substitute for evidence. Evaluate comprehension, usefulness and feature interest separately. These are editorial judgments; reader preference and validated improvement require actual observations.
 
 ## Inputs and outputs
 

@@ -123,6 +123,20 @@
         },
         "simulation": {
           "type": "boolean"
+        },
+        "distribution_plan_ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "measurement_spec_ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
         }
       },
       "required": [

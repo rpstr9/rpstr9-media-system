@@ -85,6 +85,20 @@
         "success_checks": {
           "type": "array",
           "items": {}
+        },
+        "editorial_program_ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "editorial_foundation_version": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
         }
       },
       "required": [

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.6",
+  "release": "0.1.8-local.7",
   "constitution": "policies/CONSTITUTION.md",
   "skills": [
     {
@@ -8,7 +8,7 @@
       "skill_id": "media-master",
       "path": "skills/media-master/SKILL.md",
       "kind": "controller",
-      "version": "0.1.6",
+      "version": "0.1.8-local.6",
       "inputs": [
         "PublicationProfile or an explicit provisional brief",
         "Current task and available state",
@@ -56,7 +56,7 @@
       "skill_id": "media-brand-strategy",
       "path": "skills/media-brand-strategy/SKILL.md",
       "kind": "method-bridge",
-      "version": "0.1.6",
+      "version": "0.1.8-local.6",
       "inputs": [
         "PublicationProfile",
         "Supplied strategy documents and their status",
@@ -93,7 +93,7 @@
       "skill_id": "media-source-research",
       "path": "skills/media-source-research/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.5",
+      "version": "0.1.8-local.2",
       "inputs": [
         "Research WorkOrder",
         "PublicationProfile and relevant audience context",
@@ -111,7 +111,7 @@
       "skill_id": "media-editorial-selection",
       "path": "skills/media-editorial-selection/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.6",
+      "version": "0.1.8-local.7",
       "inputs": [
         "CandidateSet",
         "EvidenceBundle",
@@ -121,7 +121,8 @@
         "SelectionDecision including hold/reject options",
         "EditorialBrief",
         "Open verification requirements",
-        "EditorialProgram when creating or revising the publication"
+        "EditorialProgram when creating or revising the publication",
+        "Versioned publication editorial foundation and guide, with practical readiness review"
       ],
       "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
     },
@@ -130,19 +131,21 @@
       "skill_id": "media-editorial",
       "path": "skills/media-editorial/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.6",
+      "version": "0.1.8-local.7",
       "inputs": [
         "EditorialBrief",
         "EvidenceBundle where factual work is involved",
         "StrategyContext, format and voice requirements",
         "BrandIdentityContext",
-        "Format-specific visual recipe and EvidenceBundle"
+        "Format-specific visual recipe and EvidenceBundle",
+        "Current EditorialProgram and editorial foundation version"
       ],
       "outputs": [
         "ContentPackage draft",
         "Claim references and fact/interpretation/fiction labels as relevant",
         "ReviewRecord and correction requests",
-        "Article AssetPlan with exact insertion anchors, captions, credits and accessibility text"
+        "Article AssetPlan with exact insertion anchors, captions, credits and accessibility text",
+        "Editorial foundation usability ReviewRecord when preparing publication rules"
       ],
       "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
     },
@@ -151,7 +154,7 @@
       "skill_id": "media-creative-director",
       "path": "skills/media-creative-director/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.6",
+      "version": "0.1.8-local.7",
       "inputs": [
         "EditorialBrief",
         "StrategyContext",
@@ -159,12 +162,14 @@
         "Format, production constraints and references",
         "BrandIdentityContext",
         "AssetPlan",
-        "AccountSurfacePlan when producing account assets"
+        "AccountSurfacePlan when producing account assets",
+        "Draft EditorialProgram for publication-level setup"
       ],
       "outputs": [
         "CreativeBrief",
         "Concept options and selected rationale",
-        "Observable creative success criteria"
+        "Observable creative success criteria",
+        "Language/image and narrative decisions returned to the editorial foundation"
       ],
       "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"
     },
@@ -284,7 +289,7 @@
       "skill_id": "media-relationships",
       "path": "skills/media-relationships/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.5",
+      "version": "0.1.8-local.1",
       "inputs": [
         "Publication intent and relevant GrowthPlan / RankedTargetSet",
         "Authorized contact or community information",
@@ -309,7 +314,7 @@
       "skill_id": "media-growth",
       "path": "skills/media-growth/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.5",
+      "version": "0.1.8-local.1",
       "inputs": [
         "Publication objectives, approved StrategyContext and relevant JourneyContext",
         "CreativeBrief and existing strategic handoff when supplied",
@@ -319,11 +324,12 @@
         "Platform-specific reply and listening limitations"
       ],
       "outputs": [
-        "GrowthResourceMap",
-        "GrowthOpportunitySet",
-        "RankedTargetSet",
-        "GrowthPlan and bounded ExperimentPlan",
-        "Engagement briefs for Distribution and Relationships",
+        "RankedTargetSet with audience and engagement evidence",
+        "GrowthPlan and relevant bounded ExperimentPlan",
+        "Exact sent comments/replies and confirmed like receipts via Publishing",
+        "Listening coverage, conversation checkpoints and pending follow-up",
+        "GrowthResourceMap and GrowthOpportunitySet when relevant",
+        "Necessary engagement briefs",
         "GrowthDiagnosis, upstream revisit requests and updated private GrowthState"
       ],
       "status": "implemented-local-development; exposed walkthrough reviewed; fresh full-method and live competency unverified"

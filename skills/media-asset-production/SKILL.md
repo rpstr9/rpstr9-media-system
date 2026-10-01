@@ -22,6 +22,9 @@ Map actual assets to stable article anchors or supported account fields. Upload 
 
 Return usable files and AssetManifest, or a truthful prepared-only/blocked result. Preserve source and account mappings privately. Promote technical lessons to local adaptations only after a checked comparison; a liked image or strong engagement does not authorize changing canonical identity.
 
+## Preserve the distinction between evidence and explanation
+Produce explanatory illustration and documentary evidence through separate appropriate paths. Never generate a plausible product interface or source image as proof of behavior. Preserve source pixels and meaningful labels in documentary material, and make editorial annotations distinguishable. Inspect the actual output at reading and thumbnail scales against the brief's communication job, provenance and identity. A polished rendering cannot repair a missing visual argument.
+
 ## Inputs and outputs
 
 Inputs: ProductionBrief and AssetSpec; CapabilityReport; Approved providers, budget and usable source assets; AssetPlan; BrandIdentityContext; AccountSurfacePlan where relevant.

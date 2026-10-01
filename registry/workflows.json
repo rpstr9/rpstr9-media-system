@@ -16,6 +16,22 @@
       "bundle": "dist/workflows/setup-and-strategy.md"
     },
     {
+      "id": "strategy-to-editorial-foundation",
+      "required_skills": [
+        "media-master",
+        "media-brand-strategy",
+        "media-editorial-selection",
+        "media-creative-director",
+        "media-editorial"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
+      ],
+      "bundle": "dist/workflows/strategy-to-editorial-foundation.md"
+    },
+    {
       "id": "create-and-launch-publication",
       "required_skills": [
         "media-master",
@@ -30,11 +46,15 @@
         "media-asset-production",
         "media-publishing",
         "media-growth",
-        "concept-review"
+        "concept-review",
+        "media-distribution",
+        "media-relationships",
+        "media-measurement"
       ],
       "references": [
         "policies/CONSTITUTION.md",
-        "contracts/HANDOFF.md"
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
       ],
       "bundle": "dist/workflows/create-and-launch-publication.md"
     },
@@ -45,11 +65,14 @@
         "media-source-research",
         "media-editorial-selection",
         "media-editorial",
-        "concept-review"
+        "concept-review",
+        "media-brand-strategy",
+        "media-creative-director"
       ],
       "references": [
         "policies/CONSTITUTION.md",
-        "contracts/HANDOFF.md"
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
       ],
       "bundle": "dist/workflows/research-to-editorial.md"
     },
@@ -107,11 +130,13 @@
         "media-creative-director",
         "media-art-director",
         "media-asset-production",
-        "concept-review"
+        "concept-review",
+        "media-brand-strategy"
       ],
       "references": [
         "policies/CONSTITUTION.md",
-        "contracts/HANDOFF.md"
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
       ],
       "bundle": "dist/workflows/produce-illustrated-article.md"
     },
@@ -190,6 +215,7 @@
         "media-source-research",
         "media-distribution",
         "media-relationships",
+        "media-publishing",
         "media-measurement"
       ],
       "references": [
@@ -232,11 +258,14 @@
         "media-editorial",
         "media-asset-production",
         "media-publishing",
-        "concept-review"
+        "concept-review",
+        "media-brand-strategy",
+        "media-creative-director"
       ],
       "references": [
         "policies/CONSTITUTION.md",
-        "contracts/HANDOFF.md"
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
       ],
       "bundle": "dist/workflows/produce-and-publish.md"
     },

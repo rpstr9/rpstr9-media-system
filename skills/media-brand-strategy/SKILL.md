@@ -10,11 +10,15 @@ Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](
 ## Preserve the source method
 Decide whether the request consumes, reconciles or creates strategy. For consumption, inspect the full supplied artifact, chronology, corrections, evidence and approval status. Preserve the original file and make a downstream StrategyContext without reducing the source to that view.
 
+Check whether the source actually supplies the audience, purpose, benefit, competitive context, capability/evidence, personality and identity constraints needed for the next task. Preserve approved choices and label inferred or provisional ones. Record whether this is an imported plan, an eight-element mapping or a fully executed named method; never upgrade one into another by relabeling it. An adequate existing strategy can support the [editorial foundation handoff](../../contracts/EDITORIAL_FOUNDATION.md) without rerunning strategy. Resolve only material missing decisions through the appropriate strategy method; writing conventions belong downstream.
+
 For creation or material revision, resolve the owner-authorized Marketer or Marketer PFM source through [method dependency register](../../registry/method-dependencies.json). Read the complete entry, shared workflow, required source groups and references at the locked version. Maintain an inventory of required/retrieved/missing material. A downloaded file is not a completed read; use chunks if the host truncates. If a required method cannot be loaded, mark that operation dependency-blocked and continue independent research.
 
 Execute the loaded method faithfully, including all strategic elements, evidence and unresolved questions. Choose mainstream or PFM vocabulary from the task and source instructions; do not invent a third substitute framework. Preserve full outputs and distinguish a proposal from owner-approved policy.
 
 Feed approved strategy to identity and journey as independent branches. Explain material evidence conflicts and route revisions through the original method. A growth opportunity or attractive visual does not authorize changing the audience, benefit or positioning.
+
+Carry the approved opportunity analysis, enabling capabilities and causal link to reader benefit into the downstream StrategyContext. Turn the claimed advantage into editorial selection criteria and observable acceptance checks. Do not retain only the tagline and tone while losing why this publication should exist or what its technology makes possible for this audience.
 
 Return source references, method lock, complete output reference, approval status, relevant purpose/audience/value/identity constraints and unresolved fields. Check that existing method files, entry guides, licenses and source outputs remain unchanged. This bridge does not grant rights to redistribute the underlying methods.
 

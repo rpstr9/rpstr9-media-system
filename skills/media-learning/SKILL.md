@@ -12,6 +12,8 @@ Read the actual run, review and outcome evidence, current method/release and own
 
 State the specific mechanism, competing explanations, supporting and contrary evidence and a test that could falsify it. Propose the smallest change to an allowed surface, with scope, baseline compatibility, expected effect, budget, stop rule and rollback. Do not tune protected purpose, identity, permission, evaluation criteria or source truth.
 
+External case studies enter as proposed mechanisms with stated applicability conditions, then bounded private tests, observed results and a retain/revise/reject/inconclusive decision. A creator's or model's explanation is not independent causal evidence. Place general evidence procedures in shared methods, dated platform behavior in platform references, and voice, formats, schedules, relationships and experimental outcomes in private publication state. Do not promote an attractive case-study tactic to a permanent rule without transfer evidence.
+
 ## Compare and decide
 Freeze criteria and relevant regressions before seeing candidate results. Compare baseline and candidate under comparable inputs, tools and resource limits; disclose exposure to evaluation cases. Keep development fixtures separate from independently controlled evaluation and do not claim exposed tests are sealed holdouts.
 

@@ -10,6 +10,8 @@ Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](
 ## Method
 Read the current strategic and editorial brief, identity, audience, intended experience, production resources and actual reference material. Preserve explicit choices and distinguish approved decisions from suggestions. A local execution change does not reopen brand strategy.
 
+For publication-level editorial setup, follow the [editorial foundation handoff](../../contracts/EDITORIAL_FOUNDATION.md). StrategyContext and a draft EditorialProgram are sufficient inputs; do not require an individual article brief before defining language/image roles and narrative expression. Establish the shared character expressed by the approved strategy and selected identity, then translate it into observable choices across look, feel, voice, tone and manner. Adapt intensity to reader needs while preserving that character; avoid deriving writing as a separate neutral service layer. Interpret references through this brand's strategy without importing the reference brand's persona. Return these choices to selection's canonical guide so article and visual briefs share one current foundation.
+
 When the existing creative-direction skill is available and requested, load its complete method at the recorded version. Use its result as the creative source; this media interface adds publication and delivery requirements rather than replacing it.
 
 For open work, explore genuinely different communication mechanisms. For each, explain the organizing idea, first impression, emotional or intellectual effect, evidence relationship, strongest weakness and production feasibility. Compare against this brief and recommend a direction. For locked work, preserve the chosen direction and explore only the open variables.
@@ -18,7 +20,10 @@ Specify hierarchy, sequence/rhythm, roles of language and imagery, visual or nar
 
 For established article series, inspect current approved published headers and treat their header design as locked identity. Carry the observed typography, palette, layout, spacing, recurring marks and crop treatment into the CreativeBrief, with references and the article-specific variables that may change. Do not redesign a header because the article topic is new. An explicit user request to change the style may reopen those constraints; a liked example alone may not. For a publication with no approved header style, derive its direction from its own strategy and brief. Preserve this decision rule without making any example's aesthetics a reusable default.
 
-Return a CreativeBrief with selected thesis, rationale, required elements, controlled freedom, per-format roles and success criteria. Pass it to art direction with actual source artifacts. If strategy conflicts are discovered, propose an upstream revisit with evidence; do not silently reposition the publication. Evaluate real output for brief fidelity separately from technical correctness and audience outcomes.
+Return a CreativeBrief with selected thesis, rationale, required elements, controlled freedom, per-format roles and success criteria. Pass it to art direction with actual source artifacts. If strategy conflicts are discovered, propose an upstream revisit with evidence; do not silently reposition the publication. Evaluate real copy and visuals together for shared character and intended impression, alongside their individual functional roles. Evaluate brief fidelity separately from technical correctness and audience outcomes.
+
+## Make visual interest serve the insight
+Derive a feature's visual argument from its specific material and intended change in understanding. Preserve recognizable identity while varying how each story reveals a relationship or result. Assign typography to reading structure, color to hierarchy and any expressive gesture to a communication purpose. Decorative treatment alone cannot establish a worthwhile idea; clear reference or instruction assets need no mandatory twist.
 
 ## Inputs and outputs
 

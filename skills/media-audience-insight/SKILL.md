@@ -12,6 +12,8 @@ Identify the audience decision the current task needs. Reuse existing research a
 
 Use media-source-research for external evidence and authorized reader observations for local evidence. Separate direct observation, a respondent's account, aggregate data and inference. Preserve sample, recruitment, timing, missing groups and contradictory material. Do not fabricate quotations or infer sensitive individual traits.
 
+For audience inferences from comparable publications, use the starting conditions and chronological evidence in Growth's [account-comparison procedure](../media-growth/SKILL.md#learn-from-other-accounts-without-copying-their-launch). Separate reported outcomes from the creator's explanation and from your inference. State which contextual differences limit transfer to this audience.
+
 Develop competing explanations for the behavior. For each, state supporting evidence, counterevidence and a feasible discriminating question or observation. Group readers only when that grouping changes the editorial decision and has support; otherwise retain a provisional hypothesis.
 
 Translate findings into choices about topics, depth, framing, format, accessibility, distribution context and return experience. Explain the causal assumption between a finding and a proposed choice. Do not silently change the publication's approved purpose or require a commercial funnel.

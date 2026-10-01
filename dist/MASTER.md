@@ -26,6 +26,13 @@ Persist intent before external action. Unknown outcomes require reconciliation; 
 
 Learning may change only its approved local surface. It cannot alter permission, identity, objectives, evidence definitions, evaluation answers or shared files to improve a score. Shared changes require a separately reviewed release; workspace adoption remains a distinct decision. Preserve a baseline, rejection evidence and rollback.
 
+## No padding
+Every passage, section, example, experiment and visual must contribute necessary understanding, relevant evidence, a usable decision or a required action. Identify the concrete contribution in the current assignment. If removing material leaves the reader's understanding and ability to use the work intact, remove it. Preserve material qualifications, provenance and complete usable instructions; concision must not erase what makes a claim accurate or a resource usable.
+
+Do not require an example, comparison, experiment, narrative turn or illustration merely to satisfy a format or signal effort. Prefer the shortest form that delivers the actual value. Research or testing belongs in an article only to the extent its supported finding changes the explanation or use; detailed protocols and production logs normally belong in the supporting record. Remove repetitions, decorative demonstrations, generic benefit claims and process narration that do no additional work. A reference can be complete without a feature section. A documented case can stand without a new graphic.
+
+Review the actual output against this rule before delivery or publication. A filled checklist, rendered asset, test count or longer text is not evidence of content quality. Honor the owner's excluded visual modes and derive each creative choice from the current brief; do not turn any current example into a reusable default.
+
 <a id="source-contracts-handoff-md"></a>
 
 ---
@@ -123,6 +130,45 @@ Source: `registry/method-dependencies.json`
 }
 
 ```
+<a id="source-contracts-editorial-foundation-md"></a>
+
+---
+
+Source: `contracts/EDITORIAL_FOUNDATION.md`
+
+# From strategy to repeatable editorial work
+
+Use this handoff when establishing or materially revising a publication's editorial approach, or when an article needs a missing foundation. Reuse a current, sufficient guide. A narrow correction needs only the rules relevant to that correction; it must not restart strategy, identity or onboarding.
+
+## Ownership and order
+
+1. **media-brand-strategy** reconciles the full strategy, owner corrections and evidence into StrategyContext. Distinguish imported planning, an eight-element mapping and actual execution of a named strategy method. Record which choices are approved, derived, provisional or unavailable. A document title or visual identity is not evidence that the strategy method ran.
+2. **media-editorial-selection** owns the publication's EditorialProgram and its editorial foundation. Import existing voice and format rules with provenance; derive only open choices from the audience, reader promise, positioning, personality, evidence and destination. Save a usable editorial guide and its version in the publication workspace.
+3. **media-creative-director**, when needed, resolves language/image relationships, narrative rhythm and format expression within that foundation. It may work from StrategyContext and a draft EditorialProgram before an individual article exists. Return the affected choices to selection; do not create a circular dependency on a finished article brief or reopen locked identity.
+4. **media-editorial** checks the foundation's practical usability. Selection records the review, then passes the current program, selected format and voice decisions into each EditorialBrief. Writing uses those actual rules and the piece's evidence, followed by review of the finished output.
+
+The master coordinates this sequence. Direct specialist invocation must resolve the same relevant prerequisites. Call capabilities within the current work unless separate agent execution is authorized; this handoff does not itself request delegation.
+
+## What the foundation must decide
+
+Treat look, feel, voice, tone and manner as expressions of one brand identity. Read the approved strategy and selected identity together, including the intended impression and actual applications. State the shared character, then translate it into observable visual and verbal behaviors. An approved visual direction carries meaning that writing must preserve; functional clarity alone does not establish brand fidelity. Interpret references through the publication's own strategy rather than importing another brand's persona or mechanically assigning writing styles to colors or typefaces.
+
+Make writing decisions observable. Personality adjectives alone are insufficient. Explain the narrator's role and relationship to the reader, how each relevant trait changes wording or explanation, and the limits on that expression. Tone, expressive intensity and information density may adapt to the reader's situation, format and channel while the underlying character and relationship remain recognizable. Derive terminology, assumed knowledge, sentence/paragraph rhythm, formatting and attribution conventions from both that identity and the publication's actual needs.
+
+For each active format, specify the reader promise, appropriate material, evidence threshold, narrative shape and reason for its order, heading/paragraph conventions, visual roles, useful ending and review criteria. Distinguish required elements from conditional ones. Structure may support understanding, a decision, action, experience or another declared editorial purpose; do not impose a universal tutorial, word count, SEO formula or call to action.
+
+Preserve established approved prose, headers and formats. When importing examples, extract the publication-specific principles; do not turn their subject, wording or solution into reusable skill defaults. Use short task-derived probes privately when they help test a new voice, but do not make those probes mandatory templates.
+
+## Retained handoff and readiness
+
+Use `EditorialProgram.payload.editorial_foundation` to retain the guide reference, version, StrategyContext reference, source versions, voice/tone decisions, review reference and unresolved conditions. Keep each format's structure and checks in `series_and_formats`. Each new or revised EditorialBrief records the program reference and foundation version, identifies its selected format, summarizes the relevant voice and adds only piece-specific exceptions with their authority.
+
+Mark the foundation ready only when a writer can produce and a reviewer can assess an appropriate piece without inventing the audience, promise, voice or structure. Review those decisions against current source versions and the intended reader. Inspect relevant visual applications and task-derived copy together for the same character, emotional impression and reader relationship; also check that the writing remains recognizable when the logo is absent. Repair a mismatch in the affected expression instead of neutralizing the identity or reopening settled strategy. Record the reviewer's actual independence; a self-review is not audience validation. A ready foundation does not mean a topic is selected, claims are evidenced, images exist, publication is authorized or audience demand is validated.
+
+Missing writing conventions normally call for completing the foundation within the authorized task, not a new approval pause. Preserve strategic hypotheses as hypotheses while doing useful editorial work. If a missing strategic choice or conflict materially changes whom the publication serves or what it promises, resolve that affected decision through the strategy route. Continue unrelated work. Changes to relevant strategy, owner instructions or established format invalidate only affected downstream choices.
+
+Older records remain readable. When resuming them, inspect their substantive guide and migrate the missing handoff fields before new full article production; do not treat absent metadata as evidence that earlier writing must be discarded.
+
 <a id="source-skills-media-master-skill-md"></a>
 
 ---
@@ -147,19 +193,32 @@ Import approved strategy or use the complete Marketer/Marketer PFM through media
 
 Use media-editorial-selection to build the EditorialProgram: recurring reader promise, series, formats, sourcing, mix, backlog, standards, visual requirements, realistic production capacity and refresh conditions. Do not confuse an article calendar with an editorial product.
 
+Before new full article production, resolve the [editorial foundation handoff](#source-contracts-editorial-foundation-md). Selection owns the saved voice, tone and format guide; creative direction contributes where needed, and editorial checks whether the guide is usable. Reuse current publication rules or complete missing ones from sufficient strategy within the task. Pass the guide version into article briefs. Strategy availability, identity delivery, editorial readiness, article evidence and publication permission are separate states. Record the foundation's reference and actual readiness in LaunchPackage.state_evidence; do not report the editorial setup complete merely because accounts or brand assets are ready.
+
+Carry the strategy's approved opportunity and capability advantage through research, selection and editorial review. Require each dependent brief to state the promised reader gain and how the proposed material delivers it. For a publication built on research or translation access, complete the audience-language coverage comparison before approving the angle. Reuse a saved check only while its material and scope remain applicable.
+
 ## Set up and launch
 Initialize an authorized private workspace outside the library. Import source documents with provenance and preserve unknowns. Discover actual existing account identities and per-action capabilities. Prepare account-specific real assets through creative and production work; apply only authorized fields with before-state conflict checks. A website, newsletter, membership or new account is optional, never required by this system.
 
 Produce initial illustrated content from actual research, review it, then save or publish through media-publishing within the request. Prepare the first resource/opportunity/relationship GrowthPlan. Configure disabled recurring jobs from the owner's cadence, timezone, budgets and authorization. Activate only authorized jobs and verify actual runtime and account state. Resolve authentication through a precise handoff; retain progress for resume.
 
+For a growth-oriented launch, explicitly load Distribution, Relationships and Measurement alongside Growth. Connect the editorial promise and initial pieces to a first-reader plan, measurement setup, authorized publication/distribution, response handling and review of subsequent pieces. Resolve dependencies without making independent preparation wait; unavailable audience results do not block operational completion. Keep narrow non-launch requests on their existing routes.
+
+Reference EditorialProgram, GrowthPlan, DistributionPlan and MeasurementSpec in LaunchPackage. Use null for unavailable or inapplicable optional references and explain status and reason in state_evidence. Record distribution, response_handling and audience_results separately there, each with status, evidence references and remaining work; distinguish prepared, attempted, confirmed, pending, unavailable and not-applicable as appropriate. Publication alone does not confirm distribution, handled responses or validated readership.
+
 Return the LaunchPackage with independent states for prepared, connected, approved, published and recurring-running. Include actual assets, content, receipts and remaining blockers. A local simulation must remain labeled simulation.
 
 ## Run and resume
+For a request to run the growth engine, route to media-growth, media-relationships and media-publishing. Prioritize potential-reader research, suitable outside conversations, likes, brief contextual comments, replies and listening for follow-up. Complete the authorized interactions and return exact sent text and verified receipts. Supporting resource work, article links or a growth plan alone do not complete an engagement request. Keep a one-time run separate from recurring execution.
+
 Choose a periodic executor from available host capabilities. A scheduled Codex turn can run these methods and operate the selected browser through computer use, including Chrome for X when configured. Use the [scheduled browser host procedure](#source-runtime-reference-browser-host-md); an API connector or separate model service is not a prerequisite. Keep the selected route, account and supervision settings private.
 
 Route article production, article publication, native social posts, inbox checks, reply processing, outside participation, follow-up, measurement, learning and health independently. At each occurrence revalidate release, inputs, ownership, freshness, pause and authority. A comment check with no new work is a valid no-op. An unavailable image holds its article, not unrelated listening.
 
 Resume from persisted state: validate identities and hashes, reconcile unknown writes/uploads, recheck recent human activity, invalidate stale approvals and continue uncompleted work. Close with usable deliverables and a state checkpoint. Queue learning only where evidence warrants it. Use the [private runner instructions](#source-runtime-reference-readme-md) for actual periodic execution; reading skills alone starts no service.
+
+## Carry editorial value through the operation
+Pass the feature's private concept record, evidence decision and protected appeal from selection through research, writing, visuals and execution review. Keep reference usefulness and feature interest distinct. Ensure the article delivers its main understanding on the page before optional tools or experiences. A quality repair must reach active guides, reading bundles, private work orders and affected article derivatives; retain separate prepared and live receipts. Do not turn individual examples into shared defaults or claim audience validation from editorial judgment.
 
 ## Inputs and outputs
 
@@ -199,6 +258,8 @@ Read the actual objective, intended audience and desired experience or benefit, 
 Before favoring a candidate, record the decision to make and task-derived criteria. Define what would count as audience value, strategic fit, originality that matters, credible delivery and a material failure for this assignment. Do not impose a fixed criterion weighting, panel size, creative style or commercial objective. Consider retaining the current approach or rejecting every candidate where relevant.
 
 Give candidates stable identities and comparable descriptions. Retain the input versions and the original appeal of each, so revision can be assessed against what it was meant to preserve. Do not weaken alternatives, retrofit criteria or selectively research support to vindicate a preferred conclusion. If new evidence warrants changing a criterion, state the reason and reassess every affected candidate consistently.
+
+For editorial concepts, distinguish the subject from the supported relationship and change in understanding it offers this audience. Judge reference material by its task purpose, without requiring a feature arc. Challenge whether the proposed execution lets readers inspect the central connection before any external continuation, while protecting distinctive ambiguity or appeal. Derive criteria and perspectives from the assignment; never install a fixed expert roster, story form or example.
 
 ## Research perspectives that can change the decision
 
@@ -285,6 +346,22 @@ Source: `registry/workflows.json`
       "bundle": "dist/workflows/setup-and-strategy.md"
     },
     {
+      "id": "strategy-to-editorial-foundation",
+      "required_skills": [
+        "media-master",
+        "media-brand-strategy",
+        "media-editorial-selection",
+        "media-creative-director",
+        "media-editorial"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
+      ],
+      "bundle": "dist/workflows/strategy-to-editorial-foundation.md"
+    },
+    {
       "id": "create-and-launch-publication",
       "required_skills": [
         "media-master",
@@ -299,11 +376,15 @@ Source: `registry/workflows.json`
         "media-asset-production",
         "media-publishing",
         "media-growth",
-        "concept-review"
+        "concept-review",
+        "media-distribution",
+        "media-relationships",
+        "media-measurement"
       ],
       "references": [
         "policies/CONSTITUTION.md",
-        "contracts/HANDOFF.md"
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
       ],
       "bundle": "dist/workflows/create-and-launch-publication.md"
     },
@@ -314,11 +395,14 @@ Source: `registry/workflows.json`
         "media-source-research",
         "media-editorial-selection",
         "media-editorial",
-        "concept-review"
+        "concept-review",
+        "media-brand-strategy",
+        "media-creative-director"
       ],
       "references": [
         "policies/CONSTITUTION.md",
-        "contracts/HANDOFF.md"
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
       ],
       "bundle": "dist/workflows/research-to-editorial.md"
     },
@@ -376,11 +460,13 @@ Source: `registry/workflows.json`
         "media-creative-director",
         "media-art-director",
         "media-asset-production",
-        "concept-review"
+        "concept-review",
+        "media-brand-strategy"
       ],
       "references": [
         "policies/CONSTITUTION.md",
-        "contracts/HANDOFF.md"
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
       ],
       "bundle": "dist/workflows/produce-illustrated-article.md"
     },
@@ -459,6 +545,7 @@ Source: `registry/workflows.json`
         "media-source-research",
         "media-distribution",
         "media-relationships",
+        "media-publishing",
         "media-measurement"
       ],
       "references": [
@@ -501,11 +588,14 @@ Source: `registry/workflows.json`
         "media-editorial",
         "media-asset-production",
         "media-publishing",
-        "concept-review"
+        "concept-review",
+        "media-brand-strategy",
+        "media-creative-director"
       ],
       "references": [
         "policies/CONSTITUTION.md",
-        "contracts/HANDOFF.md"
+        "contracts/HANDOFF.md",
+        "contracts/EDITORIAL_FOUNDATION.md"
       ],
       "bundle": "dist/workflows/produce-and-publish.md"
     },
@@ -642,8 +732,8 @@ The same route can save native articles or inspect other selected sites where au
 [
   {
     "path": "policies/CONSTITUTION.md",
-    "bytes": 2737,
-    "sha256": "564818328563bd6d164855fc74704e8ac9279e66ff87fc4b312f190a437430d4"
+    "bytes": 4159,
+    "sha256": "cbb9f2218eb0c86874498f26533d7075668e508d4f8e83f193e63972e58bbd9e"
   },
   {
     "path": "contracts/HANDOFF.md",
@@ -656,14 +746,19 @@ The same route can save native articles or inspect other selected sites where au
     "sha256": "01997391662a3ab4f517b3291458106251756795c63072502ac75874d7975c37"
   },
   {
+    "path": "contracts/EDITORIAL_FOUNDATION.md",
+    "bytes": 6079,
+    "sha256": "9f3c280e586df5c05ed9146f0c653ff7e0f1365f1d6a76228314e5645037c883"
+  },
+  {
     "path": "skills/media-master/SKILL.md",
-    "bytes": 6450,
-    "sha256": "c1b0db7af05b3e2e8e6fa1ff71bf81d388f4e599f0ecb30edd960db42e1b19dc"
+    "bytes": 9739,
+    "sha256": "a76f20e19990db7b61e22caadf9bd6e8126b1341312f4dec440edfcd1fe44157"
   },
   {
     "path": "skills/concept-review/SKILL.md",
-    "bytes": 9041,
-    "sha256": "3b2cb836dd88415146ce43b21ad4cce787f59b8ec1e4c04d5415c0ed1d647c9a"
+    "bytes": 9537,
+    "sha256": "30450c8168276b8024a2cc3239bbfde95f8b2917671d22dc3c6478c249b661c7"
   },
   {
     "path": "START_HERE.md",
@@ -672,8 +767,8 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "registry/workflows.json",
-    "bytes": 7525,
-    "sha256": "3436391070e2cf007373b3c64e641bc94ee6b06fbac2dce1210436c6fbfe430a"
+    "bytes": 8452,
+    "sha256": "115748ce03422d3ed6dde83ff9c2600c0b9976dc69cf033dc45143104fb47e66"
   },
   {
     "path": "runtime/reference/README.md",

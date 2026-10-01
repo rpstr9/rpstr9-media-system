@@ -10,6 +10,10 @@ Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](
 ## Method
 Start from the audience and intended value of the actual content or publication, available channels and observed prior results. Locate contexts where it can be useful, including search, existing readership, relevant communities and return paths. Compare fit, norms, accessibility, effort and permission; do not default to every platform.
 
+For a launch or growth experiment, name a credible route to initial suitable readers and the destination that rewards their visit. Distinguish existing audience, external referrals, platform discovery and participation in relevant conversations; mark assumed routes and unavailable attribution. Connect Relationships opportunities to a useful article or profile experience without requiring promotional links in comments. Specify why a visitor would return and how subsequent content fulfills that expectation. Select improvements at the observed weak stage rather than defaulting to more outreach.
+
+For each selected first-reader route, specify audience/context, useful contribution, encounter with the publication, optional next step and observable result. Platform discovery alone is a valid route when appropriate; lacking an external audience does not require acquiring one before publishing. Record its assumptions and measurement limits. A channel name alone is not an executable plan.
+
 Prepare native versions with their own reason to exist. Preserve substantive claims, source references and the canonical version. If a derivative needs a published URL or visual, wait for its confirmed receipt and correct variant. Independent posts need no artificial article dependency.
 
 Use authorized discovery/listening surfaces to find relevant conversations; record coverage and unavailable feeds. Read the actual work before proposing a contribution. Send context to Relationships, not an automatic keyword reply. Publishing access does not imply listening or conversation access.

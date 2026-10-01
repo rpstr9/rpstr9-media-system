@@ -33,6 +33,18 @@ def validate(records):
    if not p.get('remote_id') or not p.get('evidence_ref'):errors.append('Confirmed receipt lacks remote evidence')
    if p.get('confirmation_source')=='simulation':errors.append('Use simulation status for simulated publication')
   if kind=='ContentPackage' and p.get('status')=='ready' and p.get('visual_readiness') not in ('ready','not-applicable'):errors.append('Required visual readiness missing')
+  if kind=='EditorialProgram' and p.get('editorial_foundation',{}).get('readiness')=='ready' and not p.get('series_and_formats'):
+   errors.append('Ready editorial foundation has no usable format')
+  if kind=='EditorialBrief':
+   program_ref=p.get('editorial_program_ref');version=p.get('editorial_foundation_version')
+   if bool(program_ref)!=bool(version):errors.append('Editorial brief needs both program reference and foundation version')
+   if isinstance(program_ref,str) and program_ref.startswith('record:'):
+    program=index.get(program_ref[7:])
+    if program:
+     if program.get('record_type')!='EditorialProgram':errors.append('Editorial brief references a non-program record')
+     foundation=program.get('payload',{}).get('editorial_foundation',{})
+     if foundation.get('version')!=version:errors.append('Editorial brief uses a stale foundation version')
+     if foundation.get('readiness')!='ready':errors.append('Editorial foundation is not ready for article drafting')
   if kind=='RecurringJob' and p.get('enabled'):
    if not p.get('timezone') or not p.get('trigger') or not p.get('library_lock_ref'):errors.append('Enabled job lacks timezone, trigger or release')
   if kind=='HandoffEnvelope' and p.get('method_load_status') not in ('complete','blocked','partial'):errors.append('Explicit method load status required')
