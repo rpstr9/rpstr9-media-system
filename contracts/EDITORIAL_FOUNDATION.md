@@ -19,7 +19,7 @@ Make writing decisions observable. Personality adjectives alone are insufficient
 
 For each active format, specify the reader promise, appropriate material, evidence threshold, narrative shape and reason for its order, heading/paragraph conventions, visual roles, useful ending and review criteria. Distinguish required elements from conditional ones. Structure may support understanding, a decision, action, experience or another declared editorial purpose; do not impose a universal tutorial, word count, SEO formula or call to action.
 
-Preserve established approved prose, headers and formats. When importing examples, extract the publication-specific principles; do not turn their subject, wording or solution into reusable skill defaults. Use short task-derived probes privately when they help test a new voice, but do not make those probes mandatory templates.
+Preserve approved identity constraints and functional formatting; distinguish these from a past article’s optional structure. When importing examples, extract the publication-specific principles; do not turn their subject, wording or solution into reusable skill defaults. Use short task-derived probes privately when they help test a new voice, but do not make those probes mandatory templates.
 
 ## Retained handoff and readiness
 
@@ -30,3 +30,6 @@ Mark the foundation ready only when a writer can produce and a reviewer can asse
 Missing writing conventions normally call for completing the foundation within the authorized task, not a new approval pause. Preserve strategic hypotheses as hypotheses while doing useful editorial work. If a missing strategic choice or conflict materially changes whom the publication serves or what it promises, resolve that affected decision through the strategy route. Continue unrelated work. Changes to relevant strategy, owner instructions or established format invalidate only affected downstream choices.
 
 Older records remain readable. When resuming them, inspect their substantive guide and migrate the missing handoff fields before new full article production; do not treat absent metadata as evidence that earlier writing must be discarded.
+
+## Apply the foundation without flattening the work
+Use factual standards and permissions first, the approved identity and reader relationship second, and selection and judgment about the present item third. Keep each layer explicit. Stable identity and functional formatting do not make every existing section or narrative pattern compulsory. Let the current thought determine structure and the useful ending. Store actual owner decisions and reasons privately with confirmation status and contrary evidence; examples remain evidence for the current publication, outside reusable instructions.
