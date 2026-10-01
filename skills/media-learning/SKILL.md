@@ -32,3 +32,6 @@ Outputs: Diagnosis; ChangeProposal; EvaluationRecord; AdaptationRecord or reject
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+## Keep taste evidence private and scoped
+Record actual owner decisions, reasons, scope and contrary evidence, distinguishing confirmed preferences from inferred taste. One accepted subject, image, sentence or structure does not establish a general default. Representative revisions and rejected alternatives can calibrate private editorial judgment but do not prove audience outcomes or transfer. Owner opinions can inform questions; they are not automatically facts. Do not mine private anecdotes to manufacture authorial experience. Promote only process, decision criteria and quality standards to shared methods under the applicable release authority.
