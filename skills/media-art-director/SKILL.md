@@ -38,3 +38,6 @@ Check the delivered result against the current brief and the relevant evidence, 
 ## Inherit the reviewed concept
 
 Before concrete development of a new or materially changed premise, obtain the applicable [Concept Review](../concept-review/SKILL.md) result and complete originating artifacts. Reuse the review for routine work within an unchanged concept; do not reopen it for a local execution change. If this direct request introduces a new organizing premise, apply that same method before developing it. Preserve protected strengths and unresolved questions, and still critique the actual produced work separately.
+
+## Preserve inspectable evidence
+Choose a visual for what the reader can inspect, understand or experience at the actual reading size. Keep important source detail readable and make captions point to the relevant detail. Retain useful existing media when revising; record a content-specific reason for removal or replacement. A documentary image cannot be replaced by invented technical decoration. Approved identity constrains account and header assets; it does not require every subject to receive identical treatment or a new illustration.
