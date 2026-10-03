@@ -9,3 +9,9 @@ Begin from the owner's plain-language request and available artifacts. Reuse set
 Manual use requires an assistant able to read the full method and perform the requested work. Periodic use can run as a scheduled local Codex turn using computer use, or through the command runner with a configured executor and action adapters. The host route uses its existing model and browser tools; no separate API integration is compulsory. Readable instructions do not start background work. Report actual prepared, connected, approved, published and running states separately.
 
 For an expert critique or concept audit, select the concept-review workflow. New or materially changed concepts are reviewed before concrete idea development; the originating specialist revises them and downstream work inherits the result. Routine work reuses a valid review of an unchanged concept.
+
+For article writing, corrections or review, load the complete master's article-routing reference and the editorial article-review gate. Use the revise-and-review-article workflow for a narrow correction. Installation or a cited path does not establish loading; retain a private receipt of the complete required sources actually read.
+
+For recurring/shared computer use, load the complete queue-and-resume-computer-use workflow and actual private host capability evidence. Resource waiting and verified native continuation are separate; installing the library starts no service.
+
+For authorized timely-topic/editorial-growth work, use `timely-editorial-growth`; read its complete topic-selection, reader-growth and note-measurement references. Existing engagement-only and narrow article-correction routes remain available. A prepared candidate does not adopt itself in installed or scheduled consumers.

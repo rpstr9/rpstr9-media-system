@@ -1,3 +1,7 @@
+# Prepared Growth candidate 0.1.13
+
+Branch from 0.1.11: reader-growth, timely-topic selection and honest note diagnostics. This separate offline candidate does not inherit the unadopted dependency-schema branch. Installed entry points, public release pointers, private guides, schedules and runtime remain unchanged. Final release sequencing requires maintainer coordination.
+
 # Experimental edition 0.1.9
 
 This edition strengthens editorial selection before drafting, distinguishes persistent identity from item-specific structure, and requires before/after media preservation and saved-block verification. Reader value includes capability, access, understanding and enjoyment; existing sufficient resources take precedence over unnecessary infrastructure. These are methods and editorial criteria, not measured audience results.
