@@ -7,10 +7,16 @@ description: Create, operate or improve a publication by coordinating the media 
 
 Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](../../contracts/HANDOFF.md). Use only the current task’s required inputs and references.
 
+For article writing, corrections or review, read [article skill routing](references/article-routing.md), load the required complete instructions and retain a real load receipt. Always route prose work through media-editorial's article review gate; resolve research, concept, identity, assets and publishing according to the affected work. Reuse approved upstream decisions and assets.
+
 ## Resolve and route
+For editorial growth, timely topic selection or a discovery/return diagnosis, load [reader growth](../media-growth/references/reader-growth.md) and route the actual selection, research, editorial and measurement work. Use `timely-editorial-growth` for that combined request. An engagement execution still uses the bounded conversation route below. Check owner-topic gates before searching; a trend preference never commissions another topic or effect.
+
 Read the task, current publication records and the release inventory. Reuse complete, current strategy and identity. Check required source availability, capability and authorization by action; do not load every specialist for a narrow request. Build a dependency plan with concrete outputs and only unresolved inputs. Call specialists as capabilities; do not create a permanent committee or spawn agents without host/user authorization.
 
 For new publication creation, turn the owner's interests, resources and constraints into candidate publication concepts. Compare the audience need, distinctive promise, evidence access, recurring material, sustainability and strongest reason each may fail. Research the material uncertainties. Apply the shared Concept Review to candidate concepts, revise through the originating capability and recheck before recommending the concept for concrete development. Label assumptions; ask only for consequential choices that cannot be inferred. Save the reviewed PublicationBlueprint and ConceptReview record.
+
+For naming or identity work, read [Naming and Identity routing](references/creative-routing.md). Route requested naming to the actual external Brand Name Generator from the approved strategy; preserve selected wording and screening limits into identity.
 
 Import approved strategy or use the complete Marketer/Marketer PFM through media-brand-strategy. From that shared strategy, branch independently to media-brand-identity and media-audience-journey where needed. Never force the journey to wait for identity. An existing identity can be imported.
 
@@ -32,6 +38,8 @@ Reference EditorialProgram, GrowthPlan, DistributionPlan and MeasurementSpec in 
 Return the LaunchPackage with independent states for prepared, connected, approved, published and recurring-running. Include actual assets, content, receipts and remaining blockers. A local simulation must remain labeled simulation.
 
 ## Run and resume
+For scheduled/manual work sharing computer use, read [resource admission and continuation](references/computer-use-queue.md). Own its durable waiting/dispatch handoff and resolve actual host capability evidence. Queue only desktop/browser work, preserve independent permitted preparation, and distinguish verified native continuation from a lease, queue row or next-wake plan.
+
 For a request to run the growth engine, route to media-growth, media-relationships and media-publishing. Prioritize potential-reader research, suitable outside conversations, likes, brief contextual comments, replies and listening for follow-up. Complete the authorized interactions and return exact sent text and verified receipts. Supporting resource work, article links or a growth plan alone do not complete an engagement request. Keep a one-time run separate from recurring execution.
 
 Choose a periodic executor from available host capabilities. A scheduled Codex turn can run these methods and operate the selected browser through computer use, including Chrome for X when configured. Use the [scheduled browser host procedure](../../runtime/reference/BROWSER_HOST.md); an API connector or separate model service is not a prerequisite. Keep the selected route, account and supervision settings private.
@@ -59,3 +67,4 @@ For a new or materially changed organizing concept, load the complete [Concept R
 
 ## Coordinate judgment, not a universal template
 Establish the owner's consequential selection choices before commissioning. Use facts and permissions as boundaries, approved identity and reader relationship as context, and item-specific judgment to choose material and form. Do not turn a diagnosis into biography or audience evidence. Reassess open commissions when controlling criteria change, retaining dated owner requests and distinguishing decisions already approved from hypotheses. Carry the correction through private guides, reading bundles, active work orders and affected derivatives, with separate prepared and live records.
+
