@@ -28,11 +28,16 @@ def main():
  inventories={}
  for w in reg['workflows']:
   paths=common+w.get('references',[])+[f'skills/{s}/SKILL.md' for s in w['required_skills']]
+  if 'media-master' in w['required_skills']:paths+=['skills/media-master/references/article-routing.md']
+  if set(w['required_skills']) & {'media-master','media-brand-strategy','media-brand-identity'}:paths+=['skills/media-master/references/creative-routing.md']
+  if set(w['required_skills']) & {'media-master','media-growth','media-source-research','media-editorial-selection','media-editorial','media-measurement','media-distribution'}:paths+=['skills/media-growth/references/reader-growth.md', 'skills/media-editorial-selection/references/timely-topics.md', 'skills/media-measurement/references/note-discovery.md']
+  if set(w['required_skills']) & {'media-master','media-growth','media-publishing'}:paths+=['skills/media-master/references/computer-use-queue.md','contracts/ComputerUseAdmission.schema.json','contracts/ComputerUseContinuation.schema.json']
+  if set(w['required_skills']) & {'media-editorial','media-publishing'}:paths+=['skills/media-editorial/references/article-review.md','skills/media-publishing/references/article-metadata.md']
   if 'media-master' in w['required_skills'] or 'media-publishing' in w['required_skills']:paths+=['runtime/reference/BROWSER_HOST.md']
-  if 'media-publishing' in w['required_skills']:paths+=['adapters/platforms.md','adapters/contracts/EXECUTOR.md']
+  if 'media-publishing' in w['required_skills']:paths+=['skills/media-publishing/references/article-metadata.md','adapters/platforms.md','adapters/contracts/EXECUTOR.md']
   if w['id'] in ('configure-recurring-operations','operations-review','create-and-launch-publication'):paths+=['runtime/reference/README.md']
   inventories[w['id']]=make(w['bundle'],paths)
- inventories['master']=make('dist/MASTER.md',common+['contracts/EDITORIAL_FOUNDATION.md','skills/media-master/SKILL.md','skills/concept-review/SKILL.md','START_HERE.md','registry/workflows.json','runtime/reference/README.md','runtime/reference/BROWSER_HOST.md'])
+ inventories['master']=make('dist/MASTER.md',common+['contracts/EDITORIAL_FOUNDATION.md','skills/media-master/SKILL.md','skills/media-master/references/article-routing.md','skills/media-master/references/creative-routing.md','skills/concept-review/SKILL.md','START_HERE.md','registry/workflows.json','runtime/reference/README.md','runtime/reference/BROWSER_HOST.md','skills/media-master/references/computer-use-queue.md','contracts/ComputerUseAdmission.schema.json','contracts/ComputerUseContinuation.schema.json']+['skills/media-growth/references/reader-growth.md', 'skills/media-editorial-selection/references/timely-topics.md', 'skills/media-measurement/references/note-discovery.md'])
  (ROOT/'dist/source-inventories.json').write_text(json.dumps(inventories,indent=2))
  files=[]
  allow=json.loads((ROOT/'releases/public-allowlist.json').read_text())['paths']
@@ -41,6 +46,6 @@ def main():
   if p.is_file() and '__pycache__' not in rel and '.git' not in p.relative_to(ROOT).parts and rel not in ('releases/manifest.json','releases/latest.json'):
    if rel not in allow:raise ValueError('Unreviewed file outside public allowlist: '+rel)
    files.append({'path':rel,'sha256':sha(p),'bytes':p.stat().st_size})
- (ROOT/'releases/manifest.json').write_text(json.dumps({'schema_version':'1.0','release':'0.1.9','inventory':files,'excludes':['releases/manifest.json','releases/latest.json']},indent=2))
+ (ROOT/'releases/manifest.json').write_text(json.dumps({'schema_version':'1.0','release':'0.1.14','inventory':files,'excludes':['releases/manifest.json','releases/latest.json']},indent=2))
  print(json.dumps({'workflows':len(reg['workflows']),'files':len(files),'inventory_digest':sha(ROOT/'releases/manifest.json')}))
 if __name__=='__main__':main()
