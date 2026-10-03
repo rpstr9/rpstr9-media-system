@@ -1,0 +1,25 @@
+# From suitable discovery to a reason to return
+
+Read this for editorial growth planning, topic intelligence or a diagnosis of discovery and repeat readership. An engagement-only request keeps the existing audience/conversation loop; this reference adds no article commission or contact quota.
+
+Start with the approved reader, recurring need, distinctive contribution, existing formats and business model. Connect discovery, a rewarding article, trust and a feasible reason to return. Add purchase or membership stages only where they belong to the approved model. Reuse a sufficient series, archive or introduction rather than launching another. Public likes, followers and activity counts are separate diagnostics, not substitutes for reader value or revenue.
+
+## Make the next editorial decision
+
+Use [timely topic selection](../../media-editorial-selection/references/timely-topics.md) when current events, reader questions or a trend may matter. Pass the selected opportunity to Selection with dated evidence, actual reader gain and scope; Growth supplies intelligence, not a permission override. Carry the existing editorial foundation into the brief. A topic can be timely without appearing in a platform trend area, and platform appearance alone does not justify an article.
+
+Give a returning reader a recognizable promise that the publication can fulfill. A related follow-up, useful archive link or named series may help when it serves this piece; do not append a compulsory CTA, internal link or series label. Let entertainment, essays, practical references and how-to articles earn attention in their own ways. Preserve the article's complete on-page payoff, natural language, useful media and evidence; do not manufacture first-hand authority.
+
+Prepare channel-native derivatives through Distribution only for authorized channels and effects. Use a substantive insight, useful visual or genuinely different follow-up angle. Reuse current confirmed article and media receipts before dependent distribution; do not create a second scheduler or impose the report's two-assets/+1-day/+3-day sequence. No fixed likes, follows, comments or reciprocal-engagement targets arise from this method. Existing conversation closure, opt-outs, action ceilings and restriction stops remain controlling.
+
+## Improve the observed weak stage
+
+Use Measurement's compatible populations and windows. Limited exposure calls for checking delivery, topic recognition and suitable discovery routes; comparable exposure with fewer opens calls for checking reader fit and packaging; opens without substantive return call for checking promise delivery and continuity. These are investigations, not causal diagnoses. Unavailable outcomes remain unknown.
+
+Choose one bounded hypothesis and discriminating check, with the existing baseline, content versions, comparable article age, topic/format, weekday, traffic mix, observations, confounders and next decision. Repeat a promising result before transferring it. Small samples, launch-only encouragement, celebrity totals and selected successful accounts cannot establish a general recipe. Use Learning for justified adaptations; keep private reader/contact data and outcomes outside the shared release.
+
+Run **research → hypothesis → bounded test → actual measurement → retain, adjust or stop** separately for each publication. Retain the original source and its evidence class, one clear change where feasible, evaluation window, the account's own comparable baseline, appropriate observable outcomes, confounders and stop conditions. Keep channel surfaces/traffic separate where they differ. Choose qualified readership, substantive returning interest or conversion only when the actual authorized data supports them; likes alone do not establish success, and unavailable private metrics stay unknown. An inconclusive result may call for better observation rather than a pivot.
+
+Reuse the existing ExperimentPlan/MeasurementSpec, RunRecord/ReviewRecord, OutcomeRecords and private GrowthState/learning entry. Record exposed cases, null/negative results and the retain/adjust/stop decision; approved adaptations keep exact patch, scope, compatible baseline, review trigger and rollback through Learning. Review due outcomes in existing runs, without duplicate telemetry or new polling/publication jobs. A tactical pivot within current authority is not a wholesale rebrand, revised mission, new paid model or revoked topic gate; route those consequential choices to their existing owner/strategy authority.
+
+For note, read [discovery measurement and source limits](../../media-measurement/references/note-discovery.md). A recovered growth report can suggest positioning, recurrence, value-before-paywall and sustainable production; its niche scores, 50/30/20 allocation, prices, three-post week, example launch dates and percentage-lift targets are hypotheses. They do not change an existing publication's structure, cadence, access, monetization or authority. Verify current product mechanics and fees only when an authorized decision needs them.
