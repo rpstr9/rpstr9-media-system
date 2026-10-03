@@ -16,7 +16,7 @@ For creation or material revision, resolve the owner-authorized Marketer or Mark
 
 Execute the loaded method faithfully, including all strategic elements, evidence and unresolved questions. Choose mainstream or PFM vocabulary from the task and source instructions; do not invent a third substitute framework. Preserve full outputs and distinguish a proposal from owner-approved policy.
 
-Feed approved strategy to identity and journey as independent branches. Explain material evidence conflicts and route revisions through the original method. A growth opportunity or attractive visual does not authorize changing the audience, benefit or positioning.
+Feed approved strategy to naming, identity and journey as independent branches. For requested naming, use [the actual Naming route](../media-master/references/creative-routing.md); reuse current eight-element strategy and preserve recommendation versus owner selection. Explain material evidence conflicts and route revisions through the original method. A growth opportunity or attractive visual does not authorize changing the audience, benefit or positioning.
 
 Carry the approved opportunity analysis, enabling capabilities and causal link to reader benefit into the downstream StrategyContext. Turn the claimed advantage into editorial selection criteria and observable acceptance checks. Do not retain only the tagline and tone while losing why this publication should exist or what its technology makes possible for this audience.
 
