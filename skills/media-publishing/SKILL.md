@@ -4,10 +4,17 @@ description: Prepare and execute authorized article, social, conversation and ex
 ---
 
 # Packaging, Publishing and Platform Actions
+For a shared desktop/browser route, read [resource admission and continuation](../media-master/references/computer-use-queue.md). Require the actual private adapter's ownership and waiting/continuation evidence. A busy resource retains the action checkpoint without spending write retries; a resumed job must reconcile unknown effects and refresh authority, versions, account/target and UI context before any effect. Dispatch/acknowledgment is separate from publication confirmation and creates no new permission.
+
 
 Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](../../contracts/HANDOFF.md). Use only the current task’s required inputs and references.
 
+## Native article metadata
+Read the [article metadata gate](references/article-metadata.md) for article delivery or revision. Select relevant topic, reader-intent and brand tags; preserve valid existing tags and pass exact planned metadata with the ContentPackage. For note, populate the native hashtag field before save/publication and inspect saved/reopened and public metadata separately from body text. Missing native tags hold verified completion; no rigid tag count applies.
+
 ## Before an effect
+For an article, check the actual ContentPackage version against its distinct editorial ReviewRecord, including reader value and natural language under the [article review gate](../media-editorial/references/article-review.md). Load that gate when reviewing or changing copy during packaging. Correct missing review within the authorized task; retain the real skill-load receipt privately. Do not infer review from a package's label or factual/link checks.
+
 Inspect the actual signed-in account and operation-specific capability. Load the relevant platform reference in [platform routes](../../adapters/platforms.md) and verify current limits through official sources or supported controls. Separate owner permission, platform permission, technical availability and prior live validation. A connector's general platform support proves none of its individual actions.
 
 Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
@@ -37,6 +44,8 @@ Outputs: ChannelPackage; PublicationReceipt or explicit prepared-only status; De
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
 
 ## Revise and verify complete publication blocks
+Compare reviewed source → saved/reopened native draft → public result, recording each actually observed state. Preserve the existing canonical URL, free access, source links and useful media on authorized edits. Check video playback, exact product variant/image provenance, caption/ALT and the outgoing affiliate tag where relevant; honor publication-specific book-card placement exceptions. An uploaded image, clicked publish button or source URL string alone verifies none of these outcomes. Keep internal checking notes out of public copy while retaining concise required affiliate disclosure and material safety/evidence limits.
+
 Retain a before-state inventory of cover, inline media, embeds, their order, captions, credits, ALT and authored links. Prefer scoped text changes between protected blocks. Whole-body replacement requires complete block reconstruction and before/after preservation verification. Confirm exact selected text and media boundaries before replacing it; when native selection is ambiguous, stop that mutation and find a verified boundary. Check that body prose has not entered captions, headings have not become paragraphs, links remain active and code remains usable. Matching visible text alone is insufficient.
 
 Inspect the actual saved public page, including media loading, credits, language access, footnote clutter, empty spacer blocks and unwanted manual breaks. Preserve purposeful formatting and source attribution. Keep complete prepared files and honest pending status when live control is unavailable. Reuse a working tab, close completed task tabs, and retain unrelated or unfinished user work.
