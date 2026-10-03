@@ -1,11 +1,13 @@
 ---
 name: media-editorial
-description: Write, revise and review publication content with traceable evidence, a purposeful visual plan and complete delivery artifacts.
+description: Write, edit and review publication articles for reader value, natural language, traceable evidence and useful media. Use for new prose, article corrections and pre-publication review with the current publication guide.
 ---
 
 # Editorial Development and Review
 
 Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](../../contracts/HANDOFF.md). Use only the current task’s required inputs and references.
+
+Read and apply the complete [article review gate](references/article-review.md) for every article-writing, editing and review request. Resolve the actual skills through [article routing](../media-master/references/article-routing.md). Apply the current publication's scoped guide and explicit owner exceptions; keep named-publication decisions in its private workspace.
 
 ## Resolve the editorial foundation
 
@@ -14,6 +16,8 @@ Before full drafting, follow the [editorial foundation handoff](../../contracts/
 When reviewing a new foundation, check that its decisions can guide an actual opening, explanation, transition, ending and relevant non-article channel treatment. Inspect task-derived copy alongside the selected identity's actual applications: look, feel, voice, tone and manner must express the same brand character and reader relationship. Tone may vary with the situation without switching personality. Check structure against the reader's intended gain and language against the strategy; record substantive gaps rather than approving adjective lists. Return a ReviewRecord to selection. This review and the later review of a finished article are distinct, and neither proves audience demand.
 
 ## Develop the piece
+For an already-selected timely piece, inherit Selection's [dated opportunity and brief](../media-editorial-selection/references/timely-topics.md), actual reader gain and existing foundation. Deliver that gain in the current publication's voice and structure. Remove trend-hype and unsupported popularity/effect claims; do not turn the brief into public selection logs or run a new uncommissioned topic search. The existing article-review gate still decides finished prose quality.
+
 Start from the reader's situation, question, prior knowledge and reason to spend time on the piece. Define the useful understanding, decision, action or experience the reader should gain. Organize the article around that gain rather than the author's urge to explain the system or a production concern. Make every heading intelligible in the reader's context and make its section deliver the promised value. Explain unfamiliar terms and causal connections at the point of need; remove context-dependent shorthand, clever but unclear wording and details that do no useful work for the reader. Preserve relevant complexity and evidence rather than replacing substance with promotional claims.
 
 Comprehension and reader value are mandatory acceptance criteria. Review the title, headings and body from the stated audience's viewpoint without access to the authoring conversation. Confirm that a reader can tell what each section means, why it matters and what they gain from reading it. Revise or remove sections that fail either criterion before delivery. Record this review privately; do not print the author's checklist or corrections in the article. Derive wording and examples from the current brief, never from a fixed example.
@@ -38,6 +42,8 @@ Compare each completed header visually with the approved published references at
 For opening pieces, carry Selection's launch check into review of the actual draft: the piece delivers an immediate reader gain, makes its distinctive contribution apparent, and supports a credible reason to return through feasible follow-up material. Describing the publication alone does not demonstrate its value. Do not force a founder narrative or invent firsthand experience; judge the form against the approved publication premise.
 
 ## Review and maintain
+Perform the sentence-level reader-value and natural-language pass in the article review gate, then assess evidence, identity, media and native structure separately. Keep a private ReviewRecord with the exact content version, corrections, remaining concerns and actual skill-load receipt. A factual/link pass alone cannot approve prose. Retain meaningful safety and evidence limits while removing padding and checking logs.
+
 Review separately for intended value, coherence, voice, useful originality, factual fidelity, source placement and completeness. Verify material claims against sources independently of how convincing the draft sounds. Check actual visuals at readable size and destination crops, then review the visual/copy combination for the shared identity from the current foundation. Functional clarity and visual polish cannot compensate for conflicting brand character. Address the highest-impact defects while retaining the organizing idea.
 
 Return the complete ContentPackage, evidence map, AssetPlan and review record. Readiness requires actual required images and resolved rights, not filenames or insertion placeholders. The article may remain draft or held even if its text is complete. An explicitly image-free format can pass without invented visual requirements.
@@ -73,3 +79,4 @@ Make the consequential choice and its payoff apparent through the subject and ex
 Before a revision, map useful existing images and embeds to their positions, captions, credits, ALT text and source links. Prefer editing text between protected media blocks. Do not remove documentary or experiential imagery simply because the text restates it. Preserve functional prompt/code line breaks and purposeful lists; remove spacer paragraphs and manual prose breaks at semantic boundaries. Keep source links near the claims and image credits near the images. Check that translated or otherwise accessible links fulfill the publication's reader-language requirement.
 
 Review the saved title, text, headings, links, code and media in their actual blocks. Text matching, image count and successful rendering are separate checks and cannot establish editorial quality. Inspect representative finished work and rejected alternatives privately without installing their subjects, style or wording as defaults.
+
