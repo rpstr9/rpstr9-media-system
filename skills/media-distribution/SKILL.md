@@ -8,6 +8,8 @@ description: Find relevant publication contexts and prepare channel-native distr
 Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](../../contracts/HANDOFF.md). Use only the current task’s required inputs and references.
 
 ## Method
+For an editorial growth plan, inherit the actual selected opportunity and [reader-growth decision](../media-growth/references/reader-growth.md). Prepare only useful authorized derivatives and return paths; no fixed distribution-asset quota, channel list or additional schedule follows from a growth report.
+
 Start from the audience and intended value of the actual content or publication, available channels and observed prior results. Locate contexts where it can be useful, including search, existing readership, relevant communities and return paths. Compare fit, norms, accessibility, effort and permission; do not default to every platform.
 
 For a launch or growth experiment, name a credible route to initial suitable readers and the destination that rewards their visit. Distinguish existing audience, external referrals, platform discovery and participation in relevant conversations; mark assumed routes and unavailable attribution. Connect Relationships opportunities to a useful article or profile experience without requiring promotional links in comments. Specify why a visitor would return and how subsequent content fulfills that expectation. Select improvements at the observed weak stage rather than defaulting to more outreach.
