@@ -1,4 +1,6 @@
 # Private execution routes
+When several tasks share computer use, read [resource admission and continuation](../../skills/media-master/references/computer-use-queue.md) and resolve a supported private host binding. The local runner's durable occurrences are separate from global desktop waiting and native continuation. A runner queue or periodic wake alone proves no release-triggered resumption. Preserve original paused/cadence/freshness policies; retire overdue work with a recorded disposition instead of silent loss or a catch-up burst.
+
 
 Use [scheduled host computer use](BROWSER_HOST.md) when the local Codex turn should execute the workflow and operate Chrome or another selected browser. This route uses the installed computer-use plugin and requires no API connector.
 
