@@ -1,6 +1,6 @@
 ---
 name: media-growth
-description: Grow a publication by researching potential readers and followers, finding good engagement opportunities, commenting, liking, replying and checking conversations. Use to run or plan the growth engine, with resource and opportunity research when relevant.
+description: Plan reader growth through suitable timely topics, repeat-reading value and measured discovery; run bounded authorized audience research and genuine conversations. Use for editorial growth planning, growth diagnosis or engagement execution.
 ---
 
 # Growth Engine / Audience Research and Engagement
@@ -8,6 +8,10 @@ description: Grow a publication by researching potential readers and followers, 
 Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](../../contracts/HANDOFF.md). Use only the current task’s required inputs and references.
 
 ## Run the audience and conversation loop
+For editorial growth planning, timely-topic intelligence or discovery/return diagnosis, read [reader growth](references/reader-growth.md), then Selection and Measurement as the decision requires. Keep the approved reader promise, formats and business model. Engagement-only work keeps the existing conversation loop; planning article growth is not an engagement completion or new article permission.
+
+When this run needs shared desktop/browser work, submit its bounded authorized occurrence/stage through [orchestration's computer-use queue](../media-master/references/computer-use-queue.md). Keep research and drafts moving independently when their tools do not share that resource. Busy ownership means durable waiting, not a completed run or repeated UI attempts; retain the original topic/target and acknowledge/deduplicate the actual continuation before resuming. Growth does not create a second scheduler or take an active owner's desktop.
+
 Make audience research and actual conversation the core of a routine growth run. Reuse the publication's approved audience, reader promise, voice, accounts and interaction history. For an execution request, load [Relationships](../media-relationships/SKILL.md) and [Publishing](../media-publishing/SKILL.md), then complete this bounded loop within the current authorization:
 
 1. Check notifications, mentions, comments on the publication's work, replies to earlier outside comments and outstanding conversations. Read the actual root and recent exchange; prioritize people already talking to the publication. Record listening gaps rather than treating failed retrieval as an empty inbox.
