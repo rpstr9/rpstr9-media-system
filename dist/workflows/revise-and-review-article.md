@@ -192,6 +192,142 @@ Source: `registry/method-dependencies.json`
 }
 
 ```
+<a id="source-contracts-editorial-foundation-md"></a>
+
+---
+
+Source: `contracts/EDITORIAL_FOUNDATION.md`
+
+# From strategy to repeatable editorial work
+
+Use this handoff when establishing or materially revising a publication's editorial approach, or when an article needs a missing foundation. Reuse a current, sufficient guide. A narrow correction needs only the rules relevant to that correction; it must not restart strategy, identity or onboarding.
+
+## Ownership and order
+
+1. **media-brand-strategy** reconciles the full strategy, owner corrections and evidence into StrategyContext. Distinguish imported planning, an eight-element mapping and actual execution of a named strategy method. Record which choices are approved, derived, provisional or unavailable. A document title or visual identity is not evidence that the strategy method ran.
+2. **media-editorial-selection** owns the publication's EditorialProgram and its editorial foundation. Import existing voice and format rules with provenance; derive only open choices from the audience, reader promise, positioning, personality, evidence and destination. Save a usable editorial guide and its version in the publication workspace.
+3. **media-creative-director**, when needed, resolves language/image relationships, narrative rhythm and format expression within that foundation. It may work from StrategyContext and a draft EditorialProgram before an individual article exists. Return the affected choices to selection; do not create a circular dependency on a finished article brief or reopen locked identity.
+4. **media-editorial** checks the foundation's practical usability. Selection records the review, then passes the current program, selected format and voice decisions into each EditorialBrief. Writing uses those actual rules and the piece's evidence, followed by review of the finished output.
+
+The master coordinates this sequence. Direct specialist invocation must resolve the same relevant prerequisites. Call capabilities within the current work unless separate agent execution is authorized; this handoff does not itself request delegation.
+
+## What the foundation must decide
+
+Treat look, feel, voice, tone and manner as expressions of one brand identity. Read the approved strategy and selected identity together, including the intended impression and actual applications. State the shared character, then translate it into observable visual and verbal behaviors. An approved visual direction carries meaning that writing must preserve; functional clarity alone does not establish brand fidelity. Interpret references through the publication's own strategy rather than importing another brand's persona or mechanically assigning writing styles to colors or typefaces.
+
+Make writing decisions observable. Personality adjectives alone are insufficient. Explain the narrator's role and relationship to the reader, how each relevant trait changes wording or explanation, and the limits on that expression. Tone, expressive intensity and information density may adapt to the reader's situation, format and channel while the underlying character and relationship remain recognizable. Derive terminology, assumed knowledge, sentence/paragraph rhythm, formatting and attribution conventions from both that identity and the publication's actual needs.
+
+For each active format, specify the reader promise, appropriate material, evidence threshold, narrative shape and reason for its order, heading/paragraph conventions, visual roles, useful ending and review criteria. Distinguish required elements from conditional ones. Structure may support understanding, a decision, action, experience or another declared editorial purpose; do not impose a universal tutorial, word count, SEO formula or call to action.
+
+Preserve approved identity constraints and functional formatting; distinguish these from a past article’s optional structure. When importing examples, extract the publication-specific principles; do not turn their subject, wording or solution into reusable skill defaults. Use short task-derived probes privately when they help test a new voice, but do not make those probes mandatory templates.
+
+## Retained handoff and readiness
+
+Use `EditorialProgram.payload.editorial_foundation` to retain the guide reference, version, StrategyContext reference, source versions, voice/tone decisions, review reference and unresolved conditions. Keep each format's structure and checks in `series_and_formats`. Each new or revised EditorialBrief records the program reference and foundation version, identifies its selected format, summarizes the relevant voice and adds only piece-specific exceptions with their authority.
+
+Mark the foundation ready only when a writer can produce and a reviewer can assess an appropriate piece without inventing the audience, promise, voice or structure. Review those decisions against current source versions and the intended reader. Inspect relevant visual applications and task-derived copy together for the same character, emotional impression and reader relationship; also check that the writing remains recognizable when the logo is absent. Repair a mismatch in the affected expression instead of neutralizing the identity or reopening settled strategy. Record the reviewer's actual independence; a self-review is not audience validation. A ready foundation does not mean a topic is selected, claims are evidenced, images exist, publication is authorized or audience demand is validated.
+
+Missing writing conventions normally call for completing the foundation within the authorized task, not a new approval pause. Preserve strategic hypotheses as hypotheses while doing useful editorial work. If a missing strategic choice or conflict materially changes whom the publication serves or what it promises, resolve that affected decision through the strategy route. Continue unrelated work. Changes to relevant strategy, owner instructions or established format invalidate only affected downstream choices.
+
+Older records remain readable. When resuming them, inspect their substantive guide and migrate the missing handoff fields before new full article production; do not treat absent metadata as evidence that earlier writing must be discarded.
+
+## Apply the foundation without flattening the work
+Use factual standards and permissions first, the approved identity and reader relationship second, and selection and judgment about the present item third. Keep each layer explicit. Stable identity and functional formatting do not make every existing section or narrative pattern compulsory. Let the current thought determine structure and the useful ending. Store actual owner decisions and reasons privately with confirmation status and contrary evidence; examples remain evidence for the current publication, outside reusable instructions.
+
+<a id="source-skills-media-master-references-article-routing-md"></a>
+
+---
+
+Source: `skills/media-master/references/article-routing.md`
+
+# Resolve article skills and record real loading
+
+For a new article, substantive revision or article review, resolve the installed entry point and library manifest before working. Follow START_HERE at that release; read the complete master and the smallest relevant workflow. Follow relative references from the resolved release root, not from a guessed host directory. Keep private publication guides and work outside the shared library.
+
+## Route by the work
+
+| Need | Load and apply |
+| --- | --- |
+| Coordinate an article or its revision | media-master; current commission, guide and approved upstream artifacts |
+| Write, edit or review the actual prose | media-editorial and its article-review reference; current publication guide |
+| Verify claims, source passages, anatomy, product variant, image rights or changed evidence | media-source-research; reuse sufficient current evidence and verify affected gaps |
+| Timely topic intelligence or editorial growth planning within an authorized scope | media-growth reader-growth and selection timely-topics; source research for material signals; preserve owner-topic gates |
+| Diagnose discovery, return or note trend observations | media-measurement and note-discovery; raw metrics and sampled surfaces, with compatible populations and uncertainty |
+| Choose a new angle or repair a missing editorial foundation | media-editorial-selection; reuse approved program and voice for narrow edits |
+| New or materially changed organizing concept | concept-review before concrete development; reuse a current valid review for the unchanged premise |
+| Apply identity to copy/header or media | read approved identity/assets; load media-brand-identity for import/application or a real identity gap; creative/art/asset capabilities only for affected production |
+| Save, publish or update native article blocks | media-publishing and destination references; preserve existing URL, free access, media and links |
+| A publication has its own article entry | also load that installed entry and current guide; keep its handover/commission rules scoped to that publication |
+
+“Use all relevant skills” means follow the required dependencies and apply their substance. It does not mean regenerate approved strategy/identity, invoke unrelated specialists or create agents for each capability. Complete external Marketer/identity methods are required only when those methods are invoked; an import is an import. Editorial output review remains mandatory even when Concept Review is reused.
+
+For a wording-only revision, use the revision/review workflow and the affected evidence/identity rules. Do not reopen strategy or commission an unrequested public operation. When the task expands into research, concept change or asset production, load the affected specialist before doing that work.
+
+## Keep a real load receipt
+
+Record a private file per run with the selected workflow, manifest release/hash, actual entry path and resolved path, skill name/version/hash, required reference paths/hashes and retrieval evidence for every skill actually read in full. Distinguish loaded-and-applied, loaded-only, approved artifact reused, conditional-not-needed and missing. A catalogue listing, installation, cited path, prior assistant assertion or reading bundle filename without complete retrieval proves no loading.
+
+Reference this file from RunRecord.input_refs and ReviewRecord.evidence_refs; put the actually applied skill/version list in RunRecord.skill_versions. Include it in the work handoff. Do not fabricate or retroactively backfill prior usage. Missing prior evidence is a gap, not proof that a skill was never used elsewhere. Compare the receipt with required source inventory before calling the article reviewed or ready.
+
+## Scheduled consumers
+
+Read the existing scheduled consumer's workflow entry on each run. Resolve its installed current skills or explicit lock; report a conflict rather than silently mixing releases. Adopt a new release only within owner-authorized update policy, retain the prior lock and baseline, and keep private adaptations at their existing compatible release unless deliberately migrated. Do not rewrite schedules, dedupe identities, budgets, permissions or publication databases to install editorial guidance. Private guide ownership may require a separate wiring handoff; report that as pending until its readback confirms the route.
+
+<a id="source-skills-media-editorial-references-article-review-md"></a>
+
+---
+
+Source: `skills/media-editorial/references/article-review.md`
+
+# Article review: reader value and natural prose
+
+Use this gate for writing, editing and reviewing an article. Read the publication's current guide and the actual draft. Apply the language and identity of its readers; for Japanese copy, read it aloud as a Japanese reader who has not seen the authoring conversation. Keep review notes private.
+
+## Review the promised gain
+
+State the reader's question and locate the passage, worked example or reference media that answers it. Check whether the title and each heading make a short, useful promise that the section fulfills. Prefer familiar Japanese over an English main heading whose value needs decoding. Search terms can clarify the subject; they cannot justify claims of popularity, efficacy or consensus.
+
+Test each sentence for a concrete contribution: an action, understanding, example, decision criterion or necessary evidence. Delete vague benefit announcements, padding, repeated conclusions and process/provenance chatter. Do not replace a deleted sentence with a synonym that does the same empty work. Keep useful complexity and end when the purpose is fulfilled. Set no minimum word or character count.
+
+Remove internal checking logs, dated verification footers, production history and narration about identifying an item from a photo. Identify a product honestly once where that helps readers recognize the correct variant. Never fabricate use, ownership, visits, measurements or results. Attribute an owner observation only when it is actually supplied and preserve its limited scope.
+
+Keep material evidence limits, useful source links, relevant action-specific safety and a clear required affiliate disclosure. Do not delete them merely to shorten an article. Replace generic legal or medical boilerplate with the actual prerequisite, stop condition or evidence limit the reader needs. A speculative mechanism must remain speculative; do not turn anatomy into a treatment or body-shape guarantee.
+
+## Shape the explanation
+
+Group related sentences into natural paragraphs; break when the thought changes. Remove mid-sentence manual BRs, empty spacer blocks and isolated one-sentence lines used only for emphasis. Preserve purposeful captions, quotes, lists and functional prompt/code breaks.
+
+Use real heading hierarchy, purposeful bold, numbered steps, bullet comparisons, short quote blocks, a worked example or a useful diagram where they improve comprehension. Choose the form that carries the substance. Do not impose a fixed template, image count, decorative-image quota or compulsory example. Preserve substantive advice and root sources through a readability edit.
+
+## Make media deliver the promise
+
+Place an actual reference image or playable video beside the how-to it demonstrates. Give readers enough on-page instructions to understand and safely use the reference. A generated illustration cannot replace requested documentary media. When introducing an optional physical tool, place the correct actual product image and clear text affiliate link at its first meaningful explanation if the publication's guide calls for it. Honor scoped exceptions such as reference books intentionally collected at the end.
+
+Resolve the exact variant and image provenance, permission/rights, caption, credit, ALT and insertion anchor. Keep retail/Amazon screenshots labeled as retail material; never convert them into owner photographs or evidence of firsthand use. Prefer supported native cards when they provide a usable product image/link. Verify the actual outgoing affiliate URL and tag after native insertion, separately from the source URL string. Apply the approved publication identity to the header.
+
+Before editing existing content, inventory and preserve useful media, links, access terms and canonical URL. Review source → native saved/reopened draft → public page, as authorized. Check headings, captions, link targets, placement, image load, video playback and access separately. Keep unobserved checks pending. A text diff or successful save alone cannot confirm the rendered article.
+
+## Plan discoverability metadata
+
+Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
+
+## Decide and retain evidence
+
+Perform a distinct pass after drafting. Record title/body version, reviewer independence, passages corrected, remaining concerns and actual skill-load receipt privately. Assess reader value, natural language, substance/evidence, identity, media and native execution separately. A factual/link checklist, clean linter or schema pass cannot establish writing quality. Hold the affected delivery until mandatory defects are corrected; keep complete local work available.
+
+## Calibration examples
+
+Use these as tests of contribution, not as subjects or fixed wording for future articles.
+
+| Draft wording | Editorial decision |
+| --- | --- |
+| 「どの範囲に当たるかを考えられます」 | Delete it, or state the actual supported contact point and the action it changes. Do not invent the point from a photo. |
+| 「写真で確認した製品です」 | Identify the verified product/variant at its useful introduction; retain photo-identification notes privately. |
+| 「確認メモ（作業日）」 | Remove the public checking footer. Keep a genuine observation and material evidence limit beside the claim they qualify. |
+| 「これからの判断に役立つでしょう」 after a complete answer | Delete the repeated benefit announcement. |
+| 「痛みやしびれが出たら中止してください」 beside an exercise | Preserve it when applicable; it changes the reader's action. Verify any additional contraindication through research. |
+| 「このリンクから購入すると運営者に紹介料が入ります」 beside an affiliate link | Preserve a clear disclosure and verify the outgoing tag; do not bury it in a production log. |
+
 <a id="source-skills-media-master-skill-md"></a>
 
 ---
@@ -222,7 +358,7 @@ Import approved strategy or use the complete Marketer/Marketer PFM through media
 
 Use media-editorial-selection to build the EditorialProgram: recurring reader promise, series, formats, sourcing, mix, backlog, standards, visual requirements, realistic production capacity and refresh conditions. Do not confuse an article calendar with an editorial product.
 
-Before new full article production, resolve the [editorial foundation handoff](../../contracts/EDITORIAL_FOUNDATION.md). Selection owns the saved voice, tone and format guide; creative direction contributes where needed, and editorial checks whether the guide is usable. Reuse current publication rules or complete missing ones from sufficient strategy within the task. Pass the guide version into article briefs. Strategy availability, identity delivery, editorial readiness, article evidence and publication permission are separate states. Record the foundation's reference and actual readiness in LaunchPackage.state_evidence; do not report the editorial setup complete merely because accounts or brand assets are ready.
+Before new full article production, resolve the [editorial foundation handoff](#source-contracts-editorial-foundation-md). Selection owns the saved voice, tone and format guide; creative direction contributes where needed, and editorial checks whether the guide is usable. Reuse current publication rules or complete missing ones from sufficient strategy within the task. Pass the guide version into article briefs. Strategy availability, identity delivery, editorial readiness, article evidence and publication permission are separate states. Record the foundation's reference and actual readiness in LaunchPackage.state_evidence; do not report the editorial setup complete merely because accounts or brand assets are ready.
 
 Carry the strategy's approved opportunity and capability advantage through research, selection and editorial review. Require each dependent brief to state the promised reader gain and how the proposed material delivers it. For a publication built on research or translation access, complete the audience-language coverage comparison before approving the angle. Reuse a saved check only while its material and scope remain applicable.
 
@@ -269,144 +405,94 @@ For a new or materially changed organizing concept, load the complete [Concept R
 Establish the owner's consequential selection choices before commissioning. Use facts and permissions as boundaries, approved identity and reader relationship as context, and item-specific judgment to choose material and form. Do not turn a diagnosis into biography or audience evidence. Reassess open commissions when controlling criteria change, retaining dated owner requests and distinguishing decisions already approved from hypotheses. Carry the correction through private guides, reading bundles, active work orders and affected derivatives, with separate prepared and live records.
 
 
-<a id="source-skills-media-publishing-skill-md"></a>
+<a id="source-skills-media-editorial-skill-md"></a>
 
 ---
 
-Source: `skills/media-publishing/SKILL.md`
+Source: `skills/media-editorial/SKILL.md`
 
 ---
-name: media-publishing
-description: Prepare and execute authorized article, social, conversation and existing-account changes with version checks, media placement and verified receipts.
+name: media-editorial
+description: Write, edit and review publication articles for reader value, natural language, traceable evidence and useful media. Use for new prose, article corrections and pre-publication review with the current publication guide.
 ---
 
-# Packaging, Publishing and Platform Actions
-For a shared desktop/browser route, read [resource admission and continuation](#source-skills-media-master-references-computer-use-queue-md). Require the actual private adapter's ownership and waiting/continuation evidence. A busy resource retains the action checkpoint without spending write retries; a resumed job must reconcile unknown effects and refresh authority, versions, account/target and UI context before any effect. Dispatch/acknowledgment is separate from publication confirmation and creates no new permission.
-
+# Editorial Development and Review
 
 Read [operating boundaries](#source-policies-constitution-md) and [handoff rules](#source-contracts-handoff-md). Use only the current task’s required inputs and references.
 
-## Native article metadata
-Read the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md) for article delivery or revision. Select relevant topic, reader-intent and brand tags; preserve valid existing tags and pass exact planned metadata with the ContentPackage. For note, populate the native hashtag field before save/publication and inspect saved/reopened and public metadata separately from body text. Missing native tags hold verified completion; no rigid tag count applies.
+Read and apply the complete [article review gate](#source-skills-media-editorial-references-article-review-md) for every article-writing, editing and review request. Resolve the actual skills through [article routing](#source-skills-media-master-references-article-routing-md). Apply the current publication's scoped guide and explicit owner exceptions; keep named-publication decisions in its private workspace.
 
-## Before an effect
-For an article, check the actual ContentPackage version against its distinct editorial ReviewRecord, including reader value and natural language under the [article review gate](#source-skills-media-editorial-references-article-review-md). Load that gate when reviewing or changing copy during packaging. Correct missing review within the authorized task; retain the real skill-load receipt privately. Do not infer review from a package's label or factual/link checks.
+## Resolve the editorial foundation
 
-Inspect the actual signed-in account and operation-specific capability. Load the relevant platform reference in [platform routes](#source-adapters-platforms-md) and verify current limits through official sources or supported controls. Separate owner permission, platform permission, technical availability and prior live validation. A connector's general platform support proves none of its individual actions.
+Before full drafting, follow the [editorial foundation handoff](#source-contracts-editorial-foundation-md). Read the current publication guide, EditorialProgram, selected format and source versions, not only the brief's voice label. If missing or materially stale, route the affected choices through selection and, where needed, creative direction; execute that preparation within the authorized task and resume writing. Preserve sufficient established rules, and keep narrow edits narrow. Do not improvise a new house voice separately for each article.
 
-Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
+When reviewing a new foundation, check that its decisions can guide an actual opening, explanation, transition, ending and relevant non-article channel treatment. Inspect task-derived copy alongside the selected identity's actual applications: look, feel, voice, tone and manner must express the same brand character and reader relationship. Tone may vary with the situation without switching personality. Check structure against the reader's intended gain and language against the strategy; record substantive gaps rather than approving adjective lists. Return a ReviewRecord to selection. This review and the later review of a finished article are distinct, and neither proves audience demand.
 
-## Package and execute
-Computer use is a first-class action route for both interactive and scheduled host runs. When selected, use the [browser host procedure](#source-runtime-reference-browser-host-md) and the actual browser tools; do not declare publishing unavailable solely because an API adapter is absent. Honor existing routine-action authorization and the publication’s supervision preference.
+## Develop the piece
+For an already-selected timely piece, inherit Selection's [dated opportunity and brief](#source-skills-media-editorial-selection-references-timely-topics-md), actual reader gain and existing foundation. Deliver that gain in the current publication's voice and structure. Remove trend-hype and unsupported popularity/effect claims; do not turn the brief into public selection logs or run a new uncommissioned topic search. The existing article-review gate still decides finished prose quality.
 
-Preserve approved identity and functional formatting, heading styles, prompt presentation and access-link treatment; apply the reviewed item-specific structure and ending while preparing native formatting, supported header/inline fields, captions/credits/alt text, working source links and appropriate channel variants. Do not append authoring corrections, build logs or test-status commentary to the reader-facing payload. Preserve meaning and qualifications. Check previews and required visuals before dispatch. Draft, schedule, publish, reply, edit, moderate and remove are distinct capabilities and authorizations.
+Start from the reader's situation, question, prior knowledge and reason to spend time on the piece. Define the useful understanding, decision, action or experience the reader should gain. Organize the article around that gain rather than the author's urge to explain the system or a production concern. Make every heading intelligible in the reader's context and make its section deliver the promised value. Explain unfamiliar terms and causal connections at the point of need; remove context-dependent shorthand, clever but unclear wording and details that do no useful work for the reader. Preserve relevant complexity and evidence rather than replacing substance with promotional claims.
 
-Persist a stable action identifier and intent before submission. Include content and asset digests, account, operation, target and source event. Serialize operations that could collide. Recheck authorization, context, human responses and ownership immediately before the write. For uncertain results, reconcile using actual remote records before retrying; hold if the route cannot disambiguate.
+Comprehension and reader value are mandatory acceptance criteria. Review the title, headings and body from the stated audience's viewpoint without access to the authoring conversation. Confirm that a reader can tell what each section means, why it matters and what they gain from reading it. Revise or remove sections that fail either criterion before delivery. Record this review privately; do not print the author's checklist or corrections in the article. Derive wording and examples from the current brief, never from a fixed example.
 
-Upload media, retain actual IDs, assign/insert it at intended surfaces, then save or publish within authorization. Distinguish upload success from placement success. Inspect the resulting article/account: correct title/body, complete prompt/artifact, working links, loaded images, ordering, credit, crop and supported accessibility fields. Reopen/reload for saved drafts; inspect the public page for authorized publication.
+Read the EditorialBrief, actual evidence, current voice, identity and destination. Resolve whether the work is reporting, analysis, opinion, fiction or another creative form. Define the opening promise and a structure that delivers it. Draft with the relevant level of depth; no universal length, SEO pattern or call to action applies.
 
-## Report and recover
-Return separate receipts per action/channel/surface, actual remote IDs/URLs and strength of confirmation. Remote scheduling is not final publication. Simulation is not a live receipt. Preserve partial success; dependent social links wait for a confirmed canonical article URL.
+For research-led discovery work, carry the brief's specific source finding and access benefit into the actual article. Make the material understandable in the reader's language while preserving its meaning and provenance. In the private review, compare the reader's gain with the readily available coverage identified during research. Hold or rework a piece that has lost its distinctive discovery and become a generic retelling. Keep the source-selection rationale, capability analysis and internal quality checks out of ordinary reader-facing prose; demonstrate the benefit through the material itself.
 
-Propagate substantive corrections to affected known derivatives after revalidation. Invalidate changed approvals and only dependent visuals. A rollback must not overwrite later human changes or pretend to unsend messages. Missing routes yield complete native-ready files, precise targets and a blocked/manual handoff, never an invented API or unverified completion claim.
+For an established publication, inspect its current approved published format and preserve approved identity constraints, heading hierarchy, usable handover treatment, prompt presentation and access-link conventions. Distinguish persistent constraints from item-specific narrative choices; adapt the latter to the current thought and purpose within the authorized revision. Record these as editorial constraints, and change them only on explicit user request. Derive content and task-specific input fields from the present brief; do not turn an example's wording or subject into a permanent template. When presenting an externally maintained skill, use a concise activation prompt that loads the verified guide and complete relevant instructions, identifies the requested capability and gathers the needed inputs. Link the usable source rather than inserting internal source files into the article unless explicitly requested.
+
+Write for readers who have not seen the working conversation. Apply accepted corrections to the final content without narrating the feedback, previous mistake or abandoned approach. Keep build logs, test counts, unrun-test status and internal checks in the private handoff. Do not append unsolicited statements about what the author has not tested. Describe supported capability accurately, omit unsupported claims, and include only limitations or prerequisites material to the reader's actual use. A requested article about testing or development may cover that subject with appropriate evidence; an ordinary tool introduction should not inherit the production conversation.
+
+Track factual claims through the draft. Preserve qualifications, source meanings and attribution near the explanation they support. Label imagined scenarios and simulated results. Never add a polished unsupported claim to bridge a gap. For creative work, preserve the stated premise and intentional freedom without presenting fiction as reporting.
+
+Plan visuals while outlining. For each header, inline, reference, data or preview slot, record its purpose, required/optional/not-applicable status, representation, source/production route, exact placement anchor, caption, credit, alternative text and review requirements. Use actual documentary sources for evidence; a generated illustration cannot establish an event or product behavior. Add only visuals that do useful work.
+
+## Preserve the publication's header style
+For an established publication, inspect its current approved published headers and identity instructions before briefing or generating an article header. Treat their typography, palette, layout, spacing, recurring marks and crop treatment as locked constraints. Vary article-specific content only within that established design. A new article or a request for a header does not authorize a redesign; change the style only when the user explicitly requests it. Record the inspected references and style constraints in the AssetPlan. If references are unavailable, retain any supplied approved template and report the missing comparison instead of inventing a replacement style. For a new publication without an approved header style, derive it from its own brief and identity.
+
+Compare each completed header visually with the approved published references at full size and in the destination crop. Correct unintended style drift before marking the ContentPackage ready. Preserve the publication's existing body-heading hierarchy and formatting when revising or extending its article format. Keep these rules publication-specific: do not promote one publication's colors, fonts, subjects or examples into universal skill defaults.
+
+For opening pieces, carry Selection's launch check into review of the actual draft: the piece delivers an immediate reader gain, makes its distinctive contribution apparent, and supports a credible reason to return through feasible follow-up material. Describing the publication alone does not demonstrate its value. Do not force a founder narrative or invent firsthand experience; judge the form against the approved publication premise.
+
+## Review and maintain
+Perform the sentence-level reader-value and natural-language pass in the article review gate, then assess evidence, identity, media and native structure separately. Keep a private ReviewRecord with the exact content version, corrections, remaining concerns and actual skill-load receipt. A factual/link pass alone cannot approve prose. Retain meaningful safety and evidence limits while removing padding and checking logs.
+
+Review separately for intended value, coherence, voice, useful originality, factual fidelity, source placement and completeness. Verify material claims against sources independently of how convincing the draft sounds. Check actual visuals at readable size and destination crops, then review the visual/copy combination for the shared identity from the current foundation. Functional clarity and visual polish cannot compensate for conflicting brand character. Address the highest-impact defects while retaining the organizing idea.
+
+Return the complete ContentPackage, evidence map, AssetPlan and review record. Readiness requires actual required images and resolved rights, not filenames or insertion placeholders. The article may remain draft or held even if its text is complete. An explicitly image-free format can pass without invented visual requirements.
+
+For recurring production, research and write from the current backlog early enough for visual production and review. For updates, trace changed claims/headlines/identity to affected derivatives and approvals. Periodically inspect evergreen content and broken sources under the owner's plan; correct or retire only the affected material. Preserve substantive revision history and disclose remaining concerns.
+
+## Deliver the discovery within the article
+For a feature, inherit the private concept record and make its supported connection perceptible on the page. Establish a concrete object or specific question early; arrange evidence where it can change understanding. Let each section advance a distinct part of the experience. Replace abstract benefit announcements with visible consequences, introduce terminology at the point of need, and make the headline promise the actual supported discovery. Keep material qualifications beside the relevant claims and move routine setup into a practical layer when that improves reading.
+
+Deliver the central understanding before an external link, prompt, viewer or exercise. These may extend the experience; they must not supply an absent payoff. Preserve ambiguity where the material warrants it. End according to the piece's purpose, without compulsory morals, reaction announcements or calls to action. A reference instead earns its place through clear, short, accurate instructions; do not stretch it into a feature.
+
+Apply the no-padding rule to the actual title, body, visuals and handover. Remove an added example or experiment when the existing explanation already delivers its contribution. Preserve necessary evidence and usable instructions.
+
+Review execution separately from concept quality: identify the passage or visual that lets the reader experience the connection, check what each section adds, and remove repetitions or claims of excitement that substitute for evidence. Evaluate comprehension, usefulness and feature interest separately. These are editorial judgments; reader preference and validated improvement require actual observations.
 
 ## Inputs and outputs
 
-Inputs: Reviewed ContentPackage and AssetManifest; Channel capabilities; ActionAuthorization; Publication history; ChannelCapability records; EngagementDecision for conversational writes; OperationQueueItem; AccountSurfacePlan; AssetPlan with approved AssetManifest versions; Existing-account before-state and scoped configuration authority.
+Inputs: EditorialBrief; EvidenceBundle where factual work is involved; StrategyContext, format and voice requirements; BrandIdentityContext; Format-specific visual recipe and EvidenceBundle.
 
-Outputs: ChannelPackage; PublicationReceipt or explicit prepared-only status; Derivative and correction links; Target-bound comment/reply PublicationReceipt; Per-channel partial-success report; AccountDeploymentReceipt per changed surface; Published body-to-media placement verification.
+Outputs: ContentPackage draft; Claim references and fact/interpretation/fiction labels as relevant; ReviewRecord and correction requests; Article AssetPlan with exact insertion anchors, captions, credits and accessibility text.
 
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
 
-## Revise and verify complete publication blocks
-Compare reviewed source → saved/reopened native draft → public result, recording each actually observed state. Preserve the existing canonical URL, free access, source links and useful media on authorized edits. Check video playback, exact product variant/image provenance, caption/ALT and the outgoing affiliate tag where relevant; honor publication-specific book-card placement exceptions. An uploaded image, clicked publish button or source URL string alone verifies none of these outcomes. Keep internal checking notes out of public copy while retaining concise required affiliate disclosure and material safety/evidence limits.
+## Inherit the reviewed concept
 
-Retain a before-state inventory of cover, inline media, embeds, their order, captions, credits, ALT and authored links. Prefer scoped text changes between protected blocks. Whole-body replacement requires complete block reconstruction and before/after preservation verification. Confirm exact selected text and media boundaries before replacing it; when native selection is ambiguous, stop that mutation and find a verified boundary. Check that body prose has not entered captions, headings have not become paragraphs, links remain active and code remains usable. Matching visible text alone is insufficient.
+Before concrete development of a new or materially changed premise, obtain the applicable [Concept Review](../../skills/concept-review/SKILL.md) result and complete originating artifacts. Reuse the review for routine work within an unchanged concept; do not reopen it for a local execution change. If this direct request introduces a new organizing premise, apply that same method before developing it. Preserve protected strengths and unresolved questions, and still critique the actual produced work separately.
 
-Inspect the actual saved public page, including media loading, credits, language access, footnote clutter, empty spacer blocks and unwanted manual breaks. Preserve purposeful formatting and source attribution. Keep complete prepared files and honest pending status when live control is unavailable. Reuse a working tab, close completed task tabs, and retain unrelated or unfinished user work.
+## Judgment, language and block preservation
+Make the consequential choice and its payoff apparent through the subject and explanation. Do not manufacture firsthand testing, visits, emotions, contrarianism, jokes, elevated seriousness or a signature sentence pattern. Use plain natural language appropriate to the actual reader relationship; explain unfamiliar knowledge without infantilizing the reader. Let structure follow the thought. Direct references may remain direct; optional continuations cannot substitute for an absent on-page payoff. End once when the purpose is fulfilled.
 
-<a id="source-skills-media-distribution-skill-md"></a>
+Before a revision, map useful existing images and embeds to their positions, captions, credits, ALT text and source links. Prefer editing text between protected media blocks. Do not remove documentary or experiential imagery simply because the text restates it. Preserve functional prompt/code line breaks and purposeful lists; remove spacer paragraphs and manual prose breaks at semantic boundaries. Keep source links near the claims and image credits near the images. Check that translated or otherwise accessible links fulfill the publication's reader-language requirement.
 
----
+Review the saved title, text, headings, links, code and media in their actual blocks. Text matching, image count and successful rendering are separate checks and cannot establish editorial quality. Inspect representative finished work and rejected alternatives privately without installing their subjects, style or wording as defaults.
 
-Source: `skills/media-distribution/SKILL.md`
-
----
-name: media-distribution
-description: Find relevant publication contexts and prepare channel-native distribution, discovery and retention encounters.
----
-
-# Distribution
-
-Read [operating boundaries](#source-policies-constitution-md) and [handoff rules](#source-contracts-handoff-md). Use only the current task’s required inputs and references.
-
-## Method
-For an editorial growth plan, inherit the actual selected opportunity and [reader-growth decision](#source-skills-media-growth-references-reader-growth-md). Prepare only useful authorized derivatives and return paths; no fixed distribution-asset quota, channel list or additional schedule follows from a growth report.
-
-Start from the audience and intended value of the actual content or publication, available channels and observed prior results. Locate contexts where it can be useful, including search, existing readership, relevant communities and return paths. Compare fit, norms, accessibility, effort and permission; do not default to every platform.
-
-For a launch or growth experiment, name a credible route to initial suitable readers and the destination that rewards their visit. Distinguish existing audience, external referrals, platform discovery and participation in relevant conversations; mark assumed routes and unavailable attribution. Connect Relationships opportunities to a useful article or profile experience without requiring promotional links in comments. Specify why a visitor would return and how subsequent content fulfills that expectation. Select improvements at the observed weak stage rather than defaulting to more outreach.
-
-For each selected first-reader route, specify audience/context, useful contribution, encounter with the publication, optional next step and observable result. Platform discovery alone is a valid route when appropriate; lacking an external audience does not require acquiring one before publishing. Record its assumptions and measurement limits. A channel name alone is not an executable plan.
-
-Prepare native versions with their own reason to exist. Preserve substantive claims, source references and the canonical version. If a derivative needs a published URL or visual, wait for its confirmed receipt and correct variant. Independent posts need no artificial article dependency.
-
-Use authorized discovery/listening surfaces to find relevant conversations; record coverage and unavailable feeds. Read the actual work before proposing a contribution. Send context to Relationships, not an automatic keyword reply. Publishing access does not imply listening or conversation access.
-
-Plan timing as a publication-specific hypothesis within private schedules and active windows. Define observable exposure and response measures with denominators and missingness. Stop low-value distribution or respect channel refusals; do not increase volume as the default repair.
-
-Include useful return experiences where appropriate: contextual links to prior work, series navigation, optional subscriptions and clear preferences. A newsletter or sales funnel is not obligatory. Return DistributionPlan, native drafts, context references, measurement requests and stop conditions. Effects go through Publishing's gate.
-
-## Inputs and outputs
-
-Inputs: ContentPackage; Audience context; Channel capabilities, norms and permissions; Observed prior distribution results.
-
-Outputs: DistributionPlan; Channel-specific drafts; Measurement requests and stop conditions; Conversation candidates and context references; Action-specific listening/discovery limitations.
-
-## Completion and learning
-
-Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
-
-<a id="source-skills-media-master-references-article-routing-md"></a>
-
----
-
-Source: `skills/media-master/references/article-routing.md`
-
-# Resolve article skills and record real loading
-
-For a new article, substantive revision or article review, resolve the installed entry point and library manifest before working. Follow START_HERE at that release; read the complete master and the smallest relevant workflow. Follow relative references from the resolved release root, not from a guessed host directory. Keep private publication guides and work outside the shared library.
-
-## Route by the work
-
-| Need | Load and apply |
-| --- | --- |
-| Coordinate an article or its revision | media-master; current commission, guide and approved upstream artifacts |
-| Write, edit or review the actual prose | media-editorial and its article-review reference; current publication guide |
-| Verify claims, source passages, anatomy, product variant, image rights or changed evidence | media-source-research; reuse sufficient current evidence and verify affected gaps |
-| Timely topic intelligence or editorial growth planning within an authorized scope | media-growth reader-growth and selection timely-topics; source research for material signals; preserve owner-topic gates |
-| Diagnose discovery, return or note trend observations | media-measurement and note-discovery; raw metrics and sampled surfaces, with compatible populations and uncertainty |
-| Choose a new angle or repair a missing editorial foundation | media-editorial-selection; reuse approved program and voice for narrow edits |
-| New or materially changed organizing concept | concept-review before concrete development; reuse a current valid review for the unchanged premise |
-| Apply identity to copy/header or media | read approved identity/assets; load media-brand-identity for import/application or a real identity gap; creative/art/asset capabilities only for affected production |
-| Save, publish or update native article blocks | media-publishing and destination references; preserve existing URL, free access, media and links |
-| A publication has its own article entry | also load that installed entry and current guide; keep its handover/commission rules scoped to that publication |
-
-“Use all relevant skills” means follow the required dependencies and apply their substance. It does not mean regenerate approved strategy/identity, invoke unrelated specialists or create agents for each capability. Complete external Marketer/identity methods are required only when those methods are invoked; an import is an import. Editorial output review remains mandatory even when Concept Review is reused.
-
-For a wording-only revision, use the revision/review workflow and the affected evidence/identity rules. Do not reopen strategy or commission an unrequested public operation. When the task expands into research, concept change or asset production, load the affected specialist before doing that work.
-
-## Keep a real load receipt
-
-Record a private file per run with the selected workflow, manifest release/hash, actual entry path and resolved path, skill name/version/hash, required reference paths/hashes and retrieval evidence for every skill actually read in full. Distinguish loaded-and-applied, loaded-only, approved artifact reused, conditional-not-needed and missing. A catalogue listing, installation, cited path, prior assistant assertion or reading bundle filename without complete retrieval proves no loading.
-
-Reference this file from RunRecord.input_refs and ReviewRecord.evidence_refs; put the actually applied skill/version list in RunRecord.skill_versions. Include it in the work handoff. Do not fabricate or retroactively backfill prior usage. Missing prior evidence is a gap, not proof that a skill was never used elsewhere. Compare the receipt with required source inventory before calling the article reviewed or ready.
-
-## Scheduled consumers
-
-Read the existing scheduled consumer's workflow entry on each run. Resolve its installed current skills or explicit lock; report a conflict rather than silently mixing releases. Adopt a new release only within owner-authorized update policy, retain the prior lock and baseline, and keep private adaptations at their existing compatible release unless deliberately migrated. Do not rewrite schedules, dedupe identities, budgets, permissions or publication databases to install editorial guidance. Private guide ownership may require a separate wiring handoff; report that as pending until its readback confirms the route.
 
 <a id="source-skills-media-master-references-creative-routing-md"></a>
 
@@ -1070,61 +1156,6 @@ Source: `contracts/ComputerUseContinuation.schema.json`
 }
 
 ```
-<a id="source-skills-media-editorial-references-article-review-md"></a>
-
----
-
-Source: `skills/media-editorial/references/article-review.md`
-
-# Article review: reader value and natural prose
-
-Use this gate for writing, editing and reviewing an article. Read the publication's current guide and the actual draft. Apply the language and identity of its readers; for Japanese copy, read it aloud as a Japanese reader who has not seen the authoring conversation. Keep review notes private.
-
-## Review the promised gain
-
-State the reader's question and locate the passage, worked example or reference media that answers it. Check whether the title and each heading make a short, useful promise that the section fulfills. Prefer familiar Japanese over an English main heading whose value needs decoding. Search terms can clarify the subject; they cannot justify claims of popularity, efficacy or consensus.
-
-Test each sentence for a concrete contribution: an action, understanding, example, decision criterion or necessary evidence. Delete vague benefit announcements, padding, repeated conclusions and process/provenance chatter. Do not replace a deleted sentence with a synonym that does the same empty work. Keep useful complexity and end when the purpose is fulfilled. Set no minimum word or character count.
-
-Remove internal checking logs, dated verification footers, production history and narration about identifying an item from a photo. Identify a product honestly once where that helps readers recognize the correct variant. Never fabricate use, ownership, visits, measurements or results. Attribute an owner observation only when it is actually supplied and preserve its limited scope.
-
-Keep material evidence limits, useful source links, relevant action-specific safety and a clear required affiliate disclosure. Do not delete them merely to shorten an article. Replace generic legal or medical boilerplate with the actual prerequisite, stop condition or evidence limit the reader needs. A speculative mechanism must remain speculative; do not turn anatomy into a treatment or body-shape guarantee.
-
-## Shape the explanation
-
-Group related sentences into natural paragraphs; break when the thought changes. Remove mid-sentence manual BRs, empty spacer blocks and isolated one-sentence lines used only for emphasis. Preserve purposeful captions, quotes, lists and functional prompt/code breaks.
-
-Use real heading hierarchy, purposeful bold, numbered steps, bullet comparisons, short quote blocks, a worked example or a useful diagram where they improve comprehension. Choose the form that carries the substance. Do not impose a fixed template, image count, decorative-image quota or compulsory example. Preserve substantive advice and root sources through a readability edit.
-
-## Make media deliver the promise
-
-Place an actual reference image or playable video beside the how-to it demonstrates. Give readers enough on-page instructions to understand and safely use the reference. A generated illustration cannot replace requested documentary media. When introducing an optional physical tool, place the correct actual product image and clear text affiliate link at its first meaningful explanation if the publication's guide calls for it. Honor scoped exceptions such as reference books intentionally collected at the end.
-
-Resolve the exact variant and image provenance, permission/rights, caption, credit, ALT and insertion anchor. Keep retail/Amazon screenshots labeled as retail material; never convert them into owner photographs or evidence of firsthand use. Prefer supported native cards when they provide a usable product image/link. Verify the actual outgoing affiliate URL and tag after native insertion, separately from the source URL string. Apply the approved publication identity to the header.
-
-Before editing existing content, inventory and preserve useful media, links, access terms and canonical URL. Review source → native saved/reopened draft → public page, as authorized. Check headings, captions, link targets, placement, image load, video playback and access separately. Keep unobserved checks pending. A text diff or successful save alone cannot confirm the rendered article.
-
-## Plan discoverability metadata
-
-Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
-
-## Decide and retain evidence
-
-Perform a distinct pass after drafting. Record title/body version, reviewer independence, passages corrected, remaining concerns and actual skill-load receipt privately. Assess reader value, natural language, substance/evidence, identity, media and native execution separately. A factual/link checklist, clean linter or schema pass cannot establish writing quality. Hold the affected delivery until mandatory defects are corrected; keep complete local work available.
-
-## Calibration examples
-
-Use these as tests of contribution, not as subjects or fixed wording for future articles.
-
-| Draft wording | Editorial decision |
-| --- | --- |
-| 「どの範囲に当たるかを考えられます」 | Delete it, or state the actual supported contact point and the action it changes. Do not invent the point from a photo. |
-| 「写真で確認した製品です」 | Identify the verified product/variant at its useful introduction; retain photo-identification notes privately. |
-| 「確認メモ（作業日）」 | Remove the public checking footer. Keep a genuine observation and material evidence limit beside the claim they qualify. |
-| 「これからの判断に役立つでしょう」 after a complete answer | Delete the repeated benefit announcement. |
-| 「痛みやしびれが出たら中止してください」 beside an exercise | Preserve it when applicable; it changes the reader's action. Verify any additional contraindication through research. |
-| 「このリンクから購入すると運営者に紹介料が入ります」 beside an affiliate link | Preserve a clear disclosure and verify the outgoing tag; do not bury it in a production log. |
-
 <a id="source-skills-media-publishing-references-article-metadata-md"></a>
 
 ---
@@ -1199,50 +1230,6 @@ When selected by the owner, Chrome computer use is a concrete X execution route.
 
 The same route can save native articles or inspect other selected sites where authorized and supported. Each operation keeps its own evidence. This bridge requires no new website, new social account or API credential.
 
-<a id="source-adapters-platforms-md"></a>
-
----
-
-Source: `adapters/platforms.md`
-
-# Platform routes — checked 2026-09-28
-
-This register is action-specific research, not proof of live account access. Resolve the actual account, capabilities and user authorization before execution. Keep platform-specific behavior out of reusable editorial methods. The scheduled host route uses actual browser controls with durable bookkeeping; no API connector is required for that route.
-
-## note
-Official help states that no public API is offered: https://www.help-note.com/hc/ja/articles/46643492548121 . Do not invent one or extract cookies to call internal endpoints. Supported browser computer use can prepare, save, publish and inspect content when the current authorized host/account supports those controls. Verify draft save, publication, comments, profile updates, uploads and image placement separately in their actual interfaces. A successful draft save does not establish unattended comment monitoring or publication.
-
-## X
-Direct browser computer use is an available execution route for interactive work and scheduled Codex host turns in a host with supported computer controls, as specified by the owner for this build. Inspect the actual account, compose the authorized post or reply, check content/parent, submit within scope and verify the resulting UI/remote identifier. Do not mark this route unavailable merely because no API connector exists, and do not use hidden endpoints or cookie extraction.
-
-Do not infer that direct browser operation establishes permission for unattended recurring automation. X's published automation rules restrict non-API automation and require prior written approval for AI reply bots: https://help.x.com/en/rules-and-policies/x-automation . Keep current platform policy and automation approval as separate action-level gates. A human approval button does not itself prove an exception. No live X post, reply, policy exemption or unattended X route was demonstrated in this build.
-
-## Threads
-Official publishing sample: https://github.com/fbsamples/threads_api . Reply-management documentation: https://developers.facebook.com/documentation/threads/retrieve-and-manage-replies . The latter could not be fully retrieved in this build. Keep publish, own-reply retrieval, reply writing, discovery, mentions, media and events independently unknown/documented until complete scopes and actual access are verified. Publishing access does not imply a whole public timeline.
-
-## Capability inventory
-For each selected platform/account, create separate ChannelCapability records for public read; own-content read; comment read; mention read; conversation retrieval; discovery/search; draft/save; publish; reply; schedule; edit/correction; removal; moderation; metrics; event intake; profile-field update; upload; cover assignment; inline placement; caption/credit/alt fields; and rendered inspection. Use documented-not-tested, verified-available, permission-blocked, policy-blocked, unsupported, unknown or manual-only with the exact evidence, checked date and fallback. Unselected platforms are not required publication choices.
-
-<a id="source-adapters-contracts-executor-md"></a>
-
----
-
-Source: `adapters/contracts/EXECUTOR.md`
-
-# Private executor and action adapter
-Shared computer-use adapters also implement the [admission/continuation contract](#source-skills-media-master-references-computer-use-queue-md). Resolve private resource binding, stable occurrence/stage key, waiting disposition, clean-release outbox and actual supported native dispatch/consumer acknowledgment. Keep preparation outside the exclusive UI resource where possible. Report tested delivery capability and per-consumer adoption separately from these protocol requirements; no local record can manufacture a native wake or action permission.
-
-
-Two execution routes are supported: a scheduled host turn with computer use, or a trusted command executor. For the host route, read [the browser host procedure](#source-runtime-reference-browser-host-md). Codex itself performs the workflow and uses its browser tools; the bookkeeping bridge never launches UI scripting. An API integration is optional.
-
-A command executor is an owner-installed trusted command, given a JSON request on standard input: schema version, publication, locked release, job/workflow, occurrence identity/fence and private workspace. It must load the corresponding complete workflow, perform research/writing/production/review or conversation decisions, and return JSON with matching publication_id; state completed/no-op/blocked; actual artifacts and evidence; optional observation batches; and proposed actions. It must not make external effects itself. Sandbox or restrict its credentials at the host boundary; this runner is not an OS security sandbox.
-
-The built-in executor in evaluations is explicitly a deterministic synthetic protocol fixture, not an LLM or benchmark of editorial quality. The command route needs a real host/model executor for recurring editorial work; the scheduled Codex route already supplies that executor when its tools are available. No API subscription or model is implicitly selected by this library.
-
-Each action binds publication, account, operation, target/source event, content_hash, current review, visual file hashes, authorization_ref, context/before-state and a bounded reserved_cost. A separately trusted adapter refreshes actual context, reconciles unknown action IDs, and sends with the same stable ID when remotely supported. It returns actual confirmed status, remote_id, optional URL, confirmation_source and media mappings. A live adapter must enforce provider budgets, current policy and fencing immediately before its effect. Do not fabricate a live URL in the synthetic adapter.
-
-Action cost reservations remain consumed after unknown results. Retrying a read can be safe under capped backoff; retrying an unknown write must first reconcile. Adapter refresh, submit and reconcile need their own API/time limits in a live implementation. The reference runner is single-action sequential and does not claim distributed exactly-once guarantees.
-
 ## Source inventory
 
 ```json
@@ -1263,24 +1250,29 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
     "sha256": "922bb7006d72f58f287949de6bbdb83de862140c06d485b12a31e8639f948c63"
   },
   {
-    "path": "skills/media-master/SKILL.md",
-    "bytes": 11852,
-    "sha256": "a13a0d634f99f18ace0a926fcb50bba3806c157c4d018e169dc09e2a0873e06e"
-  },
-  {
-    "path": "skills/media-publishing/SKILL.md",
-    "bytes": 7900,
-    "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
-  },
-  {
-    "path": "skills/media-distribution/SKILL.md",
-    "bytes": 3913,
-    "sha256": "09dcf281b9663eb63a95e000f4cb2b0f274796c8883c55da9c0a5bf7e133cdda"
+    "path": "contracts/EDITORIAL_FOUNDATION.md",
+    "bytes": 6745,
+    "sha256": "1bc678f3646a17faa380d783c52a014e6c81703220e575835f758fa854b0a276"
   },
   {
     "path": "skills/media-master/references/article-routing.md",
     "bytes": 4415,
     "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+  },
+  {
+    "path": "skills/media-editorial/references/article-review.md",
+    "bytes": 6258,
+    "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+  },
+  {
+    "path": "skills/media-master/SKILL.md",
+    "bytes": 11852,
+    "sha256": "a13a0d634f99f18ace0a926fcb50bba3806c157c4d018e169dc09e2a0873e06e"
+  },
+  {
+    "path": "skills/media-editorial/SKILL.md",
+    "bytes": 15172,
+    "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
   },
   {
     "path": "skills/media-master/references/creative-routing.md",
@@ -1318,11 +1310,6 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
     "sha256": "cdb9d041f1e33871a49fbb64b88cd8432b5b67ba61981240b15dd2058ae45988"
   },
   {
-    "path": "skills/media-editorial/references/article-review.md",
-    "bytes": 6258,
-    "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
-  },
-  {
     "path": "skills/media-publishing/references/article-metadata.md",
     "bytes": 2427,
     "sha256": "2cddc6ed9c91fba467608c32bb07e963cca604624b90a4c2443e7f71632c75a2"
@@ -1331,16 +1318,6 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
     "path": "runtime/reference/BROWSER_HOST.md",
     "bytes": 7615,
     "sha256": "d7f95ce1dee798fad4f290a01f4320b010bfdbe5117be4690f4488d43aeb90f5"
-  },
-  {
-    "path": "adapters/platforms.md",
-    "bytes": 3078,
-    "sha256": "8ae5cb6e4f7692cf8d41e0e497b6b23d53c7162805192362ebfd88a8068be4cc"
-  },
-  {
-    "path": "adapters/contracts/EXECUTOR.md",
-    "bytes": 2909,
-    "sha256": "5170c514edc767cde33ad2bd55a47af45f905471de7cc3b05d398227e7a7300f"
   }
 ]
 ```

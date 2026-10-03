@@ -47,6 +47,8 @@ When revising an existing publication, inventory its current cover, body media, 
 Source: `contracts/HANDOFF.md`
 
 # Working records and handoffs
+For work sharing computer use, include the applicable [admission and continuation evidence](../../skills/media-master/references/computer-use-queue.md): original occurrence/stage key, checkpoint, actual host capability, retained waiting/disposition, dispatch and consumer acknowledgment. Distinguish native resumption from queue persistence and preserve existing action/topic authority. Omit these records when no shared computer-use work is involved.
+
 
 Use the versioned JSON Schemas in this directory for retained records. Return the human-facing deliverable normally; records support continuation rather than replacing the deliverable.
 
@@ -56,6 +58,8 @@ Record output paths or actual remote references, versions, evidence, unresolved 
 
 Quality review checks the requested value, fidelity to current strategy/identity, factual support, usability, technical completeness and actual delivery state. Perform a distinct review pass; consequential factual conclusions require independent evidence. State whether a reviewer is independent. A method's own rating is not audience evidence.
 
+For articles, apply the complete [article review gate](../../skills/media-editorial/references/article-review.md) and retain the [actual load receipt](../../skills/media-master/references/article-routing.md) in RunRecord.input_refs and ReviewRecord.evidence_refs. Include applied skill versions in RunRecord.skill_versions. Installation or a citation is not proof of execution; do not retrospectively assert use.
+
 Failure handling: identify the missing source, tool, account action or authority; preserve completed artifacts; mark dependent work blocked; continue independent work. Retry transient failures within the configured budget. Reconcile uncertain writes before retrying. Do not replace an unavailable source method with an invented equivalent.
 
 Local adaptation surfaces are task-derived research selection, editorial format, creative execution, production recipes, channel packaging, conversation handling and scheduling within owner-approved bounds. Record diagnosis, competing explanation, falsification check, comparison, decision, scope, compatibility, expiry and rollback. Protected fields are defined in the Constitution. Shared proposals contain only synthetic or explicitly authorized evidence.
@@ -63,6 +67,7 @@ Local adaptation surfaces are task-derived research selection, editorial format,
 ## Concept-to-idea boundary
 
 Use the shared Concept Review when a new or materially changed concept is ready to develop into concrete ideas. The master schedules it; direct specialists must also apply it. The originating capability revises the concept and the receiver checks the review's scope, input versions, protected strengths and unresolved conditions. Retain a private ConceptReview record. Reuse the review when the premise and material inputs are unchanged; reopen only affected findings when they change. Conceptual simulation is judgment, not audience evidence or a validated reusable lesson. Later review of produced work remains required.
+
 
 <a id="source-registry-method-dependencies-json"></a>
 
@@ -82,10 +87,10 @@ Source: `registry/method-dependencies.json`
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
       "redistribution": "not granted by this bridge",
-      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/9acf6304932ce5e70bd7ad63c61178f0fca3fc00/MARKETER.md",
-      "content_commit": "9acf6304932ce5e70bd7ad63c61178f0fca3fc00",
-      "full_file_sha256": "beee947d0fc994a3bd97a8650db7b235f1e84af8ab6f3bd8136a7a0289eb3f48",
-      "bytes": 395790,
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/MARKETER.md",
+      "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+      "full_file_sha256": "e8d79f95736a7507fa309a6bfd358deb233f59256af53426efd90d92e61c8589",
+      "bytes": 420557,
       "full_method_read_in_build": false
     },
     {
@@ -100,11 +105,32 @@ Source: `registry/method-dependencies.json`
     {
       "id": "brand-identity-director",
       "local_entry": "${SKILL_ROOT}/brand-identity-director/SKILL.md",
-      "entry_sha256": "9ec68b28a8393dfc5db8a420c67498619aed28670d7570f8143652b0df7a2def",
+      "entry_sha256": "3848ff69098436625606072283bf7228c12d5c64739a5c9a8cf9e0f67f54a70c",
       "version_kind": "local-entry-content-hash",
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
-      "redistribution": "not granted by this bridge"
+      "redistribution": "not granted by this bridge",
+      "source_revision": "r9-creative-2026-10-03.1",
+      "local_reference_locks": {
+        "references/identity-system.md": "e3031083cd95405c869404aca78ed1cbdf81c515d31946ace5c3f5426dcd6e12",
+        "references/existing-identity-adaptation.md": "804e2eb0830ed445990d54db29b86b623c06de96f4f9be5e2f36be671b463a74",
+        "references/reference-to-design-judgment.md": "567f08ce7c507052ae7078d8b5590ab2c0e9a6fa38a0ee79d5d84bc98e20dec4",
+        "references/fashion-art-direction-lenses.md": "16db91ea319f16dd4eedd793356674d6b27ee3579f7e406c097ac3d3a8d30e52"
+      },
+      "public_delivery": {
+        "status": "verified anonymous complete-document and exact public-package retrieval",
+        "start_guide_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/README.md",
+        "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+        "document_path": "MARKETER.md",
+        "required_complete_sections": 33,
+        "document_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/MARKETER.md",
+        "document_sha256": "e8d79f95736a7507fa309a6bfd358deb233f59256af53426efd90d92e61c8589",
+        "document_bytes": 420557
+      },
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/MARKETER.md",
+      "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+      "full_file_sha256": "e8d79f95736a7507fa309a6bfd358deb233f59256af53426efd90d92e61c8589",
+      "bytes": 420557
     },
     {
       "id": "perception-flow",
@@ -132,6 +158,35 @@ Source: `registry/method-dependencies.json`
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
       "redistribution": "not granted by this bridge"
+    },
+    {
+      "id": "brand-name-generator",
+      "local_entry": "${SKILL_ROOT}/brand-name-generator/SKILL.md",
+      "entry_sha256": "5a006d551e679273a709abaedd10b0671780ba0155e9f739da7f9a7ae5b150ef",
+      "source_revision": "r9-creative-2026-10-03.1",
+      "version_kind": "local-entry-content-hash",
+      "completeness": "entry-inspected; required full references must be loaded before execution",
+      "vendored": false,
+      "redistribution": "use the external package licence; this bridge grants no additional rights",
+      "local_reference_locks": {
+        "references/sources.md": "d0e43870397c3457dd2d90b21fbf1637bd0aeb088a329be7b6501168fdffca93",
+        "references/editorial-character.md": "90fc88ab1aa7aedca529c75a1f912f79dd87c00bf8ad0c3e77839f75febbd051",
+        "references/screening.md": "918ab059530fe964855ca3f351b40e9cd8d13f335d72c8443eda31b1d7e4b398"
+      },
+      "language_configuration": "resolve current local configuration for local execution; public package determines language from its own brief",
+      "public_delivery": {
+        "status": "verified anonymous complete-document and exact public-package retrieval",
+        "start_guide_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/README.md",
+        "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+        "document_path": "BRAND_NAME_GENERATOR.md",
+        "document_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/BRAND_NAME_GENERATOR.md",
+        "document_sha256": "5864884aff1ea110950ad7966cd74af4101f8085cd018d79c3c59d788245910b",
+        "document_bytes": 26482
+      },
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/BRAND_NAME_GENERATOR.md",
+      "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+      "full_file_sha256": "5864884aff1ea110950ad7966cd74af4101f8085cd018d79c3c59d788245910b",
+      "bytes": 26482
     }
   ]
 }
@@ -217,13 +272,13 @@ Keep later critique of the actual produced work: a sound concept does not prove 
   },
   {
     "path": "contracts/HANDOFF.md",
-    "bytes": 2706,
-    "sha256": "9795c3396e9461ca718c71a766d8bdc94e5d498a1d74b987571689bfaf8f4154"
+    "bytes": 3590,
+    "sha256": "ffdf28caad54f9b9947bb6767fc2f1d2ef2cb7a7764c6ced3b8698cd63f7e62a"
   },
   {
     "path": "registry/method-dependencies.json",
-    "bytes": 2977,
-    "sha256": "01997391662a3ab4f517b3291458106251756795c63072502ac75874d7975c37"
+    "bytes": 6658,
+    "sha256": "922bb7006d72f58f287949de6bbdb83de862140c06d485b12a31e8639f948c63"
   },
   {
     "path": "skills/concept-review/SKILL.md",

@@ -47,6 +47,8 @@ When revising an existing publication, inventory its current cover, body media, 
 Source: `contracts/HANDOFF.md`
 
 # Working records and handoffs
+For work sharing computer use, include the applicable [admission and continuation evidence](#source-skills-media-master-references-computer-use-queue-md): original occurrence/stage key, checkpoint, actual host capability, retained waiting/disposition, dispatch and consumer acknowledgment. Distinguish native resumption from queue persistence and preserve existing action/topic authority. Omit these records when no shared computer-use work is involved.
+
 
 Use the versioned JSON Schemas in this directory for retained records. Return the human-facing deliverable normally; records support continuation rather than replacing the deliverable.
 
@@ -56,6 +58,8 @@ Record output paths or actual remote references, versions, evidence, unresolved 
 
 Quality review checks the requested value, fidelity to current strategy/identity, factual support, usability, technical completeness and actual delivery state. Perform a distinct review pass; consequential factual conclusions require independent evidence. State whether a reviewer is independent. A method's own rating is not audience evidence.
 
+For articles, apply the complete [article review gate](#source-skills-media-editorial-references-article-review-md) and retain the [actual load receipt](#source-skills-media-master-references-article-routing-md) in RunRecord.input_refs and ReviewRecord.evidence_refs. Include applied skill versions in RunRecord.skill_versions. Installation or a citation is not proof of execution; do not retrospectively assert use.
+
 Failure handling: identify the missing source, tool, account action or authority; preserve completed artifacts; mark dependent work blocked; continue independent work. Retry transient failures within the configured budget. Reconcile uncertain writes before retrying. Do not replace an unavailable source method with an invented equivalent.
 
 Local adaptation surfaces are task-derived research selection, editorial format, creative execution, production recipes, channel packaging, conversation handling and scheduling within owner-approved bounds. Record diagnosis, competing explanation, falsification check, comparison, decision, scope, compatibility, expiry and rollback. Protected fields are defined in the Constitution. Shared proposals contain only synthetic or explicitly authorized evidence.
@@ -63,6 +67,7 @@ Local adaptation surfaces are task-derived research selection, editorial format,
 ## Concept-to-idea boundary
 
 Use the shared Concept Review when a new or materially changed concept is ready to develop into concrete ideas. The master schedules it; direct specialists must also apply it. The originating capability revises the concept and the receiver checks the review's scope, input versions, protected strengths and unresolved conditions. Retain a private ConceptReview record. Reuse the review when the premise and material inputs are unchanged; reopen only affected findings when they change. Conceptual simulation is judgment, not audience evidence or a validated reusable lesson. Later review of produced work remains required.
+
 
 <a id="source-registry-method-dependencies-json"></a>
 
@@ -82,10 +87,10 @@ Source: `registry/method-dependencies.json`
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
       "redistribution": "not granted by this bridge",
-      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/9acf6304932ce5e70bd7ad63c61178f0fca3fc00/MARKETER.md",
-      "content_commit": "9acf6304932ce5e70bd7ad63c61178f0fca3fc00",
-      "full_file_sha256": "beee947d0fc994a3bd97a8650db7b235f1e84af8ab6f3bd8136a7a0289eb3f48",
-      "bytes": 395790,
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/MARKETER.md",
+      "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+      "full_file_sha256": "e8d79f95736a7507fa309a6bfd358deb233f59256af53426efd90d92e61c8589",
+      "bytes": 420557,
       "full_method_read_in_build": false
     },
     {
@@ -100,11 +105,32 @@ Source: `registry/method-dependencies.json`
     {
       "id": "brand-identity-director",
       "local_entry": "${SKILL_ROOT}/brand-identity-director/SKILL.md",
-      "entry_sha256": "9ec68b28a8393dfc5db8a420c67498619aed28670d7570f8143652b0df7a2def",
+      "entry_sha256": "3848ff69098436625606072283bf7228c12d5c64739a5c9a8cf9e0f67f54a70c",
       "version_kind": "local-entry-content-hash",
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
-      "redistribution": "not granted by this bridge"
+      "redistribution": "not granted by this bridge",
+      "source_revision": "r9-creative-2026-10-03.1",
+      "local_reference_locks": {
+        "references/identity-system.md": "e3031083cd95405c869404aca78ed1cbdf81c515d31946ace5c3f5426dcd6e12",
+        "references/existing-identity-adaptation.md": "804e2eb0830ed445990d54db29b86b623c06de96f4f9be5e2f36be671b463a74",
+        "references/reference-to-design-judgment.md": "567f08ce7c507052ae7078d8b5590ab2c0e9a6fa38a0ee79d5d84bc98e20dec4",
+        "references/fashion-art-direction-lenses.md": "16db91ea319f16dd4eedd793356674d6b27ee3579f7e406c097ac3d3a8d30e52"
+      },
+      "public_delivery": {
+        "status": "verified anonymous complete-document and exact public-package retrieval",
+        "start_guide_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/README.md",
+        "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+        "document_path": "MARKETER.md",
+        "required_complete_sections": 33,
+        "document_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/MARKETER.md",
+        "document_sha256": "e8d79f95736a7507fa309a6bfd358deb233f59256af53426efd90d92e61c8589",
+        "document_bytes": 420557
+      },
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/MARKETER.md",
+      "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+      "full_file_sha256": "e8d79f95736a7507fa309a6bfd358deb233f59256af53426efd90d92e61c8589",
+      "bytes": 420557
     },
     {
       "id": "perception-flow",
@@ -132,6 +158,35 @@ Source: `registry/method-dependencies.json`
       "completeness": "entry-inspected; required full references must be loaded before execution",
       "vendored": false,
       "redistribution": "not granted by this bridge"
+    },
+    {
+      "id": "brand-name-generator",
+      "local_entry": "${SKILL_ROOT}/brand-name-generator/SKILL.md",
+      "entry_sha256": "5a006d551e679273a709abaedd10b0671780ba0155e9f739da7f9a7ae5b150ef",
+      "source_revision": "r9-creative-2026-10-03.1",
+      "version_kind": "local-entry-content-hash",
+      "completeness": "entry-inspected; required full references must be loaded before execution",
+      "vendored": false,
+      "redistribution": "use the external package licence; this bridge grants no additional rights",
+      "local_reference_locks": {
+        "references/sources.md": "d0e43870397c3457dd2d90b21fbf1637bd0aeb088a329be7b6501168fdffca93",
+        "references/editorial-character.md": "90fc88ab1aa7aedca529c75a1f912f79dd87c00bf8ad0c3e77839f75febbd051",
+        "references/screening.md": "918ab059530fe964855ca3f351b40e9cd8d13f335d72c8443eda31b1d7e4b398"
+      },
+      "language_configuration": "resolve current local configuration for local execution; public package determines language from its own brief",
+      "public_delivery": {
+        "status": "verified anonymous complete-document and exact public-package retrieval",
+        "start_guide_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/README.md",
+        "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+        "document_path": "BRAND_NAME_GENERATOR.md",
+        "document_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/BRAND_NAME_GENERATOR.md",
+        "document_sha256": "5864884aff1ea110950ad7966cd74af4101f8085cd018d79c3c59d788245910b",
+        "document_bytes": 26482
+      },
+      "public_full_method_url": "https://raw.githubusercontent.com/rpstr9/rpstr9-marketing-library/ce140d8d46fbc1a8f9daed7129a48c2b60025266/BRAND_NAME_GENERATOR.md",
+      "content_commit": "ce140d8d46fbc1a8f9daed7129a48c2b60025266",
+      "full_file_sha256": "5864884aff1ea110950ad7966cd74af4101f8085cd018d79c3c59d788245910b",
+      "bytes": 26482
     }
   ]
 }
@@ -194,10 +249,16 @@ description: Create, operate or improve a publication by coordinating the media 
 
 Read [operating boundaries](#source-policies-constitution-md) and [handoff rules](#source-contracts-handoff-md). Use only the current task’s required inputs and references.
 
+For article writing, corrections or review, read [article skill routing](#source-skills-media-master-references-article-routing-md), load the required complete instructions and retain a real load receipt. Always route prose work through media-editorial's article review gate; resolve research, concept, identity, assets and publishing according to the affected work. Reuse approved upstream decisions and assets.
+
 ## Resolve and route
+For editorial growth, timely topic selection or a discovery/return diagnosis, load [reader growth](#source-skills-media-growth-references-reader-growth-md) and route the actual selection, research, editorial and measurement work. Use `timely-editorial-growth` for that combined request. An engagement execution still uses the bounded conversation route below. Check owner-topic gates before searching; a trend preference never commissions another topic or effect.
+
 Read the task, current publication records and the release inventory. Reuse complete, current strategy and identity. Check required source availability, capability and authorization by action; do not load every specialist for a narrow request. Build a dependency plan with concrete outputs and only unresolved inputs. Call specialists as capabilities; do not create a permanent committee or spawn agents without host/user authorization.
 
 For new publication creation, turn the owner's interests, resources and constraints into candidate publication concepts. Compare the audience need, distinctive promise, evidence access, recurring material, sustainability and strongest reason each may fail. Research the material uncertainties. Apply the shared Concept Review to candidate concepts, revise through the originating capability and recheck before recommending the concept for concrete development. Label assumptions; ask only for consequential choices that cannot be inferred. Save the reviewed PublicationBlueprint and ConceptReview record.
+
+For naming or identity work, read [Naming and Identity routing](#source-skills-media-master-references-creative-routing-md). Route requested naming to the actual external Brand Name Generator from the approved strategy; preserve selected wording and screening limits into identity.
 
 Import approved strategy or use the complete Marketer/Marketer PFM through media-brand-strategy. From that shared strategy, branch independently to media-brand-identity and media-audience-journey where needed. Never force the journey to wait for identity. An existing identity can be imported.
 
@@ -219,6 +280,8 @@ Reference EditorialProgram, GrowthPlan, DistributionPlan and MeasurementSpec in 
 Return the LaunchPackage with independent states for prepared, connected, approved, published and recurring-running. Include actual assets, content, receipts and remaining blockers. A local simulation must remain labeled simulation.
 
 ## Run and resume
+For scheduled/manual work sharing computer use, read [resource admission and continuation](#source-skills-media-master-references-computer-use-queue-md). Own its durable waiting/dispatch handoff and resolve actual host capability evidence. Queue only desktop/browser work, preserve independent permitted preparation, and distinguish verified native continuation from a lease, queue row or next-wake plan.
+
 For a request to run the growth engine, route to media-growth, media-relationships and media-publishing. Prioritize potential-reader research, suitable outside conversations, likes, brief contextual comments, replies and listening for follow-up. Complete the authorized interactions and return exact sent text and verified receipts. Supporting resource work, article links or a growth plan alone do not complete an engagement request. Keep a one-time run separate from recurring execution.
 
 Choose a periodic executor from available host capabilities. A scheduled Codex turn can run these methods and operate the selected browser through computer use, including Chrome for X when configured. Use the [scheduled browser host procedure](#source-runtime-reference-browser-host-md); an API connector or separate model service is not a prerequisite. Keep the selected route, account and supervision settings private.
@@ -247,6 +310,7 @@ For a new or materially changed organizing concept, load the complete [Concept R
 ## Coordinate judgment, not a universal template
 Establish the owner's consequential selection choices before commissioning. Use facts and permissions as boundaries, approved identity and reader relationship as context, and item-specific judgment to choose material and form. Do not turn a diagnosis into biography or audience evidence. Reassess open commissions when controlling criteria change, retaining dated owner requests and distinguishing decisions already approved from hypotheses. Carry the correction through private guides, reading bundles, active work orders and affected derivatives, with separate prepared and live records.
 
+
 <a id="source-skills-media-brand-strategy-skill-md"></a>
 
 ---
@@ -271,7 +335,7 @@ For creation or material revision, resolve the owner-authorized Marketer or Mark
 
 Execute the loaded method faithfully, including all strategic elements, evidence and unresolved questions. Choose mainstream or PFM vocabulary from the task and source instructions; do not invent a third substitute framework. Preserve full outputs and distinguish a proposal from owner-approved policy.
 
-Feed approved strategy to identity and journey as independent branches. Explain material evidence conflicts and route revisions through the original method. A growth opportunity or attractive visual does not authorize changing the audience, benefit or positioning.
+Feed approved strategy to naming, identity and journey as independent branches. For requested naming, use [the actual Naming route](#source-skills-media-master-references-creative-routing-md); reuse current eight-element strategy and preserve recommendation versus owner selection. Explain material evidence conflicts and route revisions through the original method. A growth opportunity or attractive visual does not authorize changing the audience, benefit or positioning.
 
 Carry the approved opportunity analysis, enabling capabilities and causal link to reader benefit into the downstream StrategyContext. Turn the claimed advantage into editorial selection criteria and observable acceptance checks. Do not retain only the tagline and tone while losing why this publication should exist or what its technology makes possible for this audience.
 
@@ -316,6 +380,8 @@ Own the [editorial foundation handoff](#source-contracts-editorial-foundation-md
 For introductory and opening pieces, demonstrate the publication's value within the piece and make the reason to return credible through a feasible follow-up. Connect specialized subject matter to the intended reader's underlying interest or experience. Preserve the publication's distinctive perspective without forcing autobiography, a personal challenge or a fixed niche. Make its actual contribution inspectable through supported reporting, access, explanation or interpretation; never invent firsthand experience to appear original. Treat initial welcome and encouragement separately from demand for the ongoing editorial program.
 
 ## Choose an item
+When selecting from current events, trends or reader questions, read [timely topic selection](#source-skills-media-editorial-selection-references-timely-topics-md). Apply the actual commission gate before discovery, compare timely candidates with sufficient existing/evergreen answers, then carry dated evidence and the concrete reader gain into the current approved format. A trend label does not establish an article premise.
+
 Define the reader's actual question or interest, assumed knowledge and intended gain before choosing the angle. Comprehension and useful value are required: hold an item whose relevance or payoff cannot be explained from the reader's viewpoint. Do not make an internal production concern into the angle unless it is itself relevant and understandable to this audience.
 
 Set decision criteria from that program before ranking candidates. Compare audience relevance, distinctive insight or premise, evidential readiness, freshness versus prior coverage, artistic/editorial value, resource cost and portfolio gaps. Explain tradeoffs; subjective scores are not calibrated probabilities.
@@ -410,12 +476,14 @@ Source: `skills/media-editorial/SKILL.md`
 
 ---
 name: media-editorial
-description: Write, revise and review publication content with traceable evidence, a purposeful visual plan and complete delivery artifacts.
+description: Write, edit and review publication articles for reader value, natural language, traceable evidence and useful media. Use for new prose, article corrections and pre-publication review with the current publication guide.
 ---
 
 # Editorial Development and Review
 
 Read [operating boundaries](#source-policies-constitution-md) and [handoff rules](#source-contracts-handoff-md). Use only the current task’s required inputs and references.
+
+Read and apply the complete [article review gate](#source-skills-media-editorial-references-article-review-md) for every article-writing, editing and review request. Resolve the actual skills through [article routing](#source-skills-media-master-references-article-routing-md). Apply the current publication's scoped guide and explicit owner exceptions; keep named-publication decisions in its private workspace.
 
 ## Resolve the editorial foundation
 
@@ -424,6 +492,8 @@ Before full drafting, follow the [editorial foundation handoff](#source-contract
 When reviewing a new foundation, check that its decisions can guide an actual opening, explanation, transition, ending and relevant non-article channel treatment. Inspect task-derived copy alongside the selected identity's actual applications: look, feel, voice, tone and manner must express the same brand character and reader relationship. Tone may vary with the situation without switching personality. Check structure against the reader's intended gain and language against the strategy; record substantive gaps rather than approving adjective lists. Return a ReviewRecord to selection. This review and the later review of a finished article are distinct, and neither proves audience demand.
 
 ## Develop the piece
+For an already-selected timely piece, inherit Selection's [dated opportunity and brief](#source-skills-media-editorial-selection-references-timely-topics-md), actual reader gain and existing foundation. Deliver that gain in the current publication's voice and structure. Remove trend-hype and unsupported popularity/effect claims; do not turn the brief into public selection logs or run a new uncommissioned topic search. The existing article-review gate still decides finished prose quality.
+
 Start from the reader's situation, question, prior knowledge and reason to spend time on the piece. Define the useful understanding, decision, action or experience the reader should gain. Organize the article around that gain rather than the author's urge to explain the system or a production concern. Make every heading intelligible in the reader's context and make its section deliver the promised value. Explain unfamiliar terms and causal connections at the point of need; remove context-dependent shorthand, clever but unclear wording and details that do no useful work for the reader. Preserve relevant complexity and evidence rather than replacing substance with promotional claims.
 
 Comprehension and reader value are mandatory acceptance criteria. Review the title, headings and body from the stated audience's viewpoint without access to the authoring conversation. Confirm that a reader can tell what each section means, why it matters and what they gain from reading it. Revise or remove sections that fail either criterion before delivery. Record this review privately; do not print the author's checklist or corrections in the article. Derive wording and examples from the current brief, never from a fixed example.
@@ -448,6 +518,8 @@ Compare each completed header visually with the approved published references at
 For opening pieces, carry Selection's launch check into review of the actual draft: the piece delivers an immediate reader gain, makes its distinctive contribution apparent, and supports a credible reason to return through feasible follow-up material. Describing the publication alone does not demonstrate its value. Do not force a founder narrative or invent firsthand experience; judge the form against the approved publication premise.
 
 ## Review and maintain
+Perform the sentence-level reader-value and natural-language pass in the article review gate, then assess evidence, identity, media and native structure separately. Keep a private ReviewRecord with the exact content version, corrections, remaining concerns and actual skill-load receipt. A factual/link pass alone cannot approve prose. Retain meaningful safety and evidence limits while removing padding and checking logs.
+
 Review separately for intended value, coherence, voice, useful originality, factual fidelity, source placement and completeness. Verify material claims against sources independently of how convincing the draft sounds. Check actual visuals at readable size and destination crops, then review the visual/copy combination for the shared identity from the current foundation. Functional clarity and visual polish cannot compensate for conflicting brand character. Address the highest-impact defects while retaining the organizing idea.
 
 Return the complete ContentPackage, evidence map, AssetPlan and review record. Readiness requires actual required images and resolved rights, not filenames or insertion placeholders. The article may remain draft or held even if its text is complete. An explicitly image-free format can pass without invented visual requirements.
@@ -484,6 +556,795 @@ Before a revision, map useful existing images and embeds to their positions, cap
 
 Review the saved title, text, headings, links, code and media in their actual blocks. Text matching, image count and successful rendering are separate checks and cannot establish editorial quality. Inspect representative finished work and rejected alternatives privately without installing their subjects, style or wording as defaults.
 
+
+<a id="source-skills-media-master-references-article-routing-md"></a>
+
+---
+
+Source: `skills/media-master/references/article-routing.md`
+
+# Resolve article skills and record real loading
+
+For a new article, substantive revision or article review, resolve the installed entry point and library manifest before working. Follow START_HERE at that release; read the complete master and the smallest relevant workflow. Follow relative references from the resolved release root, not from a guessed host directory. Keep private publication guides and work outside the shared library.
+
+## Route by the work
+
+| Need | Load and apply |
+| --- | --- |
+| Coordinate an article or its revision | media-master; current commission, guide and approved upstream artifacts |
+| Write, edit or review the actual prose | media-editorial and its article-review reference; current publication guide |
+| Verify claims, source passages, anatomy, product variant, image rights or changed evidence | media-source-research; reuse sufficient current evidence and verify affected gaps |
+| Timely topic intelligence or editorial growth planning within an authorized scope | media-growth reader-growth and selection timely-topics; source research for material signals; preserve owner-topic gates |
+| Diagnose discovery, return or note trend observations | media-measurement and note-discovery; raw metrics and sampled surfaces, with compatible populations and uncertainty |
+| Choose a new angle or repair a missing editorial foundation | media-editorial-selection; reuse approved program and voice for narrow edits |
+| New or materially changed organizing concept | concept-review before concrete development; reuse a current valid review for the unchanged premise |
+| Apply identity to copy/header or media | read approved identity/assets; load media-brand-identity for import/application or a real identity gap; creative/art/asset capabilities only for affected production |
+| Save, publish or update native article blocks | media-publishing and destination references; preserve existing URL, free access, media and links |
+| A publication has its own article entry | also load that installed entry and current guide; keep its handover/commission rules scoped to that publication |
+
+“Use all relevant skills” means follow the required dependencies and apply their substance. It does not mean regenerate approved strategy/identity, invoke unrelated specialists or create agents for each capability. Complete external Marketer/identity methods are required only when those methods are invoked; an import is an import. Editorial output review remains mandatory even when Concept Review is reused.
+
+For a wording-only revision, use the revision/review workflow and the affected evidence/identity rules. Do not reopen strategy or commission an unrequested public operation. When the task expands into research, concept change or asset production, load the affected specialist before doing that work.
+
+## Keep a real load receipt
+
+Record a private file per run with the selected workflow, manifest release/hash, actual entry path and resolved path, skill name/version/hash, required reference paths/hashes and retrieval evidence for every skill actually read in full. Distinguish loaded-and-applied, loaded-only, approved artifact reused, conditional-not-needed and missing. A catalogue listing, installation, cited path, prior assistant assertion or reading bundle filename without complete retrieval proves no loading.
+
+Reference this file from RunRecord.input_refs and ReviewRecord.evidence_refs; put the actually applied skill/version list in RunRecord.skill_versions. Include it in the work handoff. Do not fabricate or retroactively backfill prior usage. Missing prior evidence is a gap, not proof that a skill was never used elsewhere. Compare the receipt with required source inventory before calling the article reviewed or ready.
+
+## Scheduled consumers
+
+Read the existing scheduled consumer's workflow entry on each run. Resolve its installed current skills or explicit lock; report a conflict rather than silently mixing releases. Adopt a new release only within owner-authorized update policy, retain the prior lock and baseline, and keep private adaptations at their existing compatible release unless deliberately migrated. Do not rewrite schedules, dedupe identities, budgets, permissions or publication databases to install editorial guidance. Private guide ownership may require a separate wiring handoff; report that as pending until its readback confirms the route.
+
+<a id="source-skills-media-master-references-creative-routing-md"></a>
+
+---
+
+Source: `skills/media-master/references/creative-routing.md`
+
+# Naming and Identity routing
+
+Read this for naming, identity development, or faithful application of existing identity. These are external capabilities, not additional shared media skills.
+
+## Resolve actual complete methods
+
+Resolve `brand-name-generator` or `brand-identity-director` through the method dependency register. For local use, resolve `${SKILL_ROOT}` to the actual installed skill directory, verify the entry and relevant reference locks, and read the complete entry plus its required sources. A file hash or installation receipt does not prove reading. Record missing or truncated material and hold the dependent operation; continue independent permitted work. Do not silently replace a locked method with a newer entry.
+
+For public use, resolve the external marketing Start Guide and complete documents at a verified immutable marketing content commit. The dependency register records verified public delivery at an immutable marketing content commit, with complete document URLs, byte counts and hashes. Verify the resolved complete bytes and section ends before use. A local entry hash is not a public document hash. Never claim the new references are publicly retrievable from an older commit.
+
+## Naming is a strategy branch
+
+Use the actual complete eight-element strategy, including current corrections. Resolve only consequential gaps; naming does not require a journey, logo or new strategy report when adequate inputs exist. Follow the Naming entry's language, screening and source references, and its cultural-character reference when relevant. Keep name-construction language, response language and market evaluation distinct; a personal language default is not a public default.
+
+Pass actual wording, reading, language choice, screening scope, rejected directions and unresolved conditions to Identity. Preserve whether the name is a placeholder, a recommendation, owner-selected or explicitly delegated. An owner selection supersedes a previous recommendation without implying trademark clearance, acquisition or launch permission. Do not regenerate selected names for an unrelated article or production export.
+
+## Select the identity mode
+
+Import approved strategy, identity and real assets when sufficient. For preserve/adapt, inspect authoritative files and rendered uses, follow the complete Identity entry and existing-identity adaptation route, and preserve exact masters, rights, allowed transformations and export constraints. Repair only gaps that change this task. New dimensions or article images do not commission a rebrand.
+
+For create or material redesign, load the original full identity method, assigned strategy sources, reference-to-design judgment and relevant researched fashion/editorial lenses. Inspect actual reference pixels and record observable translation, protected strengths, rejection/revision and rendered recheck. Preserve the method's independent candidate generation and draft-selection endpoint. An already selected direction proceeds within its authorised scope; it does not require three new alternatives.
+
+Keep functional comprehension, naming judgment, visual craft, production verification and public implementation as separately evidenced verdicts. A rendered draft is neither a font licence nor audience evidence. Retain actual entry paths, versions/hashes, required-source reads, asset provenance and unresolved conditions in the private handoff; keep this operational record out of public article prose.
+
+<a id="source-skills-media-growth-references-reader-growth-md"></a>
+
+---
+
+Source: `skills/media-growth/references/reader-growth.md`
+
+# From suitable discovery to a reason to return
+
+Read this for editorial growth planning, topic intelligence or a diagnosis of discovery and repeat readership. An engagement-only request keeps the existing audience/conversation loop; this reference adds no article commission or contact quota.
+
+Start with the approved reader, recurring need, distinctive contribution, existing formats and business model. Connect discovery, a rewarding article, trust and a feasible reason to return. Add purchase or membership stages only where they belong to the approved model. Reuse a sufficient series, archive or introduction rather than launching another. Public likes, followers and activity counts are separate diagnostics, not substitutes for reader value or revenue.
+
+## Make the next editorial decision
+
+Use [timely topic selection](#source-skills-media-editorial-selection-references-timely-topics-md) when current events, reader questions or a trend may matter. Pass the selected opportunity to Selection with dated evidence, actual reader gain and scope; Growth supplies intelligence, not a permission override. Carry the existing editorial foundation into the brief. A topic can be timely without appearing in a platform trend area, and platform appearance alone does not justify an article.
+
+Give a returning reader a recognizable promise that the publication can fulfill. A related follow-up, useful archive link or named series may help when it serves this piece; do not append a compulsory CTA, internal link or series label. Let entertainment, essays, practical references and how-to articles earn attention in their own ways. Preserve the article's complete on-page payoff, natural language, useful media and evidence; do not manufacture first-hand authority.
+
+Prepare channel-native derivatives through Distribution only for authorized channels and effects. Use a substantive insight, useful visual or genuinely different follow-up angle. Reuse current confirmed article and media receipts before dependent distribution; do not create a second scheduler or impose the report's two-assets/+1-day/+3-day sequence. No fixed likes, follows, comments or reciprocal-engagement targets arise from this method. Existing conversation closure, opt-outs, action ceilings and restriction stops remain controlling.
+
+## Improve the observed weak stage
+
+Use Measurement's compatible populations and windows. Limited exposure calls for checking delivery, topic recognition and suitable discovery routes; comparable exposure with fewer opens calls for checking reader fit and packaging; opens without substantive return call for checking promise delivery and continuity. These are investigations, not causal diagnoses. Unavailable outcomes remain unknown.
+
+Choose one bounded hypothesis and discriminating check, with the existing baseline, content versions, comparable article age, topic/format, weekday, traffic mix, observations, confounders and next decision. Repeat a promising result before transferring it. Small samples, launch-only encouragement, celebrity totals and selected successful accounts cannot establish a general recipe. Use Learning for justified adaptations; keep private reader/contact data and outcomes outside the shared release.
+
+Run **research → hypothesis → bounded test → actual measurement → retain, adjust or stop** separately for each publication. Retain the original source and its evidence class, one clear change where feasible, evaluation window, the account's own comparable baseline, appropriate observable outcomes, confounders and stop conditions. Keep channel surfaces/traffic separate where they differ. Choose qualified readership, substantive returning interest or conversion only when the actual authorized data supports them; likes alone do not establish success, and unavailable private metrics stay unknown. An inconclusive result may call for better observation rather than a pivot.
+
+Reuse the existing ExperimentPlan/MeasurementSpec, RunRecord/ReviewRecord, OutcomeRecords and private GrowthState/learning entry. Record exposed cases, null/negative results and the retain/adjust/stop decision; approved adaptations keep exact patch, scope, compatible baseline, review trigger and rollback through Learning. Review due outcomes in existing runs, without duplicate telemetry or new polling/publication jobs. A tactical pivot within current authority is not a wholesale rebrand, revised mission, new paid model or revoked topic gate; route those consequential choices to their existing owner/strategy authority.
+
+For note, read [discovery measurement and source limits](#source-skills-media-measurement-references-note-discovery-md). A recovered growth report can suggest positioning, recurrence, value-before-paywall and sustainable production; its niche scores, 50/30/20 allocation, prices, three-post week, example launch dates and percentage-lift targets are hypotheses. They do not change an existing publication's structure, cadence, access, monetization or authority. Verify current product mechanics and fees only when an authorized decision needs them.
+
+<a id="source-skills-media-editorial-selection-references-timely-topics-md"></a>
+
+---
+
+Source: `skills/media-editorial-selection/references/timely-topics.md`
+
+# Select a timely topic for this reader
+
+Use for authorized topic selection, a substantive timely revision or a scheduled editorial run. Reuse the current program, approved voice/structure/identity and owner choices. For wording-only corrections, keep the scope narrow.
+
+## Gate before discovery
+
+Check the actual occurrence, commission and completed/uncertain receipts before searching or drafting. If this publication requires an explicit owner-topic commission, a trend preference, due slot or shared method update does not revoke that gate. No pending eligible commission means the existing quiet no-op. Otherwise compare timely angles within its topic and permitted scope. Preserve cadence, dedupe, freshness, budgets, pauses and current shared resource coordination; this method starts no schedule or service.
+
+## Select the opportunity, then its form
+
+Gather proportionate dated signals: relevant primary-source changes, recurring reader questions, authorized listening and actual platform observations. Record event date separately from publication and observation dates, source passage, scope, previous coverage and any material verification gap. Check whether the source is current enough for this decision; a popular old article may contain no new event. Do not make platform trend access a compulsory blocker when other sufficient evidence exists.
+
+Compare the candidate with the publication's existing backlog or evergreen answer. Select a timely candidate when it fits the approved reader promise, offers a concrete supported gain, has ready evidence and can be delivered within current resources. Explain the actual tradeoff. Hold an important claim awaiting evidence; reject a mismatched or redundant trend; retain a stronger evergreen answer or a valid empty slot when appropriate. Trend urgency cannot compensate for weak substance, unsupported effects, invented use or missing required media.
+
+For each selected item, retain in SelectionDecision/EditorialBrief:
+
+- The reader question or worthwhile experience, why now, intended gain and specific added understanding, action or experience.
+- Dated signal and primary evidence, source-reported versus observed claims, uncertainties, prior coverage and what would invalidate the angle.
+- Approved program/foundation version and chosen existing format, voice/identity constraints, required media and item-specific exception authority.
+- Commission/occurrence and scope, selection reasons and rejected alternatives, a useful outcome check and review trigger inside existing runs.
+
+Deliver that gain in the article itself. A practical conversation may need a worked exchange and upstream judgment; self-care may need demonstrated movement and specific safety; an art story may need a supported visual connection. These are assignment-dependent forms, not universal templates. A reference can remain direct. A genuine new organizing premise invokes Concept Review; a routine angle within an unchanged reviewed premise reuses that review. Do not regenerate settled strategy or identity.
+
+## Keep observations from becoming ranking claims
+
+For note, use [discovery measurement](#source-skills-media-measurement-references-note-discovery-md). HOME topic cards and articles within each topic destination are different observations. Retain date, surface, login/context and exact item/source. Early descriptive observations can supply candidates; they do not validate algorithm weights, placement tactics or guaranteed reach. Source Research resolves changed or conflicting explanations; a February announcement cannot silently stand for a different current `/trend` explanation.
+
+Review the finished title, prose, evidence, media and native metadata through Editorial's existing article-review gate. Never insert selection logs, provenance chatter or trend promises into public copy. Record actual complete skill/source loads in the private work receipt; installation, cited paths and a prepared inheritance plan do not establish live usage.
+
+<a id="source-skills-media-measurement-references-note-discovery-md"></a>
+
+---
+
+Source: `skills/media-measurement/references/note-discovery.md`
+
+# note discovery: measurements and observation limits
+
+Read for note growth measurement or trend-derived selection. This reference preserves the distinction between evidence and a planning hypothesis; it supplies no hidden ranking model or live capability claim.
+
+## Use compatible metrics
+
+The [dashboard definitions](https://www.help-note.com/hc/ja/articles/360010324194) and [traffic-source guide](https://www.help-note.com/hc/ja/articles/61983634535449) are the primary references to recheck against the actual account fields at collection. The recovered October 2, 2026 growth research describes separate impressions and PV; its implementation assessment warns that total PV includes external/direct traffic while impressions concern note surfaces. **Total PV divided by impressions is a diagnostic proxy, not internal CTR or an opening probability.** Even note-source PV is not necessarily an exact matched click numerator. Traffic-source totals may not reconcile to total PV.
+
+Retain account, item, metric definition/surface, population, period, article age, aggregation/update time and traffic mix. Report raw counts alongside the proxy and its limitations; a ratio above 1 is possible and must not be clamped. A zero or unavailable denominator yields unavailable, never zero performance. Use CTR only when actual clicks and impressions refer to the same eligible exposures and attribution/window is compatible; otherwise retain the proxy or abstain. The optional [metric helper](../../scripts/note_discovery_metrics.py) checks supplied metadata, not its truth or platform capability.
+
+Own views/comments may affect small samples; sources update at different times. Do not mix an older mobile composite-view field with browser PV or newer impressions. Compare completed matching periods and similar content ages; snapshot changes require compatible definitions. Distinguish gross dashboard sales, refunded amounts, actual payout and net revenue. Missing purchases, member cohorts, cancellations or ad costs cannot be inferred from public likes/followers. Likes/PV, follow yield and sales/PV are diagnostics with their own population and attribution limits, not proof of satisfaction, retention or causality.
+
+## Observe the surface actually seen
+
+The [February 2026 recommendation announcement](https://note.com/info/n/n42bd663f422a) describes personalized categories and changing trending themes; exact signal weights are unspecified. Retain that announcement as a dated explanation. Recheck the actual explanation at [the trend surface](https://note.com/trend) when current mechanics matter. If the two explanations differ, retain both passages, observation dates, surface and scope and mark the conflict or evolution unresolved until evidenced. Do not synthesize them into a claimed current formula.
+
+For an observation, record timestamp/timezone, source URL, capture/evidence reference, HOME or destination surface, logged-in/logged-out/unknown context and locale. Record HOME **topic cards** with topic label, destination and visible position. Record **article placements inside that destination** separately with topic/destination identity, article URL, visible position and observed publication time if available. A topic card is not an article, and visible position is not a universal rank. Retain inaccessible/loading/missing observations as unknown rather than absence.
+
+A declared multi-day observation plan may compare topic recurrence, item recurrence, visible article age and coverage on the same observed surfaces. State sampling times, missed observations and denominator: for example, appearances in 8 of 12 successfully inspected destination snapshots. That describes sampled presence only. One initial snapshot cannot establish a stable pattern; a 14-day horizon is a proposed observation window, not validated causal evidence or permission to create a task. Keep logged-out and account-context samples separate. Do not infer weights, undisclosed personalization, why an item was selected or a reliable route to placement from descriptive changes.
+
+## Keep the growth report's evidence classes
+
+Official mechanics and metric definitions need current passage/account verification. Official paid-content/membership analyses and creator benchmarks describe selected historical populations; they do not establish new-account earnings, optimal pricing, cadence or causal tactics. The report's 18/25 niche score, 50/30/20 mix, three posts per week, price examples, 90-day calendar and 15–20% lift rules are managerial hypotheses, not platform thresholds or statistically established improvements. No fixed hashtag number, minimum article length, mandatory subscription ladder or native ad-boost capability follows.
+
+Use [official search/AI guidance](https://note.com/notemag/n/nac99c25b8271) for the relevant reader value, originality, meaningful headings and attribution decision; do not bulk-produce generic paraphrases or fabricate firsthand use. [Community guidance](https://www.help-note.com/hc/ja/articles/4409925863193) and [follow restrictions](https://www.help-note.com/hc/ja/articles/16858564068633) supply no verified safe mass-engagement quota. Existing genuine conversation, dedupe, opt-out and restriction stops apply. Reverify material feature/fee/paid-offer facts only within an authorized decision.
+
+Source status for this candidate: recovered completed report and its separate assessment were read offline; cited third-party pages are not included in that package. The February announcement is dated source-reported context. Current `/trend` explanation and longitudinal observations require their own actual evidence before asserting a current mechanism. Future discoveries enter private OutcomeRecords and bounded tests before any shared-method promotion.
+
+<a id="source-skills-media-master-references-computer-use-queue-md"></a>
+
+---
+
+Source: `skills/media-master/references/computer-use-queue.md`
+
+# Queue only the shared computer-use work
+
+Use this contract when an authorized scheduled or manual media job needs a desktop/browser already shared by cooperating tasks. Master/orchestration owns admission and continuation; Growth submits its bounded work; Publishing checks exclusive ownership immediately before computer use. Independent permitted research, drafting and asset preparation may continue without desktop ownership. A connector with no shared desktop does not acquire this resource merely because it is part of media work.
+
+## Resolve actual host support
+
+Read the private resource binding and capability evidence. Separate durable admission, exclusive ownership, clean-release outbox, supported native dispatch, consumer acknowledgment/dedupe and restart reconciliation. Identify the original destination task and responsible release/dispatch host. A queue table, lease or written instruction proves no native continuation. Record whether actual delivery is verified from the releasing host, relies only on the next existing wake, or is unavailable. Do not promise unattended immediate resumption when all native hosts are idle unless that mechanism is actually supported and verified. Installing this library starts no scheduler or service.
+
+Private adapters may map their field names to [admission](#source-contracts-computeruseadmission-schema-json) and [continuation](#source-contracts-computerusecontinuation-schema-json) records. Keep account identities, task IDs, queue/workspace paths and actual prompts private. Preserve existing schedule times, paused jobs, budgets, topic commissions and recurrence/overdue policies. Do not replace a publication's stage ledger or unknown-action records with this resource queue.
+
+## Admit and wait
+
+Obtain the original occurrence and destination from the actual native job configuration and wake/work order, explicit commission or publication ledger. Retain the supported native record or ledger evidence. A continuation keeps that original identity; do not invent task/run IDs or replace it with the current date/time. Missing genuine context holds admission for a precise handoff.
+
+Before computer use, submit a stable job key binding publication, original native occurrence or commission, and stage. Retain resource, original destination task, source and authorization references, locked workflow/content version, checkpoint and freshness. Keep readiness evidence in that referenced private checkpoint; a queue state or schema pass cannot stand in for current review/assets/source readiness. Repeated wakes reuse that admission; waiting spends no external-action retry budget. A missing/completed/cancelled topic commission follows its existing no-op or hold rule; queueing cannot create a new topic or permission.
+
+When busy, persist a waiting disposition and continue only independent permitted work. Do not call the job completed, discard it or repeatedly claim the occupied desktop. A paused, manually active, unknown or nonexpiring owner cannot be stolen because a waiter is older. Preserve a durable reason for every cancelled, coalesced or overdue occurrence; expiry/review disposition is not successful publication. Apply the owner's existing no-burst and freshness policy rather than replaying stale work.
+
+Use a finite deadline only when the original policy supplies one. An unfinished request with no fixed expiry retains an explicit null deadline, supported policy references and mandatory current resume/effect revalidation; do not manufacture an end-of-day cutoff or silently drop it for elapsed time. Unknown freshness policy stays reconciliation-held until mapped. Null does not expand commission, budget, no-burst or publication authority, and does not bypass a stage ledger's current-date gate. Preserve known finite sending windows.
+
+## Release and continue
+
+The current owner reconciles pending effects and retains a checkpoint before clean release. Clean resource release and the eligible waiter/outbox key must be retained in one atomic transition; a split-store adapter instead needs a durable release event and tested restart repair so release cannot lose the wake. The responsible authorized native host then requests continuation in the **existing** destination task through its supported mechanism and records the actual dispatch result. A local CLI cannot invoke a native tool by writing a queue row. Retain delivery as pending or unknown until its request/ack is observed. If that host path is missing, report the precise integration gap and preserve the waiter for the next existing authorized wake; do not report automatic resumption as implemented.
+
+On receipt, deduplicate the continuation key and acknowledge the actual consumer transition. Reopen the checkpoint, reconcile any submitted/uncertain external effect, and revalidate current topic authority, pause state, workflow lock, account/target, content/review/asset versions, freshness and human edits. Reacquire the same shared resource before UI work and refresh the actual context before each effect. A continuation message adds no action authority. Changed or revoked conditions hold/cancel the affected work with evidence rather than continuing an old approval.
+
+A consumed wake acknowledges a consumer transition, which may be waiting or running. If another owner wins the delivery race, retain the admission as waiting and acknowledge the old wake; the next clean release can issue a new epoch/key while stale old wakes remain no-op. Job completion still requires actual stage receipts and its finish/checkpoint, not native message acceptance or wake consumption.
+
+After interruption around dispatch, inspect the supported native request/consumer acknowledgment before replaying a message. Duplicate deliveries must not duplicate work. A completed effect is recognized from its actual receipt; an unknown effect is reconciled, not clicked again. Preserve safe stopped-owner recovery and human-intervention rules from the private adapter. Do not infer distributed exactly-once external delivery from local idempotency.
+
+## Verify the operating route
+
+Keep protocol tests separate from live adoption. Test actual admission/outbox code in a finite isolated workspace: busy→waiting→clean release→supported continuation→consumer acknowledgment→single completion; restart before/after release and dispatch; duplicate wakes/releases/deliveries; pending effects; revoked/paused/missing topics; expiry/no-burst; and parallel independent preparation. Then retain a harmless native end-to-end continuation receipt and per-consumer adoption evidence. A simulated callback or successful queue insert alone cannot establish automatic native resumption. Report which publication consumers are verified, statically wired or pending without changing unrelated schedules.
+
+<a id="source-contracts-computeruseadmission-schema-json"></a>
+
+---
+
+Source: `contracts/ComputerUseAdmission.schema.json`
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComputerUseAdmission",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ComputerUseAdmission"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "job_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resource_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "occurrence_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_task_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "workflow_lock_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "authorization_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "content_version_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checkpoint_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "not_before": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "fresh_until": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "state": {
+          "enum": [
+            "waiting",
+            "running",
+            "reconciliation-held",
+            "expired-for-review",
+            "completed",
+            "cancelled",
+            "parked"
+          ]
+        },
+        "disposition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "queue_receipt_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revalidation_required": {
+          "const": true,
+          "description": "Resuming must revalidate current authority/context before effects; this contract cannot clear required checks."
+        },
+        "action_reconciliation_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "freshness_policy": {
+          "enum": [
+            "finite",
+            "no-fixed-expiry",
+            "unknown"
+          ]
+        },
+        "freshness_policy_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "job_key",
+        "resource_ref",
+        "publication_id",
+        "occurrence_ref",
+        "stage",
+        "target_task_ref",
+        "workflow_lock_ref",
+        "source_refs",
+        "authorization_refs",
+        "content_version_ref",
+        "checkpoint_ref",
+        "not_before",
+        "fresh_until",
+        "state",
+        "disposition",
+        "queue_receipt_ref",
+        "revalidation_required",
+        "action_reconciliation_refs",
+        "freshness_policy",
+        "freshness_policy_refs"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "state": {
+                "enum": [
+                  "reconciliation-held",
+                  "expired-for-review",
+                  "cancelled",
+                  "parked",
+                  "waiting"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "disposition": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "freshness_policy": {
+                "const": "finite"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fresh_until": {
+                "type": "number",
+                "minimum": 0
+              },
+              "freshness_policy_refs": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "freshness_policy": {
+                "const": "no-fixed-expiry"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fresh_until": {
+                "type": "null"
+              },
+              "freshness_policy_refs": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "freshness_policy": {
+                "const": "unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fresh_until": {
+                "type": "null"
+              },
+              "state": {
+                "const": "reconciliation-held"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}
+
+```
+<a id="source-contracts-computerusecontinuation-schema-json"></a>
+
+---
+
+Source: `contracts/ComputerUseContinuation.schema.json`
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComputerUseContinuation",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ComputerUseContinuation"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "continuation_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "job_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resource_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_task_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "checkpoint_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mechanism_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state": {
+          "enum": [
+            "pending",
+            "dispatching",
+            "acknowledged",
+            "unknown",
+            "consumed",
+            "cancelled"
+          ]
+        },
+        "dispatch_request_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "consumer_ack_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "attempt_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "completion_receipt_ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional actual job completion evidence; consumed wake alone does not establish completed work or a published effect."
+        },
+        "disposition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "continuation_key",
+        "job_key",
+        "resource_ref",
+        "target_task_ref",
+        "checkpoint_ref",
+        "mechanism_ref",
+        "state",
+        "dispatch_request_ref",
+        "consumer_ack_ref",
+        "attempt_refs",
+        "completion_receipt_ref",
+        "disposition"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "state": {
+                "enum": [
+                  "acknowledged"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dispatch_request_ref": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "state": {
+                "enum": [
+                  "consumed"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "consumer_ack_ref": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "state": {
+                "enum": [
+                  "unknown",
+                  "cancelled"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "disposition": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}
+
+```
+<a id="source-skills-media-editorial-references-article-review-md"></a>
+
+---
+
+Source: `skills/media-editorial/references/article-review.md`
+
+# Article review: reader value and natural prose
+
+Use this gate for writing, editing and reviewing an article. Read the publication's current guide and the actual draft. Apply the language and identity of its readers; for Japanese copy, read it aloud as a Japanese reader who has not seen the authoring conversation. Keep review notes private.
+
+## Review the promised gain
+
+State the reader's question and locate the passage, worked example or reference media that answers it. Check whether the title and each heading make a short, useful promise that the section fulfills. Prefer familiar Japanese over an English main heading whose value needs decoding. Search terms can clarify the subject; they cannot justify claims of popularity, efficacy or consensus.
+
+Test each sentence for a concrete contribution: an action, understanding, example, decision criterion or necessary evidence. Delete vague benefit announcements, padding, repeated conclusions and process/provenance chatter. Do not replace a deleted sentence with a synonym that does the same empty work. Keep useful complexity and end when the purpose is fulfilled. Set no minimum word or character count.
+
+Remove internal checking logs, dated verification footers, production history and narration about identifying an item from a photo. Identify a product honestly once where that helps readers recognize the correct variant. Never fabricate use, ownership, visits, measurements or results. Attribute an owner observation only when it is actually supplied and preserve its limited scope.
+
+Keep material evidence limits, useful source links, relevant action-specific safety and a clear required affiliate disclosure. Do not delete them merely to shorten an article. Replace generic legal or medical boilerplate with the actual prerequisite, stop condition or evidence limit the reader needs. A speculative mechanism must remain speculative; do not turn anatomy into a treatment or body-shape guarantee.
+
+## Shape the explanation
+
+Group related sentences into natural paragraphs; break when the thought changes. Remove mid-sentence manual BRs, empty spacer blocks and isolated one-sentence lines used only for emphasis. Preserve purposeful captions, quotes, lists and functional prompt/code breaks.
+
+Use real heading hierarchy, purposeful bold, numbered steps, bullet comparisons, short quote blocks, a worked example or a useful diagram where they improve comprehension. Choose the form that carries the substance. Do not impose a fixed template, image count, decorative-image quota or compulsory example. Preserve substantive advice and root sources through a readability edit.
+
+## Make media deliver the promise
+
+Place an actual reference image or playable video beside the how-to it demonstrates. Give readers enough on-page instructions to understand and safely use the reference. A generated illustration cannot replace requested documentary media. When introducing an optional physical tool, place the correct actual product image and clear text affiliate link at its first meaningful explanation if the publication's guide calls for it. Honor scoped exceptions such as reference books intentionally collected at the end.
+
+Resolve the exact variant and image provenance, permission/rights, caption, credit, ALT and insertion anchor. Keep retail/Amazon screenshots labeled as retail material; never convert them into owner photographs or evidence of firsthand use. Prefer supported native cards when they provide a usable product image/link. Verify the actual outgoing affiliate URL and tag after native insertion, separately from the source URL string. Apply the approved publication identity to the header.
+
+Before editing existing content, inventory and preserve useful media, links, access terms and canonical URL. Review source → native saved/reopened draft → public page, as authorized. Check headings, captions, link targets, placement, image load, video playback and access separately. Keep unobserved checks pending. A text diff or successful save alone cannot confirm the rendered article.
+
+## Plan discoverability metadata
+
+Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
+
+## Decide and retain evidence
+
+Perform a distinct pass after drafting. Record title/body version, reviewer independence, passages corrected, remaining concerns and actual skill-load receipt privately. Assess reader value, natural language, substance/evidence, identity, media and native execution separately. A factual/link checklist, clean linter or schema pass cannot establish writing quality. Hold the affected delivery until mandatory defects are corrected; keep complete local work available.
+
+## Calibration examples
+
+Use these as tests of contribution, not as subjects or fixed wording for future articles.
+
+| Draft wording | Editorial decision |
+| --- | --- |
+| 「どの範囲に当たるかを考えられます」 | Delete it, or state the actual supported contact point and the action it changes. Do not invent the point from a photo. |
+| 「写真で確認した製品です」 | Identify the verified product/variant at its useful introduction; retain photo-identification notes privately. |
+| 「確認メモ（作業日）」 | Remove the public checking footer. Keep a genuine observation and material evidence limit beside the claim they qualify. |
+| 「これからの判断に役立つでしょう」 after a complete answer | Delete the repeated benefit announcement. |
+| 「痛みやしびれが出たら中止してください」 beside an exercise | Preserve it when applicable; it changes the reader's action. Verify any additional contraindication through research. |
+| 「このリンクから購入すると運営者に紹介料が入ります」 beside an affiliate link | Preserve a clear disclosure and verify the outgoing tag; do not bury it in a production log. |
+
+<a id="source-skills-media-publishing-references-article-metadata-md"></a>
+
+---
+
+Source: `skills/media-publishing/references/article-metadata.md`
+
+# Article hashtags in native metadata
+
+Choose relevant tags from the article's actual subject, reader intent and approved brand vocabulary. Preserve valid existing tags on edits. Avoid unrelated trending terms, keyword spam, popularity claims and medical-outcome promises unsupported by the article. Do not invent a fixed count. A platform without a hashtag field may be explicitly not-applicable; a missing required note tag field is a defect.
+
+Record a private article metadata file beside the ContentPackage and reference it through `body_or_asset_refs` / the channel handoff. Retain the exact content hash, destination, native field, proposed tags with their reasons, and existing valid tags to preserve. For note, enter them in its native hashtag field; `#tags` in body prose do not populate that field.
+
+Before saving/publishing, check that the field is populated for the current article. On saved/reopened and public readback, inspect actual native/public tag metadata, record observed tags, exact content hash and evidence, and compare with the plan. Preserve publication permission and target checks. Do not infer tags from body text, a prepared manifest or the fact that a button was clicked. Keep missing/unobserved metadata pending, and do not call the article fully verified until the applicable native/public checks pass.
+
+Use `scripts/check_article_metadata.py METADATA.json --stage prepared|saved|public` as a local completeness check. It catches absent fields, lost valid tags, missing planned tags and non-observations; it neither judges topic relevance nor verifies the supplied evidence remotely. Perform the editorial relevance pass and actual platform inspection separately. No new scheduler, effect or permission is created.
+
+Example shape (synthetic, not a publication receipt):
+
+```json
+{
+  "platform": "note",
+  "content_hash": "exact-reviewed-content-sha256",
+  "native_field": "hashtags",
+  "planned_tags": [{"tag": "文章の書き方", "reason": "The article teaches how to revise prose"}],
+  "prior_valid_tags": [],
+  "saved": null,
+  "public": null
+}
+```
+
+For each actually inspected saved/public state, replace null with an observation containing `location` (`native_hashtag_field` / `public_hashtag_metadata`), matching `content_hash`, `tags`, actual `evidence_ref` and `observation_mode: actual`. These fields retain a real observation; do not fill them from the plan or a synthetic example.
+
 <a id="source-runtime-reference-browser-host-md"></a>
 
 ---
@@ -497,14 +1358,18 @@ A periodic executor can be the Codex turn itself. A local scheduled wake-up resu
 Official product references, checked 2026-09-28: [scheduled tasks](https://learn.chatgpt.com/docs/automations?surface=app) describes local execution with skills/plugins; [browser extension](https://learn.chatgpt.com/docs/chrome-extension) describes operating an existing browser profile. Actual access depends on the tools, session and account available on the scheduled host. This implementation has local protocol tests; a live scheduled Chrome send has not been tested.
 
 ## Configure the private route
+For a desktop shared across tasks/publications, first resolve [durable admission and native continuation](#source-skills-media-master-references-computer-use-queue-md). This reference `browser_host.py` manages publication-local occurrences and action receipts; it does not supply cross-workspace ownership, waiting admission or release-triggered dispatch. Bind the actual verified private host adapter before claiming those capabilities.
+
 
 Use the existing operating-plan template. For jobs executed by the host, set executor to an object with kind `host-computer-use`; select `host-computer-use` as the plan adapter. Configure browser_routes keyed by the verified account identifier, with browser name, profile and a positive context_max_age_seconds. Keep cadence, account, allowed actions/targets, budgets, review mode and supervision preference private. Use the current task's browser and platform choices rather than making them defaults for every publication.
 
 For Codex, use a local chat heartbeat when the owner requests recurring work in that chat. Reuse/update an existing matching automation through the app's automation tool, at the agreed cadence. The wake-up prompt should identify the private workspace and this procedure. Do not write raw automation configuration or launch a second terminal loop to imitate a Codex turn. Keep model selection unset unless the owner requests an override. Installing this route does not activate a schedule.
 
-Only one host turn operates a shared desktop/browser at a time. Process due jobs serially, and do not delegate UI work to simultaneous agents. Use a bounded job timeout sufficient for the actual work. If the host, browser or required account is unavailable, retain a precise blocked result and continue only independent permitted work. A locked Mac may block native UI; test the selected route rather than assuming every browser tool has identical lock behavior.
+Only one host turn operates a shared desktop/browser at a time. Serialize shared desktop/browser operations, and do not delegate UI work to simultaneous agents. Independent permitted research, drafting and other work that does not share the desktop may proceed in parallel. Use a bounded job timeout sufficient for the actual work. If the host, browser or required account is unavailable, retain a precise blocked result and continue only independent permitted work. A locked Mac may block native UI; test the selected route rather than assuming every browser tool has identical lock behavior.
 
 ## Execute one occurrence
+Resolve the original occurrence/commission and stage before desktop admission. If the shared resource is busy, persist resource-wait separately; do not claim a publication-local execution attempt merely to wait or finish it as terminal blocked. Independent permitted preparation can proceed. On an actual continuation, acknowledge/deduplicate it, revalidate the source and checkpoints, and acquire shared ownership before any UI inspection/action. Keep existing freshness/coalescing dispositions and unknown effects visible.
+
 
 1. Run `browser_host.py --workspace PRIVATE_PATH claim --owner CURRENT_RUN_ID` and save its JSON ticket privately. No-op means nothing is due. Read the full locked workflow for the returned job. The terminal runner claims only command executors; this entry claims only host-computer-use jobs.
 2. Perform research, production, editorial review or incoming-event collection using the current host's supported tools. Read fresh computer-use documentation when required. Observe the browser/profile and signed-in account. For replies, observe the exact parent, surrounding conversation, opt-out and recent human responses. Persist observations and genuine artifacts in the private workspace.
@@ -533,13 +1398,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "contracts/HANDOFF.md",
-    "bytes": 2706,
-    "sha256": "9795c3396e9461ca718c71a766d8bdc94e5d498a1d74b987571689bfaf8f4154"
+    "bytes": 3590,
+    "sha256": "ffdf28caad54f9b9947bb6767fc2f1d2ef2cb7a7764c6ced3b8698cd63f7e62a"
   },
   {
     "path": "registry/method-dependencies.json",
-    "bytes": 2977,
-    "sha256": "01997391662a3ab4f517b3291458106251756795c63072502ac75874d7975c37"
+    "bytes": 6658,
+    "sha256": "922bb7006d72f58f287949de6bbdb83de862140c06d485b12a31e8639f948c63"
   },
   {
     "path": "contracts/EDITORIAL_FOUNDATION.md",
@@ -548,18 +1413,18 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-master/SKILL.md",
-    "bytes": 10379,
-    "sha256": "ea9ba7bcc648f7a831337cd39275a24f844ac9ffd20c5ffdcaa19c42a57d4434"
+    "bytes": 11852,
+    "sha256": "a13a0d634f99f18ace0a926fcb50bba3806c157c4d018e169dc09e2a0873e06e"
   },
   {
     "path": "skills/media-brand-strategy/SKILL.md",
-    "bytes": 4693,
-    "sha256": "fe18432d1091b2b94f4f6430deecfeb79ad53e568c6fe21109e8d60bff954b12"
+    "bytes": 4891,
+    "sha256": "95c24b1a129be7a9d9e02562bdef11aeee1f769853fdcb95f9eb3495258aaadc"
   },
   {
     "path": "skills/media-editorial-selection/SKILL.md",
-    "bytes": 8969,
-    "sha256": "6f7330f8bb179a114377db52974034f44e26f00da3573402a84f5772392ecd57"
+    "bytes": 9357,
+    "sha256": "b864aa3e9eaf1efb8a7484a95e7d1be878e045c80e117504eeb4f61fcdda41cb"
   },
   {
     "path": "skills/media-creative-director/SKILL.md",
@@ -568,13 +1433,63 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-editorial/SKILL.md",
-    "bytes": 13803,
-    "sha256": "81f6e7e9a0b551d020bce24428ebcd480e35d4707319070e3f3b2a65ea9b7f28"
+    "bytes": 15172,
+    "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
+  },
+  {
+    "path": "skills/media-master/references/article-routing.md",
+    "bytes": 4415,
+    "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+  },
+  {
+    "path": "skills/media-master/references/creative-routing.md",
+    "bytes": 3478,
+    "sha256": "001fb684f2fc7e3a911235841d736bbaf096874959f8727fab936710b7ca83ea"
+  },
+  {
+    "path": "skills/media-growth/references/reader-growth.md",
+    "bytes": 5089,
+    "sha256": "8d906644b5e76cdda243df38c1e0b8f2efab387cdadef957bf9cbd54987646b3"
+  },
+  {
+    "path": "skills/media-editorial-selection/references/timely-topics.md",
+    "bytes": 3991,
+    "sha256": "b5c55f5fc2d36377a88db8e87be07b4cf107b61442c4180331595b38f0b9e497"
+  },
+  {
+    "path": "skills/media-measurement/references/note-discovery.md",
+    "bytes": 5802,
+    "sha256": "83a5f1215290d475dbc5dec4b3ca53cd4b49294634c50b5f1faf767dd0467980"
+  },
+  {
+    "path": "skills/media-master/references/computer-use-queue.md",
+    "bytes": 6826,
+    "sha256": "d2c2e1d358ab62a076b48ee66e51fa05419e501148f858b6c38b67a32dec2f27"
+  },
+  {
+    "path": "contracts/ComputerUseAdmission.schema.json",
+    "bytes": 6165,
+    "sha256": "adef6fba97500857b48ea25e90b6e8ae05aa6db85f5cf35b398b121266e0d250"
+  },
+  {
+    "path": "contracts/ComputerUseContinuation.schema.json",
+    "bytes": 4258,
+    "sha256": "cdb9d041f1e33871a49fbb64b88cd8432b5b67ba61981240b15dd2058ae45988"
+  },
+  {
+    "path": "skills/media-editorial/references/article-review.md",
+    "bytes": 6258,
+    "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+  },
+  {
+    "path": "skills/media-publishing/references/article-metadata.md",
+    "bytes": 2427,
+    "sha256": "2cddc6ed9c91fba467608c32bb07e963cca604624b90a4c2443e7f71632c75a2"
   },
   {
     "path": "runtime/reference/BROWSER_HOST.md",
-    "bytes": 6521,
-    "sha256": "f7c8ed4c5aad64070c7ab592b714c9326002999b100bd9bdad036acb428ba447"
+    "bytes": 7615,
+    "sha256": "d7f95ce1dee798fad4f290a01f4320b010bfdbe5117be4690f4488d43aeb90f5"
   }
 ]
 ```
