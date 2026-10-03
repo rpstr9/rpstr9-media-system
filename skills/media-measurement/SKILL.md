@@ -8,6 +8,8 @@ description: Measure execution, editorial quality and real publication outcomes 
 Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](../../contracts/HANDOFF.md). Use only the current task’s required inputs and references.
 
 ## Method
+For note discovery, packaging tests or trend observations, read [note discovery measurement](references/note-discovery.md). Keep total PV/impressions a qualified diagnostic proxy, separate HOME topics from article placements and record comparable sampling coverage before inferring a pattern. Use actual compatible clicks/exposures for CTR; missing metrics or a first snapshot cannot validate tactics.
+
 Start with the publication's actual objectives and the decision measurement should inform. Define each metric's unit, numerator, denominator, population, source, window, delay, proxy relationship and attribution limits before collecting it. No universal follower, revenue or engagement metric is imposed.
 
 Inventory authorized data and what the platform truly exposes. Preserve unavailable, estimated, delayed and missing values explicitly; never convert them to zero. Link every observation to evidence, content/action version and collection method. Keep simulated data mechanically labeled and separate from real outcomes.
