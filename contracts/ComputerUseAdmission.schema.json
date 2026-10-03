@@ -1,0 +1,276 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComputerUseAdmission",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "ComputerUseAdmission"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_id_or_system_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "data_classification": {
+      "enum": [
+        "public-synthetic",
+        "publication-private",
+        "maintainer-private"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "job_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resource_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "occurrence_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_task_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "workflow_lock_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "authorization_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "content_version_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checkpoint_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "not_before": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "fresh_until": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "state": {
+          "enum": [
+            "waiting",
+            "running",
+            "reconciliation-held",
+            "expired-for-review",
+            "completed",
+            "cancelled",
+            "parked"
+          ]
+        },
+        "disposition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "queue_receipt_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revalidation_required": {
+          "const": true,
+          "description": "Resuming must revalidate current authority/context before effects; this contract cannot clear required checks."
+        },
+        "action_reconciliation_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "freshness_policy": {
+          "enum": [
+            "finite",
+            "no-fixed-expiry",
+            "unknown"
+          ]
+        },
+        "freshness_policy_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "job_key",
+        "resource_ref",
+        "publication_id",
+        "occurrence_ref",
+        "stage",
+        "target_task_ref",
+        "workflow_lock_ref",
+        "source_refs",
+        "authorization_refs",
+        "content_version_ref",
+        "checkpoint_ref",
+        "not_before",
+        "fresh_until",
+        "state",
+        "disposition",
+        "queue_receipt_ref",
+        "revalidation_required",
+        "action_reconciliation_refs",
+        "freshness_policy",
+        "freshness_policy_refs"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "state": {
+                "enum": [
+                  "reconciliation-held",
+                  "expired-for-review",
+                  "cancelled",
+                  "parked",
+                  "waiting"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "disposition": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "freshness_policy": {
+                "const": "finite"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fresh_until": {
+                "type": "number",
+                "minimum": 0
+              },
+              "freshness_policy_refs": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "freshness_policy": {
+                "const": "no-fixed-expiry"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fresh_until": {
+                "type": "null"
+              },
+              "freshness_policy_refs": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "freshness_policy": {
+                "const": "unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "fresh_until": {
+                "type": "null"
+              },
+              "state": {
+                "const": "reconciliation-held"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "required": [
+    "record_type",
+    "record_id",
+    "schema_version",
+    "created_at",
+    "publication_id_or_system_scope",
+    "provenance_refs",
+    "data_classification",
+    "payload"
+  ],
+  "additionalProperties": false
+}
