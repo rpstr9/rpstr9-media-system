@@ -1,4 +1,6 @@
 # Private executor and action adapter
+Shared computer-use adapters also implement the [admission/continuation contract](../../skills/media-master/references/computer-use-queue.md). Resolve private resource binding, stable occurrence/stage key, waiting disposition, clean-release outbox and actual supported native dispatch/consumer acknowledgment. Keep preparation outside the exclusive UI resource where possible. Report tested delivery capability and per-consumer adoption separately from these protocol requirements; no local record can manufacture a native wake or action permission.
+
 
 Two execution routes are supported: a scheduled host turn with computer use, or a trusted command executor. For the host route, read [the browser host procedure](../../runtime/reference/BROWSER_HOST.md). Codex itself performs the workflow and uses its browser tools; the bookkeeping bridge never launches UI scripting. An API integration is optional.
 
