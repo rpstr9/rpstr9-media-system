@@ -15,6 +15,8 @@ Before full drafting, follow the [editorial foundation handoff](../../contracts/
 
 When reviewing a new foundation, check that its decisions can guide an actual opening, explanation, transition, ending and relevant non-article channel treatment. Inspect task-derived copy alongside the selected identity's actual applications: look, feel, voice, tone and manner must express the same brand character and reader relationship. Tone may vary with the situation without switching personality. Check structure against the reader's intended gain and language against the strategy; record substantive gaps rather than approving adjective lists. Return a ReviewRecord to selection. This review and the later review of a finished article are distinct, and neither proves audience demand.
 
+Before drafting, complete the [original contribution and source-comparison gate](references/originality.md): define the reader's question, the supported addition and its evidence, and inspect the closest coverage. Other articles may reveal questions and gaps; they cannot supply a new article's blueprint. Apply the same gate to the actual finished draft before readiness.
+
 ## Develop the piece
 For an already-selected timely piece, inherit Selection's [dated opportunity and brief](../media-editorial-selection/references/timely-topics.md), actual reader gain and existing foundation. Deliver that gain in the current publication's voice and structure. Remove trend-hype and unsupported popularity/effect claims; do not turn the brief into public selection logs or run a new uncommissioned topic search. The existing article-review gate still decides finished prose quality.
 
