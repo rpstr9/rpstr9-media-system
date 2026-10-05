@@ -1,3 +1,7 @@
+# Originality gate 0.1.15
+
+This edition requires an independently defined reader question and supported contribution before drafting, followed by an actual comparison of the finished version with the closest inspected source articles. Credited close paraphrase, borrowed narrative structure and repackaged distinctive analysis hold readiness and publication. Primary facts and useful independently developed explanation remain available with accurate sourcing. This is an operational editorial gate, not a guarantee against unobserved sources or measured audience evidence.
+
 # Prepared Growth candidate 0.1.13
 
 Branch from 0.1.11: reader-growth, timely-topic selection and honest note diagnostics. This separate offline candidate does not inherit the unadopted dependency-schema branch. Installed entry points, public release pointers, private guides, schedules and runtime remain unchanged. Final release sequencing requires maintainer coordination.
