@@ -479,6 +479,8 @@ Return a SelectionDecision and EditorialBrief covering audience, intended value,
 
 Each new or revised brief references the current EditorialProgram and editorial-foundation version, identifies its format, and carries the relevant tone and structure decisions. Check the underlying sources and any material changes before reusing the guide. A completed editorial foundation does not replace item selection or evidence.
 
+For an article, apply the [original contribution gate](#source-skills-media-editorial-references-originality-md) to the actual premise before commissioning full drafting. Require a supported addition beyond repackaging inspected coverage; preserve legitimate primary-source explanation and access value. Hold or reframe a candidate whose argument or structure depends on another article's distinctive treatment, even if it would be credited.
+
 ## Select the discovery, then the form
 Separate a reference's task usefulness from a feature's change in understanding. Keep reference formats concise and judge them by accurate, efficient task completion; do not force a narrative revelation. For features, record privately the reader's starting understanding, the concrete object or question, the connection supported by the material, the insight it permits, strongest alternative interpretation, protected appeal, on-page payoff and optional continuation. A subject description or unfamiliar name is not an organizing premise.
 
@@ -523,6 +525,8 @@ Read and apply the complete [article review gate](#source-skills-media-editorial
 Before full drafting, follow the [editorial foundation handoff](#source-contracts-editorial-foundation-md). Read the current publication guide, EditorialProgram, selected format and source versions, not only the brief's voice label. If missing or materially stale, route the affected choices through selection and, where needed, creative direction; execute that preparation within the authorized task and resume writing. Preserve sufficient established rules, and keep narrow edits narrow. Do not improvise a new house voice separately for each article.
 
 When reviewing a new foundation, check that its decisions can guide an actual opening, explanation, transition, ending and relevant non-article channel treatment. Inspect task-derived copy alongside the selected identity's actual applications: look, feel, voice, tone and manner must express the same brand character and reader relationship. Tone may vary with the situation without switching personality. Check structure against the reader's intended gain and language against the strategy; record substantive gaps rather than approving adjective lists. Return a ReviewRecord to selection. This review and the later review of a finished article are distinct, and neither proves audience demand.
+
+Before drafting, complete the [original contribution and source-comparison gate](#source-skills-media-editorial-references-originality-md): define the reader's question, the supported addition and its evidence, and inspect the closest coverage. Other articles may reveal questions and gaps; they cannot supply a new article's blueprint. Apply the same gate to the actual finished draft before readiness.
 
 ## Develop the piece
 For an already-selected timely piece, inherit Selection's [dated opportunity and brief](#source-skills-media-editorial-selection-references-timely-topics-md), actual reader gain and existing foundation. Deliver that gain in the current publication's voice and structure. Remove trend-hype and unsupported popularity/effect claims; do not turn the brief into public selection logs or run a new uncommissioned topic search. The existing article-review gate still decides finished prose quality.
@@ -615,6 +619,8 @@ When the strategy depends on making hard-to-access material understandable, sear
 Retain the original passage alongside a faithful working translation for material claims. Check names, numbers, units, negation, uncertainty and technical meaning against the source. Distinguish the source's findings from new comparisons or interpretations; support each connection rather than treating juxtaposition as proof. Preserve attribution and applicable reuse conditions. Record the concrete discovery and reduced access barrier in the CandidateSet and EvidenceBundle. An unfamiliar source language alone does not establish a worthwhile opportunity.
 
 When investigating comparable publications, use Growth's [account-comparison procedure](#source-skills-media-growth-skill-md). Retain dated outcomes, starting conditions, documented distribution and subsequent ordinary articles, with source limitations. Treat creators' explanations of their success, including model-generated interpretations they quote, as causal hypotheses rather than independent validation. Unknown starting audience remains unknown.
+
+For article research, read the [original contribution and source-comparison gate](#source-skills-media-editorial-references-originality-md). Record the closest coverage, source roles, independent question, proposed addition and evidence before drafting. Trace usable facts to primary material; do not hand off another article's outline, anecdote sequence or distinctive analysis as the new piece's blueprint. Attribution does not resolve derivative treatment.
 
 ## Resolve evidence
 For trend-derived work, use [timely topic selection](#source-skills-media-editorial-selection-references-timely-topics-md) and, on note, [surface/metric distinctions](#source-skills-media-measurement-references-note-discovery-md). Retrieve the actual dated signal and primary passage; distinguish an event from refreshed old coverage, HOME topic cards from destination article placements, and a historical explanation from changed current wording. Unknown weights or access remain unknown.
@@ -818,6 +824,8 @@ For an article, check the actual ContentPackage version against its distinct edi
 Inspect the actual signed-in account and operation-specific capability. Load the relevant platform reference in [platform routes](#source-adapters-platforms-md) and verify current limits through official sources or supported controls. Separate owner permission, platform permission, technical availability and prior live validation. A connector's general platform support proves none of its individual actions.
 
 Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
+
+For article effects, require an actual passed [source comparison](#source-skills-media-editorial-references-originality-md) in the ReviewRecord for the exact ContentPackage version. A ready label, attribution or factual accuracy is insufficient. Missing comparison or unresolved derivation holds publication; complete research/reframing and review within authorization. Substantive copy changes during packaging require a fresh affected comparison.
 
 ## Package and execute
 Computer use is a first-class action route for both interactive and scheduled host runs. When selected, use the [browser host procedure](#source-runtime-reference-browser-host-md) and the actual browser tools; do not declare publishing unavailable solely because an API adapter is absent. Honor existing routine-action authorization and the publication’s supervision preference.
@@ -1132,6 +1140,40 @@ Outputs: MeasurementSpec; OutcomeRecord set; Missingness and uncertainty report.
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
 
+<a id="source-skills-media-editorial-references-originality-md"></a>
+
+---
+
+Source: `skills/media-editorial/references/originality.md`
+
+# Original contribution and source comparison
+
+Read this gate before drafting and again against the actual finished article. Keep the working record private. Apply it to the current commission and publication; it does not impose a house voice, topic or requirement for invented firsthand reporting.
+
+## Before drafting
+
+Record the reader's question, the intended gain, the proposed contribution and the evidence that can deliver it. Identify the closest existing coverage actually inspected. State what the piece adds beyond retelling those articles: a supported comparison, independently developed explanation, new reporting, useful application, or substantive access to primary material. An empty calendar slot, new headline or generic opinion is not a contribution.
+
+Use other publications, including note articles, to identify signals, questions and gaps. Do not adopt their wording, outline, selected anecdote sequence, distinctive framing or analysis as the blueprint for a new article. Return to primary documents, original data or actual observations and construct the explanation around the current reader's question. Several articles stitched together remain derivative when they supply the argument and structure.
+
+Distinguish source roles. A creator's own production account is primary evidence of what that creator reports; attribute it and preserve its limits. It is not independent verification or a license to reuse the creator's distinctive interpretation and narrative. Independently verify factual claims where needed. Shared facts, names, necessary technical terms and properly bounded quotations can be used with accurate sourcing and applicable reuse conditions.
+
+Credit is necessary where material is borrowed, but credit does not make close paraphrase or repackaged analysis an original contribution. Translation, reordered anecdotes, synonym replacement, a changed title, multiple citations or an added generic reaction cannot rescue that treatment. Do not fabricate viewing, testing, visits, interviews or personal experience to claim independence.
+
+Accurate explanation, comparison and translation of worthwhile primary material can serve the brief without inventing a new finding. The contribution must be visible and supported in the piece, with an evidenced access or understanding benefit. An explicitly commissioned source summary or reference stays labeled and judged by its declared function; it must not masquerade as original reporting or reproduce another article's expression or blueprint.
+
+## Compare the finished draft
+
+Inspect the actual title, opening, headings, claim sequence, anecdotes, analysis and distinctive wording alongside the closest source articles. Record which material is factual source evidence, which is attributed quotation and which is the article's own supported contribution. Compare meaning and structure, not only matching strings. A plagiarism score, clean text diff, factual accuracy or source list alone cannot pass this review.
+
+Locate the passages that deliver the proposed contribution. Check that the draft's organizing question and argument came from the current commission and independently assessed evidence. If the reader mainly receives another article's insight and narrative in changed words, mark the article held even when attribution is present. Return to research, choose a materially different question or abandon the item, then draft and compare again. Cosmetic rewriting is not a repair.
+
+Retain the exact draft version, inspected source versions/links, comparison findings, contribution passages, unresolved access gaps and pass/hold decision in the ReviewRecord's private evidence. Missing material source access or an unresolved derivation concern holds affected readiness and publication; report the gap rather than asserting a pass. A pass covers the material actually compared and is not a guarantee that every unobserved source has been checked.
+
+## Readiness
+
+An article cannot be marked reviewed, ready or cleared for publication until this comparison has actually passed for that version. A substantive rewrite or changed source relationship invalidates the affected review and requires a new comparison. Keep the completed local draft available while held; do not publish first and promise a later originality check.
+
 <a id="source-skills-media-master-references-article-routing-md"></a>
 
 ---
@@ -1160,6 +1202,8 @@ For a new article, substantive revision or article review, resolve the installed
 “Use all relevant skills” means follow the required dependencies and apply their substance. It does not mean regenerate approved strategy/identity, invoke unrelated specialists or create agents for each capability. Complete external Marketer/identity methods are required only when those methods are invoked; an import is an import. Editorial output review remains mandatory even when Concept Review is reused.
 
 For a wording-only revision, use the revision/review workflow and the affected evidence/identity rules. Do not reopen strategy or commission an unrequested public operation. When the task expands into research, concept change or asset production, load the affected specialist before doing that work.
+
+For every article-writing, substantive revision or review route, also load the complete [original contribution and source-comparison gate](#source-skills-media-editorial-references-originality-md). Define the question and evidenced contribution before drafting; compare the actual finished version with its closest inspected sources before readiness. Include this reference and the comparison evidence in the real load/review receipt. Publishing requires its actual pass, not a package label.
 
 ## Keep a real load receipt
 
@@ -1871,6 +1915,10 @@ Before editing existing content, inventory and preserve useful media, links, acc
 
 Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
 
+## Compare sources and contribution
+
+Read and apply the complete [originality gate](#source-skills-media-editorial-references-originality-md). Compare the actual draft with the closest inspected coverage for wording, structure, anecdote selection/order, distinctive framing and analysis. Attribution alone cannot pass close paraphrase or a borrowed blueprint. Record the supported contribution and exact comparison privately; hold a derivative draft or missing material comparison, return to research/reframe, and recheck before readiness.
+
 ## Decide and retain evidence
 
 Perform a distinct pass after drafting. Record title/body version, reviewer independence, passages corrected, remaining concerns and actual skill-load receipt privately. Assess reader value, natural language, substance/evidence, identity, media and native execution separately. A factual/link checklist, clean linter or schema pass cannot establish writing quality. Hold the affected delivery until mandatory defects are corrected; keep complete local work available.
@@ -2087,18 +2135,18 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
   },
   {
     "path": "skills/media-editorial-selection/SKILL.md",
-    "bytes": 9357,
-    "sha256": "b864aa3e9eaf1efb8a7484a95e7d1be878e045c80e117504eeb4f61fcdda41cb"
+    "bytes": 9788,
+    "sha256": "398bf556d6920a6515e00f5ef3c8ad86a4721557afe10458481dbdd79c768494"
   },
   {
     "path": "skills/media-editorial/SKILL.md",
-    "bytes": 15172,
-    "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
+    "bytes": 15546,
+    "sha256": "54b4119472c0132ab56cfc5580f08f4fdcff86d3110ac4653fe2f1f4c6dd774c"
   },
   {
     "path": "skills/media-source-research/SKILL.md",
-    "bytes": 6188,
-    "sha256": "4a69bf1c1aca95f076f9b6005d1860fcbb7c6aabb5d69ade2166f389006260e0"
+    "bytes": 6637,
+    "sha256": "94dbb26c3662fcdbe4cc23459fd00f337fe99a49af43ff25f28103cf1cb64ca5"
   },
   {
     "path": "skills/media-creative-director/SKILL.md",
@@ -2117,8 +2165,8 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
   },
   {
     "path": "skills/media-publishing/SKILL.md",
-    "bytes": 7900,
-    "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+    "bytes": 8338,
+    "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
   },
   {
     "path": "skills/media-growth/SKILL.md",
@@ -2146,9 +2194,14 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
     "sha256": "35f3d863173097353333847e14b06f98a506ab5b04f821cd2bc0defabb2981a3"
   },
   {
+    "path": "skills/media-editorial/references/originality.md",
+    "bytes": 4314,
+    "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+  },
+  {
     "path": "skills/media-master/references/article-routing.md",
-    "bytes": 4415,
-    "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+    "bytes": 4900,
+    "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
   },
   {
     "path": "skills/media-master/references/creative-routing.md",
@@ -2187,8 +2240,8 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
   },
   {
     "path": "skills/media-editorial/references/article-review.md",
-    "bytes": 6258,
-    "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+    "bytes": 6757,
+    "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
   },
   {
     "path": "skills/media-publishing/references/article-metadata.md",
