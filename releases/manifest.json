@@ -369,8 +369,8 @@
     },
     {
       "path": "dist/source-inventories.json",
-      "sha256": "584f12a35bbfae644350e2f331156fa74e7a2ea5fcd79402e6463074caf9da0f",
-      "bytes": 89346
+      "sha256": "849c0e340335f8ad5daae2643f136744b800f3facf12ba4a80ee2fe783bef089",
+      "bytes": 89347
     },
     {
       "path": "dist/workflows/audience-development.md",
@@ -574,8 +574,8 @@
     },
     {
       "path": "scripts/build_bundles.py",
-      "sha256": "405967d36004efc2cabbf1148da2502fb4373ee9362271a525c09eabd17f757c",
-      "bytes": 5193
+      "sha256": "1fc549ffbfc8f72949a794aabb088d788c315913bf8d754616aa5c61bfe09e15",
+      "bytes": 5203
     },
     {
       "path": "scripts/check_article_metadata.py",
