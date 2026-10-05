@@ -36,9 +36,14 @@
       "sha256": "30450c8168276b8024a2cc3239bbfde95f8b2917671d22dc3c6478c249b661c7"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -114,8 +119,8 @@
     },
     {
       "path": "skills/media-editorial-selection/SKILL.md",
-      "bytes": 9357,
-      "sha256": "b864aa3e9eaf1efb8a7484a95e7d1be878e045c80e117504eeb4f61fcdda41cb"
+      "bytes": 9788,
+      "sha256": "398bf556d6920a6515e00f5ef3c8ad86a4721557afe10458481dbdd79c768494"
     },
     {
       "path": "skills/media-creative-director/SKILL.md",
@@ -124,13 +129,18 @@
     },
     {
       "path": "skills/media-editorial/SKILL.md",
-      "bytes": 15172,
-      "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
+      "bytes": 15546,
+      "sha256": "54b4119472c0132ab56cfc5580f08f4fdcff86d3110ac4653fe2f1f4c6dd774c"
+    },
+    {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -169,8 +179,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -226,18 +236,18 @@
     },
     {
       "path": "skills/media-editorial-selection/SKILL.md",
-      "bytes": 9357,
-      "sha256": "b864aa3e9eaf1efb8a7484a95e7d1be878e045c80e117504eeb4f61fcdda41cb"
+      "bytes": 9788,
+      "sha256": "398bf556d6920a6515e00f5ef3c8ad86a4721557afe10458481dbdd79c768494"
     },
     {
       "path": "skills/media-editorial/SKILL.md",
-      "bytes": 15172,
-      "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
+      "bytes": 15546,
+      "sha256": "54b4119472c0132ab56cfc5580f08f4fdcff86d3110ac4653fe2f1f4c6dd774c"
     },
     {
       "path": "skills/media-source-research/SKILL.md",
-      "bytes": 6188,
-      "sha256": "4a69bf1c1aca95f076f9b6005d1860fcbb7c6aabb5d69ade2166f389006260e0"
+      "bytes": 6637,
+      "sha256": "94dbb26c3662fcdbe4cc23459fd00f337fe99a49af43ff25f28103cf1cb64ca5"
     },
     {
       "path": "skills/media-creative-director/SKILL.md",
@@ -256,8 +266,8 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
     },
     {
       "path": "skills/media-growth/SKILL.md",
@@ -285,9 +295,14 @@
       "sha256": "35f3d863173097353333847e14b06f98a506ab5b04f821cd2bc0defabb2981a3"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -326,8 +341,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -383,18 +398,18 @@
     },
     {
       "path": "skills/media-source-research/SKILL.md",
-      "bytes": 6188,
-      "sha256": "4a69bf1c1aca95f076f9b6005d1860fcbb7c6aabb5d69ade2166f389006260e0"
+      "bytes": 6637,
+      "sha256": "94dbb26c3662fcdbe4cc23459fd00f337fe99a49af43ff25f28103cf1cb64ca5"
     },
     {
       "path": "skills/media-editorial-selection/SKILL.md",
-      "bytes": 9357,
-      "sha256": "b864aa3e9eaf1efb8a7484a95e7d1be878e045c80e117504eeb4f61fcdda41cb"
+      "bytes": 9788,
+      "sha256": "398bf556d6920a6515e00f5ef3c8ad86a4721557afe10458481dbdd79c768494"
     },
     {
       "path": "skills/media-editorial/SKILL.md",
-      "bytes": 15172,
-      "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
+      "bytes": 15546,
+      "sha256": "54b4119472c0132ab56cfc5580f08f4fdcff86d3110ac4653fe2f1f4c6dd774c"
     },
     {
       "path": "skills/concept-review/SKILL.md",
@@ -412,9 +427,14 @@
       "sha256": "1e02e05d876337dd9931edcdd938e62439eb653456905179efaeed6502365446"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -453,8 +473,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -509,9 +529,14 @@
       "sha256": "30450c8168276b8024a2cc3239bbfde95f8b2917671d22dc3c6478c249b661c7"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -601,9 +626,14 @@
       "sha256": "30450c8168276b8024a2cc3239bbfde95f8b2917671d22dc3c6478c249b661c7"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -669,8 +699,8 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
     },
     {
       "path": "skills/media-asset-production/SKILL.md",
@@ -678,9 +708,14 @@
       "sha256": "a6faad1bcef47a1b41db85715d0272f57204762f9ed6b0390a6f00fa71d93feb"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -719,8 +754,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -771,18 +806,18 @@
     },
     {
       "path": "skills/media-source-research/SKILL.md",
-      "bytes": 6188,
-      "sha256": "4a69bf1c1aca95f076f9b6005d1860fcbb7c6aabb5d69ade2166f389006260e0"
+      "bytes": 6637,
+      "sha256": "94dbb26c3662fcdbe4cc23459fd00f337fe99a49af43ff25f28103cf1cb64ca5"
     },
     {
       "path": "skills/media-editorial-selection/SKILL.md",
-      "bytes": 9357,
-      "sha256": "b864aa3e9eaf1efb8a7484a95e7d1be878e045c80e117504eeb4f61fcdda41cb"
+      "bytes": 9788,
+      "sha256": "398bf556d6920a6515e00f5ef3c8ad86a4721557afe10458481dbdd79c768494"
     },
     {
       "path": "skills/media-editorial/SKILL.md",
-      "bytes": 15172,
-      "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
+      "bytes": 15546,
+      "sha256": "54b4119472c0132ab56cfc5580f08f4fdcff86d3110ac4653fe2f1f4c6dd774c"
     },
     {
       "path": "skills/media-creative-director/SKILL.md",
@@ -810,9 +845,14 @@
       "sha256": "95c24b1a129be7a9d9e02562bdef11aeee1f769853fdcb95f9eb3495258aaadc"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -851,8 +891,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -888,8 +928,8 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
     },
     {
       "path": "skills/media-distribution/SKILL.md",
@@ -897,9 +937,14 @@
       "sha256": "09dcf281b9663eb63a95e000f4cb2b0f274796c8883c55da9c0a5bf7e133cdda"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -938,8 +983,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -985,8 +1030,8 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
     },
     {
       "path": "skills/media-distribution/SKILL.md",
@@ -994,9 +1039,14 @@
       "sha256": "09dcf281b9663eb63a95e000f4cb2b0f274796c8883c55da9c0a5bf7e133cdda"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1035,8 +1085,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -1087,13 +1137,18 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
+    },
+    {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1132,8 +1187,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -1189,13 +1244,18 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
+    },
+    {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1234,8 +1294,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -1281,8 +1341,8 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
     },
     {
       "path": "skills/media-relationships/SKILL.md",
@@ -1290,9 +1350,14 @@
       "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1331,8 +1396,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -1388,8 +1453,8 @@
     },
     {
       "path": "skills/media-source-research/SKILL.md",
-      "bytes": 6188,
-      "sha256": "4a69bf1c1aca95f076f9b6005d1860fcbb7c6aabb5d69ade2166f389006260e0"
+      "bytes": 6637,
+      "sha256": "94dbb26c3662fcdbe4cc23459fd00f337fe99a49af43ff25f28103cf1cb64ca5"
     },
     {
       "path": "skills/media-distribution/SKILL.md",
@@ -1403,8 +1468,8 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
     },
     {
       "path": "skills/media-measurement/SKILL.md",
@@ -1412,9 +1477,14 @@
       "sha256": "35f3d863173097353333847e14b06f98a506ab5b04f821cd2bc0defabb2981a3"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1453,8 +1523,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -1514,9 +1584,14 @@
       "sha256": "818fadf3cdc65c0149a29b3be849f07ab933d37ebb6c62bd6301866d938ee4f6"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1581,9 +1656,14 @@
       "sha256": "a13a0d634f99f18ace0a926fcb50bba3806c157c4d018e169dc09e2a0873e06e"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1659,18 +1739,18 @@
     },
     {
       "path": "skills/media-source-research/SKILL.md",
-      "bytes": 6188,
-      "sha256": "4a69bf1c1aca95f076f9b6005d1860fcbb7c6aabb5d69ade2166f389006260e0"
+      "bytes": 6637,
+      "sha256": "94dbb26c3662fcdbe4cc23459fd00f337fe99a49af43ff25f28103cf1cb64ca5"
     },
     {
       "path": "skills/media-editorial-selection/SKILL.md",
-      "bytes": 9357,
-      "sha256": "b864aa3e9eaf1efb8a7484a95e7d1be878e045c80e117504eeb4f61fcdda41cb"
+      "bytes": 9788,
+      "sha256": "398bf556d6920a6515e00f5ef3c8ad86a4721557afe10458481dbdd79c768494"
     },
     {
       "path": "skills/media-editorial/SKILL.md",
-      "bytes": 15172,
-      "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
+      "bytes": 15546,
+      "sha256": "54b4119472c0132ab56cfc5580f08f4fdcff86d3110ac4653fe2f1f4c6dd774c"
     },
     {
       "path": "skills/media-asset-production/SKILL.md",
@@ -1679,8 +1759,8 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
     },
     {
       "path": "skills/concept-review/SKILL.md",
@@ -1698,9 +1778,14 @@
       "sha256": "1e02e05d876337dd9931edcdd938e62439eb653456905179efaeed6502365446"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1739,8 +1824,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -1791,13 +1876,18 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
+    },
+    {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1836,8 +1926,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -1893,13 +1983,18 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
+    },
+    {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -1938,8 +2033,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -1999,9 +2094,14 @@
       "sha256": "818fadf3cdc65c0149a29b3be849f07ab933d37ebb6c62bd6301866d938ee4f6"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -2094,13 +2194,13 @@
     },
     {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-master/SKILL.md",
@@ -2109,8 +2209,13 @@
     },
     {
       "path": "skills/media-editorial/SKILL.md",
-      "bytes": 15172,
-      "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
+      "bytes": 15546,
+      "sha256": "54b4119472c0132ab56cfc5580f08f4fdcff86d3110ac4653fe2f1f4c6dd774c"
+    },
+    {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -2196,13 +2301,18 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "bytes": 7900,
-      "sha256": "7ba9fe1d88da040952f7b310086d2edd61ef34b53c93c8828eb860300b5e226f"
+      "bytes": 8338,
+      "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
+    },
+    {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -2226,8 +2336,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -2298,18 +2408,18 @@
     },
     {
       "path": "skills/media-source-research/SKILL.md",
-      "bytes": 6188,
-      "sha256": "4a69bf1c1aca95f076f9b6005d1860fcbb7c6aabb5d69ade2166f389006260e0"
+      "bytes": 6637,
+      "sha256": "94dbb26c3662fcdbe4cc23459fd00f337fe99a49af43ff25f28103cf1cb64ca5"
     },
     {
       "path": "skills/media-editorial-selection/SKILL.md",
-      "bytes": 9357,
-      "sha256": "b864aa3e9eaf1efb8a7484a95e7d1be878e045c80e117504eeb4f61fcdda41cb"
+      "bytes": 9788,
+      "sha256": "398bf556d6920a6515e00f5ef3c8ad86a4721557afe10458481dbdd79c768494"
     },
     {
       "path": "skills/media-editorial/SKILL.md",
-      "bytes": 15172,
-      "sha256": "b5c65c373a4360f4cfce87b6594e0c717bf25a11c43de0bee11320c7deb49e17"
+      "bytes": 15546,
+      "sha256": "54b4119472c0132ab56cfc5580f08f4fdcff86d3110ac4653fe2f1f4c6dd774c"
     },
     {
       "path": "skills/media-distribution/SKILL.md",
@@ -2327,9 +2437,14 @@
       "sha256": "ce9a05de1cccf716587399b1ef533c5590b24f735fc1ec788fa382467ebfac8c"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
@@ -2353,8 +2468,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "bytes": 6258,
-      "sha256": "ee76179aaecd0fbacf31319fadec40fa2f424d0318b1ce99041567b4fcbb43b2"
+      "bytes": 6757,
+      "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -2384,6 +2499,11 @@
       "sha256": "922bb7006d72f58f287949de6bbdb83de862140c06d485b12a31e8639f948c63"
     },
     {
+      "path": "skills/media-editorial/references/originality.md",
+      "bytes": 4314,
+      "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
       "path": "contracts/EDITORIAL_FOUNDATION.md",
       "bytes": 6745,
       "sha256": "1bc678f3646a17faa380d783c52a014e6c81703220e575835f758fa854b0a276"
@@ -2395,8 +2515,8 @@
     },
     {
       "path": "skills/media-master/references/article-routing.md",
-      "bytes": 4415,
-      "sha256": "79c378b4271f7bf38ccb7d939257ae927aa83eb6d35d1f573838f75ff56cc748"
+      "bytes": 4900,
+      "sha256": "100278626a232a45f94c05f3e0410e2a2ffb812ef69be981f5a6a83e0d9a32c0"
     },
     {
       "path": "skills/media-master/references/creative-routing.md",
