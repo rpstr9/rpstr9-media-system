@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.14",
+  "release": "0.1.15",
   "constitution": "policies/CONSTITUTION.md",
   "skills": [
     {
@@ -8,7 +8,7 @@
       "skill_id": "media-master",
       "path": "skills/media-master/SKILL.md",
       "kind": "controller",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "inputs": [
         "PublicationProfile or an explicit provisional brief",
         "Current task and available state",
@@ -93,7 +93,7 @@
       "skill_id": "media-source-research",
       "path": "skills/media-source-research/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.13",
+      "version": "0.1.15",
       "inputs": [
         "Research WorkOrder",
         "PublicationProfile and relevant audience context",
@@ -111,7 +111,7 @@
       "skill_id": "media-editorial-selection",
       "path": "skills/media-editorial-selection/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.13",
+      "version": "0.1.15",
       "inputs": [
         "CandidateSet",
         "EvidenceBundle",
@@ -131,7 +131,7 @@
       "skill_id": "media-editorial",
       "path": "skills/media-editorial/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.13",
+      "version": "0.1.15",
       "inputs": [
         "EditorialBrief",
         "EvidenceBundle where factual work is involved",
@@ -239,7 +239,7 @@
       "skill_id": "media-publishing",
       "path": "skills/media-publishing/SKILL.md",
       "kind": "adapter-backed specialist",
-      "version": "0.1.11",
+      "version": "0.1.15",
       "inputs": [
         "Reviewed ContentPackage and AssetManifest",
         "Channel capabilities",
