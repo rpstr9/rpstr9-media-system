@@ -18,6 +18,8 @@ Retain the original passage alongside a faithful working translation for materia
 
 When investigating comparable publications, use Growth's [account-comparison procedure](../media-growth/SKILL.md#learn-from-other-accounts-without-copying-their-launch). Retain dated outcomes, starting conditions, documented distribution and subsequent ordinary articles, with source limitations. Treat creators' explanations of their success, including model-generated interpretations they quote, as causal hypotheses rather than independent validation. Unknown starting audience remains unknown.
 
+For article research, read the [original contribution and source-comparison gate](../media-editorial/references/originality.md). Record the closest coverage, source roles, independent question, proposed addition and evidence before drafting. Trace usable facts to primary material; do not hand off another article's outline, anecdote sequence or distinctive analysis as the new piece's blueprint. Attribution does not resolve derivative treatment.
+
 ## Resolve evidence
 For trend-derived work, use [timely topic selection](../media-editorial-selection/references/timely-topics.md) and, on note, [surface/metric distinctions](../media-measurement/references/note-discovery.md). Retrieve the actual dated signal and primary passage; distinguish an event from refreshed old coverage, HOME topic cards from destination article placements, and a historical explanation from changed current wording. Unknown weights or access remain unknown.
 
