@@ -33,6 +33,8 @@ Return a SelectionDecision and EditorialBrief covering audience, intended value,
 
 Each new or revised brief references the current EditorialProgram and editorial-foundation version, identifies its format, and carries the relevant tone and structure decisions. Check the underlying sources and any material changes before reusing the guide. A completed editorial foundation does not replace item selection or evidence.
 
+For an article, apply the [original contribution gate](../media-editorial/references/originality.md) to the actual premise before commissioning full drafting. Require a supported addition beyond repackaging inspected coverage; preserve legitimate primary-source explanation and access value. Hold or reframe a candidate whose argument or structure depends on another article's distinctive treatment, even if it would be credited.
+
 ## Select the discovery, then the form
 Separate a reference's task usefulness from a feature's change in understanding. Keep reference formats concise and judge them by accurate, efficient task completion; do not force a narrative revelation. For features, record privately the reader's starting understanding, the concrete object or question, the connection supported by the material, the insight it permits, strongest alternative interpretation, protected appeal, on-page payoff and optional continuation. A subject description or unfamiliar name is not an organizing premise.
 
