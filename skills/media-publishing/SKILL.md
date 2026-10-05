@@ -19,6 +19,8 @@ Inspect the actual signed-in account and operation-specific capability. Load the
 
 Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
 
+For article effects, require an actual passed [source comparison](../media-editorial/references/originality.md) in the ReviewRecord for the exact ContentPackage version. A ready label, attribution or factual accuracy is insufficient. Missing comparison or unresolved derivation holds publication; complete research/reframing and review within authorization. Substantive copy changes during packaging require a fresh affected comparison.
+
 ## Package and execute
 Computer use is a first-class action route for both interactive and scheduled host runs. When selected, use the [browser host procedure](../../runtime/reference/BROWSER_HOST.md) and the actual browser tools; do not declare publishing unavailable solely because an API adapter is absent. Honor existing routine-action authorization and the publication’s supervision preference.
 
