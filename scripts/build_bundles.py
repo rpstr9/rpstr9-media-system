@@ -39,7 +39,7 @@ def main():
   if w['id'] in ('configure-recurring-operations','operations-review','create-and-launch-publication'):paths+=['runtime/reference/README.md']
   inventories[w['id']]=make(w['bundle'],paths)
  inventories['master']=make('dist/MASTER.md',common+['skills/media-editorial/references/originality.md','contracts/EDITORIAL_FOUNDATION.md','skills/media-master/SKILL.md','skills/media-master/references/article-routing.md','skills/media-master/references/creative-routing.md','skills/concept-review/SKILL.md','START_HERE.md','registry/workflows.json','runtime/reference/README.md','runtime/reference/BROWSER_HOST.md','skills/media-master/references/computer-use-queue.md','contracts/ComputerUseAdmission.schema.json','contracts/ComputerUseContinuation.schema.json']+['skills/media-growth/references/reader-growth.md', 'skills/media-editorial-selection/references/timely-topics.md', 'skills/media-measurement/references/note-discovery.md'])
- (ROOT/'dist/source-inventories.json').write_text(json.dumps(inventories,indent=2))
+ (ROOT/'dist/source-inventories.json').write_text(json.dumps(inventories,indent=2)+'\n')
  files=[]
  allow=json.loads((ROOT/'releases/public-allowlist.json').read_text())['paths']
  for p in sorted(ROOT.rglob('*')):
@@ -47,6 +47,6 @@ def main():
   if p.is_file() and '__pycache__' not in rel and '.git' not in p.relative_to(ROOT).parts and rel not in ('releases/manifest.json','releases/latest.json'):
    if rel not in allow:raise ValueError('Unreviewed file outside public allowlist: '+rel)
    files.append({'path':rel,'sha256':sha(p),'bytes':p.stat().st_size})
- (ROOT/'releases/manifest.json').write_text(json.dumps({'schema_version':'1.0','release':'0.1.15','inventory':files,'excludes':['releases/manifest.json','releases/latest.json']},indent=2))
+ (ROOT/'releases/manifest.json').write_text(json.dumps({'schema_version':'1.0','release':'0.1.15','inventory':files,'excludes':['releases/manifest.json','releases/latest.json']},indent=2)+'\n')
  print(json.dumps({'workflows':len(reg['workflows']),'files':len(files),'inventory_digest':sha(ROOT/'releases/manifest.json')}))
 if __name__=='__main__':main()
