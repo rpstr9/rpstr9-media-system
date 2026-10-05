@@ -30,6 +30,10 @@ Before editing existing content, inventory and preserve useful media, links, acc
 
 Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](../../media-publishing/references/article-metadata.md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
 
+## Compare sources and contribution
+
+Read and apply the complete [originality gate](originality.md). Compare the actual draft with the closest inspected coverage for wording, structure, anecdote selection/order, distinctive framing and analysis. Attribution alone cannot pass close paraphrase or a borrowed blueprint. Record the supported contribution and exact comparison privately; hold a derivative draft or missing material comparison, return to research/reframe, and recheck before readiness.
+
 ## Decide and retain evidence
 
 Perform a distinct pass after drafting. Record title/body version, reviewer independence, passages corrected, remaining concerns and actual skill-load receipt privately. Assess reader value, natural language, substance/evidence, identity, media and native execution separately. A factual/link checklist, clean linter or schema pass cannot establish writing quality. Hold the affected delivery until mandatory defects are corrected; keep complete local work available.
