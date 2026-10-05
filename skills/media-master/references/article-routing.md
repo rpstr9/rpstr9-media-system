@@ -21,6 +21,8 @@ For a new article, substantive revision or article review, resolve the installed
 
 For a wording-only revision, use the revision/review workflow and the affected evidence/identity rules. Do not reopen strategy or commission an unrequested public operation. When the task expands into research, concept change or asset production, load the affected specialist before doing that work.
 
+For every article-writing, substantive revision or review route, also load the complete [original contribution and source-comparison gate](../../media-editorial/references/originality.md). Define the question and evidenced contribution before drafting; compare the actual finished version with its closest inspected sources before readiness. Include this reference and the comparison evidence in the real load/review receipt. Publishing requires its actual pass, not a package label.
+
 ## Keep a real load receipt
 
 Record a private file per run with the selected workflow, manifest release/hash, actual entry path and resolved path, skill name/version/hash, required reference paths/hashes and retrieval evidence for every skill actually read in full. Distinguish loaded-and-applied, loaded-only, approved artifact reused, conditional-not-needed and missing. A catalogue listing, installation, cited path, prior assistant assertion or reading bundle filename without complete retrieval proves no loading.
