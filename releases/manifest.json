@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.15",
+  "release": "0.1.16",
   "inventory": [
     {
       "path": ".gitignore",
@@ -29,8 +29,8 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "7047883d91b081ce2034ddf39e2bf55be02792c316327009444571b14d6010db",
-      "bytes": 4362
+      "sha256": "0111b58373e49a8633cbe3befc63614ed143e4e2b2d04ffaa505d78f1e67e935",
+      "bytes": 5128
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -359,8 +359,8 @@
     },
     {
       "path": "contracts/registry.json",
-      "sha256": "0be9bd653b6474235ff2929d6862737ec7f8a8d7d5b60568baf06fb4097273be",
-      "bytes": 24720
+      "sha256": "fe343b90a3214677a292d4ee301f2942a59a11f0a5b26dd989f82bcca39f7137",
+      "bytes": 25571
     },
     {
       "path": "dist/MASTER.md",
@@ -369,18 +369,18 @@
     },
     {
       "path": "dist/source-inventories.json",
-      "sha256": "849c0e340335f8ad5daae2643f136744b800f3facf12ba4a80ee2fe783bef089",
-      "bytes": 89347
+      "sha256": "419ee6e6176ef4e0643dc1d04520969d5f402da307bb6224a8076572a8e16d94",
+      "bytes": 90907
     },
     {
       "path": "dist/workflows/audience-development.md",
-      "sha256": "b4ed183467a5366c0325bd9b42a99d7b6b7e43dfe7eff0a6e77637e4d37f3922",
-      "bytes": 151014
+      "sha256": "2db24e4867079d11a93676c862ad4f33f42d214bb7b87051297e8e8a6dd1dfb8",
+      "bytes": 157582
     },
     {
       "path": "dist/workflows/community-participation.md",
-      "sha256": "ef113633eaf8352b61e8bfa6b7ce8ec4ed78cda23016db237f0a550407bb6a92",
-      "bytes": 121549
+      "sha256": "5d1c8a70c1d90f7137eb426243139dc4b037e3aadccde0d147e62cd4c3cf97f7",
+      "bytes": 127243
     },
     {
       "path": "dist/workflows/concept-review.md",
@@ -399,8 +399,8 @@
     },
     {
       "path": "dist/workflows/create-and-launch-publication.md",
-      "sha256": "4311c6adadd7beb61579fc51644cc47c039157fc9f3b21e33a067857bb95c190",
-      "bytes": 225151
+      "sha256": "73029987dfcdc0de184132ba6bccbee9fbfe9033d88de8afcd2f98f92a647de7",
+      "bytes": 231719
     },
     {
       "path": "dist/workflows/creative-production.md",
@@ -414,13 +414,13 @@
     },
     {
       "path": "dist/workflows/listen-and-respond.md",
-      "sha256": "de35454b54616b76968dbad7009325f73e727830a8c93c2daa01d3ceda5ceea4",
-      "bytes": 117353
+      "sha256": "2573eada238426ec9ecac2bc655510e9a1f1bbb98a6aeb5e741fae6e70116766",
+      "bytes": 123047
     },
     {
       "path": "dist/workflows/monitor-and-reply.md",
-      "sha256": "de35454b54616b76968dbad7009325f73e727830a8c93c2daa01d3ceda5ceea4",
-      "bytes": 117353
+      "sha256": "2573eada238426ec9ecac2bc655510e9a1f1bbb98a6aeb5e741fae6e70116766",
+      "bytes": 123047
     },
     {
       "path": "dist/workflows/operations-review.md",
@@ -464,8 +464,8 @@
     },
     {
       "path": "dist/workflows/resume-channel-operations.md",
-      "sha256": "e7251daab13fc60784ab1714ecf294c1edaad176fbc3b72be72bc1f6e19ca6b7",
-      "bytes": 117353
+      "sha256": "fded28a3de14ee7c4f63acc7f38a87651c43f86f855bf7244c401f05717f52db",
+      "bytes": 123047
     },
     {
       "path": "dist/workflows/revise-and-review-article.md",
@@ -474,8 +474,8 @@
     },
     {
       "path": "dist/workflows/scheduled-participation.md",
-      "sha256": "ef113633eaf8352b61e8bfa6b7ce8ec4ed78cda23016db237f0a550407bb6a92",
-      "bytes": 121549
+      "sha256": "5d1c8a70c1d90f7137eb426243139dc4b037e3aadccde0d147e62cd4c3cf97f7",
+      "bytes": 127243
     },
     {
       "path": "dist/workflows/setup-and-strategy.md",
@@ -489,8 +489,8 @@
     },
     {
       "path": "dist/workflows/timely-editorial-growth.md",
-      "sha256": "061e46658e8b741155546aebc38a4c02ea7046d321e509fe928d18ed5b5ad398",
-      "bytes": 162193
+      "sha256": "f7c2b9b92d9437c67f07eeeb7a46915bd50acc759f21dc2587cada87aa6111e6",
+      "bytes": 167684
     },
     {
       "path": "evaluations/public-fixtures/synthetic_executor.py",
@@ -529,7 +529,7 @@
     },
     {
       "path": "registry/skills.json",
-      "sha256": "64c25fc51491e0dca3eb2b71431b9ab79eb7c68bfe371b8148ab0dc5c8a9f9ef",
+      "sha256": "5f69be76dcb51d51b86e9310765aa881db52e18999278cab81185e4eeeecd75b",
       "bytes": 16875
     },
     {
@@ -544,8 +544,8 @@
     },
     {
       "path": "releases/public-allowlist.json",
-      "sha256": "700eff02042aa62fdee3f136cc91a692ea4768fdbbaf1eee711ad575ac0d7d64",
-      "bytes": 6739
+      "sha256": "46b34554b851156e4abf28c3f46238634e1db138fe82897bdc8b336bb593b8be",
+      "bytes": 6807
     },
     {
       "path": "runtime/reference/BROWSER_HOST.md",
@@ -574,8 +574,8 @@
     },
     {
       "path": "scripts/build_bundles.py",
-      "sha256": "1fc549ffbfc8f72949a794aabb088d788c315913bf8d754616aa5c61bfe09e15",
-      "bytes": 5203
+      "sha256": "42c50b2c054b278cc5f1e163943dc96d99da2dc4f02b57d77a33b7a1ffbd91a4",
+      "bytes": 5347
     },
     {
       "path": "scripts/check_article_metadata.py",
@@ -679,8 +679,8 @@
     },
     {
       "path": "skills/media-growth/SKILL.md",
-      "sha256": "3fd8df85fd482fb031ce2c39a43b25c87b1c7ae50ad08eaa4e333caae6062b90",
-      "bytes": 13395
+      "sha256": "5b8663e3f5849527bc2e5926dcf6ec1dc9d8896f7e2ffb984ced4710fe5f0d67",
+      "bytes": 14279
     },
     {
       "path": "skills/media-growth/references/reader-growth.md",
@@ -739,8 +739,13 @@
     },
     {
       "path": "skills/media-relationships/SKILL.md",
-      "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970",
-      "bytes": 7476
+      "sha256": "b198b028f85bc35ed68d411a3866e26585bd2809b5415330bb292ecd5cc616dd",
+      "bytes": 8516
+    },
+    {
+      "path": "skills/media-relationships/references/friendly-engagement.md",
+      "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05",
+      "bytes": 4274
     },
     {
       "path": "skills/media-resource-library/SKILL.md",
