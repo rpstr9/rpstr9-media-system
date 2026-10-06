@@ -294,7 +294,7 @@ Make audience research and actual conversation the core of a routine growth run.
 1. Check notifications, mentions, comments on the publication's work, replies to earlier outside comments and outstanding conversations. Read the actual root and recent exchange; prioritize people already talking to the publication. Record listening gaps rather than treating failed retrieval as an empty inbox.
 2. Research potential readers and followers through their public posts, interests and participation in relevant conversations. Find people likely to enjoy the publication's subjects and perspective, including readers as well as creators. Use observed affinity and recent activity; do not assume that a relevant person will follow or rank by account size alone.
 3. Select concrete posts or conversations where a brief, sincere response would fit. Read the work and existing replies before deciding. Assess audience fit, conversational fit, receptivity, freshness, prior contact and permission separately. Record the specific reason for each selected opportunity and skip forced or repetitive contact.
-4. Like the posts selected for positive comments and send brief, warm, context-specific comments. Read people's replies and normally close with an appropriate like. Use the Relationships stopping rule: one publication comment or reply per exchange by default, with another reply only for an unanswered direct question, concrete request, material correction or other substantive unresolved point. Record the exact reason before drafting an exception. Appreciation or shared enjoyment is sufficient for an initial comment, not for repeated follow-up. Do not require advice, a resource, a link, promotion or a question in every interaction.
+4. Like the posts selected for positive comments and apply [Relationships’ proactive-comment rule](#source-skills-media-relationships-skill-md), including [recipient attention and publication voice](#source-skills-media-relationships-references-friendly-engagement-md) and the actual approved voice guide: default to one short, warm, natural sentence of specific truthful appreciation of the work actually read, centered on what the recipient would appreciate; two short sentences only when more natural for the exchange. Derive natural variety from the work and media voice rather than repeated praise templates. Do not add unsolicited advice, analysis, questions, self-promotion or a same-operator introduction. Check and read people's replies and like appropriate ones. End the exchange with that like by default. Send another brief reply only when the recipient clearly wants to carry on through an unanswered direct question, concrete request, explicit invitation to continue, material correction or other substantive unresolved point. Use the Relationships stopping rule: one publication comment or reply per exchange by default; identify the exact invitation or unresolved point before drafting an exception. Appreciation or shared enjoyment is sufficient for an initial comment, not for repeated follow-up. Broader resource or collaboration planning does not turn routine public appreciation into target-specific help; answer genuine inbound questions or requests under Relationships’ existing rule.
 5. Verify likes, comments and replies on the actual account; retain exact text, destination, state and receipt. Check for newly arrived replies before closing when feasible, and retain only genuinely unresolved conversations for the next authorized run. Mark acknowledged or deliberately unanswered closing messages closed so later runs do not requeue them. Do not create a recurring schedule from a one-time growth request.
 
 Distinguish planning from execution. Research or draft requests leave messages prepared. An explicit request to run engagement, with the account and scope established, authorizes the routine actions within that scope; do not impose a second universal approval gate. Resolve missing authority only for affected actions. Do not widen a public engagement run into private messages, account changes or bulk contact.
@@ -506,11 +506,13 @@ Classify the message's purpose: question, correction, feedback, appreciation, co
 For outside participation, read the actual work and existing conversation. Identify something specific the person said, showed or expressed that warrants a natural response. Check relevance, receptivity, applicable permission, history and opt-outs independently. No compulsory link back, generic praise campaign, reciprocal-comment pact or contact quota. Unknown contact permission permits preparation, not assumed sending.
 
 ## Keep the exchange brief and human
-Default casual comments and replies to one short sentence, or two when needed for clarity. React to one actual detail, thought or feeling so the response shows understanding. Keep it kind, modest and natural in the publication's voice and the conversation's language. Derive the wording from this exchange rather than reusing canned praise.
+For proactive engagement comments, read [recipient attention and publication voice](#source-skills-media-relationships-references-friendly-engagement-md) and the actual approved publication voice guide. Say something nice the recipient would appreciate about the work you read. Default to one short sentence of specific, truthful appreciation; two short sentences only when more natural for this exchange. Keep it warm, friendly and modest in the publication's voice and the conversation's language. Center one actual detail or explicitly stated thought or feeling. Appreciation is a complete interaction and does not need to be useful advice.
 
-Let genuine appreciation be a complete interaction. Do not force advice, corrections, source links, an explanation of usefulness, self-promotion or a question merely to prolong the exchange. Use more detail only when the person's question or situation needs it. Avoid excessive praise, overfamiliarity, intrusive observations and claims about the author's character or private feelings. Do not invent shared experience or say something was tried when it was only read.
+Do not add unsolicited advice, analysis, corrections, resources, source links, questions or interrogation, self-promotion or a call to action to a proactive comment. Do not introduce it with same-operator disclosure or other boilerplate. This style applies to routine cross-publication engagement too. Preserve truthful account ownership and material relationships; never pretend to be an independent reader or offer a fake independent endorsement. Do not invent personal experience, familiarity, private feelings or actions, including saying something was tried when it was only read. Avoid excessive praise, overfamiliarity and intrusive observations.
 
-Like the posts or comments receiving a positive response from the publication. Read people's replies and, when appropriate, like them as the final acknowledgment. Default to one publication comment or reply per conversational exchange, across runs rather than per day. Let the other person have the last word. Do not send a further closing reply, thank-you-for-the-thanks, renewed compliment or question merely to maintain contact. Send another reply only when the newest message contains a direct question, a concrete request, a material correction or other substantive unresolved point that needs an answer. Before drafting, identify that exact point and check that it has not already been answered. A like does not replace a warranted answer; appreciation or conversational warmth alone is not such a reason. Check the existing like state before acting so a retry cannot remove it. Use judgment if a like would misrepresent agreement, and do not like the publication's own replies or manufacture a back-and-forth.
+For an inbound question, concrete request or material correction, respond to the actual need and use only the detail needed to answer it. Default other casual replies to one short sentence. Do not turn an initial appreciation comment into an unsolicited consultation or ask a question to prolong the exchange.
+
+Like the posts or comments receiving a positive response from the publication. Check and read people's replies, and like appropriate ones. Unless the recipient clearly wants to carry on the conversation, use that like as the final acknowledgment and end the exchange. Default to one publication comment or reply per conversational exchange, across runs rather than per day. Let the other person have the last word. Do not send a further closing reply, thank-you-for-the-thanks, renewed compliment or question merely to maintain contact. Send another brief reply only when the newest message clearly invites further conversation through a direct question, a concrete request, an explicit invitation to continue, a material correction or another substantive unresolved point, and a response fits that invitation or need. Before drafting, identify the exact invitation or unresolved point and check that it has not already been answered. A like does not replace a warranted answer; appreciation or conversational warmth alone is not such a reason. Check the existing like state before acting so a retry cannot remove it. Use judgment if a like would misrepresent agreement, and do not like the publication's own replies or manufacture a back-and-forth.
 
 Before sending, check that the response is grounded in the actual content, easy to understand, brief for its purpose and comfortable to receive from a stranger. Remove anything that makes ordinary friendliness sound like a pitch, a performance or unwanted familiarity.
 
@@ -519,7 +521,7 @@ Draft to the correct parent with the context needed to make the response meaning
 
 Retain minimal private ConversationState: account/root/parent/message identifiers, source context, permission and opt-out, actual responses, ownership, publication response count for the exchange, exact unresolved point (if any), closure status, pending actions, commitments and checkpoint. Do not merge people across platforms from names alone. Apply the configured retention policy.
 
-When research or an audit discovers a new reply, persist its source identifiers, context and disposition even if sending is outside the current task. Do not automatically create pending textual follow-up for every incoming message. Keep observed/read, acknowledged and replied states separate; viewing alone is not acknowledgment, but an appropriate like or deliberate no-response decision can close the exchange. Record the close reason and no pending reply; do not reopen it on a later run unless a new substantive point arrives. Before the next authorized response, reconcile the saved item against the current conversation, prior receipts and human activity, then reply, acknowledge or close it according to the exchange. Deduplicate discoveries across listening and research so the same reply cannot produce duplicate actions.
+When research or an audit discovers a new reply, persist its source identifiers, context and disposition even if sending is outside the current task. Do not automatically create pending textual follow-up for every incoming message. Keep observed/read, acknowledged and replied states separate; viewing alone is not acknowledgment, but an appropriate like or deliberate no-response decision can close the exchange. Record the close reason and no pending reply; do not reopen it on a later run unless a new clear invitation to continue or substantive unresolved point arrives. Before the next authorized response, reconcile the saved item against the current conversation, prior receipts and human activity, then reply, acknowledge or close it according to the exchange. Deduplicate discoveries across listening and research so the same reply cannot produce duplicate actions.
 
 Check notifications, mentions, comments on the publication's work, replies to its outside comments and outstanding commitments on each authorized listening run, independently of new article publication. Prioritize unanswered conversation, including friendly replies that invite acknowledgment. Apply the one-response default and substantive-answer exception above; apparent friendliness is not permission for repeated replies. Daily reply allowances are ceilings, never reasons to continue a closed exchange. Stop on refusal or natural closure, and avoid repeated nudges. Save the checkpoint and follow-up conditions without starting an unrequested recurring job. Return EngagementDecision and actual or prepared response state. Feed recurring confusion, missed responses and meaningful exchanges into research/editorial/growth; message count is not relationship quality.
 
@@ -670,6 +672,38 @@ Retain the exact draft version, inspected source versions/links, comparison find
 ## Readiness
 
 An article cannot be marked reviewed, ready or cleared for publication until this comparison has actually passed for that version. A substantive rewrite or changed source relationship invalidates the affected review and requires a new comparison. Keep the completed local draft available while held; do not publish first and promise a later originality check.
+
+<a id="source-skills-media-relationships-references-friendly-engagement-md"></a>
+
+---
+
+Source: `skills/media-relationships/references/friendly-engagement.md`
+
+# Recipient attention and publication voice
+
+Read this for proactive public engagement together with Relationships' comment and closure rules. It guides wording, not contact permission or confirmation behavior.
+
+## Understand before composing
+
+Read the actual work and conversation, then identify what the writer really said, showed or explicitly valued. Choose one grounded good point that this person would appreciate having noticed. Appreciation, gratitude, congratulations or light surprise can fit different contexts; there is no fixed sequence. If no sincere, specific positive point is supported, skip the comment rather than manufacture praise. Do not turn tragedy, accusations or medical claims into praise opportunities. Route a genuine question or material correction through the existing response rules instead.
+
+Default to one short, warm, natural sentence. Two short sentences are acceptable only when the exchange reads more naturally that way; do not use the extra sentence to add advice, analysis, a question or a pitch. Appreciate the work or a stated milestone without acting as its critic, examiner or coach. Do not infer effort, struggle, private feelings or intentions. Do not invent use, visits, saving, plans, familiarity or other personal experience. Ordinary appreciation needs no operator introduction or book reference, and never permits a fake independent endorsement.
+
+## Use the publication's actual voice
+
+Load the current approved publication voice/editorial guide and relevant account/conversation context. Use its natural vocabulary, warmth, directness, rhythm and social distance, adapted respectfully to this recipient and language. Keep each publication recognizable without copying another account's voice or inferring personality from its name. Article formats that teach, analyze or advise do not become unsolicited comment formats. Missing voice details remain unknown; use modest natural wording supported by the available guide rather than inventing a brand personality.
+
+Let variation come from what was actually noticed and how warmth fits this moment. Vary the detail, opening, verb, syntax, emphasis or ending when natural. Review nearby actual comments and the current batch of drafts for repeated wording or cadence; revise a repeated construction when a simpler natural expression fits. Do not rotate templates, force synonyms, add questions, or follow an emoji sequence to appear varied. An emoji or exclamation mark is optional when the approved voice and recipient's situation suit it; neither is mandatory. Avoid canned flattery, automatic intimacy and inflated praise. Read the draft aloud and keep it easy and comfortable to receive from a stranger.
+
+## Principle sources and our application
+
+These are bounded applications to friendly public comments, not a quotation template, a verified book-edition citation, or FranklinCovey's endorsement of automated outreach.
+
+- [Habit 5: Seek First to Understand, Then to Be Understood](https://www.franklincovey.com/courses/the-7-habits/habit-5/) emphasizes understanding the speaker's perspective before responding and warns against filtering listening through one's own story. Our application: attend to this writer's actual purpose and words; do not replace them with our knowledge, autobiography or an imagined emotion.
+- [Habit 4: Think Win-Win](https://www.franklincovey.com/courses/the-7-habits/habit-4/) combines consideration with mutual benefit. Our application: give respectful goodwill without making a reply, like, follow-back or later favor the price of warmth.
+- [Take Stock of Your Emotional Bank Accounts](https://www.franklincovey.de/de/2021/09/02/take-stock-of-your-emotional-bank-accounts/) warns against contrived compliments and trust accumulated for planned returns; its analogy explicitly rejects automated deposits. Our application: read each work individually and offer sincere attention valued by its recipient. Formulaic praise, message volume and method labels do not establish trust.
+
+Keep consent, privacy, truthful ownership, opt-outs, deduplication, one-response/closure, genuine relationship handling and platform limits under their existing rules. No wording principle creates sending authority, a new approval gate or a growth guarantee.
 
 <a id="source-skills-media-master-references-article-routing-md"></a>
 
@@ -1577,8 +1611,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-growth/SKILL.md",
-    "bytes": 13395,
-    "sha256": "3fd8df85fd482fb031ce2c39a43b25c87b1c7ae50ad08eaa4e333caae6062b90"
+    "bytes": 14279,
+    "sha256": "5b8663e3f5849527bc2e5926dcf6ec1dc9d8896f7e2ffb984ced4710fe5f0d67"
   },
   {
     "path": "skills/media-audience-insight/SKILL.md",
@@ -1597,8 +1631,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-relationships/SKILL.md",
-    "bytes": 7476,
-    "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
+    "bytes": 8516,
+    "sha256": "b198b028f85bc35ed68d411a3866e26585bd2809b5415330bb292ecd5cc616dd"
   },
   {
     "path": "skills/media-publishing/SKILL.md",
@@ -1614,6 +1648,11 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
     "path": "skills/media-editorial/references/originality.md",
     "bytes": 4314,
     "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+  },
+  {
+    "path": "skills/media-relationships/references/friendly-engagement.md",
+    "bytes": 4274,
+    "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05"
   },
   {
     "path": "skills/media-master/references/article-routing.md",
