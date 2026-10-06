@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.15",
+  "release": "0.1.16",
   "constitution": "policies/CONSTITUTION.md",
   "skills": [
     {
@@ -289,7 +289,7 @@
       "skill_id": "media-relationships",
       "path": "skills/media-relationships/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.11",
+      "version": "0.1.16",
       "inputs": [
         "Publication intent and relevant GrowthPlan / RankedTargetSet",
         "Authorized contact or community information",
@@ -314,7 +314,7 @@
       "skill_id": "media-growth",
       "path": "skills/media-growth/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.13",
+      "version": "0.1.16",
       "inputs": [
         "Publication objectives, approved StrategyContext and relevant JourneyContext",
         "CreativeBrief and existing strategic handoff when supplied",
