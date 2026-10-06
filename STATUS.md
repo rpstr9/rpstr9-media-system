@@ -1,3 +1,7 @@
+# Brief friendly engagement — 0.1.16
+
+Proactive public comments default to one short, warm, natural sentence of specific truthful appreciation of the actual work read. Unsolicited advice, analysis, questions, promotion and same-operator introductions are excluded. Read replies and like appropriate ones as the final acknowledgment by default. Continue with a brief reply only for a clear recipient invitation to carry on or a substantive unanswered point, within the existing one-response and platform limits. Truthful ownership, consent, opt-outs and deduplication retain their rules. Resolve the published edition through `releases/latest.json`; release readiness requires complete bundles, exact remote verification and a separately verified content pointer.
+
 # Originality gate 0.1.15
 
 This edition requires an independently defined reader question and supported contribution before drafting, followed by an actual comparison of the finished version with the closest inspected source articles. Credited close paraphrase, borrowed narrative structure and repackaged distinctive analysis hold readiness and publication. Primary facts and useful independently developed explanation remain available with accurate sourcing. This is an operational editorial gate, not a guarantee against unobserved sources or measured audience evidence.
