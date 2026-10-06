@@ -271,8 +271,8 @@
     },
     {
       "path": "skills/media-growth/SKILL.md",
-      "bytes": 13395,
-      "sha256": "3fd8df85fd482fb031ce2c39a43b25c87b1c7ae50ad08eaa4e333caae6062b90"
+      "bytes": 14279,
+      "sha256": "5b8663e3f5849527bc2e5926dcf6ec1dc9d8896f7e2ffb984ced4710fe5f0d67"
     },
     {
       "path": "skills/concept-review/SKILL.md",
@@ -286,8 +286,8 @@
     },
     {
       "path": "skills/media-relationships/SKILL.md",
-      "bytes": 7476,
-      "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
+      "bytes": 8516,
+      "sha256": "b198b028f85bc35ed68d411a3866e26585bd2809b5415330bb292ecd5cc616dd"
     },
     {
       "path": "skills/media-measurement/SKILL.md",
@@ -298,6 +298,11 @@
       "path": "skills/media-editorial/references/originality.md",
       "bytes": 4314,
       "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
+      "path": "skills/media-relationships/references/friendly-engagement.md",
+      "bytes": 4274,
+      "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
@@ -1132,8 +1137,8 @@
     },
     {
       "path": "skills/media-relationships/SKILL.md",
-      "bytes": 7476,
-      "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
+      "bytes": 8516,
+      "sha256": "b198b028f85bc35ed68d411a3866e26585bd2809b5415330bb292ecd5cc616dd"
     },
     {
       "path": "skills/media-publishing/SKILL.md",
@@ -1144,6 +1149,11 @@
       "path": "skills/media-editorial/references/originality.md",
       "bytes": 4314,
       "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
+      "path": "skills/media-relationships/references/friendly-engagement.md",
+      "bytes": 4274,
+      "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
@@ -1239,8 +1249,8 @@
     },
     {
       "path": "skills/media-relationships/SKILL.md",
-      "bytes": 7476,
-      "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
+      "bytes": 8516,
+      "sha256": "b198b028f85bc35ed68d411a3866e26585bd2809b5415330bb292ecd5cc616dd"
     },
     {
       "path": "skills/media-publishing/SKILL.md",
@@ -1251,6 +1261,11 @@
       "path": "skills/media-editorial/references/originality.md",
       "bytes": 4314,
       "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
+      "path": "skills/media-relationships/references/friendly-engagement.md",
+      "bytes": 4274,
+      "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
@@ -1346,13 +1361,18 @@
     },
     {
       "path": "skills/media-relationships/SKILL.md",
-      "bytes": 7476,
-      "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
+      "bytes": 8516,
+      "sha256": "b198b028f85bc35ed68d411a3866e26585bd2809b5415330bb292ecd5cc616dd"
     },
     {
       "path": "skills/media-editorial/references/originality.md",
       "bytes": 4314,
       "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
+      "path": "skills/media-relationships/references/friendly-engagement.md",
+      "bytes": 4274,
+      "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
@@ -1443,8 +1463,8 @@
     },
     {
       "path": "skills/media-growth/SKILL.md",
-      "bytes": 13395,
-      "sha256": "3fd8df85fd482fb031ce2c39a43b25c87b1c7ae50ad08eaa4e333caae6062b90"
+      "bytes": 14279,
+      "sha256": "5b8663e3f5849527bc2e5926dcf6ec1dc9d8896f7e2ffb984ced4710fe5f0d67"
     },
     {
       "path": "skills/media-audience-insight/SKILL.md",
@@ -1463,8 +1483,8 @@
     },
     {
       "path": "skills/media-relationships/SKILL.md",
-      "bytes": 7476,
-      "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
+      "bytes": 8516,
+      "sha256": "b198b028f85bc35ed68d411a3866e26585bd2809b5415330bb292ecd5cc616dd"
     },
     {
       "path": "skills/media-publishing/SKILL.md",
@@ -1480,6 +1500,11 @@
       "path": "skills/media-editorial/references/originality.md",
       "bytes": 4314,
       "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
+      "path": "skills/media-relationships/references/friendly-engagement.md",
+      "bytes": 4274,
+      "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
@@ -1871,8 +1896,8 @@
     },
     {
       "path": "skills/media-relationships/SKILL.md",
-      "bytes": 7476,
-      "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
+      "bytes": 8516,
+      "sha256": "b198b028f85bc35ed68d411a3866e26585bd2809b5415330bb292ecd5cc616dd"
     },
     {
       "path": "skills/media-publishing/SKILL.md",
@@ -1883,6 +1908,11 @@
       "path": "skills/media-editorial/references/originality.md",
       "bytes": 4314,
       "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
+      "path": "skills/media-relationships/references/friendly-engagement.md",
+      "bytes": 4274,
+      "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
@@ -1978,8 +2008,8 @@
     },
     {
       "path": "skills/media-relationships/SKILL.md",
-      "bytes": 7476,
-      "sha256": "3547a731bee2dc167279377a018384d3ba812b988ded4cc1a8ac1672166d8970"
+      "bytes": 8516,
+      "sha256": "b198b028f85bc35ed68d411a3866e26585bd2809b5415330bb292ecd5cc616dd"
     },
     {
       "path": "skills/media-publishing/SKILL.md",
@@ -1990,6 +2020,11 @@
       "path": "skills/media-editorial/references/originality.md",
       "bytes": 4314,
       "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
+      "path": "skills/media-relationships/references/friendly-engagement.md",
+      "bytes": 4274,
+      "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
@@ -2403,8 +2438,8 @@
     },
     {
       "path": "skills/media-growth/SKILL.md",
-      "bytes": 13395,
-      "sha256": "3fd8df85fd482fb031ce2c39a43b25c87b1c7ae50ad08eaa4e333caae6062b90"
+      "bytes": 14279,
+      "sha256": "5b8663e3f5849527bc2e5926dcf6ec1dc9d8896f7e2ffb984ced4710fe5f0d67"
     },
     {
       "path": "skills/media-source-research/SKILL.md",
@@ -2440,6 +2475,11 @@
       "path": "skills/media-editorial/references/originality.md",
       "bytes": 4314,
       "sha256": "7d79fb343d979702f346ae23b67354f18eda9fd7ee88fe747dbe5a0f3966567e"
+    },
+    {
+      "path": "skills/media-relationships/references/friendly-engagement.md",
+      "bytes": 4274,
+      "sha256": "64e4ce9e1bf210752ad9e2a6d6ee0e55c8679a452d3cded80fec582636910a05"
     },
     {
       "path": "skills/media-master/references/article-routing.md",
