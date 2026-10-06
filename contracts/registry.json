@@ -325,7 +325,7 @@
       "record_type": "RankedTargetSet",
       "schema": "RankedTargetSet.schema.json",
       "semantic_rules": [
-        "Assess relevance, receptivity, usefulness and permission separately; numeric scores require a declared rubric.",
+        "Assess relevance, receptivity, relationship or practical value and permission separately; sincere appreciation is relationship value without useful advice. Numeric scores require a declared rubric.",
         "Permission is not overridden by high relevance or likely response.",
         "Use minimal authorized information, avoid sensitive individual inference, and keep target/contact records private."
       ]
@@ -382,7 +382,9 @@
       "semantic_rules": [
         "No-response is a valid decision. A target score does not override permission.",
         "Draft approval and external execution authority are separate.",
-        "A reply cannot claim personal experience, familiarity or an action not supported by evidence."
+        "A reply cannot claim personal experience, familiarity or an action not supported by evidence.",
+        "Proactive comments default to one short, warm, natural sentence of specific truthful appreciation of actual read content, centered on the recipient; two short sentences only when more natural. Use the actual approved publication voice and context-derived variety. Skip ungrounded praise; no unsolicited advice, analysis, questions, self-promotion or same-operator boilerplate.",
+        "Truthful ownership and material relationships remain intact; no fake independent reader or endorsement. Read replies and like appropriate ones as the final acknowledgment by default. Further text requires a clear recipient invitation to continue or an unanswered question, request, correction or substantive point, within existing one-response and platform limits."
       ]
     },
     {
