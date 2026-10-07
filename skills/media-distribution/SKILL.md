@@ -16,6 +16,8 @@ For a launch or growth experiment, name a credible route to initial suitable rea
 
 For each selected first-reader route, specify audience/context, useful contribution, encounter with the publication, optional next step and observable result. Platform discovery alone is a valid route when appropriate; lacking an external audience does not require acquiring one before publishing. Record its assumptions and measurement limits. A channel name alone is not an executable plan.
 
+Apply the [shared publication context and language contract](../../contracts/PUBLICATION_CONTEXT.md) to every requested derivative. Carry the exact canonical content, evidence and guide versions; choose its actual output language and reader context instead of assuming the source language. Recheck changed claims and affected voice choices after adaptation.
+
 Prepare native versions with their own reason to exist. Preserve substantive claims, source references and the canonical version. If a derivative needs a published URL or visual, wait for its confirmed receipt and correct variant. Independent posts need no artificial article dependency.
 
 Use authorized discovery/listening surfaces to find relevant conversations; record coverage and unavailable feeds. Read the actual work before proposing a contribution. Send context to Relationships, not an automatic keyword reply. Publishing access does not imply listening or conversation access.
