@@ -37,3 +37,7 @@ Check the delivered result against the current brief and the relevant evidence, 
 
 ## Keep taste evidence private and scoped
 Record actual owner decisions, reasons, scope and contrary evidence, distinguishing confirmed preferences from inferred taste. One accepted subject, image, sentence or structure does not establish a general default. Representative revisions and rejected alternatives can calibrate private editorial judgment but do not prove audience outcomes or transfer. Owner opinions can inform questions; they are not automatically facts. Do not mine private anecdotes to manufacture authorial experience. Promote only process, decision criteria and quality standards to shared methods under the applicable release authority.
+
+
+## Learn from appreciation without changing the brand by default
+Use the [versioned contribution learning procedure](../../contracts/PUBLICATION_CONTEXT.md#learn-from-the-versioned-contribution). Retain scoped positive, negative and unavailable observations and exact comparison conditions before a retain/revise/reject/inconclusive decision. Distinguish output repair, publication-private adaptation and a shared candidate. Do not auto-rewrite approved brand identity, convert a polite thanks into appreciation, or chase silence. Carry eligible generalized lessons into existing synthetic regressions and release records; raw follower/relationship research stays private.
