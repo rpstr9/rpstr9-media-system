@@ -1,3 +1,11 @@
+# Scoped supervised X refinement
+
+Adds one-post runtime authority, policy and tool-permission checks, exact account/content/dedup/public-result verification, unknown-submit reconciliation and explicit denial handling. API absence alone is not a blanket computer-use ban. Prior success does not establish a platform exception or recurring authority. No private custom rules or real account identifiers are embedded. Exposed decision fixtures do not establish live permission or unattended delivery.
+
+# Publication context refinement 0.1.17
+
+Extends the existing private publication guide and records across articles, derivatives and warranted replies. Adds explicit source/output-language and audience-region distinctions, Japanese-aware editorial/Unicode checks, selected-media provenance and comparable experiment receipts. No upstream LinkedIn code, automation, account integration or new schedule is included. Exposed synthetic fixtures support editorial forward-testing; they do not establish audience benefit, identity recognition or detector performance. Prior friendly appreciation, reply closure, originality and permission gates remain in force.
+
 # Brief friendly engagement — 0.1.16
 
 Proactive public comments default to one short, warm, natural sentence of specific truthful appreciation of the actual work read. Unsolicited advice, analysis, questions, promotion and same-operator introductions are excluded. Read replies and like appropriate ones as the final acknowledgment by default. Continue with a brief reply only for a clear recipient invitation to carry on or a substantive unanswered point, within the existing one-response and platform limits. Truthful ownership, consent, opt-outs and deduplication retain their rules. Resolve the published edition through `releases/latest.json`; release readiness requires complete bundles, exact remote verification and a separately verified content pointer.
