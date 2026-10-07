@@ -56,3 +56,7 @@ For a new or materially changed organizing concept, load the complete [Concept R
 
 ## Commission through editorial judgment
 Inspect why this subject and treatment deserve the reader's time, which existing answer or resource is sufficient, and which consequential choice the editor makes. A need, frustration, new possibility, perceptual discovery or worthwhile experience may justify a piece; no single commercial segment or fixed topic list is the default. Search demand is evidence, not the editor. Compare framing and a simpler available route before commissioning extra machinery. State reasons and contrary evidence rather than treating a taste score as a decision. Preserve ambiguity and awkward constraints when they belong to the material. Revisit pending items under the current criteria instead of mechanically filling the calendar.
+
+
+## Select what readers could appreciate
+Apply the [optional appreciation brief](../../contracts/PUBLICATION_CONTEXT.md#audience-appreciation-at-topic-selection) within this selection, using the current PublicationProfile and EditorialProgram. Show the signal or provisional reader hypothesis, substantive topic/angle/depth/deliverable decision, credible source requirements and finished reader value in the existing EditorialBrief. Audience interest cannot validate claims or overrule publication identity. Missing audience data does not block a worthwhile brand-led item. Do not create another planning, gifting or approval stage.
