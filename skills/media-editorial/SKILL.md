@@ -11,6 +11,8 @@ Read and apply the complete [article review gate](references/article-review.md) 
 
 ## Resolve the editorial foundation
 
+Apply the [shared publication context and language contract](../../contracts/PUBLICATION_CONTEXT.md) to the actual article and affected derivatives. Retain the scoped source-version receipt alongside the existing foundation and review records.
+
 Before full drafting, follow the [editorial foundation handoff](../../contracts/EDITORIAL_FOUNDATION.md). Read the current publication guide, EditorialProgram, selected format and source versions, not only the brief's voice label. If missing or materially stale, route the affected choices through selection and, where needed, creative direction; execute that preparation within the authorized task and resume writing. Preserve sufficient established rules, and keep narrow edits narrow. Do not improvise a new house voice separately for each article.
 
 When reviewing a new foundation, check that its decisions can guide an actual opening, explanation, transition, ending and relevant non-article channel treatment. Inspect task-derived copy alongside the selected identity's actual applications: look, feel, voice, tone and manner must express the same brand character and reader relationship. Tone may vary with the situation without switching personality. Check structure against the reader's intended gain and language against the strategy; record substantive gaps rather than approving adjective lists. Return a ReviewRecord to selection. This review and the later review of a finished article are distinct, and neither proves audience demand.
