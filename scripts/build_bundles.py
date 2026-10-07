@@ -24,7 +24,7 @@ def make(name,paths):
  out.write_text(''.join(chunks));return inventory
 def main():
  reg=json.loads((ROOT/'registry/workflows.json').read_text())
- common=['policies/CONSTITUTION.md','contracts/HANDOFF.md','registry/method-dependencies.json']
+ common=['policies/CONSTITUTION.md','contracts/HANDOFF.md','contracts/PUBLICATION_CONTEXT.md','registry/method-dependencies.json']
  inventories={}
  for w in reg['workflows']:
   paths=common+w.get('references',[])+[f'skills/{s}/SKILL.md' for s in w['required_skills']]
@@ -48,6 +48,6 @@ def main():
   if p.is_file() and '__pycache__' not in rel and '.git' not in p.relative_to(ROOT).parts and rel not in ('releases/manifest.json','releases/latest.json'):
    if rel not in allow:raise ValueError('Unreviewed file outside public allowlist: '+rel)
    files.append({'path':rel,'sha256':sha(p),'bytes':p.stat().st_size})
- (ROOT/'releases/manifest.json').write_text(json.dumps({'schema_version':'1.0','release':'0.1.16','inventory':files,'excludes':['releases/manifest.json','releases/latest.json']},indent=2)+'\n')
+ (ROOT/'releases/manifest.json').write_text(json.dumps({'schema_version':'1.0','release':'0.1.17','inventory':files,'excludes':['releases/manifest.json','releases/latest.json']},indent=2)+'\n')
  print(json.dumps({'workflows':len(reg['workflows']),'files':len(files),'inventory_digest':sha(ROOT/'releases/manifest.json')}))
 if __name__=='__main__':main()
