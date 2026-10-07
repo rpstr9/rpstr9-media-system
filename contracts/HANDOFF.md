@@ -4,6 +4,8 @@ For work sharing computer use, include the applicable [admission and continuatio
 
 Use the versioned JSON Schemas in this directory for retained records. Return the human-facing deliverable normally; records support continuation rather than replacing the deliverable.
 
+For publication-facing copy and conversation, apply the [shared context contract](PUBLICATION_CONTEXT.md), including the actual guide versions, language and evidence scope.
+
 Before work, resolve publication identity, task, complete input sources, release, applicable private adaptations and permitted effects. Mark each input approved, provisional, observed, inferred or unavailable. The receiver checks the substance and version, not just the name of a referenced document. Preserve full upstream outputs alongside normalized views.
 
 Record output paths or actual remote references, versions, evidence, unresolved concerns and next dependency. Pass claim-to-source relations and visual provenance through every handoff. A shorter summary must not discard qualifying context needed by the next capability. Store concise decision summaries, not hidden reasoning.
