@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.17",
+  "release": "0.1.18",
   "constitution": "policies/CONSTITUTION.md",
   "skills": [
     {
@@ -38,7 +38,7 @@
       "skill_id": "media-audience-insight",
       "path": "skills/media-audience-insight/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.11",
+      "version": "0.1.18",
       "inputs": [
         "PublicationProfile",
         "Audience questions",
@@ -111,7 +111,7 @@
       "skill_id": "media-editorial-selection",
       "path": "skills/media-editorial-selection/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.15",
+      "version": "0.1.18",
       "inputs": [
         "CandidateSet",
         "EvidenceBundle",
@@ -341,7 +341,7 @@
       "skill_id": "media-measurement",
       "path": "skills/media-measurement/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "inputs": [
         "Publication goals",
         "Data capabilities and authorized observations",
@@ -361,7 +361,7 @@
       "skill_id": "media-learning",
       "path": "skills/media-learning/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "inputs": [
         "RunRecords, reviews and outcomes",
         "Current method and approved local adaptations",
