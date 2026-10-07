@@ -52,6 +52,8 @@ For work sharing computer use, include the applicable [admission and continuatio
 
 Use the versioned JSON Schemas in this directory for retained records. Return the human-facing deliverable normally; records support continuation rather than replacing the deliverable.
 
+For publication-facing copy and conversation, apply the [shared context contract](#source-contracts-publication-context-md), including the actual guide versions, language and evidence scope.
+
 Before work, resolve publication identity, task, complete input sources, release, applicable private adaptations and permitted effects. Mark each input approved, provisional, observed, inferred or unavailable. The receiver checks the substance and version, not just the name of a referenced document. Preserve full upstream outputs alongside normalized views.
 
 Record output paths or actual remote references, versions, evidence, unresolved concerns and next dependency. Pass claim-to-source relations and visual provenance through every handoff. A shorter summary must not discard qualifying context needed by the next capability. Store concise decision summaries, not hidden reasoning.
@@ -68,6 +70,38 @@ Local adaptation surfaces are task-derived research selection, editorial format,
 
 Use the shared Concept Review when a new or materially changed concept is ready to develop into concrete ideas. The master schedules it; direct specialists must also apply it. The originating capability revises the concept and the receiver checks the review's scope, input versions, protected strengths and unresolved conditions. Retain a private ConceptReview record. Reuse the review when the premise and material inputs are unchanged; reopen only affected findings when they change. Conceptual simulation is judgment, not audience evidence or a validated reusable lesson. Later review of produced work remains required.
 
+
+<a id="source-contracts-publication-context-md"></a>
+
+---
+
+Source: `contracts/PUBLICATION_CONTEXT.md`
+
+# Publication context for copy and conversation
+
+Use this contract when researching, composing, adapting or reviewing publication-facing copy, including articles, captions, channel derivatives, proactive comments and warranted inbound replies. Reuse the publication's existing records and private guide; do not create a parallel persona, log or workspace.
+
+## Load the actual, scoped sources
+
+Resolve the publication and task before wording. Read the relevant substance of the current PublicationProfile, approved strategy/identity, EditorialProgram's versioned editorial foundation and actual guide, plus the destination/account context. For conversation, also read the actual root, recent exchange, prior responses and closure state. A voice label, account name, example draft or pointer alone cannot establish this context.
+
+Use the same approved identity, audience, reader promise, vocabulary and boundaries across the requested surfaces. Adapt register, density and warmth to the present reader and channel; an article's teaching style does not authorize advice in an appreciation comment. A supplied sample may illustrate a trait; distinguish spoken from published language and confirmed owner choices from inferred taste. Do not copy its narrative, invent biography, or import another publication's voice. Opinions attributed to the publication remain opinions; identity guidance is not factual evidence. Publicly usable experience, numbers and relationships require their own actual provenance and disclosure scope.
+
+Retain a concise private context snapshot with publication ID, task/surface, source references and versions or digests, applicable owner exceptions, source languages, requested output language, audience region where relevant, and approved/provisional/unavailable status. Reference it through existing RunRecord.input_refs, handoff input references and ReviewRecord.evidence_refs; keep piece-specific constraints in EditorialBrief.constraints. This is a receipt of sources actually read, not a second canonical profile or a new required schema. Resolve cross-publication conflicts before using their content.
+
+Before final review or effect, check whether a relevant source or owner instruction changed. Refresh only the affected choices and derivatives; preserve sufficient approved decisions and unrelated work. A missing material fact holds its claim. A missing material identity choice calls for scoped foundation repair under the existing route. Routine conversation can use modest natural wording from sufficient available guidance; missing detail does not require inventing a persona or restarting onboarding. These checks do not add sending authority or another approval gate.
+
+## Select the actual language
+
+Separate source language, output language and audience region. In [BCP 47](https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.4), a region refines the preceding language: `en-JP` denotes English with Japan as the region, not bilingual English/Japanese. Record multiple languages only when the assignment actually needs them. Names, code or a source quotation alone do not require translating the whole piece or creating a bilingual version.
+
+For Japanese, review register, social distance, terminology, clauses and sentence endings against the approved guide and the actual recipient. Read the complete copy aloud; preserve natural Japanese punctuation and required qualifications. Do not force English pronouns, contractions, whitespace word counts or a generic “human/AI” score onto Japanese. Even for English, a generic style score cannot establish this publication's voice, truth, originality or audience response.
+
+Preserve meaning-bearing Unicode, quotations, names, URLs and code. Do not globally strip format characters or normalize punctuation to make text appear human. Emoji joiners and variation selectors can affect the visible sequence; [Unicode text segmentation](https://www.unicode.org/reports/tr29/) treats such sequences specifically. If an artifact appears unintended, inspect its context and destination before a scoped correction, then compare meaning and rendering. A clean linter does not approve prose.
+
+## Carry evidence into the actual version
+
+Use EvidenceBundle and ContentPackage to pass the selected material and exact source locators, not an unqualified summary. Inspect a source extract in its surrounding context; distinguish what a speaker or source asserted from what was independently verified. Keep translation, qualifications, contradictions, reuse scope and privacy restrictions with the claim. Check the finished derivative against these sources as well as the canonical content version. Shortening, translation or a confident voice must not broaden a claim, turn a hypothetical into experience, or leak private context. Existing originality, media, permission and conversation-closure gates still apply.
 
 <a id="source-registry-method-dependencies-json"></a>
 
@@ -327,6 +361,8 @@ description: Research and verify publication material, maintain claim-to-source 
 Read [operating boundaries](#source-policies-constitution-md) and [handoff rules](#source-contracts-handoff-md). Use only the current task’s required inputs and references.
 
 ## Frame the investigation
+Apply the [shared publication context and language contract](#source-contracts-publication-context-md) to the investigation and copy handoff. Distinguish source languages, requested output language and audience region; preserve approved context and unavailable fields.
+
 Translate the requested editorial decision into research questions, date window, inclusion criteria, language/geography and appropriate source types. Inspect existing coverage and source history first. Distinguish a fresh event, a substantive update and repackaged old material; deduplicate the underlying matter, not only URLs.
 
 Search using the most decision-relevant uncertainties. Prefer primary documents, direct observations and original data for factual claims; use commentary to understand interpretations. Retrieve the actual relevant passage, figure or data, with author/publisher, publication/event dates, access date and limitations. A snippet or reachable URL cannot establish a claim.
@@ -349,6 +385,11 @@ Check relevance, currency, provenance and the rights required for planned quotat
 Return a CandidateSet with distinct angles, evidence readiness, prior-coverage relations and production needs; an EvidenceBundle with explicit source links; and coverage/uncertainty notes. Stop gathering when the important decision can be supported or a concrete access/resource limit prevents it. Do not fill a source quota.
 
 For recurring research, start from the retained backlog and last coverage checkpoint, coalesce missed periods into one useful current investigation and record real findings, including none. Missing access produces a visible verification gap, not invented support. Review that each material claim can be traced to the cited material and that dates have not been conflated.
+
+## Hand off selected media material
+For supplied recordings, transcripts, captions, demos or release material, use the existing EvidenceBundle as the source packet. Retain the source ID/type, actual version or digest, source language, retrieval state, relevant timecode/page/line or commit locator, surrounding extract, and rights/confidentiality scope in its source entries. Keep only the necessary excerpts in the private workspace. Do not assume a transcript is complete, accurately transcribed, publishable or evidence of a measured outcome. Inspect the underlying recording or primary record when that uncertainty matters.
+
+Separate reported speech, verified observation, interpretation and hypothetical illustration in claims and claim-source links. Preserve numbers, units, speakers, negation and uncertainty through translation. Select an independently justified reader question and contribution under the originality gate; extraction is not permission to reuse a source article's blueprint. Exclude or hold restricted material, and keep any useful omitted detail marked unavailable rather than inventing it. Pass the selected locators and qualifications into ContentPackage.evidence_refs and the affected derivative review. No separate media pipeline, fixed angle quota or new tool is required.
 
 ## Find evidence that changes the explanation
 Seek the detail that could discriminate between plausible interpretations, including evidence against the preferred angle. Distinguish an illustrative example from a comparison that explains why an interpretation or decision changes. Preserve what the evidence supports and what it cannot establish. Label actual observations, source-reported cases, hypothetical illustrations and proposed experiments separately; never preselect an experimental outcome.
@@ -448,6 +489,8 @@ Read [operating boundaries](#source-policies-constitution-md) and [handoff rules
 Read and apply the complete [article review gate](#source-skills-media-editorial-references-article-review-md) for every article-writing, editing and review request. Resolve the actual skills through [article routing](#source-skills-media-master-references-article-routing-md). Apply the current publication's scoped guide and explicit owner exceptions; keep named-publication decisions in its private workspace.
 
 ## Resolve the editorial foundation
+
+Apply the [shared publication context and language contract](#source-contracts-publication-context-md) to the actual article and affected derivatives. Retain the scoped source-version receipt alongside the existing foundation and review records.
 
 Before full drafting, follow the [editorial foundation handoff](#source-contracts-editorial-foundation-md). Read the current publication guide, EditorialProgram, selected format and source versions, not only the brief's voice label. If missing or materially stale, route the affected choices through selection and, where needed, creative direction; execute that preparation within the authorized task and resume writing. Preserve sufficient established rules, and keep narrow edits narrow. Do not improvise a new house voice separately for each article.
 
@@ -592,6 +635,8 @@ Read [operating boundaries](#source-policies-constitution-md) and [handoff rules
 Read the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md) for article delivery or revision. Select relevant topic, reader-intent and brand tags; preserve valid existing tags and pass exact planned metadata with the ContentPackage. For note, populate the native hashtag field before save/publication and inspect saved/reopened and public metadata separately from body text. Missing native tags hold verified completion; no rigid tag count applies.
 
 ## Before an effect
+Apply the [shared publication context and language contract](#source-contracts-publication-context-md) to copy being packaged or changed, including conversational writes. Revalidate the relevant guide, language and evidence versions alongside the existing exact target/content checks.
+
 For an article, check the actual ContentPackage version against its distinct editorial ReviewRecord, including reader value and natural language under the [article review gate](#source-skills-media-editorial-references-article-review-md). Load that gate when reviewing or changing copy during packaging. Correct missing review within the authorized task; retain the real skill-load receipt privately. Do not infer review from a package's label or factual/link checks.
 
 Inspect the actual signed-in account and operation-specific capability. Load the relevant platform reference in [platform routes](#source-adapters-platforms-md) and verify current limits through official sources or supported controls. Separate owner permission, platform permission, technical availability and prior live validation. A connector's general platform support proves none of its individual actions.
@@ -599,6 +644,13 @@ Inspect the actual signed-in account and operation-specific capability. Load the
 Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
 
 For article effects, require an actual passed [source comparison](#source-skills-media-editorial-references-originality-md) in the ReviewRecord for the exact ContentPackage version. A ready label, attribution or factual accuracy is insufficient. Missing comparison or unresolved derivation holds publication; complete research/reframing and review within authorization. Substantive copy changes during packaging require a fresh affected comparison.
+
+## Scoped supervised X post
+For an explicitly requested supervised one-off X post, use the action-level checks in [platform routes](#source-adapters-platforms-md). Read current user authority, applicable platform rules and actual tool permissions at runtime; retain their relevant references and checked state in the private action record, not private custom-rule text in reusable skills. Do not hold every browser action solely because no API connector exists, or infer that supervision supplies a policy exception.
+
+Bind the one post to its actual signed-in account, exact reviewed text/assets and outgoing destination. Reconcile the source commission and current remote post history for duplicates. Preserve a stable intent before the single submission and inspect the resulting public URL, content and destination before recording success. A completed prior post is a completed effect; an unknown submission requires remote reconciliation, not a blind resend. Report preparation, an observed submission and complete public verification separately.
+
+If current policy, authority or tool permission denies the operation, stop that effect, retain its actual reason and preserve prepared work. Do not switch routes to bypass a denial. Keep ambiguous permission scoped to the affected action. This one-off workflow adds no recurring, reply, like, follow or account-setting authority, and does not release unrelated held stages. Prior live success is exact-case evidence, not reusable permission.
 
 ## Package and execute
 Computer use is a first-class action route for both interactive and scheduled host runs. When selected, use the [browser host procedure](#source-runtime-reference-browser-host-md) and the actual browser tools; do not declare publishing unavailable solely because an API adapter is absent. Honor existing routine-action authorization and the publication’s supervision preference.
@@ -1539,7 +1591,7 @@ Source: `skills/media-editorial/references/article-review.md`
 
 # Article review: reader value and natural prose
 
-Use this gate for writing, editing and reviewing an article. Read the publication's current guide and the actual draft. Apply the language and identity of its readers; for Japanese copy, read it aloud as a Japanese reader who has not seen the authoring conversation. Keep review notes private.
+Use this gate for writing, editing and reviewing an article. Apply the [shared publication context and language contract](#source-contracts-publication-context-md) to the actual version. Read the publication's current guide and the actual draft. Apply the language and identity of its readers; for Japanese copy, read it aloud as a Japanese reader who has not seen the authoring conversation. Keep review notes private.
 
 ## Review the promised gain
 
@@ -1670,17 +1722,21 @@ The same route can save native articles or inspect other selected sites where au
 
 Source: `adapters/platforms.md`
 
-# Platform routes — checked 2026-09-28
+# Platform routes — X checked 2026-10-06; other entries checked 2026-09-28
 
 This register is action-specific research, not proof of live account access. Resolve the actual account, capabilities and user authorization before execution. Keep platform-specific behavior out of reusable editorial methods. The scheduled host route uses actual browser controls with durable bookkeeping; no API connector is required for that route.
 
 ## note
 Official help states that no public API is offered: https://www.help-note.com/hc/ja/articles/46643492548121 . Do not invent one or extract cookies to call internal endpoints. Supported browser computer use can prepare, save, publish and inspect content when the current authorized host/account supports those controls. Verify draft save, publication, comments, profile updates, uploads and image placement separately in their actual interfaces. A successful draft save does not establish unattended comment monitoring or publication.
 
-## X
-Direct browser computer use is an available execution route for interactive work and scheduled Codex host turns in a host with supported computer controls, as specified by the owner for this build. Inspect the actual account, compose the authorized post or reply, check content/parent, submit within scope and verify the resulting UI/remote identifier. Do not mark this route unavailable merely because no API connector exists, and do not use hidden endpoints or cookie extraction.
+## X — scoped supervised posting
+Supported browser computer use may provide a technical route for a specific interactive task. Check the current user's actual authorization, platform rules and the active tool's permissions separately before an effect. An absent API adapter does not by itself make all computer use unavailable; it also grants no permission. Read current applicable instructions at runtime rather than copying private custom rules into this reusable reference.
 
-Do not infer that direct browser operation establishes permission for unattended recurring automation. X's published automation rules restrict non-API automation and require prior written approval for AI reply bots: https://help.x.com/en/rules-and-policies/x-automation . Keep current platform policy and automation approval as separate action-level gates. A human approval button does not itself prove an exception. No live X post, reply, policy exemption or unattended X route was demonstrated in this build.
+For one authorized supervised post, keep the operation to the specified account, exact reviewed content and destination. Verify the signed-in account, current post history and source-event deduplication before submission. Persist the exact content digest and stable action intent; submit once and verify the actual public post URL, text and outgoing destination. A clicked button or sent toast alone does not establish the complete result. Reconcile an uncertain submission against actual remote records before any retry; preserve an already confirmed post instead of sending it again.
+
+Assess the actual activity against [X's current automation rules](https://help.x.com/en/rules-and-policies/x-automation). The checked page restricts non-API automation and requires prior written approval for AI reply bots. Distinguish a scoped supervised task from repeated or unattended operation without inventing a platform exception. A human approval button or a successful prior post is not itself evidence of such an exception. Record a material policy uncertainty or actual restriction for the selected action; do not disguise it as a technical API limitation.
+
+Obey an actual tool, approval or platform denial and report its specific target/reason. Do not bypass it through another tool, hidden endpoint, cookie extraction, credential, profile or renamed task. A one-post request does not authorize recurring delivery, automatic replies, likes, follows or unrelated announcements. Keep successful live receipts private and scoped to the exact operation; they establish neither future authority nor unattended delivery.
 
 ## Threads
 Official publishing sample: https://github.com/fbsamples/threads_api . Reply-management documentation: https://developers.facebook.com/documentation/threads/retrieve-and-manage-replies . The latter could not be fully retrieved in this build. Keep publish, own-reply retrieval, reply writing, discovery, mentions, media and events independently unknown/documented until complete scopes and actual access are verified. Publishing access does not imply a whole public timeline.
@@ -1719,8 +1775,13 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "contracts/HANDOFF.md",
-    "bytes": 3590,
-    "sha256": "ffdf28caad54f9b9947bb6767fc2f1d2ef2cb7a7764c6ced3b8698cd63f7e62a"
+    "bytes": 3764,
+    "sha256": "31122f1a722038835ffd3705c54d1b090cd4a8bdb82de7c13bb2f62b3ced483f"
+  },
+  {
+    "path": "contracts/PUBLICATION_CONTEXT.md",
+    "bytes": 4895,
+    "sha256": "3088c1548ceef91ef9d6c9cc02ad61df07677e2df86d393700e72cade3e95011"
   },
   {
     "path": "registry/method-dependencies.json",
@@ -1739,8 +1800,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-source-research/SKILL.md",
-    "bytes": 6637,
-    "sha256": "94dbb26c3662fcdbe4cc23459fd00f337fe99a49af43ff25f28103cf1cb64ca5"
+    "bytes": 8210,
+    "sha256": "c6ca8b36d058835dd0579dbb6f484c24f1bcb82644d0b14e92a2d519359fc42b"
   },
   {
     "path": "skills/media-editorial-selection/SKILL.md",
@@ -1749,8 +1810,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-editorial/SKILL.md",
-    "bytes": 15546,
-    "sha256": "54b4119472c0132ab56cfc5580f08f4fdcff86d3110ac4653fe2f1f4c6dd774c"
+    "bytes": 15791,
+    "sha256": "5ed0fa7c5a249b138aa9ecd7ad231cf0d9b5fb77cfdf8eb2d41869c0543d7a16"
   },
   {
     "path": "skills/media-asset-production/SKILL.md",
@@ -1759,8 +1820,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-publishing/SKILL.md",
-    "bytes": 8338,
-    "sha256": "5dafe63b01194207ae8d94e5841dd46ea1d710b4ebf268e60e1deb28332e9bcc"
+    "bytes": 10116,
+    "sha256": "daf3e509441900d44a7372f0eb91c2eac9ca39dbd93d32a253871db849cd549a"
   },
   {
     "path": "skills/concept-review/SKILL.md",
@@ -1824,8 +1885,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-editorial/references/article-review.md",
-    "bytes": 6757,
-    "sha256": "7d699f39b7d3566435a0c6dec55a0603e9197f7f5245ea06e2adb6f5cb95af1c"
+    "bytes": 6884,
+    "sha256": "42a1651e92c50dbd8fa3e567fa588819e9611a505902b46cd5dbfa0e9159ca9e"
   },
   {
     "path": "skills/media-publishing/references/article-metadata.md",
@@ -1839,8 +1900,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "adapters/platforms.md",
-    "bytes": 3078,
-    "sha256": "8ae5cb6e4f7692cf8d41e0e497b6b23d53c7162805192362ebfd88a8068be4cc"
+    "bytes": 4209,
+    "sha256": "3979c719a5b854ac7addea30f805d2b7ad5c890a254a87d9af1994daac579fb3"
   },
   {
     "path": "adapters/contracts/EXECUTOR.md",
