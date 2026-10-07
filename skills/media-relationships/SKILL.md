@@ -8,6 +8,8 @@ description: Read and manage publication conversations with brief, warm, context
 Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](../../contracts/HANDOFF.md). Use only the current task’s required inputs and references.
 
 ## Understand the exchange
+Apply the [shared publication context and language contract](../../contracts/PUBLICATION_CONTEXT.md) to proactive comments and warranted inbound replies alike. Read the actual current guide and conversation sources; retain their scoped versions without reopening sufficient settled identity. This complements the short-appreciation and closure rules below.
+
 For inbound work retrieve the actual root content, relevant ancestors, newest messages and prior responses. Persist received events before advancing checkpoints; deduplicate webhook/poll copies by their actual source identifiers. Mark missing context or listening gaps. Do not infer that nobody commented because retrieval failed.
 
 Classify the message's purpose: question, correction, feedback, appreciation, complaint, invitation or another supported intent. Decide answer, investigate, clarify, acknowledge, escalate or no response according to the person's intent, conversational fit and the owner's policy. Warmth and shared enjoyment can justify an initial comment; they do not, by themselves, justify another reply after the publication has already spoken. Research factual questions; route a credible correction to Editorial and Publishing. Never fabricate personal experience or familiarity.
