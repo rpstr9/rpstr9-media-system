@@ -1,6 +1,6 @@
 # Article review: reader value and natural prose
 
-Use this gate for writing, editing and reviewing an article. Read the publication's current guide and the actual draft. Apply the language and identity of its readers; for Japanese copy, read it aloud as a Japanese reader who has not seen the authoring conversation. Keep review notes private.
+Use this gate for writing, editing and reviewing an article. Apply the [shared publication context and language contract](../../../contracts/PUBLICATION_CONTEXT.md) to the actual version. Read the publication's current guide and the actual draft. Apply the language and identity of its readers; for Japanese copy, read it aloud as a Japanese reader who has not seen the authoring conversation. Keep review notes private.
 
 ## Review the promised gain
 
