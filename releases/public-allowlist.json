@@ -100,6 +100,7 @@
     "dist/workflows/setup-and-strategy.md",
     "dist/workflows/strategy-to-editorial-foundation.md",
     "dist/workflows/timely-editorial-growth.md",
+    "evaluations/public-fixtures/audience-appreciation-cases.json",
     "evaluations/public-fixtures/publication-context-cases.json",
     "evaluations/public-fixtures/supervised-x-cases.json",
     "evaluations/public-fixtures/synthetic_executor.py",
