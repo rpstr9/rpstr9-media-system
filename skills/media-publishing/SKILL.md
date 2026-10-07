@@ -13,6 +13,8 @@ Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](
 Read the [article metadata gate](references/article-metadata.md) for article delivery or revision. Select relevant topic, reader-intent and brand tags; preserve valid existing tags and pass exact planned metadata with the ContentPackage. For note, populate the native hashtag field before save/publication and inspect saved/reopened and public metadata separately from body text. Missing native tags hold verified completion; no rigid tag count applies.
 
 ## Before an effect
+Apply the [shared publication context and language contract](../../contracts/PUBLICATION_CONTEXT.md) to copy being packaged or changed, including conversational writes. Revalidate the relevant guide, language and evidence versions alongside the existing exact target/content checks.
+
 For an article, check the actual ContentPackage version against its distinct editorial ReviewRecord, including reader value and natural language under the [article review gate](../media-editorial/references/article-review.md). Load that gate when reviewing or changing copy during packaging. Correct missing review within the authorized task; retain the real skill-load receipt privately. Do not infer review from a package's label or factual/link checks.
 
 Inspect the actual signed-in account and operation-specific capability. Load the relevant platform reference in [platform routes](../../adapters/platforms.md) and verify current limits through official sources or supported controls. Separate owner permission, platform permission, technical availability and prior live validation. A connector's general platform support proves none of its individual actions.
@@ -20,6 +22,13 @@ Inspect the actual signed-in account and operation-specific capability. Load the
 Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
 
 For article effects, require an actual passed [source comparison](../media-editorial/references/originality.md) in the ReviewRecord for the exact ContentPackage version. A ready label, attribution or factual accuracy is insufficient. Missing comparison or unresolved derivation holds publication; complete research/reframing and review within authorization. Substantive copy changes during packaging require a fresh affected comparison.
+
+## Scoped supervised X post
+For an explicitly requested supervised one-off X post, use the action-level checks in [platform routes](../../adapters/platforms.md). Read current user authority, applicable platform rules and actual tool permissions at runtime; retain their relevant references and checked state in the private action record, not private custom-rule text in reusable skills. Do not hold every browser action solely because no API connector exists, or infer that supervision supplies a policy exception.
+
+Bind the one post to its actual signed-in account, exact reviewed text/assets and outgoing destination. Reconcile the source commission and current remote post history for duplicates. Preserve a stable intent before the single submission and inspect the resulting public URL, content and destination before recording success. A completed prior post is a completed effect; an unknown submission requires remote reconciliation, not a blind resend. Report preparation, an observed submission and complete public verification separately.
+
+If current policy, authority or tool permission denies the operation, stop that effect, retain its actual reason and preserve prepared work. Do not switch routes to bypass a denial. Keep ambiguous permission scoped to the affected action. This one-off workflow adds no recurring, reply, like, follow or account-setting authority, and does not release unrelated held stages. Prior live success is exact-case evidence, not reusable permission.
 
 ## Package and execute
 Computer use is a first-class action route for both interactive and scheduled host runs. When selected, use the [browser host procedure](../../runtime/reference/BROWSER_HOST.md) and the actual browser tools; do not declare publishing unavailable solely because an API adapter is absent. Honor existing routine-action authorization and the publication’s supervision preference.
