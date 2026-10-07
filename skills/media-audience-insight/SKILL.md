@@ -32,3 +32,7 @@ Check the delivered result against the current brief and the relevant evidence, 
 
 ## Preserve the status of audience assumptions
 Keep a proposed audience segment distinct from the publication's validated audience. Do not infer all readers from one commercial use case, a search query or an owner's diagnosis. Treat readers as intelligent peers who may lack the relevant knowledge. Usefulness can include creative capability, access, understanding and enjoyment; investigate which gain matters in this publication rather than imposing a single action-oriented model.
+
+
+## Connect audience evidence to the selected contribution
+Use the [optional appreciation brief](../../contracts/PUBLICATION_CONTEXT.md#audience-appreciation-at-topic-selection) when evidence or a relevant reader hypothesis could change the editorial choice. Return the observed/inferred/unknown distinction and bounded coverage through existing PublicationProfile, EvidenceBundle and EditorialBrief fields. An individual request may inspire a group hypothesis without establishing representativeness. Preserve sensitive/private boundaries and no-data brand-led publishing; a separate person-level gift is not a prerequisite.
