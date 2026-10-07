@@ -37,3 +37,7 @@ Outputs: MeasurementSpec; OutcomeRecord set; Missingness and uncertainty report.
 ## Completion and learning
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
+
+
+## Compare appreciation hypotheses under compatible conditions
+Follow the [version-linked contribution comparison](../../contracts/PUBLICATION_CONTEXT.md#learn-from-the-versioned-contribution). Reuse ExperimentPlan and OutcomeRecord for exact context/content/source versions, one changed choice, equal article ages, compatible exposures/windows/populations, actual counts and denominators, missingness and competing explanations. Separate observed attention from reported use/delight and private owner judgment. Small, selected or incompatible data stays qualified or inconclusive; negative feedback remains visible. Measurement never starts an experiment or delays unrelated publishing on its own.
