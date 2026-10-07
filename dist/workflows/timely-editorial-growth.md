@@ -103,6 +103,31 @@ Preserve meaning-bearing Unicode, quotations, names, URLs and code. Do not globa
 
 Use EvidenceBundle and ContentPackage to pass the selected material and exact source locators, not an unqualified summary. Inspect a source extract in its surrounding context; distinguish what a speaker or source asserted from what was independently verified. Keep translation, qualifications, contradictions, reuse scope and privacy restrictions with the claim. Check the finished derivative against these sources as well as the canonical content version. Shortening, translation or a confident voice must not broaden a claim, turn a hypothetical into experience, or leak private context. Existing originality, media, permission and conversation-closure gates still apply.
 
+
+## Audience appreciation at topic selection
+
+Use an optional appreciation brief when an actual audience signal or a relevant reader hypothesis could change the selection. This is group editorial adaptation, distinct from person-level Follower Gifting. Neither implies access to followers, contact permission or a new workflow. Reuse the current PublicationProfile.audience_context and EditorialProgram reader promise. Do not require follower data, an intake form or a new planning/approval queue before worthwhile brand-led publishing; proceed from approved purpose and genuine editorial judgment, marking reader assumptions provisional when evidence is thin.
+
+Keep a short private brief in EditorialBrief.audience_context or constraints: observed signal with source/date/permitted-use references, sampled readers and missing coverage; working hypothesis and contrary evidence; what the relevant readers already appear to know; the additional value and receiver burden; the proposed change to topic, angle, depth or finished deliverable; and an observable question for later learning. A useful hypothesis connects a signal to a contribution with a reason, not a probability of delight. Label a hypothesis without audience observations as such. An interest label, one person's request or a like cannot establish a whole readership. Group only where supported and editorially consequential, distinguishing independent observations from repeated contributions by one person.
+
+Compare genuinely different contributions where useful and record why the selected treatment overlaps this publication's approved identity, credible material and resources. Appreciation may be useful understanding, practical access, wonder, enjoyment, recognition or a quiet experience. Do not impose advice, productivity, a commercial funnel or a single format on every publication. Make the selected value inspectable in the finished content; changing only an opener or headline is not this adaptation. If no substantive improvement is justified, retain the existing treatment and rationale instead of manufacturing a gift. Check existing coverage and avoid presenting familiar or previously shared material as a new discovery without support.
+
+Audience interest helps choose what to investigate, not what is true. Keep qualified claims, source locators, contradictions and uncertainty in EvidenceBundle separately from the private audience signal. Research can reject or change a promising premise. Do not strengthen an effect claim, invent a test or author experience, or treat demand as proof. Carry the brief's decision and current profile/program/voice versions through EditorialBrief to ContentPackage evidence references and review constraints. Requested derivatives and warranted replies retain the same source conditions and scoped context; they need not repeat the research brief publicly or initiate a new selection exercise.
+
+Use minimum relevant authorized observations. Do not build personal dossiers, infer health or other sensitive individual attributes, or publish private follower research. Rare circumstances, quotations and combinations can identify people even without names; use a separately supported general topic or original fictional illustration when appropriate, rather than laundering private evidence into copy. Private context may guide restraint. Audience hypotheses never authorize contact, private-message sequences or publication of source conversations.
+
+Person-level contributions are appropriate only where the actual request and relationship support them. A sales approach may value a genuinely welcomed, substantial contribution before a later appropriate introduction request, but the initial contribution has no bundled obligation, disguised ask or demanded thank-you. Preparation, confirmed delivery, acknowledgment, reported use/delight, genuine substantive appreciation and any separately authorized later request remain different states. Do not trigger the later request automatically from a polite thanks. Ordinary engagement stays short, friendly and specific; no advice, question, gift or follow-up is mandatory. Preserve like-and-close unless invited to continue, as required by the current relationship and closure rules.
+
+## Learn from the versioned contribution
+
+When a comparison is useful and in scope, use the existing ExperimentPlan, MeasurementSpec and OutcomeRecord. Link exact brief/content/profile/program/voice/source versions and baseline/candidate references before observing results. State one meaningful changed choice and a falsifiable hypothesis; retain concurrent changes and alternative explanations. An experiment proposal does not start publishing, change cadence or create outreach authority.
+
+Compare at equal article age and compatible observation windows, eligible populations and exposures where available. Define unit, numerator and denominator consistently; retain actual counts, exposure differences, audience mix, distribution, missingness and delayed reporting. Incompatible totals are not a conversion rate. Small or selected samples and a few enthusiastic comments suggest bounded follow-up, not general audience preference or causation. If a compatible denominator or comparable exposure is unavailable, keep the result inconclusive rather than inventing it or postponing unrelated worthwhile publishing.
+
+Use OutcomeRecord.work_refs for exact versions, window and population for observation conditions, and evidence_refs/missingness/uncertainty for provenance and limits. Separate owner/reviewer judgment, observed attention, volunteered reported use or delight, negative feedback, opt-outs and unavailable feedback. Likes/clicks/polite thanks do not by themselves prove appreciation; silence supplies no rejection, permission or follow-up trigger. Preserve contrary results. An explicit correction changes the affected choice or contact boundary; it does not erase other readers or rewrite the brand.
+
+Learning decides retain, revise, reject or inconclusive for the scoped hypothesis and allowed method. Current-output repairs and private editorial adaptations remain separate from shared instruction proposals. Outcome learning never automatically changes approved purpose/identity or turns one accepted example into a default. Brand changes require their existing authority and adequate evidence. Generalize only eligible lessons into original synthetic or explicitly permitted regression cases through the existing release process; keep raw audience and relationship records private. No second log, schema, scheduler or mandatory approval gate is introduced.
+
 <a id="source-registry-method-dependencies-json"></a>
 
 ---
@@ -649,6 +674,10 @@ For a new or materially changed organizing concept, load the complete [Concept R
 ## Commission through editorial judgment
 Inspect why this subject and treatment deserve the reader's time, which existing answer or resource is sufficient, and which consequential choice the editor makes. A need, frustration, new possibility, perceptual discovery or worthwhile experience may justify a piece; no single commercial segment or fixed topic list is the default. Search demand is evidence, not the editor. Compare framing and a simpler available route before commissioning extra machinery. State reasons and contrary evidence rather than treating a taste score as a decision. Preserve ambiguity and awkward constraints when they belong to the material. Revisit pending items under the current criteria instead of mechanically filling the calendar.
 
+
+## Select what readers could appreciate
+Apply the [optional appreciation brief](#source-contracts-publication-context-md) within this selection, using the current PublicationProfile and EditorialProgram. Show the signal or provisional reader hypothesis, substantive topic/angle/depth/deliverable decision, credible source requirements and finished reader value in the existing EditorialBrief. Audience interest cannot validate claims or overrule publication identity. Missing audience data does not block a worthwhile brand-led item. Do not create another planning, gifting or approval stage.
+
 <a id="source-skills-media-editorial-skill-md"></a>
 
 ---
@@ -832,6 +861,10 @@ Outputs: MeasurementSpec; OutcomeRecord set; Missingness and uncertainty report.
 
 Check the delivered result against the current brief and the relevant evidence, technical and permission criteria above. Retain concise evidence of what worked, failed or remains unavailable in the private run record. Use media-learning for a justified reusable adaptation; current-output repairs do not automatically change the method.
 
+
+## Compare appreciation hypotheses under compatible conditions
+Follow the [version-linked contribution comparison](#source-contracts-publication-context-md). Reuse ExperimentPlan and OutcomeRecord for exact context/content/source versions, one changed choice, equal article ages, compatible exposures/windows/populations, actual counts and denominators, missingness and competing explanations. Separate observed attention from reported use/delight and private owner judgment. Small, selected or incompatible data stays qualified or inconclusive; negative feedback remains visible. Measurement never starts an experiment or delays unrelated publishing on its own.
+
 <a id="source-skills-media-learning-skill-md"></a>
 
 ---
@@ -877,6 +910,10 @@ Check the delivered result against the current brief and the relevant evidence, 
 
 ## Keep taste evidence private and scoped
 Record actual owner decisions, reasons, scope and contrary evidence, distinguishing confirmed preferences from inferred taste. One accepted subject, image, sentence or structure does not establish a general default. Representative revisions and rejected alternatives can calibrate private editorial judgment but do not prove audience outcomes or transfer. Owner opinions can inform questions; they are not automatically facts. Do not mine private anecdotes to manufacture authorial experience. Promote only process, decision criteria and quality standards to shared methods under the applicable release authority.
+
+
+## Learn from appreciation without changing the brand by default
+Use the [versioned contribution learning procedure](#source-contracts-publication-context-md). Retain scoped positive, negative and unavailable observations and exact comparison conditions before a retain/revise/reject/inconclusive decision. Distinguish output repair, publication-private adaptation and a shared candidate. Do not auto-rewrite approved brand identity, convert a polite thanks into appreciation, or chase silence. Carry eligible generalized lessons into existing synthetic regressions and release records; raw follower/relationship research stays private.
 
 <a id="source-skills-media-editorial-references-originality-md"></a>
 
@@ -1695,8 +1732,8 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "contracts/PUBLICATION_CONTEXT.md",
-    "bytes": 4895,
-    "sha256": "3088c1548ceef91ef9d6c9cc02ad61df07677e2df86d393700e72cade3e95011"
+    "bytes": 11521,
+    "sha256": "567bffffd9e5ba66e3115f04eba438b731554187af76a545bec3ca5be6440663"
   },
   {
     "path": "registry/method-dependencies.json",
@@ -1740,8 +1777,8 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-editorial-selection/SKILL.md",
-    "bytes": 9788,
-    "sha256": "398bf556d6920a6515e00f5ef3c8ad86a4721557afe10458481dbdd79c768494"
+    "bytes": 10422,
+    "sha256": "43dcef055cfc2e20312c9048362a35bad405a87144ecf460c007e5c7a686305a"
   },
   {
     "path": "skills/media-editorial/SKILL.md",
@@ -1755,13 +1792,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-measurement/SKILL.md",
-    "bytes": 5620,
-    "sha256": "17f89b9a6cafc90db9e0cd0e13197afee0a912e11aff6765bbced19963a22230"
+    "bytes": 6321,
+    "sha256": "f01a645656194940d05b5db2e1416d94d2c3048652c750b342f0ff0d1eea0799"
   },
   {
     "path": "skills/media-learning/SKILL.md",
-    "bytes": 4880,
-    "sha256": "481d01f4fad9f31af46d0af98a3ed0559293698ad4d312323e100a0819aaa460"
+    "bytes": 5555,
+    "sha256": "b486362823646fdda6fbc71f8e35d8c5b35e9018ceefaf014c8aab479a9d021d"
   },
   {
     "path": "skills/media-editorial/references/originality.md",
