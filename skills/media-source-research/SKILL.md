@@ -8,6 +8,8 @@ description: Research and verify publication material, maintain claim-to-source 
 Read [operating boundaries](../../policies/CONSTITUTION.md) and [handoff rules](../../contracts/HANDOFF.md). Use only the current task’s required inputs and references.
 
 ## Frame the investigation
+Apply the [shared publication context and language contract](../../contracts/PUBLICATION_CONTEXT.md) to the investigation and copy handoff. Distinguish source languages, requested output language and audience region; preserve approved context and unavailable fields.
+
 Translate the requested editorial decision into research questions, date window, inclusion criteria, language/geography and appropriate source types. Inspect existing coverage and source history first. Distinguish a fresh event, a substantive update and repackaged old material; deduplicate the underlying matter, not only URLs.
 
 Search using the most decision-relevant uncertainties. Prefer primary documents, direct observations and original data for factual claims; use commentary to understand interpretations. Retrieve the actual relevant passage, figure or data, with author/publisher, publication/event dates, access date and limitations. A snippet or reachable URL cannot establish a claim.
@@ -30,6 +32,11 @@ Check relevance, currency, provenance and the rights required for planned quotat
 Return a CandidateSet with distinct angles, evidence readiness, prior-coverage relations and production needs; an EvidenceBundle with explicit source links; and coverage/uncertainty notes. Stop gathering when the important decision can be supported or a concrete access/resource limit prevents it. Do not fill a source quota.
 
 For recurring research, start from the retained backlog and last coverage checkpoint, coalesce missed periods into one useful current investigation and record real findings, including none. Missing access produces a visible verification gap, not invented support. Review that each material claim can be traced to the cited material and that dates have not been conflated.
+
+## Hand off selected media material
+For supplied recordings, transcripts, captions, demos or release material, use the existing EvidenceBundle as the source packet. Retain the source ID/type, actual version or digest, source language, retrieval state, relevant timecode/page/line or commit locator, surrounding extract, and rights/confidentiality scope in its source entries. Keep only the necessary excerpts in the private workspace. Do not assume a transcript is complete, accurately transcribed, publishable or evidence of a measured outcome. Inspect the underlying recording or primary record when that uncertainty matters.
+
+Separate reported speech, verified observation, interpretation and hypothetical illustration in claims and claim-source links. Preserve numbers, units, speakers, negation and uncertainty through translation. Select an independently justified reader question and contribution under the originality gate; extraction is not permission to reuse a source article's blueprint. Exclude or hold restricted material, and keep any useful omitted detail marked unavailable rather than inventing it. Pass the selected locators and qualifications into ContentPackage.evidence_refs and the affected derivative review. No separate media pipeline, fixed angle quota or new tool is required.
 
 ## Find evidence that changes the explanation
 Seek the detail that could discriminate between plausible interpretations, including evidence against the preferred angle. Distinguish an illustrative example from a comparison that explains why an interpretation or decision changes. Preserve what the evidence supports and what it cannot establish. Label actual observations, source-reported cases, hypothetical illustrations and proposed experiments separately; never preselect an experimental outcome.
