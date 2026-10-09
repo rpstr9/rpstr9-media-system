@@ -1,6 +1,8 @@
-# Scoped supervised X refinement
+# Supervised X automation and canonical header continuity — 0.1.19
 
-Adds one-post runtime authority, policy and tool-permission checks, exact account/content/dedup/public-result verification, unknown-submit reconciliation and explicit denial handling. API absence alone is not a blanket computer-use ban. Prior success does not establish a platform exception or recurring authority. No private custom rules or real account identifiers are embedded. Exposed decision fixtures do not establish live permission or unattended delivery.
+Authorizes supported browser execution within the owner's actual supervised publishing scope, including bounded batches, without treating API absence or an inferred blanket interpretation as an actual denial. Each item retains account/content/destination checks, deduplication, single submission, public verification and unknown-result reconciliation. Actual tool, required-approval and applicable platform denials still stop the affected action. Recurring or unattended delivery requires its own scope and requirements; no schedule is enabled by installation.
+
+Headers now use an owner-selected canonical reference rather than inheriting accumulated drift from successive derivatives. Title scale and prominence are compared at equivalent canvas and preview sizes; longer copy is reflowed before type reduction. Publication-specific assets and measurements remain private. Exposed scenario review supports these decision boundaries; it establishes neither general platform permission nor independent audience results.
 
 # Publication context refinement 0.1.17
 

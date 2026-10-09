@@ -15,3 +15,5 @@ For article writing, corrections or review, load the complete master's article-r
 For recurring/shared computer use, load the complete queue-and-resume-computer-use workflow and actual private host capability evidence. Resource waiting and verified native continuation are separate; installing the library starts no service.
 
 For authorized timely-topic/editorial-growth work, use `timely-editorial-growth`; read its complete topic-selection, reader-growth and note-measurement references. Existing engagement-only and narrow article-correction routes remain available. A prepared candidate does not adopt itself in installed or scheduled consumers.
+
+For authorized supervised X publishing, load the publishing workflow and current platform route: supported browser automation and explicitly requested bounded batches are available within actual scope. Preserve per-item reconciliation and real permission boundaries. For established-series headers, resolve the owner-selected canonical reference and compare title scale directly with it; recent derivatives do not reset the design baseline.
