@@ -665,7 +665,7 @@ Assign a communication job to each asset: what is noticed first, understood next
 
 Separate LOCK (semantic and identity invariants), GUIDE (preferred qualities and tolerance), FREE (explorable variables) and FORBID (concrete failures). For a series, record continuity across frames, versions and channels. Keep exact labels and data in a faithful deterministic rendering path where needed.
 
-For article headers in an established publication, inspect current approved published examples. Put their typography, palette, layout, spacing, recurring marks and crop treatment in LOCK, and identify only the article-specific content or approved variation as FREE. Reference the actual approved assets in the ProductionBrief; require a side-by-side visual comparison before acceptance. Retain the established style unless the user explicitly requests a change. Do not convert one publication's visual choices into defaults for other publications.
+For article headers in an established publication, identify the owner's canonical approved reference and inspect the actual asset. Keep that reference fixed across the series until the owner approves a replacement; a newer derivative does not automatically become the baseline. Put its typeface, weight, title size relative to canvas, line spacing, visual prominence, palette, layout, spacing, recurring marks and crop treatment in LOCK. Identify article-specific content and expressly approved variation as FREE. Reference the actual asset and its dimensions in the ProductionBrief. Preserve title scale for longer copy by reflowing lines and adjusting the content layout first; do not progressively shrink titles or use the previous derivative's smaller type as the new standard. Require a side-by-side comparison at equivalent canvas and destination preview sizes before acceptance. Retain the established style unless the user explicitly requests a change. Keep publication-specific assets and measurements private; do not convert their visual choices into defaults for other publications.
 
 Inspect actual destination requirements and crop behavior. Define master/variant lineage, supported file type, dimensions, safe areas, copy hierarchy, mobile/desktop readability and preview checks. Do not assume one crop works everywhere or invent platform fields.
 
@@ -715,7 +715,7 @@ Use the host's available authorized production capability and its instructions. 
 
 Inspect the actual result visually and technically. Check semantic fidelity, typography, factual labels/data, continuity, composition, source credit, file integrity and meaningful crop previews. Review derivatives against their specific destination. Revise material defects within the authorized resource limit, retaining useful originals.
 
-For each article header, use the publication's approved header references and locked design constraints. Inspect the generated or rendered file side by side with those references, checking typography, palette, layout, spacing, recurring marks and destination crops. Revise unintended drift before delivery; a technically valid or attractive image does not pass when its style is inconsistent. Record which references were checked and any expressly requested style change. Do not silently substitute a new design when the reference or template is missing, or reuse another publication's aesthetics as a default.
+For each article header, resolve the publication's fixed canonical approved reference and locked design constraints. Compare the actual output side by side with that reference at equal canvas size and in desktop/mobile destination previews, checking typeface, weight, title size relative to canvas, line spacing, prominence, palette, layout, spacing, recurring marks and crop behavior. A recent derivative is not a replacement reference without owner approval. Reflow longer titles and adjust article-specific layout before reducing type; hold unapproved shrinkage or accumulated drift and revise it before delivery. Record the reference version, dimensions, title measurements and any expressly approved design change. A technically valid or attractive image does not pass when its style is inconsistent. Do not silently substitute a new design when the reference is missing, or reuse another publication's aesthetics as a default.
 
 Record each master and variant's file path, content hash, dimensions/type/size, identity version, lineage, representation, source and rights, caption/alt/credit, review version and known defects. Never distribute font binaries by default. Mark technically inspected, editorially reviewed and approved separately.
 
@@ -1782,13 +1782,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-art-director/SKILL.md",
-    "bytes": 5061,
-    "sha256": "f1b2aaa97e269fe53d18f8480cde6107a20c02381e619673af6c4e0cd0839559"
+    "bytes": 5607,
+    "sha256": "1ec50dab4a4cddae31e21c65bc6c6c8c27dce826ddadcd55196f32bbb89d2034"
   },
   {
     "path": "skills/media-asset-production/SKILL.md",
-    "bytes": 5371,
-    "sha256": "a6faad1bcef47a1b41db85715d0272f57204762f9ed6b0390a6f00fa71d93feb"
+    "bytes": 5693,
+    "sha256": "3d45299e47a33e11df1c4b88ee105cff1313df47d27dcfcd7569799ef685ec2d"
   },
   {
     "path": "skills/concept-review/SKILL.md",

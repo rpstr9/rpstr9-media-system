@@ -457,12 +457,14 @@ Resolve exact content/asset versions, target account, parent/root for replies, p
 
 For article effects, require an actual passed [source comparison](#source-skills-media-editorial-references-originality-md) in the ReviewRecord for the exact ContentPackage version. A ready label, attribution or factual accuracy is insufficient. Missing comparison or unresolved derivation holds publication; complete research/reframing and review within authorization. Substantive copy changes during packaging require a fresh affected comparison.
 
-## Scoped supervised X post
-For an explicitly requested supervised one-off X post, use the action-level checks in [platform routes](#source-adapters-platforms-md). Read current user authority, applicable platform rules and actual tool permissions at runtime; retain their relevant references and checked state in the private action record, not private custom-rule text in reusable skills. Do not hold every browser action solely because no API connector exists, or infer that supervision supplies a policy exception.
+## Authorized X automation through computer use
+Supported browser computer use is an available route for owner-authorized X publishing. For an interactive supervised task, honor the requested browser route and scope, including an explicitly requested bounded batch. A batch authorizes its selected items; do not artificially require a new commission for each item. Use the action-level checks in [platform routes](#source-adapters-platforms-md).
 
-Bind the one post to its actual signed-in account, exact reviewed text/assets and outgoing destination. Reconcile the source commission and current remote post history for duplicates. Preserve a stable intent before the single submission and inspect the resulting public URL, content and destination before recording success. A completed prior post is a completed effect; an unknown submission requires remote reconciliation, not a blind resend. Report preparation, an observed submission and complete public verification separately.
+Separate current owner authorization, actual tool/approval permissions, applicable platform requirements and technical availability. Do not turn an absent API connector, generic automation guidance, an inferred blanket prohibition or an unresolved interpretation into a confirmed denial of a supervised interactive action. Resolve requirements against the actual activity and current evidence, recording uncertainty honestly. Supervision and prior success do not create a platform exception.
 
-If current policy, authority or tool permission denies the operation, stop that effect, retain its actual reason and preserve prepared work. Do not switch routes to bypass a denial. Keep ambiguous permission scoped to the affected action. This one-off workflow adds no recurring, reply, like, follow or account-setting authority, and does not release unrelated held stages. Prior live success is exact-case evidence, not reusable permission.
+Bind each post to the signed-in account, exact reviewed text/assets and outgoing destination. Reconcile the source commission and current remote post history for duplicates. Preserve a stable intent for each item before submitting it once; inspect its public URL, content and outgoing destination before continuing. A completed post stays completed; reconcile an unknown submission before retrying. Report each item's prepared, submitted and publicly verified states separately, preserving partial batch success.
+
+Stop an effect when current authority, an applicable platform requirement or an actual tool/approval decision denies it; retain the specific reason and prepared work. Do not switch routes to bypass that denial. Interactive posting does not by itself authorize recurring or unattended posting, reply bots, likes, follows or account changes. Such automation needs its own current scope and applicable permissions. Keep private action evidence outside reusable skills.
 
 ## Package and execute
 Computer use is a first-class action route for both interactive and scheduled host runs. When selected, use the [browser host procedure](#source-runtime-reference-browser-host-md) and the actual browser tools; do not declare publishing unavailable solely because an API adapter is absent. Honor existing routine-action authorization and the publication’s supervision preference.
@@ -1403,21 +1405,21 @@ The same route can save native articles or inspect other selected sites where au
 
 Source: `adapters/platforms.md`
 
-# Platform routes — X checked 2026-10-06; other entries checked 2026-09-28
+# Platform routes — resolve current X applicability at runtime; other entries checked 2026-09-28
 
 This register is action-specific research, not proof of live account access. Resolve the actual account, capabilities and user authorization before execution. Keep platform-specific behavior out of reusable editorial methods. The scheduled host route uses actual browser controls with durable bookkeeping; no API connector is required for that route.
 
 ## note
 Official help states that no public API is offered: https://www.help-note.com/hc/ja/articles/46643492548121 . Do not invent one or extract cookies to call internal endpoints. Supported browser computer use can prepare, save, publish and inspect content when the current authorized host/account supports those controls. Verify draft save, publication, comments, profile updates, uploads and image placement separately in their actual interfaces. A successful draft save does not establish unattended comment monitoring or publication.
 
-## X — scoped supervised posting
-Supported browser computer use may provide a technical route for a specific interactive task. Check the current user's actual authorization, platform rules and the active tool's permissions separately before an effect. An absent API adapter does not by itself make all computer use unavailable; it also grants no permission. Read current applicable instructions at runtime rather than copying private custom rules into this reusable reference.
+## X — authorized browser automation
+Supported browser computer use can execute owner-authorized supervised X publishing through the visible interface. An API is an alternative route when available, not a prerequisite for every supervised computer-use task. Read the current user instruction, active tool permissions and applicable platform requirements separately. Honor an explicitly requested bounded batch of posts within its selected account and items.
 
-For one authorized supervised post, keep the operation to the specified account, exact reviewed content and destination. Verify the signed-in account, current post history and source-event deduplication before submission. Persist the exact content digest and stable action intent; submit once and verify the actual public post URL, text and outgoing destination. A clicked button or sent toast alone does not establish the complete result. Reconcile an uncertain submission against actual remote records before any retry; preserve an already confirmed post instead of sending it again.
+Assess the actual activity and current evidence against [X's automation rules](https://help.x.com/en/rules-and-policies/x-automation). Distinguish supervised interactive publishing from recurring unattended operation and AI reply bots. Do not apply a blanket non-API hold to supervised computer use solely from generic guidance, API absence or an inferred policy interpretation. Identify a specific applicable restriction before labeling an action policy-denied; retain any unresolved interpretation as uncertainty rather than a fictional platform rejection. This method declares no policy exception, and a successful prior post creates no future permission.
 
-Assess the actual activity against [X's current automation rules](https://help.x.com/en/rules-and-policies/x-automation). The checked page restricts non-API automation and requires prior written approval for AI reply bots. Distinguish a scoped supervised task from repeated or unattended operation without inventing a platform exception. A human approval button or a successful prior post is not itself evidence of such an exception. Record a material policy uncertainty or actual restriction for the selected action; do not disguise it as a technical API limitation.
+For every authorized item, verify the signed-in account, reviewed copy/media, outgoing destination and current post history. Retain a content digest and stable action intent; submit once and inspect the actual public URL, text and destination. A clicked button or toast is insufficient. Reconcile uncertain submissions remotely before retrying; preserve confirmed items and partial batch success.
 
-Obey an actual tool, approval or platform denial and report its specific target/reason. Do not bypass it through another tool, hidden endpoint, cookie extraction, credential, profile or renamed task. A one-post request does not authorize recurring delivery, automatic replies, likes, follows or unrelated announcements. Keep successful live receipts private and scoped to the exact operation; they establish neither future authority nor unattended delivery.
+Obey an actual tool, required-approval or applicable platform denial and report its specific target and reason. Do not bypass it through another route, hidden endpoint, cookie extraction, credential, profile or renamed task. Interactive posting adds no recurring, unattended, reply-bot, like, follow or account-setting authorization. Resolve those operations under their own explicit scope and current requirements. Successful live receipts remain private and exact-case evidence.
 
 ## Threads
 Official publishing sample: https://github.com/fbsamples/threads_api . Reply-management documentation: https://developers.facebook.com/documentation/threads/retrieve-and-manage-replies . The latter could not be fully retrieved in this build. Keep publish, own-reply retrieval, reply writing, discovery, mentions, media and events independently unknown/documented until complete scopes and actual access are verified. Publishing access does not imply a whole public timeline.
@@ -1486,8 +1488,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-publishing/SKILL.md",
-    "bytes": 10116,
-    "sha256": "daf3e509441900d44a7372f0eb91c2eac9ca39dbd93d32a253871db849cd549a"
+    "bytes": 10541,
+    "sha256": "e78c74b7613ffb8e802d10a7871bad9473e78986cf6ddfedd2502e4045ba758c"
   },
   {
     "path": "skills/media-editorial/references/originality.md",
@@ -1556,8 +1558,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "adapters/platforms.md",
-    "bytes": 4209,
-    "sha256": "3979c719a5b854ac7addea30f805d2b7ad5c890a254a87d9af1994daac579fb3"
+    "bytes": 4137,
+    "sha256": "525da505c662deea817c7e9f4cb6835f22aa3a51197703d262f9b8cc3996db4e"
   },
   {
     "path": "adapters/contracts/EXECUTOR.md",
