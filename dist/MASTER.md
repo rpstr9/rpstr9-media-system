@@ -568,6 +568,8 @@ For recurring/shared computer use, load the complete queue-and-resume-computer-u
 
 For authorized timely-topic/editorial-growth work, use `timely-editorial-growth`; read its complete topic-selection, reader-growth and note-measurement references. Existing engagement-only and narrow article-correction routes remain available. A prepared candidate does not adopt itself in installed or scheduled consumers.
 
+For authorized supervised X publishing, load the publishing workflow and current platform route: supported browser automation and explicitly requested bounded batches are available within actual scope. Preserve per-item reconciliation and real permission boundaries. For established-series headers, resolve the owner-selected canonical reference and compare title scale directly with it; recent derivatives do not reset the design baseline.
+
 <a id="source-registry-workflows-json"></a>
 
 ---
@@ -1719,8 +1721,8 @@ Source status for this candidate: recovered completed report and its separate as
   },
   {
     "path": "START_HERE.md",
-    "bytes": 3167,
-    "sha256": "4a4777a6323e25d8e3d941ff4fb4b0dbd824d196a76a58dc30f5c950e28fecf1"
+    "bytes": 3609,
+    "sha256": "5876f4f5ad7c59836b04509c60ce9d6ff9f9a166c4ea2b2ebeecb72ba096f832"
   },
   {
     "path": "registry/workflows.json",
