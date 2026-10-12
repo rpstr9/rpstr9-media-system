@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.20",
+  "release": "0.1.21",
   "inventory": [
     {
       "path": ".gitignore",
@@ -29,8 +29,8 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "53425fe301ea3ba447bb129121d414c92262cc0ac9080455957475bc09cfa276",
-      "bytes": 9956
+      "sha256": "b22c9e89415631b12da8a8d48ef689e63283dccb713555cae8f7f295b1d2666f",
+      "bytes": 11479
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -369,28 +369,28 @@
     },
     {
       "path": "dist/MASTER.md",
-      "sha256": "e87bc7d8020f2659ebaa0a8fa104ec1f6b663c316f511e6637e4506d20d0e99f",
+      "sha256": "d94178868f8d22947f6335bd9e1ac192d15f85daddb6883870de9794f2c3b793",
       "bytes": 132218
     },
     {
       "path": "dist/source-inventories.json",
-      "sha256": "14fdbf42e32460053080ae5b75e39720285b7f227df04591b60ddfad2a823595",
+      "sha256": "8f898b50470cc5e7f8fe480c94fc7ad05b9ae43a19dce0c40b77a8096e1656e9",
       "bytes": 99390
     },
     {
       "path": "dist/workflows/adapt-article-to-video.md",
-      "sha256": "0fff56d4d80cce47e9ce12874ac58b5e4ed92e3f25c26a560c638007d7170f18",
-      "bytes": 104094
+      "sha256": "4332ff4376b2d1a577b438d7457be8fabe7f1761be3df69975c68443e7973a66",
+      "bytes": 106609
     },
     {
       "path": "dist/workflows/audience-development.md",
-      "sha256": "982351a772629983a27c3ddca86c449389610d2b6475d15d4242c10c06ad0591",
-      "bytes": 184122
+      "sha256": "5e60506a848971ab12bc75ef89096c601531679d51855dfc816ae63607a8be65",
+      "bytes": 190480
     },
     {
       "path": "dist/workflows/community-participation.md",
-      "sha256": "b3706de8eae4ca995458a62f720aa3a054d602acd1e4a63812e80b859c292abe",
-      "bytes": 147246
+      "sha256": "25c395f66e53e589653121f764624de86e0fdb6f4f3320b08cde625a5739c5eb",
+      "bytes": 150485
     },
     {
       "path": "dist/workflows/concept-review.md",
@@ -399,8 +399,8 @@
     },
     {
       "path": "dist/workflows/configure-existing-accounts.md",
-      "sha256": "0a7f0f290ac54b41342266a417efdff36d6f5f088ddc0c487e79863980b1b85f",
-      "bytes": 130957
+      "sha256": "683f385e875d55bdb4edcff8065c2f247753b2b6fbb5882c4c0fa6b4b07535cd",
+      "bytes": 133389
     },
     {
       "path": "dist/workflows/configure-recurring-operations.md",
@@ -409,83 +409,83 @@
     },
     {
       "path": "dist/workflows/create-and-launch-publication.md",
-      "sha256": "c00a6f3e630c682c9eae02bc1b0c219d7f36b3a0bac9e70ddbc1caf3c5b19843",
-      "bytes": 263680
+      "sha256": "5c5cd0b2caacc222bde86943733fbf27055f5998f4fc6434e4ea301c811e2802",
+      "bytes": 271371
     },
     {
       "path": "dist/workflows/creative-production.md",
-      "sha256": "6f2be72466469cf64d1625435c434155b1d45e9d44172ef54db6686136ac55a6",
-      "bytes": 124617
+      "sha256": "6e1b6d6d7682db85f6c7ece8a8280245bcd62a6209c3be083d8ad630faf393c5",
+      "bytes": 125950
     },
     {
       "path": "dist/workflows/learning-and-review.md",
-      "sha256": "3f12b46a958a5882ea6b9bc5de97f0bb516cba17b038637225e14b1a1c6d9d19",
-      "bytes": 112278
+      "sha256": "96f9fce857088f447b72fa927aa4d5d3a748c8698324c161e81f8ac39d765d50",
+      "bytes": 114745
     },
     {
       "path": "dist/workflows/listen-and-respond.md",
-      "sha256": "27eb23c94f2ebbc66033fdbdadbd1b5fb10a85ea1aa3c643d7f9951cc2f5816e",
-      "bytes": 142094
+      "sha256": "2cfc4aec0bc5f65766cc1b06061b22b93323008f4b4a75a3714b16aeb7da90df",
+      "bytes": 145333
     },
     {
       "path": "dist/workflows/monitor-and-reply.md",
-      "sha256": "27eb23c94f2ebbc66033fdbdadbd1b5fb10a85ea1aa3c643d7f9951cc2f5816e",
-      "bytes": 142094
+      "sha256": "2cfc4aec0bc5f65766cc1b06061b22b93323008f4b4a75a3714b16aeb7da90df",
+      "bytes": 145333
     },
     {
       "path": "dist/workflows/operations-review.md",
-      "sha256": "f60080680a25239ed56019e95fbe83bfc10a9fa9022ecac21a81bb7ef0feaa9e",
-      "bytes": 116116
+      "sha256": "b2200a249112ae7c377d825806a3a0c028b0ad7444ad7a26382b2b5a95fec603",
+      "bytes": 118583
     },
     {
       "path": "dist/workflows/prepare-publication-assets.md",
-      "sha256": "4841677fc4fafc963b9974160ff17f93e7ab99cfd2f6fe2c88bdc4495fa7a20c",
-      "bytes": 129449
+      "sha256": "f761c35dee5288a1e7b66aa1a55a4135a297e5cac8347b20e957f9a433ece25e",
+      "bytes": 130782
     },
     {
       "path": "dist/workflows/produce-and-publish.md",
-      "sha256": "93d7837fbd546a7e9856f8b888eb0f1f4995b6748617b5de00d7c126f51c7697",
-      "bytes": 198946
+      "sha256": "cbae50e29423f1de929f64ddccc281d73baef1dee0188b2963a07a1eeaf32149",
+      "bytes": 201378
     },
     {
       "path": "dist/workflows/produce-illustrated-article.md",
-      "sha256": "827d0d438292c97ee6a6f844cd0bc39a4ec54d06696700ce70560590bf9c8003",
-      "bytes": 186420
+      "sha256": "608ed9318ea4a36d84a943fdb9e92e4e28eb925d64071f1b8bf875898f1cda72",
+      "bytes": 188892
     },
     {
       "path": "dist/workflows/publication-delivery.md",
-      "sha256": "7dc774cf6548bae78bf4f1280f1b9b2492ecc2250726e45f49b6b93166dc5d99",
-      "bytes": 130123
+      "sha256": "1def77e8f24df488ee02ef09af0f25a156e834e3a4e1acdeef90b8fd42ea8a6e",
+      "bytes": 132120
     },
     {
       "path": "dist/workflows/publish-and-distribute.md",
-      "sha256": "7dc774cf6548bae78bf4f1280f1b9b2492ecc2250726e45f49b6b93166dc5d99",
-      "bytes": 130123
+      "sha256": "1def77e8f24df488ee02ef09af0f25a156e834e3a4e1acdeef90b8fd42ea8a6e",
+      "bytes": 132120
     },
     {
       "path": "dist/workflows/queue-and-resume-computer-use.md",
-      "sha256": "339dd59032bd3f26eaf12f3f72be0264a44e4026d1b2b2513e0f7f4cfa5cb62e",
-      "bytes": 124971
+      "sha256": "cd5f6e22f9234441c542d86baf39bf60904f1f93c8e3c1ba216c34c05677aab1",
+      "bytes": 126968
     },
     {
       "path": "dist/workflows/research-to-editorial.md",
-      "sha256": "c37942184497b7144a327e09fd216abc429b816cfaa202ec3ca0a89459e529e2",
-      "bytes": 174542
+      "sha256": "378042d072650e90573e1a120d56848320eb92e31031beebe0b4fffe3e4559f5",
+      "bytes": 175681
     },
     {
       "path": "dist/workflows/resume-channel-operations.md",
-      "sha256": "72cdd73d8c41ced35ffd6deff5968ba16dbb42df3742af13de02f9d351363c91",
-      "bytes": 142094
+      "sha256": "fbf985892b6b477ddf108229790df4b55e06bf1b01123a9fb95aae1b86454a12",
+      "bytes": 145333
     },
     {
       "path": "dist/workflows/revise-and-review-article.md",
-      "sha256": "836e29dde56c8db7ca7f66ea24cc8f1963991347bb0a0cb0035d376abef3c194",
-      "bytes": 133430
+      "sha256": "ef9f8355e17cb61b5375344bbf1f650b7fe317dab663944e9b1887055c1f3b19",
+      "bytes": 134569
     },
     {
       "path": "dist/workflows/scheduled-participation.md",
-      "sha256": "b3706de8eae4ca995458a62f720aa3a054d602acd1e4a63812e80b859c292abe",
-      "bytes": 147246
+      "sha256": "25c395f66e53e589653121f764624de86e0fdb6f4f3320b08cde625a5739c5eb",
+      "bytes": 150485
     },
     {
       "path": "dist/workflows/setup-and-strategy.md",
@@ -494,13 +494,13 @@
     },
     {
       "path": "dist/workflows/strategy-to-editorial-foundation.md",
-      "sha256": "113b1f905a6f94cdb42638699a72781271d73497e2d26ca9fbd738d5598ac6a3",
-      "bytes": 155763
+      "sha256": "c9fb5d2718f8ea788d7ae57d6f9ec1cac8a0c65a948608263bccdef157243b78",
+      "bytes": 156902
     },
     {
       "path": "dist/workflows/timely-editorial-growth.md",
-      "sha256": "c689ae866379bfebaac41be5106b04387fff09083cbaf729cc62ee16efb2cbb7",
-      "bytes": 192929
+      "sha256": "805e36898efe89a2ad0ebca58a7d59fcb669423d8c57d075faf6e1cd2da39899",
+      "bytes": 198218
     },
     {
       "path": "evaluations/public-fixtures/audience-appreciation-cases.json",
@@ -554,12 +554,12 @@
     },
     {
       "path": "registry/skills.json",
-      "sha256": "d4d962f32eb7b715f0b944184d6fd9c0275828c48e2254a7a56fdf88a6faf384",
+      "sha256": "d2418426f42a90874fc8bcdfae6222e878539252c61263c38e6190c60ffd598a",
       "bytes": 17689
     },
     {
       "path": "registry/workflows.json",
-      "sha256": "1ec5cebc506bd350721ebbf596f60c68b6e2cb24dbc56fd2b599bd4303e82a55",
+      "sha256": "090cdcd9038f0cfdc2a3720834a3bbc0a07c1def9e49ea34e8ae5b1823a9779d",
       "bytes": 10656
     },
     {
@@ -599,7 +599,7 @@
     },
     {
       "path": "scripts/build_bundles.py",
-      "sha256": "edf6ea52fa8e0c65e0d18736a2c5f582e2bac095fb84a360bb009e12a3f86b93",
+      "sha256": "d3055bf987be7d921c092816c38d215f55ea046f14e9f426b237db30a16a8a1b",
       "bytes": 5503
     },
     {
@@ -639,13 +639,13 @@
     },
     {
       "path": "skills/media-art-director/SKILL.md",
-      "sha256": "1ec50dab4a4cddae31e21c65bc6c6c8c27dce826ddadcd55196f32bbb89d2034",
-      "bytes": 5607
+      "sha256": "f2279d26aad757c4d6974ffdde51f0ed4ca281200eae3e3d3f37f62ca616af79",
+      "bytes": 6505
     },
     {
       "path": "skills/media-asset-production/SKILL.md",
-      "sha256": "3d45299e47a33e11df1c4b88ee105cff1313df47d27dcfcd7569799ef685ec2d",
-      "bytes": 5693
+      "sha256": "5e5cb3e80dc7be938e4ce107657c56defc168b663d271f8f292a282ed65ec6a0",
+      "bytes": 6128
     },
     {
       "path": "skills/media-audience-insight/SKILL.md",
@@ -684,8 +684,8 @@
     },
     {
       "path": "skills/media-editorial/references/article-review.md",
-      "sha256": "42a1651e92c50dbd8fa3e567fa588819e9611a505902b46cd5dbfa0e9159ca9e",
-      "bytes": 6884
+      "sha256": "cfe89adb83aa95fc15938fc7832bb77a2821d26f075a84a4f5b3eb39aa0f1230",
+      "bytes": 8023
     },
     {
       "path": "skills/media-editorial/references/explanation-and-first-use.md",
@@ -709,8 +709,8 @@
     },
     {
       "path": "skills/media-growth/SKILL.md",
-      "sha256": "065f0dfc096ce4237de69bd38548c808905b4fa53d3f38453332475156979d65",
-      "bytes": 16779
+      "sha256": "8c3bb9514262d376a8defe68495fe97ba78805787659d18d33652cd93f365a4b",
+      "bytes": 18462
     },
     {
       "path": "skills/media-growth/references/reader-growth.md",
@@ -719,8 +719,8 @@
     },
     {
       "path": "skills/media-learning/SKILL.md",
-      "sha256": "b486362823646fdda6fbc71f8e35d8c5b35e9018ceefaf014c8aab479a9d021d",
-      "bytes": 5555
+      "sha256": "21b4c3b62ead774d722c11078581ca7ad098fcde6e56cd0458f94a5587932f6a",
+      "bytes": 6586
     },
     {
       "path": "skills/media-master/SKILL.md",
@@ -744,8 +744,8 @@
     },
     {
       "path": "skills/media-measurement/SKILL.md",
-      "sha256": "f01a645656194940d05b5db2e1416d94d2c3048652c750b342f0ff0d1eea0799",
-      "bytes": 6321
+      "sha256": "a9a083af5dc3f4e9df7a58ee2b410246d5e8b004ffa9afe17621cf4657be6e97",
+      "bytes": 7757
     },
     {
       "path": "skills/media-measurement/references/note-discovery.md",
@@ -759,8 +759,8 @@
     },
     {
       "path": "skills/media-publishing/SKILL.md",
-      "sha256": "e78c74b7613ffb8e802d10a7871bad9473e78986cf6ddfedd2502e4045ba758c",
-      "bytes": 10541
+      "sha256": "7c133b183d5de0fcb39e572b3c6e12add40ca94e8e42f44880124aef42690ee6",
+      "bytes": 11399
     },
     {
       "path": "skills/media-publishing/references/article-metadata.md",
@@ -769,8 +769,8 @@
     },
     {
       "path": "skills/media-relationships/SKILL.md",
-      "sha256": "f7c56a6bcfc404ac131da12036f9e6c313c63316737c8af301c47214366495d2",
-      "bytes": 11605
+      "sha256": "adb90ca9eb36643a77758db66440e99e801c4469b56b042dd7ac69a60234c9d1",
+      "bytes": 12847
     },
     {
       "path": "skills/media-relationships/references/friendly-engagement.md",
@@ -789,8 +789,8 @@
     },
     {
       "path": "skills/media-video-editorial/SKILL.md",
-      "sha256": "0f9f77bca56b905fc97a2cbf770faafd26e37a2a67617386ce386ba256da1723",
-      "bytes": 6502
+      "sha256": "5f32297ae518006dbf3c4d09a1ef8cb87b4f9993b039d178ad7326872b45834e",
+      "bytes": 7443
     },
     {
       "path": "skills/media-video-editorial/references/export-review.md",
