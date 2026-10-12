@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.20",
+  "release": "0.1.21",
   "constitution": "policies/CONSTITUTION.md",
   "skills": [
     {
@@ -131,7 +131,7 @@
       "skill_id": "media-editorial",
       "path": "skills/media-editorial/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.20",
+      "version": "0.1.21",
       "inputs": [
         "EditorialBrief",
         "EvidenceBundle where factual work is involved",
@@ -178,7 +178,7 @@
       "skill_id": "media-art-director",
       "path": "skills/media-art-director/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.19",
+      "version": "0.1.21",
       "inputs": [
         "CreativeBrief",
         "Approved reference assets and permitted use",
@@ -198,7 +198,7 @@
       "skill_id": "media-asset-production",
       "path": "skills/media-asset-production/SKILL.md",
       "kind": "adapter-backed specialist",
-      "version": "0.1.19",
+      "version": "0.1.21",
       "inputs": [
         "ProductionBrief and AssetSpec",
         "CapabilityReport",
@@ -239,7 +239,7 @@
       "skill_id": "media-publishing",
       "path": "skills/media-publishing/SKILL.md",
       "kind": "adapter-backed specialist",
-      "version": "0.1.19",
+      "version": "0.1.21",
       "inputs": [
         "Reviewed ContentPackage and AssetManifest",
         "Channel capabilities",
@@ -289,7 +289,7 @@
       "skill_id": "media-relationships",
       "path": "skills/media-relationships/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.17",
+      "version": "0.1.21",
       "inputs": [
         "Publication intent and relevant GrowthPlan / RankedTargetSet",
         "Authorized contact or community information",
@@ -314,7 +314,7 @@
       "skill_id": "media-growth",
       "path": "skills/media-growth/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.16",
+      "version": "0.1.21",
       "inputs": [
         "Publication objectives, approved StrategyContext and relevant JourneyContext",
         "CreativeBrief and existing strategic handoff when supplied",
@@ -341,7 +341,7 @@
       "skill_id": "media-measurement",
       "path": "skills/media-measurement/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.18",
+      "version": "0.1.21",
       "inputs": [
         "Publication goals",
         "Data capabilities and authorized observations",
@@ -361,7 +361,7 @@
       "skill_id": "media-learning",
       "path": "skills/media-learning/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.18",
+      "version": "0.1.21",
       "inputs": [
         "RunRecords, reviews and outcomes",
         "Current method and approved local adaptations",
@@ -436,7 +436,7 @@
       "skill_id": "media-video-editorial",
       "path": "skills/media-video-editorial/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.20",
+      "version": "0.1.21",
       "inputs": [
         "Selected article and evidence/source media",
         "Publication identity and intended viewer",
