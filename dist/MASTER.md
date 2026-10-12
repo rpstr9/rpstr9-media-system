@@ -971,7 +971,7 @@ Source: `registry/workflows.json`
       "bundle": "dist/workflows/adapt-article-to-video.md"
     }
   ],
-  "release": "0.1.20"
+  "release": "0.1.21"
 }
 
 ```
@@ -1746,7 +1746,7 @@ Source status for this candidate: recovered completed report and its separate as
   {
     "path": "registry/workflows.json",
     "bytes": 10656,
-    "sha256": "1ec5cebc506bd350721ebbf596f60c68b6e2cb24dbc56fd2b599bd4303e82a55"
+    "sha256": "090cdcd9038f0cfdc2a3720834a3bbc0a07c1def9e49ea34e8ae5b1823a9779d"
   },
   {
     "path": "runtime/reference/README.md",
