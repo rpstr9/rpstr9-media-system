@@ -48,6 +48,8 @@ For opening pieces, carry Selection's launch check into review of the actual dra
 ## Review and maintain
 Perform the sentence-level reader-value and natural-language pass in the article review gate, then assess evidence, identity, media and native structure separately. Keep a private ReviewRecord with the exact content version, corrections, remaining concerns and actual skill-load receipt. A factual/link pass alone cannot approve prose. Retain meaningful safety and evidence limits while removing padding and checking logs.
 
+For substantive explanation or a usable reader continuation, apply [explanation and first use](references/explanation-and-first-use.md). This is a working pass over the actual material, not an obligation to add an exercise or a new section to a complete reference.
+
 Review separately for intended value, coherence, voice, useful originality, factual fidelity, source placement and completeness. Verify material claims against sources independently of how convincing the draft sounds. Check actual visuals at readable size and destination crops, then review the visual/copy combination for the shared identity from the current foundation. Functional clarity and visual polish cannot compensate for conflicting brand character. Address the highest-impact defects while retaining the organizing idea.
 
 Return the complete ContentPackage, evidence map, AssetPlan and review record. Readiness requires actual required images and resolved rights, not filenames or insertion placeholders. The article may remain draft or held even if its text is complete. An explicitly image-free format can pass without invented visual requirements.
