@@ -25,6 +25,11 @@ Choose one dominant relationship or result for each feature asset; do not substi
 
 Keep documentary interfaces intact. Place explanatory annotations outside the interface or make alterations explicit, retain relevant context, and label source-reported cases, actual trials and original explanations by their true provenance. Specify what the reader should inspect and what the caption adds beyond naming the image. Check thumbnail category recognition, legibility and meaningful variation across a series alongside identity continuity.
 
+## Judge the whole reading surface
+Design article assets in relation to the surrounding prose and useful source media. A succession of branded section summaries can turn reading into a slide presentation even when each asset matches the identity. Choose the smallest visual form that earns its space; preserve documentary interest and evidence when removing redundant panels. A body visual need not repeat the header's marks or composition.
+
+For a concept illustration, test whether a first-time reader recognizes its connection to the actual subject at destination size. An abstract image may invite curiosity, but the connection must not depend solely on the creator's private explanation. Derive its material and visual relationship from this assignment, preserving the approved header composition. Inspect the actual result for distracting ambiguities before adding more symbolic explanation.
+
 ## Inputs and outputs
 
 Inputs: CreativeBrief; Approved reference assets and permitted use; Format and production constraints; BrandIdentityContext; Target-surface requirements and crop/preview behavior.
