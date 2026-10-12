@@ -506,7 +506,9 @@ Report whom the run researched, why the selected engagements fit, the exact comm
 ## Discover people through comparable publications
 Start with the current publication's reader promise, interests, perspective and language. Read prospective seed publications' actual work and explain the relevant overlap; account size and matching keywords alone do not establish it. Review a bounded sample of their publicly visible followers or actual conversation participants, then read each candidate's own work and exchanges. Retain the seed URL, similarity reason, observed relationship and source linking the candidate to it in the existing shortlist. Followers, commenters, people who liked a work and curated contributors are distinct relationships; do not infer membership from proximity.
 
-Use the publication's objectives to choose among suitable people, including active readers with little original publishing. Where reciprocal participation is an approved priority, keep confirmed follow-backs, visible mutual following, self-reported willingness and unknown state separate. Mutual following does not establish who followed first; activity or relevance does not predict reciprocation. Reading value, conversational fit and current receptivity still matter.
+Use the publication's objectives to choose among suitable people, including active readers with little original publishing. Where reciprocal participation is an approved priority, keep confirmed follow-backs, visible mutual following, self-reported willingness and unknown state separate. Mutual following does not establish who followed first; activity or relevance does not predict reciprocation. A requested following/follower balance is a dated private prioritization heuristic, not proof of reciprocal identities or a response probability; retain approximate and undefined counts honestly. Reading value, conversational fit and current receptivity still matter.
+
+Assess the incremental value of the exact account and channel. When explicit public links establish the same creator across platforms, compare its current work and conversations with the channels already followed. Multiple channels may offer distinct value; duplicated distribution alone need not justify another follow. Separate prospective community relationships from useful reading/reference sources and retain justified exceptions. Adding a richer source can warrant reassessing an earlier selection, without automatically authorizing removal. Review applicable prior curation decisions before new selection; use Relationships for authorized follow maintenance.
 
 Record which audience surfaces and dates were covered. If a follower list or branch is unavailable, retain the gap and use another accessible audience surface or justified discovery route. Do not interpret failed retrieval as an empty audience or harvest a follower graph. Derive seeds anew from the brief and current evidence; preserve necessary private source references without creating a permanent recipient list, example defaults or personal dossiers. Existing conversations and genuine unresolved needs retain their own listening priority.
 
@@ -541,7 +543,9 @@ Define bounded experiments with baseline, exposure/assignment, observation windo
 
 For engagement reviews, record follow-backs, replies, comment likes and subsequent engagement as distinct outcomes. Returning participation requires the same verified account in a distinct exchange or later occasion, with event references; multiple closing messages in one exchange are not return visits. Brief friendly participation can count without analytical depth. Preserve action and observation timestamps, eligible denominators, elapsed observation windows and retrieval coverage. Compare cohorts at comparable elapsed windows; separate new outreach from existing relationships, and incomplete or blocked actions from completed exposure. A current follower snapshot alone does not establish when or why a follow occurred. Treat short-window absence of response as provisional and compare alternative explanations before changing selection rules.
 
-Diagnose whether a failure concerns the resource model, opportunity, target, proposition, creative expression, editorial relevance, channel, conversation handling or measurement. Correlation alone does not establish cause. Propose the smallest justified local adaptation, compare with the prior approach, preserve contrary evidence and rollback, or conclude insufficient evidence. Supported findings should revise upstream research, source allocation, audience hypotheses, editorial mix or creative briefs as appropriate—not merely increase posting frequency.
+Diagnose whether a failure concerns the resource model, opportunity, target, proposition, creative expression, editorial relevance, channel, conversation handling or measurement. Correlation alone does not establish cause. Use Measurement's distinction between an observed shortfall and an uncertain explanation: do not dismiss weak results because the sample is small, or infer rejection from unavailable data. Investigate positive cases as well as weak ones, comparing target fit, contribution, timing and prior relationship at similar observation ages. An attributed reply plus a chronologically verified follow-back can support a community hypothesis; a like alone may fall short of that goal without being hostility or worthless goodwill. The publication's approved objective determines the evaluation.
+
+Propose one meaningful adjustment with supporting and contrary evidence, compare it with the prior approach in existing authorized work, and retain a revise/reject/inconclusive option. Recreate the supported mechanism with fresh material and wording, not the recipient, subject or sentence of a success. No automatic extra contact, volume increase or unfollow follows from an outcome label. Supported findings should revise upstream research, source allocation, audience hypotheses, editorial mix or creative briefs as appropriate—not merely increase posting frequency.
 
 Return RankedTargetSet, GrowthPlan and GrowthDiagnosis, with GrowthResourceMap and GrowthOpportunitySet when relevant to the request. Persist GrowthState with selected/rejected opportunities, permission changes, actual interactions, evidence, experiments, pending work and approved local adaptations. Generalization to shared methods requires separate permission and transfer evaluation. Keep personal/contact records private and do not infer sensitive individual traits.
 
@@ -862,6 +866,10 @@ Reconcile official definitions with the actual account's visible fields before c
 
 For a requested voice, language, packaging or extraction comparison, reuse ExperimentPlan and MeasurementSpec. Retain exact source/content/context versions, assignment unit, baseline and candidate, comparable cases and observation windows before inspecting results. Log actual owner edits or reviewer judgments separately from audience observations; an acceptance rating is editorial evidence, not proof of authenticity or growth. Track concurrent changes in topic, format, language and distribution, and preserve null, negative and unavailable results. Use existing OutcomeRecord and EvaluationRecord references rather than a parallel social log. Do not start an experiment or change a schedule merely because a field can be measured.
 
+Evaluate the observed result separately from confidence in its explanation. Verified zero desired responses is an observed shortfall at that observation age; low exposure qualifies diagnosis but does not turn it into success. Missing retrieval remains unknown. Judge likes, replies, follow-backs and return against the configured objective, preserving their individual value: an acknowledgment may be positive socially while insufficient for a community-formation goal. Use an actual stated success criterion; if the objective is broad and no threshold was supplied, describe the degree of progress rather than invent a binary pass/fail threshold. Short observation windows are provisional, not recipient response deadlines.
+
+Inspect even a single positive response for what the person actually said or did, then compare with suitable weak cases. Verify actor, event order, prior relationship and observation coverage. A reply and a later confirmed follow-back are different evidence from a current mutual-follow snapshot. Do not assign a motive to an anonymous like or infer causation from success. Link the exact contribution to a promising mechanism, alternatives and a next check within existing authorized work; retain unsuccessful replications. Keep standalone posts, announcements, article discovery/opening and each video platform/format separate. Verification traffic and incompatible denominators limit exposure comparisons.
+
 Return MeasurementSpec and OutcomeRecords with data limitations and uncertainty. Compare like populations/windows where possible; disclose selection and confounding otherwise. Route credible signals to Growth or Learning with alternative explanations and a next discriminating check. Insufficient evidence is a useful result.
 
 ## Inputs and outputs
@@ -896,7 +904,7 @@ Read [operating boundaries](#source-policies-constitution-md) and [handoff rules
 ## Diagnose before changing
 Read the actual run, review and outcome evidence, current method/release and owner policy. Classify the issue as output repair, factual/data correction, local method, shared method, interface, tool failure or insufficient evidence. A one-off repair need not become a permanent instruction. A direct owner preference is configuration, not experimentally discovered improvement.
 
-State the specific mechanism, competing explanations, supporting and contrary evidence and a test that could falsify it. Propose the smallest change to an allowed surface, with scope, baseline compatibility, expected effect, budget, stop rule and rollback. Do not tune protected purpose, identity, permission, evaluation criteria or source truth.
+State the specific mechanism, competing explanations, supporting and contrary evidence and a test that could falsify it. For a consequential unclear diagnosis, consider relevant individual actions, relationships, community norms and external incentives only where they could change the recommendation. Inferred motives remain hypotheses; return to the desired outcome and a concrete next action. Routine formatting and settled creative choices need no expanded diagnostic exercise. Propose the smallest change to an allowed surface, with scope, baseline compatibility, expected effect, budget, stop rule and rollback. Do not tune protected purpose, identity, permission, evaluation criteria or source truth.
 
 External case studies enter as proposed mechanisms with stated applicability conditions, then bounded private tests, observed results and a retain/revise/reject/inconclusive decision. A creator's or model's explanation is not independent causal evidence. Place general evidence procedures in shared methods, dated platform behavior in platform references, and voice, formats, schedules, relationships and experimental outcomes in private publication state. Do not promote an attractive case-study tactic to a permanent rule without transfer evidence.
 
@@ -906,6 +914,8 @@ For context or locale changes, include relevant article/derivative, proactive-co
 Freeze criteria and relevant regressions before seeing candidate results. Compare baseline and candidate under comparable inputs, tools and resource limits; disclose exposure to evaluation cases. Keep development fixtures separate from independently controlled evaluation and do not claim exposed tests are sealed holdouts.
 
 Inspect factual/attribution fidelity, usability, privacy, authority and relevant quality along with the intended benefit. Accept only under the applicable owner policy and evidence threshold. Reject harmful candidates even if a headline score improves; retain inconclusive when evidence is weak. Preserve negative results to avoid repeating a failed proposal without new information.
+
+Close the feedback loop with the responsible output owner: retain the exact feedback version, affected artifact, disposition, implemented version, verification and later outcome separately. Received advice is not adoption; a saved rule is not executed behavior; a repaired output is not audience benefit. Reuse existing handoffs and observation windows, and send a cross-task message only within actual messaging authority. Review positive cases and curation failures as well as low response; keep the original evidence and exceptions. A simulated reader panel can reveal an awkward phrase but cannot supply real participant ratings or substitute for an outcome check.
 
 Persist AdaptationRecord with exact rule/diff, scope, evidence, comparison, approval, compatible base, expiry/review trigger and prior version. Apply only approved, compatible, in-scope records. On regression restore the prior method while preserving audit evidence; external actions are not undone by code rollback.
 
@@ -1658,6 +1668,10 @@ Resolve the exact variant and image provenance, permission/rights, caption, cred
 
 Before editing existing content, inventory and preserve useful media, links, access terms and canonical URL. Review source → native saved/reopened draft → public page, as authorized. Check headings, captions, link targets, placement, image load, video playback and access separately. Keep unobserved checks pending. A text diff or successful save alone cannot confirm the rendered article.
 
+Review the article as a continuous reading experience, not a set of independently attractive panels. Repeated large titles, branded summary cards or diagrams may restate the prose and overwhelm the page. Remove redundant publisher-created treatment while retaining meaningful documentary photographs, original work, source figures and playable demonstrations or interviews. Describing a real image in prose does not make the image redundant. When useful reference material is missing, inspect the sources and restore appropriate permitted media rather than imposing either an image quota or a prose-only correction.
+
+Review each new or replaced visual in the saved article at its actual phone reading width, including adjacent prose and captions. Check meaningful labels, units, contrast, type weight and complete diagrams without requiring zoom. Review full publication identity separately from legibility; consistent colors alone do not establish identity. Reflow or simplify the explanation before shrinking essential labels. Original source material keeps its documentary provenance rather than inheriting decorative brand treatment.
+
 ## Plan discoverability metadata
 
 Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
@@ -1808,8 +1822,8 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-growth/SKILL.md",
-    "bytes": 16779,
-    "sha256": "065f0dfc096ce4237de69bd38548c808905b4fa53d3f38453332475156979d65"
+    "bytes": 18462,
+    "sha256": "8c3bb9514262d376a8defe68495fe97ba78805787659d18d33652cd93f365a4b"
   },
   {
     "path": "skills/media-source-research/SKILL.md",
@@ -1833,13 +1847,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-measurement/SKILL.md",
-    "bytes": 6321,
-    "sha256": "f01a645656194940d05b5db2e1416d94d2c3048652c750b342f0ff0d1eea0799"
+    "bytes": 7757,
+    "sha256": "a9a083af5dc3f4e9df7a58ee2b410246d5e8b004ffa9afe17621cf4657be6e97"
   },
   {
     "path": "skills/media-learning/SKILL.md",
-    "bytes": 5555,
-    "sha256": "b486362823646fdda6fbc71f8e35d8c5b35e9018ceefaf014c8aab479a9d021d"
+    "bytes": 6586,
+    "sha256": "21b4c3b62ead774d722c11078581ca7ad098fcde6e56cd0458f94a5587932f6a"
   },
   {
     "path": "skills/media-editorial/references/originality.md",
@@ -1883,8 +1897,8 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-editorial/references/article-review.md",
-    "bytes": 6884,
-    "sha256": "42a1651e92c50dbd8fa3e567fa588819e9611a505902b46cd5dbfa0e9159ca9e"
+    "bytes": 8023,
+    "sha256": "cfe89adb83aa95fc15938fc7832bb77a2821d26f075a84a4f5b3eb39aa0f1230"
   },
   {
     "path": "skills/media-publishing/references/article-metadata.md",

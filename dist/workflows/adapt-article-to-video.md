@@ -336,6 +336,8 @@ Identify the article's concrete discovery and the minimum causal connection a ne
 
 Keep a small source map for the selected claims: exact passage/figure/timecode, who or what was measured, comparison, unit, outcome and uncertainty. Recheck affected evidence through [Source Research](#source-skills-media-source-research-skill-md) when the source is missing or a new claim is necessary. An article's citation cannot substantiate a stronger video claim. Distinguish an observed finding from a subgroup association, proposed response or imagined scene.
 
+Inspect the strongest permitted visual material before settling the opening. If a later demonstration, action or revealing result makes the question immediately legible, consider moving it earlier with the minimum orientation needed to understand it truthfully. Do not bury the actual attraction behind definitions or setup, or use unrelated spectacle to win attention. The material determines whether action, result, person, observation or brief context leads; no universal opening pattern applies. Review what a new viewer can recognize and why they would continue.
+
 Write connected spoken language in the publication's voice. Introduce people, terms and context when a first-time viewer needs them. Let each passage advance the explanation and finish with the supported answer. Estimate duration provisionally; use the actual recorded take for final timing. Cut a secondary claim before accelerating speech beyond comfortable comprehension. Integrate necessary limits where they change meaning, without reading private review logs aloud.
 
 ## Give each spoken passage something meaningful to see
@@ -360,7 +362,7 @@ Return the actual completed result first: script/scene plan or video files, conc
 
 Publishing is handled by [Publishing](../../skills/media-publishing/SKILL.md) under the task's existing authority. Keep each destination's upload, public confirmation and URL separate. A corrected local export does not replace an already public video, and a successful release on one channel does not finish another. Resume only the missing authorized effects after checking uncertain sends and actual platform restrictions.
 
-Record useful failures and correction effort for [Learning](../../skills/media-learning/SKILL.md). Do not infer audience comprehension or the cause of a retention drop from a visual judgment or a few view counts.
+Record useful failures and correction effort for [Learning](../../skills/media-learning/SKILL.md). Do not infer audience comprehension or the cause of a retention drop from a visual judgment or a few view counts. When testing an opening, keep the remaining edit and observation conditions comparable; if duration, narration and scene order also change, record a multi-variable revision, not an isolated opening test. Separate owner preference, editorial improvement, platform delivery and observed audience results. Preserve each destination's actual version and pending review state.
 
 <a id="source-skills-media-source-research-skill-md"></a>
 
@@ -543,6 +545,8 @@ Use the host's available authorized production capability and its instructions. 
 Inspect the actual result visually and technically. Check semantic fidelity, typography, factual labels/data, continuity, composition, source credit, file integrity and meaningful crop previews. Review derivatives against their specific destination. Revise material defects within the authorized resource limit, retaining useful originals.
 
 For each article header, resolve the publication's fixed canonical approved reference and locked design constraints. Compare the actual output side by side with that reference at equal canvas size and in desktop/mobile destination previews, checking typeface, weight, title size relative to canvas, line spacing, prominence, palette, layout, spacing, recurring marks and crop behavior. A recent derivative is not a replacement reference without owner approval. Reflow longer titles and adjust article-specific layout before reducing type; hold unapproved shrinkage or accumulated drift and revise it before delivery. Record the reference version, dimensions, title measurements and any expressly approved design change. A technically valid or attractive image does not pass when its style is inconsistent. Do not silently substitute a new design when the reference is missing, or reuse another publication's aesthetics as a default.
+
+Inspect essential body-image labels at the actual inline phone width, with the surrounding caption and prose. Full-resolution legibility or no horizontal overflow is insufficient. Check type weight, contrast, line wrapping, units and margins; reflow before shrinking. Compare complete identity separately from readability. Preserve original source graphics faithfully and avoid turning every explanatory passage into a branded panel.
 
 Record each master and variant's file path, content hash, dimensions/type/size, identity version, lineage, representation, source and rights, caption/alt/credit, review version and known defects. Never distribute font binaries by default. Mark technically inspected, editorially reviewed and approved separately.
 
@@ -739,6 +743,10 @@ Resolve the exact variant and image provenance, permission/rights, caption, cred
 
 Before editing existing content, inventory and preserve useful media, links, access terms and canonical URL. Review source → native saved/reopened draft → public page, as authorized. Check headings, captions, link targets, placement, image load, video playback and access separately. Keep unobserved checks pending. A text diff or successful save alone cannot confirm the rendered article.
 
+Review the article as a continuous reading experience, not a set of independently attractive panels. Repeated large titles, branded summary cards or diagrams may restate the prose and overwhelm the page. Remove redundant publisher-created treatment while retaining meaningful documentary photographs, original work, source figures and playable demonstrations or interviews. Describing a real image in prose does not make the image redundant. When useful reference material is missing, inspect the sources and restore appropriate permitted media rather than imposing either an image quota or a prose-only correction.
+
+Review each new or replaced visual in the saved article at its actual phone reading width, including adjacent prose and captions. Check meaningful labels, units, contrast, type weight and complete diagrams without requiring zoom. Review full publication identity separately from legibility; consistent colors alone do not establish identity. Reflow or simplify the explanation before shrinking essential labels. Original source material keeps its documentary provenance rather than inheriting decorative brand treatment.
+
 ## Plan discoverability metadata
 
 Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
@@ -832,8 +840,8 @@ For each actually inspected saved/public state, replace null with an observation
   },
   {
     "path": "skills/media-video-editorial/SKILL.md",
-    "bytes": 6502,
-    "sha256": "0f9f77bca56b905fc97a2cbf770faafd26e37a2a67617386ce386ba256da1723"
+    "bytes": 7443,
+    "sha256": "5f32297ae518006dbf3c4d09a1ef8cb87b4f9993b039d178ad7326872b45834e"
   },
   {
     "path": "skills/media-source-research/SKILL.md",
@@ -847,8 +855,8 @@ For each actually inspected saved/public state, replace null with an observation
   },
   {
     "path": "skills/media-asset-production/SKILL.md",
-    "bytes": 5693,
-    "sha256": "3d45299e47a33e11df1c4b88ee105cff1313df47d27dcfcd7569799ef685ec2d"
+    "bytes": 6128,
+    "sha256": "5e5cb3e80dc7be938e4ce107657c56defc168b663d271f8f292a282ed65ec6a0"
   },
   {
     "path": "skills/media-editorial/references/originality.md",
@@ -872,8 +880,8 @@ For each actually inspected saved/public state, replace null with an observation
   },
   {
     "path": "skills/media-editorial/references/article-review.md",
-    "bytes": 6884,
-    "sha256": "42a1651e92c50dbd8fa3e567fa588819e9611a505902b46cd5dbfa0e9159ca9e"
+    "bytes": 8023,
+    "sha256": "cfe89adb83aa95fc15938fc7832bb77a2821d26f075a84a4f5b3eb39aa0f1230"
   },
   {
     "path": "skills/media-publishing/references/article-metadata.md",

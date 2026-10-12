@@ -355,7 +355,7 @@ For an article, check the actual ContentPackage version against its distinct edi
 
 Inspect the actual signed-in account and operation-specific capability. Load the relevant platform reference in [platform routes](#source-adapters-platforms-md) and verify current limits through official sources or supported controls. Separate owner permission, platform permission, technical availability and prior live validation. A connector's general platform support proves none of its individual actions.
 
-Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
+Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. Refresh the upstream handoff immediately before upload when its owner is still revising it; an unchanged filename can contain a new header or export. Bind the reviewed hash to the actual selected file and retain per-destination versions. A later article-header correction does not silently update an earlier social attachment or authorize deletion/reposting. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
 
 For article effects, require an actual passed [source comparison](#source-skills-media-editorial-references-originality-md) in the ReviewRecord for the exact ContentPackage version. A ready label, attribution or factual accuracy is insufficient. Missing comparison or unresolved derivation holds publication; complete research/reframing and review within authorization. Substantive copy changes during packaging require a fresh affected comparison.
 
@@ -372,6 +372,8 @@ Stop an effect when current authority, an applicable platform requirement or an 
 Computer use is a first-class action route for both interactive and scheduled host runs. When selected, use the [browser host procedure](#source-runtime-reference-browser-host-md) and the actual browser tools; do not declare publishing unavailable solely because an API adapter is absent. Honor existing routine-action authorization and the publication’s supervision preference.
 
 Preserve approved identity and functional formatting, heading styles, prompt presentation and access-link treatment; apply the reviewed item-specific structure and ending while preparing native formatting, supported header/inline fields, captions/credits/alt text, working source links and appropriate channel variants. Do not append authoring corrections, build logs or test-status commentary to the reader-facing payload. Preserve meaning and qualifications. Check previews and required visuals before dispatch. Draft, schedule, publish, reply, edit, moderate and remove are distinct capabilities and authorizations.
+
+Where the approved package requires visible media, inspect the actual meaningful attachment or original-source image thumbnail in the composer at feed size. A URL, source title or empty card does not pass. Do not waive the publication's media requirement because text alone seems useful; use a specific authorized exception or hold the affected item. Verify public image, playback, outgoing link and retained ALT separately after publication; an upload receipt is not evidence that these survived.
 
 Persist a stable action identifier and intent before submission. Include content and asset digests, account, operation, target and source event. Serialize operations that could collide. Recheck authorization, context, human responses and ownership immediately before the write. For uncertain results, reconcile using actual remote records before retrying; hold if the route cannot disambiguate.
 
@@ -422,6 +424,8 @@ Use the host's available authorized production capability and its instructions. 
 Inspect the actual result visually and technically. Check semantic fidelity, typography, factual labels/data, continuity, composition, source credit, file integrity and meaningful crop previews. Review derivatives against their specific destination. Revise material defects within the authorized resource limit, retaining useful originals.
 
 For each article header, resolve the publication's fixed canonical approved reference and locked design constraints. Compare the actual output side by side with that reference at equal canvas size and in desktop/mobile destination previews, checking typeface, weight, title size relative to canvas, line spacing, prominence, palette, layout, spacing, recurring marks and crop behavior. A recent derivative is not a replacement reference without owner approval. Reflow longer titles and adjust article-specific layout before reducing type; hold unapproved shrinkage or accumulated drift and revise it before delivery. Record the reference version, dimensions, title measurements and any expressly approved design change. A technically valid or attractive image does not pass when its style is inconsistent. Do not silently substitute a new design when the reference is missing, or reuse another publication's aesthetics as a default.
+
+Inspect essential body-image labels at the actual inline phone width, with the surrounding caption and prose. Full-resolution legibility or no horizontal overflow is insufficient. Check type weight, contrast, line wrapping, units and margins; reflow before shrinking. Compare complete identity separately from readability. Preserve original source graphics faithfully and avoid turning every explanatory passage into a branded panel.
 
 Record each master and variant's file path, content hash, dimensions/type/size, identity version, lineage, representation, source and rights, caption/alt/credit, review version and known defects. Never distribute font binaries by default. Mark technically inspected, editorially reviewed and approved separately.
 
@@ -1220,6 +1224,10 @@ Resolve the exact variant and image provenance, permission/rights, caption, cred
 
 Before editing existing content, inventory and preserve useful media, links, access terms and canonical URL. Review source → native saved/reopened draft → public page, as authorized. Check headings, captions, link targets, placement, image load, video playback and access separately. Keep unobserved checks pending. A text diff or successful save alone cannot confirm the rendered article.
 
+Review the article as a continuous reading experience, not a set of independently attractive panels. Repeated large titles, branded summary cards or diagrams may restate the prose and overwhelm the page. Remove redundant publisher-created treatment while retaining meaningful documentary photographs, original work, source figures and playable demonstrations or interviews. Describing a real image in prose does not make the image redundant. When useful reference material is missing, inspect the sources and restore appropriate permitted media rather than imposing either an image quota or a prose-only correction.
+
+Review each new or replaced visual in the saved article at its actual phone reading width, including adjacent prose and captions. Check meaningful labels, units, contrast, type weight and complete diagrams without requiring zoom. Review full publication identity separately from legibility; consistent colors alone do not establish identity. Reflow or simplify the explanation before shrinking essential labels. Original source material keeps its documentary provenance rather than inheriting decorative brand treatment.
+
 ## Plan discoverability metadata
 
 Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
@@ -1398,13 +1406,13 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-publishing/SKILL.md",
-    "bytes": 10541,
-    "sha256": "e78c74b7613ffb8e802d10a7871bad9473e78986cf6ddfedd2502e4045ba758c"
+    "bytes": 11399,
+    "sha256": "7c133b183d5de0fcb39e572b3c6e12add40ca94e8e42f44880124aef42690ee6"
   },
   {
     "path": "skills/media-asset-production/SKILL.md",
-    "bytes": 5693,
-    "sha256": "3d45299e47a33e11df1c4b88ee105cff1313df47d27dcfcd7569799ef685ec2d"
+    "bytes": 6128,
+    "sha256": "5e5cb3e80dc7be938e4ce107657c56defc168b663d271f8f292a282ed65ec6a0"
   },
   {
     "path": "skills/media-editorial/references/originality.md",
@@ -1453,8 +1461,8 @@ Action cost reservations remain consumed after unknown results. Retrying a read 
   },
   {
     "path": "skills/media-editorial/references/article-review.md",
-    "bytes": 6884,
-    "sha256": "42a1651e92c50dbd8fa3e567fa588819e9611a505902b46cd5dbfa0e9159ca9e"
+    "bytes": 8023,
+    "sha256": "cfe89adb83aa95fc15938fc7832bb77a2821d26f075a84a4f5b3eb39aa0f1230"
   },
   {
     "path": "skills/media-publishing/references/article-metadata.md",

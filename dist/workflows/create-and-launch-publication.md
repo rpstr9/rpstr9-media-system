@@ -811,6 +811,11 @@ Choose one dominant relationship or result for each feature asset; do not substi
 
 Keep documentary interfaces intact. Place explanatory annotations outside the interface or make alterations explicit, retain relevant context, and label source-reported cases, actual trials and original explanations by their true provenance. Specify what the reader should inspect and what the caption adds beyond naming the image. Check thumbnail category recognition, legibility and meaningful variation across a series alongside identity continuity.
 
+## Judge the whole reading surface
+Design article assets in relation to the surrounding prose and useful source media. A succession of branded section summaries can turn reading into a slide presentation even when each asset matches the identity. Choose the smallest visual form that earns its space; preserve documentary interest and evidence when removing redundant panels. A body visual need not repeat the header's marks or composition.
+
+For a concept illustration, test whether a first-time reader recognizes its connection to the actual subject at destination size. An abstract image may invite curiosity, but the connection must not depend solely on the creator's private explanation. Derive its material and visual relationship from this assignment, preserving the approved header composition. Inspect the actual result for distracting ambiguities before adding more symbolic explanation.
+
 ## Inputs and outputs
 
 Inputs: CreativeBrief; Approved reference assets and permitted use; Format and production constraints; BrandIdentityContext; Target-surface requirements and crop/preview behavior.
@@ -851,6 +856,8 @@ Use the host's available authorized production capability and its instructions. 
 Inspect the actual result visually and technically. Check semantic fidelity, typography, factual labels/data, continuity, composition, source credit, file integrity and meaningful crop previews. Review derivatives against their specific destination. Revise material defects within the authorized resource limit, retaining useful originals.
 
 For each article header, resolve the publication's fixed canonical approved reference and locked design constraints. Compare the actual output side by side with that reference at equal canvas size and in desktop/mobile destination previews, checking typeface, weight, title size relative to canvas, line spacing, prominence, palette, layout, spacing, recurring marks and crop behavior. A recent derivative is not a replacement reference without owner approval. Reflow longer titles and adjust article-specific layout before reducing type; hold unapproved shrinkage or accumulated drift and revise it before delivery. Record the reference version, dimensions, title measurements and any expressly approved design change. A technically valid or attractive image does not pass when its style is inconsistent. Do not silently substitute a new design when the reference is missing, or reuse another publication's aesthetics as a default.
+
+Inspect essential body-image labels at the actual inline phone width, with the surrounding caption and prose. Full-resolution legibility or no horizontal overflow is insufficient. Check type weight, contrast, line wrapping, units and margins; reflow before shrinking. Compare complete identity separately from readability. Preserve original source graphics faithfully and avoid turning every explanatory passage into a branded panel.
 
 Record each master and variant's file path, content hash, dimensions/type/size, identity version, lineage, representation, source and rights, caption/alt/credit, review version and known defects. Never distribute font binaries by default. Mark technically inspected, editorially reviewed and approved separately.
 
@@ -905,7 +912,7 @@ For an article, check the actual ContentPackage version against its distinct edi
 
 Inspect the actual signed-in account and operation-specific capability. Load the relevant platform reference in [platform routes](#source-adapters-platforms-md) and verify current limits through official sources or supported controls. Separate owner permission, platform permission, technical availability and prior live validation. A connector's general platform support proves none of its individual actions.
 
-Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
+Resolve exact content/asset versions, target account, parent/root for replies, permission scope/expiry, budgets, pause state and evidence readiness. Refresh the upstream handoff immediately before upload when its owner is still revising it; an unchanged filename can contain a new header or export. Bind the reviewed hash to the actual selected file and retain per-destination versions. A later article-header correction does not silently update an earlier social attachment or authorize deletion/reposting. For account configuration, compare current fields to the retained before-state; hold a changed identity or conflicting human edit. Do not rename accounts, change security/visibility or create replacements as incidental work.
 
 For article effects, require an actual passed [source comparison](#source-skills-media-editorial-references-originality-md) in the ReviewRecord for the exact ContentPackage version. A ready label, attribution or factual accuracy is insufficient. Missing comparison or unresolved derivation holds publication; complete research/reframing and review within authorization. Substantive copy changes during packaging require a fresh affected comparison.
 
@@ -922,6 +929,8 @@ Stop an effect when current authority, an applicable platform requirement or an 
 Computer use is a first-class action route for both interactive and scheduled host runs. When selected, use the [browser host procedure](#source-runtime-reference-browser-host-md) and the actual browser tools; do not declare publishing unavailable solely because an API adapter is absent. Honor existing routine-action authorization and the publication’s supervision preference.
 
 Preserve approved identity and functional formatting, heading styles, prompt presentation and access-link treatment; apply the reviewed item-specific structure and ending while preparing native formatting, supported header/inline fields, captions/credits/alt text, working source links and appropriate channel variants. Do not append authoring corrections, build logs or test-status commentary to the reader-facing payload. Preserve meaning and qualifications. Check previews and required visuals before dispatch. Draft, schedule, publish, reply, edit, moderate and remove are distinct capabilities and authorizations.
+
+Where the approved package requires visible media, inspect the actual meaningful attachment or original-source image thumbnail in the composer at feed size. A URL, source title or empty card does not pass. Do not waive the publication's media requirement because text alone seems useful; use a specific authorized exception or hold the affected item. Verify public image, playback, outgoing link and retained ALT separately after publication; an upload receipt is not evidence that these survived.
 
 Persist a stable action identifier and intent before submission. Include content and asset digests, account, operation, target and source event. Serialize operations that could collide. Recheck authorization, context, human responses and ownership immediately before the write. For uncertain results, reconcile using actual remote records before retrying; hold if the route cannot disambiguate.
 
@@ -984,7 +993,9 @@ Report whom the run researched, why the selected engagements fit, the exact comm
 ## Discover people through comparable publications
 Start with the current publication's reader promise, interests, perspective and language. Read prospective seed publications' actual work and explain the relevant overlap; account size and matching keywords alone do not establish it. Review a bounded sample of their publicly visible followers or actual conversation participants, then read each candidate's own work and exchanges. Retain the seed URL, similarity reason, observed relationship and source linking the candidate to it in the existing shortlist. Followers, commenters, people who liked a work and curated contributors are distinct relationships; do not infer membership from proximity.
 
-Use the publication's objectives to choose among suitable people, including active readers with little original publishing. Where reciprocal participation is an approved priority, keep confirmed follow-backs, visible mutual following, self-reported willingness and unknown state separate. Mutual following does not establish who followed first; activity or relevance does not predict reciprocation. Reading value, conversational fit and current receptivity still matter.
+Use the publication's objectives to choose among suitable people, including active readers with little original publishing. Where reciprocal participation is an approved priority, keep confirmed follow-backs, visible mutual following, self-reported willingness and unknown state separate. Mutual following does not establish who followed first; activity or relevance does not predict reciprocation. A requested following/follower balance is a dated private prioritization heuristic, not proof of reciprocal identities or a response probability; retain approximate and undefined counts honestly. Reading value, conversational fit and current receptivity still matter.
+
+Assess the incremental value of the exact account and channel. When explicit public links establish the same creator across platforms, compare its current work and conversations with the channels already followed. Multiple channels may offer distinct value; duplicated distribution alone need not justify another follow. Separate prospective community relationships from useful reading/reference sources and retain justified exceptions. Adding a richer source can warrant reassessing an earlier selection, without automatically authorizing removal. Review applicable prior curation decisions before new selection; use Relationships for authorized follow maintenance.
 
 Record which audience surfaces and dates were covered. If a follower list or branch is unavailable, retain the gap and use another accessible audience surface or justified discovery route. Do not interpret failed retrieval as an empty audience or harvest a follower graph. Derive seeds anew from the brief and current evidence; preserve necessary private source references without creating a permanent recipient list, example defaults or personal dossiers. Existing conversations and genuine unresolved needs retain their own listening priority.
 
@@ -1019,7 +1030,9 @@ Define bounded experiments with baseline, exposure/assignment, observation windo
 
 For engagement reviews, record follow-backs, replies, comment likes and subsequent engagement as distinct outcomes. Returning participation requires the same verified account in a distinct exchange or later occasion, with event references; multiple closing messages in one exchange are not return visits. Brief friendly participation can count without analytical depth. Preserve action and observation timestamps, eligible denominators, elapsed observation windows and retrieval coverage. Compare cohorts at comparable elapsed windows; separate new outreach from existing relationships, and incomplete or blocked actions from completed exposure. A current follower snapshot alone does not establish when or why a follow occurred. Treat short-window absence of response as provisional and compare alternative explanations before changing selection rules.
 
-Diagnose whether a failure concerns the resource model, opportunity, target, proposition, creative expression, editorial relevance, channel, conversation handling or measurement. Correlation alone does not establish cause. Propose the smallest justified local adaptation, compare with the prior approach, preserve contrary evidence and rollback, or conclude insufficient evidence. Supported findings should revise upstream research, source allocation, audience hypotheses, editorial mix or creative briefs as appropriate—not merely increase posting frequency.
+Diagnose whether a failure concerns the resource model, opportunity, target, proposition, creative expression, editorial relevance, channel, conversation handling or measurement. Correlation alone does not establish cause. Use Measurement's distinction between an observed shortfall and an uncertain explanation: do not dismiss weak results because the sample is small, or infer rejection from unavailable data. Investigate positive cases as well as weak ones, comparing target fit, contribution, timing and prior relationship at similar observation ages. An attributed reply plus a chronologically verified follow-back can support a community hypothesis; a like alone may fall short of that goal without being hostility or worthless goodwill. The publication's approved objective determines the evaluation.
+
+Propose one meaningful adjustment with supporting and contrary evidence, compare it with the prior approach in existing authorized work, and retain a revise/reject/inconclusive option. Recreate the supported mechanism with fresh material and wording, not the recipient, subject or sentence of a success. No automatic extra contact, volume increase or unfollow follows from an outcome label. Supported findings should revise upstream research, source allocation, audience hypotheses, editorial mix or creative briefs as appropriate—not merely increase posting frequency.
 
 Return RankedTargetSet, GrowthPlan and GrowthDiagnosis, with GrowthResourceMap and GrowthOpportunitySet when relevant to the request. Persist GrowthState with selected/rejected opportunities, permission changes, actual interactions, evidence, experiments, pending work and approved local adaptations. Generalization to shared methods requires separate permission and transfer evaluation. Keep personal/contact records private and do not infer sensitive individual traits.
 
@@ -1172,6 +1185,11 @@ Classify the message's purpose: question, correction, feedback, appreciation, co
 
 For outside participation, read the actual work and existing conversation. Decide what in the person's content warrants sincere appreciation and whether a response is welcome here. A short public reference to what is appreciated belongs in a proactive comment on a work; the reading log and selection rationale stay private. Check relevance, receptivity, applicable permission, history and opt-outs independently. No compulsory link back, generic praise campaign, reciprocal-comment pact or contact quota. Unknown contact permission permits preparation, not assumed sending.
 
+## Maintain followed accounts within separate authority
+Following and unfollowing are separate effects. When maintenance is authorized, review a bounded sample using confirmed follow chronology, current work, original selection reasons and unresolved commitments. Unknown follow dates stay unknown. Keep useful reading sources even where community reciprocity is weak; consider whether linked channels add distinct work or conversations. A low count ratio, one unanswered comment or lack of a follow-back alone does not justify removal. Preserve the owner's pace, opt-outs and meaningful exceptions; no required-removal quota or follow/unfollow cycling.
+
+Persist the exact account, current follow state, original receipt, reviewed evidence and reason before a removal. Submit once through Publishing, verify after refresh and retain history. Reconcile uncertainty before retrying; exclude confirmed removals from automatic rediscovery. Reconsider only with material new evidence or owner direction. Feed the actual reason back into selection: redundant coverage, changed fit and weak community outcomes are different diagnoses. An editorial curation decision is not recipient feedback and does not establish that an earlier comment was bad.
+
 ## Read observed recipient responses
 For prospective outside participation, use a bounded sample of the recipient's actual exchanges to understand what contributions fit. Read the root work, incoming comment and recipient response together. Record comment purpose, connection to the work, tone, brevity, visible conversation context and outcome, with only necessary public source references, dates and coverage in the existing candidate record. Reuse sufficient recent research; a direct inbound answer does not require a new recipient study.
 
@@ -1242,6 +1260,10 @@ Verify platform metric definitions and collection surfaces against current offic
 Reconcile official definitions with the actual account's visible fields before collection; record discrepancies rather than assuming a rollout is universal. Investigate low verified exposure through discovery and delivery evidence; comparable exposure without openings through audience fit and presentation; launch-only response through the match between the opening promise and ordinary articles; uncertain return through continuity and data coverage. These are next investigations, not causal verdicts. Incompatible or insufficient data requires repaired measurement or an inconclusive result. Do not label page views divided by impressions as click-through rate without compatible populations and attribution, or attribute all launch-window follower changes to the article.
 
 For a requested voice, language, packaging or extraction comparison, reuse ExperimentPlan and MeasurementSpec. Retain exact source/content/context versions, assignment unit, baseline and candidate, comparable cases and observation windows before inspecting results. Log actual owner edits or reviewer judgments separately from audience observations; an acceptance rating is editorial evidence, not proof of authenticity or growth. Track concurrent changes in topic, format, language and distribution, and preserve null, negative and unavailable results. Use existing OutcomeRecord and EvaluationRecord references rather than a parallel social log. Do not start an experiment or change a schedule merely because a field can be measured.
+
+Evaluate the observed result separately from confidence in its explanation. Verified zero desired responses is an observed shortfall at that observation age; low exposure qualifies diagnosis but does not turn it into success. Missing retrieval remains unknown. Judge likes, replies, follow-backs and return against the configured objective, preserving their individual value: an acknowledgment may be positive socially while insufficient for a community-formation goal. Use an actual stated success criterion; if the objective is broad and no threshold was supplied, describe the degree of progress rather than invent a binary pass/fail threshold. Short observation windows are provisional, not recipient response deadlines.
+
+Inspect even a single positive response for what the person actually said or did, then compare with suitable weak cases. Verify actor, event order, prior relationship and observation coverage. A reply and a later confirmed follow-back are different evidence from a current mutual-follow snapshot. Do not assign a motive to an anonymous like or infer causation from success. Link the exact contribution to a promising mechanism, alternatives and a next check within existing authorized work; retain unsuccessful replications. Keep standalone posts, announcements, article discovery/opening and each video platform/format separate. Verification traffic and incompatible denominators limit exposure comparisons.
 
 Return MeasurementSpec and OutcomeRecords with data limitations and uncertainty. Compare like populations/windows where possible; disclose selection and confounding otherwise. Route credible signals to Growth or Learning with alternative explanations and a next discriminating check. Insufficient evidence is a useful result.
 
@@ -2090,6 +2112,10 @@ Resolve the exact variant and image provenance, permission/rights, caption, cred
 
 Before editing existing content, inventory and preserve useful media, links, access terms and canonical URL. Review source → native saved/reopened draft → public page, as authorized. Check headings, captions, link targets, placement, image load, video playback and access separately. Keep unobserved checks pending. A text diff or successful save alone cannot confirm the rendered article.
 
+Review the article as a continuous reading experience, not a set of independently attractive panels. Repeated large titles, branded summary cards or diagrams may restate the prose and overwhelm the page. Remove redundant publisher-created treatment while retaining meaningful documentary photographs, original work, source figures and playable demonstrations or interviews. Describing a real image in prose does not make the image redundant. When useful reference material is missing, inspect the sources and restore appropriate permitted media rather than imposing either an image quota or a prose-only correction.
+
+Review each new or replaced visual in the saved article at its actual phone reading width, including adjacent prose and captions. Check meaningful labels, units, contrast, type weight and complete diagrams without requiring zoom. Review full publication identity separately from legibility; consistent colors alone do not establish identity. Reflow or simplify the explanation before shrinking essential labels. Original source material keeps its documentary provenance rather than inheriting decorative brand treatment.
+
 ## Plan discoverability metadata
 
 Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
@@ -2343,23 +2369,23 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
   },
   {
     "path": "skills/media-art-director/SKILL.md",
-    "bytes": 5607,
-    "sha256": "1ec50dab4a4cddae31e21c65bc6c6c8c27dce826ddadcd55196f32bbb89d2034"
+    "bytes": 6505,
+    "sha256": "f2279d26aad757c4d6974ffdde51f0ed4ca281200eae3e3d3f37f62ca616af79"
   },
   {
     "path": "skills/media-asset-production/SKILL.md",
-    "bytes": 5693,
-    "sha256": "3d45299e47a33e11df1c4b88ee105cff1313df47d27dcfcd7569799ef685ec2d"
+    "bytes": 6128,
+    "sha256": "5e5cb3e80dc7be938e4ce107657c56defc168b663d271f8f292a282ed65ec6a0"
   },
   {
     "path": "skills/media-publishing/SKILL.md",
-    "bytes": 10541,
-    "sha256": "e78c74b7613ffb8e802d10a7871bad9473e78986cf6ddfedd2502e4045ba758c"
+    "bytes": 11399,
+    "sha256": "7c133b183d5de0fcb39e572b3c6e12add40ca94e8e42f44880124aef42690ee6"
   },
   {
     "path": "skills/media-growth/SKILL.md",
-    "bytes": 16779,
-    "sha256": "065f0dfc096ce4237de69bd38548c808905b4fa53d3f38453332475156979d65"
+    "bytes": 18462,
+    "sha256": "8c3bb9514262d376a8defe68495fe97ba78805787659d18d33652cd93f365a4b"
   },
   {
     "path": "skills/concept-review/SKILL.md",
@@ -2373,13 +2399,13 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
   },
   {
     "path": "skills/media-relationships/SKILL.md",
-    "bytes": 11605,
-    "sha256": "f7c56a6bcfc404ac131da12036f9e6c313c63316737c8af301c47214366495d2"
+    "bytes": 12847,
+    "sha256": "adb90ca9eb36643a77758db66440e99e801c4469b56b042dd7ac69a60234c9d1"
   },
   {
     "path": "skills/media-measurement/SKILL.md",
-    "bytes": 6321,
-    "sha256": "f01a645656194940d05b5db2e1416d94d2c3048652c750b342f0ff0d1eea0799"
+    "bytes": 7757,
+    "sha256": "a9a083af5dc3f4e9df7a58ee2b410246d5e8b004ffa9afe17621cf4657be6e97"
   },
   {
     "path": "skills/media-editorial/references/originality.md",
@@ -2438,8 +2464,8 @@ Start no permanent OS service as part of installing skills. Live deployment, rea
   },
   {
     "path": "skills/media-editorial/references/article-review.md",
-    "bytes": 6884,
-    "sha256": "42a1651e92c50dbd8fa3e567fa588819e9611a505902b46cd5dbfa0e9159ca9e"
+    "bytes": 8023,
+    "sha256": "cfe89adb83aa95fc15938fc7832bb77a2821d26f075a84a4f5b3eb39aa0f1230"
   },
   {
     "path": "skills/media-publishing/references/article-metadata.md",

@@ -680,6 +680,11 @@ Choose one dominant relationship or result for each feature asset; do not substi
 
 Keep documentary interfaces intact. Place explanatory annotations outside the interface or make alterations explicit, retain relevant context, and label source-reported cases, actual trials and original explanations by their true provenance. Specify what the reader should inspect and what the caption adds beyond naming the image. Check thumbnail category recognition, legibility and meaningful variation across a series alongside identity continuity.
 
+## Judge the whole reading surface
+Design article assets in relation to the surrounding prose and useful source media. A succession of branded section summaries can turn reading into a slide presentation even when each asset matches the identity. Choose the smallest visual form that earns its space; preserve documentary interest and evidence when removing redundant panels. A body visual need not repeat the header's marks or composition.
+
+For a concept illustration, test whether a first-time reader recognizes its connection to the actual subject at destination size. An abstract image may invite curiosity, but the connection must not depend solely on the creator's private explanation. Derive its material and visual relationship from this assignment, preserving the approved header composition. Inspect the actual result for distracting ambiguities before adding more symbolic explanation.
+
 ## Inputs and outputs
 
 Inputs: CreativeBrief; Approved reference assets and permitted use; Format and production constraints; BrandIdentityContext; Target-surface requirements and crop/preview behavior.
@@ -720,6 +725,8 @@ Use the host's available authorized production capability and its instructions. 
 Inspect the actual result visually and technically. Check semantic fidelity, typography, factual labels/data, continuity, composition, source credit, file integrity and meaningful crop previews. Review derivatives against their specific destination. Revise material defects within the authorized resource limit, retaining useful originals.
 
 For each article header, resolve the publication's fixed canonical approved reference and locked design constraints. Compare the actual output side by side with that reference at equal canvas size and in desktop/mobile destination previews, checking typeface, weight, title size relative to canvas, line spacing, prominence, palette, layout, spacing, recurring marks and crop behavior. A recent derivative is not a replacement reference without owner approval. Reflow longer titles and adjust article-specific layout before reducing type; hold unapproved shrinkage or accumulated drift and revise it before delivery. Record the reference version, dimensions, title measurements and any expressly approved design change. A technically valid or attractive image does not pass when its style is inconsistent. Do not silently substitute a new design when the reference is missing, or reuse another publication's aesthetics as a default.
+
+Inspect essential body-image labels at the actual inline phone width, with the surrounding caption and prose. Full-resolution legibility or no horizontal overflow is insufficient. Check type weight, contrast, line wrapping, units and margins; reflow before shrinking. Compare complete identity separately from readability. Preserve original source graphics faithfully and avoid turning every explanatory passage into a branded panel.
 
 Record each master and variant's file path, content hash, dimensions/type/size, identity version, lineage, representation, source and rights, caption/alt/credit, review version and known defects. Never distribute font binaries by default. Mark technically inspected, editorially reviewed and approved separately.
 
@@ -1659,6 +1666,10 @@ Resolve the exact variant and image provenance, permission/rights, caption, cred
 
 Before editing existing content, inventory and preserve useful media, links, access terms and canonical URL. Review source → native saved/reopened draft → public page, as authorized. Check headings, captions, link targets, placement, image load, video playback and access separately. Keep unobserved checks pending. A text diff or successful save alone cannot confirm the rendered article.
 
+Review the article as a continuous reading experience, not a set of independently attractive panels. Repeated large titles, branded summary cards or diagrams may restate the prose and overwhelm the page. Remove redundant publisher-created treatment while retaining meaningful documentary photographs, original work, source figures and playable demonstrations or interviews. Describing a real image in prose does not make the image redundant. When useful reference material is missing, inspect the sources and restore appropriate permitted media rather than imposing either an image quota or a prose-only correction.
+
+Review each new or replaced visual in the saved article at its actual phone reading width, including adjacent prose and captions. Check meaningful labels, units, contrast, type weight and complete diagrams without requiring zoom. Review full publication identity separately from legibility; consistent colors alone do not establish identity. Reflow or simplify the explanation before shrinking essential labels. Original source material keeps its documentary provenance rather than inheriting decorative brand treatment.
+
 ## Plan discoverability metadata
 
 Select relevant platform hashtags from the actual subject, reader intent and approved brand vocabulary, preserving valid existing tags. Put them in the private channel metadata handoff, not just body text. For note, require its native hashtag field and saved/public metadata verification under the [article metadata gate](#source-skills-media-publishing-references-article-metadata-md). Use no fixed count, irrelevant trending tags or unsupported outcome claims.
@@ -1814,13 +1825,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-art-director/SKILL.md",
-    "bytes": 5607,
-    "sha256": "1ec50dab4a4cddae31e21c65bc6c6c8c27dce826ddadcd55196f32bbb89d2034"
+    "bytes": 6505,
+    "sha256": "f2279d26aad757c4d6974ffdde51f0ed4ca281200eae3e3d3f37f62ca616af79"
   },
   {
     "path": "skills/media-asset-production/SKILL.md",
-    "bytes": 5693,
-    "sha256": "3d45299e47a33e11df1c4b88ee105cff1313df47d27dcfcd7569799ef685ec2d"
+    "bytes": 6128,
+    "sha256": "5e5cb3e80dc7be938e4ce107657c56defc168b663d271f8f292a282ed65ec6a0"
   },
   {
     "path": "skills/concept-review/SKILL.md",
@@ -1884,8 +1895,8 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-editorial/references/article-review.md",
-    "bytes": 6884,
-    "sha256": "42a1651e92c50dbd8fa3e567fa588819e9611a505902b46cd5dbfa0e9159ca9e"
+    "bytes": 8023,
+    "sha256": "cfe89adb83aa95fc15938fc7832bb77a2821d26f075a84a4f5b3eb39aa0f1230"
   },
   {
     "path": "skills/media-publishing/references/article-metadata.md",

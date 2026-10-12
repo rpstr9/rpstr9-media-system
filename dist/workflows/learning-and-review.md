@@ -362,6 +362,10 @@ Reconcile official definitions with the actual account's visible fields before c
 
 For a requested voice, language, packaging or extraction comparison, reuse ExperimentPlan and MeasurementSpec. Retain exact source/content/context versions, assignment unit, baseline and candidate, comparable cases and observation windows before inspecting results. Log actual owner edits or reviewer judgments separately from audience observations; an acceptance rating is editorial evidence, not proof of authenticity or growth. Track concurrent changes in topic, format, language and distribution, and preserve null, negative and unavailable results. Use existing OutcomeRecord and EvaluationRecord references rather than a parallel social log. Do not start an experiment or change a schedule merely because a field can be measured.
 
+Evaluate the observed result separately from confidence in its explanation. Verified zero desired responses is an observed shortfall at that observation age; low exposure qualifies diagnosis but does not turn it into success. Missing retrieval remains unknown. Judge likes, replies, follow-backs and return against the configured objective, preserving their individual value: an acknowledgment may be positive socially while insufficient for a community-formation goal. Use an actual stated success criterion; if the objective is broad and no threshold was supplied, describe the degree of progress rather than invent a binary pass/fail threshold. Short observation windows are provisional, not recipient response deadlines.
+
+Inspect even a single positive response for what the person actually said or did, then compare with suitable weak cases. Verify actor, event order, prior relationship and observation coverage. A reply and a later confirmed follow-back are different evidence from a current mutual-follow snapshot. Do not assign a motive to an anonymous like or infer causation from success. Link the exact contribution to a promising mechanism, alternatives and a next check within existing authorized work; retain unsuccessful replications. Keep standalone posts, announcements, article discovery/opening and each video platform/format separate. Verification traffic and incompatible denominators limit exposure comparisons.
+
 Return MeasurementSpec and OutcomeRecords with data limitations and uncertainty. Compare like populations/windows where possible; disclose selection and confounding otherwise. Route credible signals to Growth or Learning with alternative explanations and a next discriminating check. Insufficient evidence is a useful result.
 
 ## Inputs and outputs
@@ -396,7 +400,7 @@ Read [operating boundaries](#source-policies-constitution-md) and [handoff rules
 ## Diagnose before changing
 Read the actual run, review and outcome evidence, current method/release and owner policy. Classify the issue as output repair, factual/data correction, local method, shared method, interface, tool failure or insufficient evidence. A one-off repair need not become a permanent instruction. A direct owner preference is configuration, not experimentally discovered improvement.
 
-State the specific mechanism, competing explanations, supporting and contrary evidence and a test that could falsify it. Propose the smallest change to an allowed surface, with scope, baseline compatibility, expected effect, budget, stop rule and rollback. Do not tune protected purpose, identity, permission, evaluation criteria or source truth.
+State the specific mechanism, competing explanations, supporting and contrary evidence and a test that could falsify it. For a consequential unclear diagnosis, consider relevant individual actions, relationships, community norms and external incentives only where they could change the recommendation. Inferred motives remain hypotheses; return to the desired outcome and a concrete next action. Routine formatting and settled creative choices need no expanded diagnostic exercise. Propose the smallest change to an allowed surface, with scope, baseline compatibility, expected effect, budget, stop rule and rollback. Do not tune protected purpose, identity, permission, evaluation criteria or source truth.
 
 External case studies enter as proposed mechanisms with stated applicability conditions, then bounded private tests, observed results and a retain/revise/reject/inconclusive decision. A creator's or model's explanation is not independent causal evidence. Place general evidence procedures in shared methods, dated platform behavior in platform references, and voice, formats, schedules, relationships and experimental outcomes in private publication state. Do not promote an attractive case-study tactic to a permanent rule without transfer evidence.
 
@@ -406,6 +410,8 @@ For context or locale changes, include relevant article/derivative, proactive-co
 Freeze criteria and relevant regressions before seeing candidate results. Compare baseline and candidate under comparable inputs, tools and resource limits; disclose exposure to evaluation cases. Keep development fixtures separate from independently controlled evaluation and do not claim exposed tests are sealed holdouts.
 
 Inspect factual/attribution fidelity, usability, privacy, authority and relevant quality along with the intended benefit. Accept only under the applicable owner policy and evidence threshold. Reject harmful candidates even if a headline score improves; retain inconclusive when evidence is weak. Preserve negative results to avoid repeating a failed proposal without new information.
+
+Close the feedback loop with the responsible output owner: retain the exact feedback version, affected artifact, disposition, implemented version, verification and later outcome separately. Received advice is not adoption; a saved rule is not executed behavior; a repaired output is not audience benefit. Reuse existing handoffs and observation windows, and send a cross-task message only within actual messaging authority. Review positive cases and curation failures as well as low response; keep the original evidence and exceptions. A simulated reader panel can reveal an awkward phrase but cannot supply real participant ratings or substitute for an outcome check.
 
 Persist AdaptationRecord with exact rule/diff, scope, evidence, comparison, approval, compatible base, expiry/review trigger and prior version. Apply only approved, compatible, in-scope records. On regression restore the prior method while preserving audit evidence; external actions are not undone by code rollback.
 
@@ -1277,13 +1283,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-measurement/SKILL.md",
-    "bytes": 6321,
-    "sha256": "f01a645656194940d05b5db2e1416d94d2c3048652c750b342f0ff0d1eea0799"
+    "bytes": 7757,
+    "sha256": "a9a083af5dc3f4e9df7a58ee2b410246d5e8b004ffa9afe17621cf4657be6e97"
   },
   {
     "path": "skills/media-learning/SKILL.md",
-    "bytes": 5555,
-    "sha256": "b486362823646fdda6fbc71f8e35d8c5b35e9018ceefaf014c8aab479a9d021d"
+    "bytes": 6586,
+    "sha256": "21b4c3b62ead774d722c11078581ca7ad098fcde6e56cd0458f94a5587932f6a"
   },
   {
     "path": "skills/media-meta/SKILL.md",

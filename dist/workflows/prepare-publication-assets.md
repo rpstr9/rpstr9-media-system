@@ -453,6 +453,11 @@ Choose one dominant relationship or result for each feature asset; do not substi
 
 Keep documentary interfaces intact. Place explanatory annotations outside the interface or make alterations explicit, retain relevant context, and label source-reported cases, actual trials and original explanations by their true provenance. Specify what the reader should inspect and what the caption adds beyond naming the image. Check thumbnail category recognition, legibility and meaningful variation across a series alongside identity continuity.
 
+## Judge the whole reading surface
+Design article assets in relation to the surrounding prose and useful source media. A succession of branded section summaries can turn reading into a slide presentation even when each asset matches the identity. Choose the smallest visual form that earns its space; preserve documentary interest and evidence when removing redundant panels. A body visual need not repeat the header's marks or composition.
+
+For a concept illustration, test whether a first-time reader recognizes its connection to the actual subject at destination size. An abstract image may invite curiosity, but the connection must not depend solely on the creator's private explanation. Derive its material and visual relationship from this assignment, preserving the approved header composition. Inspect the actual result for distracting ambiguities before adding more symbolic explanation.
+
 ## Inputs and outputs
 
 Inputs: CreativeBrief; Approved reference assets and permitted use; Format and production constraints; BrandIdentityContext; Target-surface requirements and crop/preview behavior.
@@ -493,6 +498,8 @@ Use the host's available authorized production capability and its instructions. 
 Inspect the actual result visually and technically. Check semantic fidelity, typography, factual labels/data, continuity, composition, source credit, file integrity and meaningful crop previews. Review derivatives against their specific destination. Revise material defects within the authorized resource limit, retaining useful originals.
 
 For each article header, resolve the publication's fixed canonical approved reference and locked design constraints. Compare the actual output side by side with that reference at equal canvas size and in desktop/mobile destination previews, checking typeface, weight, title size relative to canvas, line spacing, prominence, palette, layout, spacing, recurring marks and crop behavior. A recent derivative is not a replacement reference without owner approval. Reflow longer titles and adjust article-specific layout before reducing type; hold unapproved shrinkage or accumulated drift and revise it before delivery. Record the reference version, dimensions, title measurements and any expressly approved design change. A technically valid or attractive image does not pass when its style is inconsistent. Do not silently substitute a new design when the reference is missing, or reuse another publication's aesthetics as a default.
+
+Inspect essential body-image labels at the actual inline phone width, with the surrounding caption and prose. Full-resolution legibility or no horizontal overflow is insufficient. Check type weight, contrast, line wrapping, units and margins; reflow before shrinking. Compare complete identity separately from readability. Preserve original source graphics faithfully and avoid turning every explanatory passage into a branded panel.
 
 Record each master and variant's file path, content hash, dimensions/type/size, identity version, lineage, representation, source and rights, caption/alt/credit, review version and known defects. Never distribute font binaries by default. Mark technically inspected, editorially reviewed and approved separately.
 
@@ -1409,13 +1416,13 @@ The same route can save native articles or inspect other selected sites where au
   },
   {
     "path": "skills/media-art-director/SKILL.md",
-    "bytes": 5607,
-    "sha256": "1ec50dab4a4cddae31e21c65bc6c6c8c27dce826ddadcd55196f32bbb89d2034"
+    "bytes": 6505,
+    "sha256": "f2279d26aad757c4d6974ffdde51f0ed4ca281200eae3e3d3f37f62ca616af79"
   },
   {
     "path": "skills/media-asset-production/SKILL.md",
-    "bytes": 5693,
-    "sha256": "3d45299e47a33e11df1c4b88ee105cff1313df47d27dcfcd7569799ef685ec2d"
+    "bytes": 6128,
+    "sha256": "5e5cb3e80dc7be938e4ce107657c56defc168b663d271f8f292a282ed65ec6a0"
   },
   {
     "path": "skills/concept-review/SKILL.md",
