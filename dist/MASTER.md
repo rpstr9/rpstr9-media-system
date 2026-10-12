@@ -570,6 +570,8 @@ For authorized timely-topic/editorial-growth work, use `timely-editorial-growth`
 
 For authorized supervised X publishing, load the publishing workflow and current platform route: supported browser automation and explicitly requested bounded batches are available within actual scope. Preserve per-item reconciliation and real permission boundaries. For established-series headers, resolve the owner-selected canonical reference and compare title scale directly with it; recent derivatives do not reset the design baseline.
 
+For a supplied article-to-video request, use `adapt-article-to-video`. Reuse the article, sources and project identity; ask only for blocking missing inputs. Distinguish a script/scene plan from an actual reviewed export. Use the publication-delivery workflow separately when public distribution is authorized.
+
 <a id="source-registry-workflows-json"></a>
 
 ---
@@ -951,8 +953,25 @@ Source: `registry/workflows.json`
         "skills/media-measurement/references/note-discovery.md"
       ],
       "bundle": "dist/workflows/timely-editorial-growth.md"
+    },
+    {
+      "id": "adapt-article-to-video",
+      "required_skills": [
+        "media-video-editorial",
+        "media-source-research",
+        "media-editorial",
+        "media-asset-production"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md",
+        "skills/media-video-editorial/references/export-review.md",
+        "skills/media-editorial/references/explanation-and-first-use.md"
+      ],
+      "bundle": "dist/workflows/adapt-article-to-video.md"
     }
-  ]
+  ],
+  "release": "0.1.20"
 }
 
 ```
@@ -1721,13 +1740,13 @@ Source status for this candidate: recovered completed report and its separate as
   },
   {
     "path": "START_HERE.md",
-    "bytes": 3609,
-    "sha256": "5876f4f5ad7c59836b04509c60ce9d6ff9f9a166c4ea2b2ebeecb72ba096f832"
+    "bytes": 3921,
+    "sha256": "88668dc9eba6c8460f0f67492de1f03652427bea369ca9fc1d9b19e3726bbd45"
   },
   {
     "path": "registry/workflows.json",
-    "bytes": 10121,
-    "sha256": "85f5667675fb9a2b995ca338905f8ec7e4fa2f4bec689d10d92bf0a263a0e519"
+    "bytes": 10656,
+    "sha256": "1ec5cebc506bd350721ebbf596f60c68b6e2cb24dbc56fd2b599bd4303e82a55"
   },
   {
     "path": "runtime/reference/README.md",
