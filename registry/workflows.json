@@ -372,6 +372,23 @@
         "skills/media-measurement/references/note-discovery.md"
       ],
       "bundle": "dist/workflows/timely-editorial-growth.md"
+    },
+    {
+      "id": "adapt-article-to-video",
+      "required_skills": [
+        "media-video-editorial",
+        "media-source-research",
+        "media-editorial",
+        "media-asset-production"
+      ],
+      "references": [
+        "policies/CONSTITUTION.md",
+        "contracts/HANDOFF.md",
+        "skills/media-video-editorial/references/export-review.md",
+        "skills/media-editorial/references/explanation-and-first-use.md"
+      ],
+      "bundle": "dist/workflows/adapt-article-to-video.md"
     }
-  ]
+  ],
+  "release": "0.1.20"
 }

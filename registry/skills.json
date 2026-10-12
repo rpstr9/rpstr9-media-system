@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "0.1.19",
+  "release": "0.1.20",
   "constitution": "policies/CONSTITUTION.md",
   "skills": [
     {
@@ -93,7 +93,7 @@
       "skill_id": "media-source-research",
       "path": "skills/media-source-research/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.17",
+      "version": "0.1.20",
       "inputs": [
         "Research WorkOrder",
         "PublicationProfile and relevant audience context",
@@ -131,7 +131,7 @@
       "skill_id": "media-editorial",
       "path": "skills/media-editorial/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.17",
+      "version": "0.1.20",
       "inputs": [
         "EditorialBrief",
         "EvidenceBundle where factual work is involved",
@@ -268,7 +268,7 @@
       "skill_id": "media-distribution",
       "path": "skills/media-distribution/SKILL.md",
       "kind": "specialist",
-      "version": "0.1.17",
+      "version": "0.1.20",
       "inputs": [
         "ContentPackage",
         "Audience context",
@@ -430,6 +430,24 @@
         "ConceptReview with source-grounded findings, decisions and recheck"
       ],
       "status": "implemented; source-grounded simulated judgment remains distinct from observed audience evidence"
+    },
+    {
+      "function_id": "F22",
+      "skill_id": "media-video-editorial",
+      "path": "skills/media-video-editorial/SKILL.md",
+      "kind": "specialist",
+      "version": "0.1.20",
+      "inputs": [
+        "Selected article and evidence/source media",
+        "Publication identity and intended viewer",
+        "Requested deliverable, available authorized production tools and destinations"
+      ],
+      "outputs": [
+        "Coherent narration and scene/source plan",
+        "Actual authorized exports or explicit preparation-only handoff",
+        "Versioned audiovisual/destination review and per-channel delivery state"
+      ],
+      "status": "preparation workflow; exposed matched comparison found no overall winner; recording, rendering, live production and audience outcomes unverified"
     }
   ]
 }
