@@ -20,6 +20,8 @@ Apply the [shared publication context and language contract](../../contracts/PUB
 
 Prepare native versions with their own reason to exist. Preserve substantive claims, source references and the canonical version. If a derivative needs a published URL or visual, wait for its confirmed receipt and correct variant. Independent posts need no artificial article dependency.
 
+For a short standalone post, select one thought that the intended reader can understand from the first visible text. Identify a plausible reason to share it without assigning motives to all readers or flattering an in-group. Review comprehension separately from accuracy: if necessary evidence conditions make the chosen angle too dense, select a narrower thought or a different candidate rather than erase those conditions. Derive length and voice from the publication; do not impose a one-line template universally. Treat any expected sharing or growth effect as a hypothesis until observed.
+
 Use authorized discovery/listening surfaces to find relevant conversations; record coverage and unavailable feeds. Read the actual work before proposing a contribution. Send context to Relationships, not an automatic keyword reply. Publishing access does not imply listening or conversation access.
 
 Plan timing as a publication-specific hypothesis within private schedules and active windows. Define observable exposure and response measures with denominators and missingness. Stop low-value distribution or respect channel refusals; do not increase volume as the default repair.
