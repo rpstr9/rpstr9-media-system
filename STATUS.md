@@ -1,3 +1,11 @@
+# Outcome learning and editorial delivery — 0.1.21
+
+Refines existing methods: inspect weak and positive results without confusing observed outcomes with their causes; assess distinct value across linked channels and learn from authorized follow maintenance; preserve useful source media while removing redundant presentation panels; review inline readability; choose a video opening from its strongest relevant material; bind publication to the current asset version and real media display.
+
+No new skill, contact quota, universal response threshold, publication style, public action or scheduler is introduced. Permission, privacy, closure and source requirements remain unchanged. Publication-specific examples, contacts, raw feedback and records remain private. Behavioral comparison and release verification are recorded separately; no audience improvement is established by these edits.
+
+An exposed eight-case comparison against the prior release found mostly equivalent useful decisions. The candidate distinguished observed weak outcomes from uncertain causes more clearly, but overinterpreted a broad reciprocity objective as a binary success threshold. The latter finding led to a scoped clarification: use stated criteria and otherwise describe progress in degrees. Candidate source loading overlapped a packaging build, so the first comparison did not establish a stable release lock. The comparison and independent review are preparation-level evidence, not proof of audience benefit or general superiority.
+
 # Editorial continuation, video preparation and community discovery — 0.1.20
 
 Adds Media Video Editorial: select a supported video-sized explanation, write connected narration, map spoken claims to useful permitted visuals, and distinguish preparation from actual exported-media review. Extends the existing editorial/source/distribution methods with claim-scope checks, context-first reader continuation and standalone-post comprehension review. No renderer, production account, recurring job or model preference is installed.
