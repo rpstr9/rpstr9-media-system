@@ -1,3 +1,11 @@
+# Article-to-video preparation and low-friction continuation — 0.1.20
+
+Adds Media Video Editorial: select a supported video-sized explanation, write connected narration, map spoken claims to useful permitted visuals, and distinguish preparation from actual exported-media review. Extends the existing editorial/source/distribution methods with claim-scope checks, context-first reader continuation and standalone-post comprehension review. No renderer, production account, recurring job or model preference is installed.
+
+An exposed synthetic comparison used matched inputs, a credible ordinary request, separate producing agents and a blind review across 12 criteria. Both approaches were useful; there was no clear overall winner. The skill-guided output offered easier continuation in the existing project and more explicit planned image metadata; the ordinary request produced useful chart sources. Both omitted volunteer recruitment from their full-article population description. Private relocation omitted source/receipt files from the blind package; the original files remain retained. This is preparation-level evidence, not proof of better video, comprehension, sharing or audience outcomes. Recording, rendering, native playback and recipient delivery were not exercised. Actual export checks remain required for finished-video work.
+
+Supplied in this edition: 21 skills and 25 workflow bundles. The new route is usable for scripts and scene plans; production completion depends on actual available tools, rights, review and delivery. All existing authority, originality, identity, source, privacy and action-reconciliation rules remain in force.
+
 # Supervised X automation and canonical header continuity — 0.1.19
 
 Authorizes supported browser execution within the owner's actual supervised publishing scope, including bounded batches, without treating API absence or an inferred blanket interpretation as an actual denial. Each item retains account/content/destination checks, deduplication, single submission, public verification and unknown-result reconciliation. Actual tool, required-approval and applicable platform denials still stop the affected action. Recurring or unattended delivery requires its own scope and requirements; no schedule is enabled by installation.

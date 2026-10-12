@@ -17,3 +17,5 @@ For recurring/shared computer use, load the complete queue-and-resume-computer-u
 For authorized timely-topic/editorial-growth work, use `timely-editorial-growth`; read its complete topic-selection, reader-growth and note-measurement references. Existing engagement-only and narrow article-correction routes remain available. A prepared candidate does not adopt itself in installed or scheduled consumers.
 
 For authorized supervised X publishing, load the publishing workflow and current platform route: supported browser automation and explicitly requested bounded batches are available within actual scope. Preserve per-item reconciliation and real permission boundaries. For established-series headers, resolve the owner-selected canonical reference and compare title scale directly with it; recent derivatives do not reset the design baseline.
+
+For a supplied article-to-video request, use `adapt-article-to-video`. Reuse the article, sources and project identity; ask only for blocking missing inputs. Distinguish a script/scene plan from an actual reviewed export. Use the publication-delivery workflow separately when public distribution is authorized.
