@@ -19,6 +19,8 @@ Identify the article's concrete discovery and the minimum causal connection a ne
 
 Keep a small source map for the selected claims: exact passage/figure/timecode, who or what was measured, comparison, unit, outcome and uncertainty. Recheck affected evidence through [Source Research](../media-source-research/SKILL.md) when the source is missing or a new claim is necessary. An article's citation cannot substantiate a stronger video claim. Distinguish an observed finding from a subgroup association, proposed response or imagined scene.
 
+Inspect the strongest permitted visual material before settling the opening. If a later demonstration, action or revealing result makes the question immediately legible, consider moving it earlier with the minimum orientation needed to understand it truthfully. Do not bury the actual attraction behind definitions or setup, or use unrelated spectacle to win attention. The material determines whether action, result, person, observation or brief context leads; no universal opening pattern applies. Review what a new viewer can recognize and why they would continue.
+
 Write connected spoken language in the publication's voice. Introduce people, terms and context when a first-time viewer needs them. Let each passage advance the explanation and finish with the supported answer. Estimate duration provisionally; use the actual recorded take for final timing. Cut a secondary claim before accelerating speech beyond comfortable comprehension. Integrate necessary limits where they change meaning, without reading private review logs aloud.
 
 ## Give each spoken passage something meaningful to see
@@ -43,4 +45,4 @@ Return the actual completed result first: script/scene plan or video files, conc
 
 Publishing is handled by [Publishing](../media-publishing/SKILL.md) under the task's existing authority. Keep each destination's upload, public confirmation and URL separate. A corrected local export does not replace an already public video, and a successful release on one channel does not finish another. Resume only the missing authorized effects after checking uncertain sends and actual platform restrictions.
 
-Record useful failures and correction effort for [Learning](../media-learning/SKILL.md). Do not infer audience comprehension or the cause of a retention drop from a visual judgment or a few view counts.
+Record useful failures and correction effort for [Learning](../media-learning/SKILL.md). Do not infer audience comprehension or the cause of a retention drop from a visual judgment or a few view counts. When testing an opening, keep the remaining edit and observation conditions comparable; if duration, narration and scene order also change, record a multi-variable revision, not an isolated opening test. Separate owner preference, editorial improvement, platform delivery and observed audience results. Preserve each destination's actual version and pending review state.
